@@ -1,9 +1,9 @@
 #
 <figure markdown>
-<div align="center"> <img src="./asset/img/common/logo.png" width = 250 height = 179 /> </div>
+<div align="center"> <img src="../../../asset/img/common/logo.png" width = 250 height = 179 /> </div>
 </figure>
 
-!!! danger "本站目前暂不提供CHUNITHM游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看。"
+!!! danger "本站目前暂不提供CHUNITHM游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看1。"
 
 !!! danger "重要提醒"
 
@@ -25,7 +25,7 @@
 
     首先请至下载链接中下载如下文件。
 
-    <img width="500" src="../asset/img/chu_manual/chum0000.png">
+    <img width="500" src="../../../asset/img/chu_manual/chum0000.png">
 
 #### 安装Runtime (Windows运行时安装包)
 
@@ -37,7 +37,7 @@
 
     解压后获得如下文件。
 
-    <img width="500" src="./asset/img/chu_manual/chum0001.png">
+    <img width="500" src="../../../asset/img/chu_manual/chum0001.png">
 
     运行`DirectX.bat`并按照窗口提示完成安装。
 
