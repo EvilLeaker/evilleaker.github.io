@@ -1,0 +1,6 @@
+site_name: Performai Manual
+theme:
+  name: 'material'
+
+nav:
+  - 主页: index.md
