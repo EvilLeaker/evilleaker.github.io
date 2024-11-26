@@ -34,6 +34,7 @@ theme:
         name: Switch to system preference
   features:
     - content.code.annotate
+    - content.tooltips
 
 markdown_extensions:
   - abbr
@@ -68,3 +69,5 @@ nav:
       - "SEGA":
           - "CHUNITHM":
               - "安装使用教程": "games/chunithm/setup.md"
+  - 其他:
+      - "键值表": "other/key.md"
