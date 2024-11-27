@@ -23,7 +23,7 @@
 
 !!! tip ""
 
-    首先请至下载链接中下载如下文件。
+    首先请至下载链接中下载如下文件
 
     <img width="700" src="../../../asset/img/chu_manual/chum0000.png">
 
@@ -31,7 +31,7 @@
 
 !!! tip ""
 
-    **[下载Runtime]**安装包。
+    **[下载Runtime]**安装包
 
     [下载Runtime]: https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg
 
@@ -39,9 +39,9 @@
 
     <img width="500" src="../../../asset/img/chu_manual/chum0001.png">
 
-    运行`DirectX.bat`并按照窗口提示完成安装。
+    运行`DirectX.bat`并按照窗口提示完成安装
 
-    运行`VC.bat`并按照窗口提示完成安装。
+    运行`VC.bat`并按照窗口提示完成安装
 
 #### 提取游戏文件
 
