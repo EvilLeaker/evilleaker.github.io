@@ -1,4 +1,4 @@
-#
+# 
 <figure markdown>
 <div align="center"> <img src="../../../asset/img/common/logo.png" width = 250 height = 179 /> </div>
 </figure>
@@ -306,7 +306,7 @@
 
 !!! tip ""
 
-    首先请将默认的`chuniio-mux.dll`注释掉，按照下方设置在`path=chuniio-mux.dll`前加上分号`;`
+    请在`[chuniio]`选项中将默认的`chuniio-mux.dll`注释掉，并按照下方设置在`path=chuniio-mux.dll`前加上分号`;`
 
     ```ini
     [chuniio]
@@ -331,7 +331,7 @@
 
 !!! tip ""
 
-    首先请将默认的`chuniio-mux.dll`注释掉，按照下方设置在`path=chuniio-mux.dll`前加上分号`;`
+    请在`[chuniio]`选项中将默认的`chuniio-mux.dll`注释掉，按照下方设置在`path=chuniio-mux.dll`前加上分号`;`
 
     ```ini
     [chuniio]
@@ -408,7 +408,7 @@
 
     - `Keychip(狗号)`均以`AXXE-XXXXXXXXXXX`格式填写，`X`为英数字
 
-??? danger "如何申请Rin服Keychip"
+??? warning "如何申请Rin服Keychip"
 
     如何配置
 
@@ -444,4 +444,203 @@
 
 !!! tip "离线服务器 (ARTEMiS与AquaDX)"
 
-    离线服务器都需要进行比较复杂的设置，请参阅[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)与[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)的官方指南来配置本地服务器。
+    离线服务器都需要进行比较复杂的设置，详情请参阅[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)与[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)的官方指南来配置本地服务器。
+
+---
+
+### HDD运行与设置
+
+!!! tip "根据上面的步骤，现在你已经具备运行HDD的基本环境了，下面将进行一些运行前的最后设置"
+
+#### 共享音频设置
+
+!!! tip ""
+
+    - 鼠标右键单击任务栏中的音量图标并选择`声音`选项
+
+    - 选择`高级`选项卡
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0006.png">
+
+    - 在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择`高级`选项卡
+
+    - 选择`默认格式`中的下拉菜单，选择`24位，48000Hz（录音室音质）`选项
+
+    - 勾选`独占模式`下的两个选项，点击`应用`后选择`确定`
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0007.png">
+
+#### 修复 OpenSSL
+
+!!! danger "注意事项"
+
+    此步骤仅为使用Intel Core 10th Gen（或以上版本）CPU的用户设置，如您的CPU不满足对应版本或是AMD CPU，则不需要设置！
+
+!!! tip ""
+
+    如果你的PC所使用的CPU为Intel Core 10th Gen（或以上版本），请在`bin\start.bat`上单击右键选择`编辑`，将下方高亮处的代码添加到文件开头处并保存。
+
+    ```batch hl_lines="3"
+    @echo off
+    
+    set OPENSSL_ia32cap=:~0x20000000
+
+    pushd %~dp0
+    ...
+    ```
+
+#### 以管理员权限运行HDD
+
+!!! tip ""
+
+    游戏需以管理员权限运行，你可以在`bin\start.bat`上单击鼠标右键选择`以管理员身份运行`启动游戏
+
+    也可以将下方高亮处的代码添加到`bin\start.bat`的开头处，添加完成后保存并关闭文件
+
+    ```batch hl_lines="3"
+    @echo off
+    
+    %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
+    
+    set OPENSSL_ia32cap=:~0x20000000
+
+    pushd %~dp0
+    ...
+    ```
+
+    - 添加此代码后便可以鼠标左键双击`bin\start.bat`直接以管理员权限启动游戏了
+
+#### 加快游戏启动速度
+
+!!! tip ""
+
+    将整个HDD文件夹添加到`Windows Defender`的`排除项`中可以加快游戏启动自检速度
+
+    - 在任务栏`Windows 安全中心`（小盾牌图标）上点击鼠标左键呼出安全中心界面
+
+    - 左侧导航栏选择`病毒和威胁防护`，在右侧点击`“病毒和威胁防护”设置`下的`管理设置`选项
+
+    - 向下滚动找到`排除项`，点击`添加或删除排除项`
+
+    - 点击`添加排除项`将整个HDD文件夹加入后关闭安全中心即可
+
+#### 设置虚拟Aime卡号
+
+!!! note "游戏数据的保存需要你设置虚拟卡号文件，如果你有读卡器请直接刷卡"
+
+!!! tip ""
+
+    如何建立Aime卡号：
+
+    如果你没有20位纯数字Aime卡号，在第一次启动游戏时，可在游戏标题处长按`Enter`刷卡，游戏会自动生成卡号文件
+
+    如果你拥有实体Aime卡片或其他游戏的虚拟Aime卡号，也可以自行建立卡号文件
+
+    - 在bin\DEVICE文件夹中建立名为`aime`的文本文档文件（aime.txt）
+
+    - 打开此文件，填入你的卡号（20位纯数字），可以是你手中真实卡片背面的卡号（ASSCE CODE）
+
+    - 如果自行编写，则卡号不能以3开头
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0008.png">
+
+!!! danger "重要提示"
+
+    这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意
+
+#### 启动HDD
+
+!!! tip ""
+
+    如果你完成了上述所有步骤，此处开始就可以启动HDD了
+
+    - 运行`bin\start.bat`来启动HDD
+
+    - 正常游戏会弹出3个窗口，分别为游戏主窗口、Log窗口、amdaemon窗口（inject）
+
+    - 如果amdaemon窗口（inject）消失，请查看上面`修复 OpenSSL`部分的设置
+
+!!! tip "启动自检部分"
+
+    在自检中通过全部网络测试即可正常联网，如下图：
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0009.png">
+
+!!! warning "E-MONEY显示N/A为正常并不影响联网"
+
+!!! tip ""
+
+    在游戏自检进行到下图的时候，如果等候很久没有任何反应，则需要进入TEST菜单进行设置
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0010.png">
+
+    按下手台上对应TEST功能的按键，或`segatools.ini`中`[io3]`设置的对应按键，进入TEST菜单
+
+    - 按下`SERVICE`按键选择菜单选项，按下`TEST`按键确定选项
+
+    选择`ゲーム設定`
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0011.png">
+
+    - 选择`グループ内基準機設定`，将右侧`基準機に従う`切换为`基準機`
+
+    - 启动接关功能将`コンティニュー設定`由`OFF`切换为`ON`
+
+    - 选择`終了`返回TEST主菜单
+
+    接下来选择`閉店設定`
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0012.png">
+
+    - 将`スケジュール種別`与`時`分别设置为`每日`与`全時刻`
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0013.png">
+
+    - 选择`終了`返回TEST主菜单
+
+    选择TEST主菜单`終了`以继续
+
+    待到LED自检时，双手需要离开AIR识别区域并且不要触碰触摸板，等待自检完成即可自动进入游戏标题界面
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0014.png">
+
+    - 如果此处`LED制御ボード1·2`显示为`BAD`请不要紧张，这并不影响游戏正常运行，请按右下角提示`次へ`按下触摸板跳过即可
+
+    - `LED制御ボード1·2`显示为`BAD`请检查`segatool.ini`中`[led]`部分设置是否为`enable=1`
+
+---
+
+### 开始游戏
+
+!!! note "见到下图画面的话，那么恭喜你已经正常联网并且可以开始游戏了！"
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0015.png">
+
+!!! tip ""
+
+    
+
+    - 请检查右下角版本号是否为`Version 2.27`，如果不对请返回'安装ICF'部分检查ICF文件是否安装正确
+
+    - 请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0016.png">
+
+    - 如果网络自检全为GOOD但此处网络显示黄色图标，请返回'安装option'部分检查是否安装正确的`option`
+
+    - 或尝试安装自制包`A999`到`option`中即可解决此问题
+
+    - 在标题界面长按`Enter`或在读卡器刷卡即可登录进行游戏，按数字`3`或手台对应按键进行投币
+
+!!! tip "下图为游戏画面"
+
+    <img width="600" src="../../../asset/img/chu_manual/chum0017.png">
+
+!!! note "至此，你已经可以正常进行游戏了"
+
+    如果游戏或配置过程中有疑问或问题，请带游戏或程序窗口或Log，ini设置等截图发送到对应群向群友或向其他玩家寻求帮助！
+
+    <img width="400" src="../../../asset/img/chu_manual/chum0018.png">
+
+    [BACK TO TOP](# )
+---
