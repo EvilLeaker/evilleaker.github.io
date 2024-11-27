@@ -91,9 +91,9 @@
 
     将 `chusanApp.exe` 与 `amdaemon.exe` 放入HDD中的 `bin` 文件夹中并覆盖源文件
 
-    - `chusanApp.exe` SHA-256：ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522 
+    - `chusanApp.exe` SHA-256：:material-information-outline:{ title="ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522" } 
 
-    - `amdaemon.exe` SHA-256：45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4
+    - `amdaemon.exe` SHA-256：:material-information-outline:{ title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4" }
 
     - 如exe的SHA-256与上述不符，请重新至下载链接中下载以免下载遭到篡改的exe文件
 
@@ -262,7 +262,7 @@
     enable=1
     ```
 
-    Yubideck(大四台)需要另外设置`[aimeio]`以启动手台上的读卡器请将`;path=aimeio_yubideck.dll`前的分号`;`删除
+    Yubideck(大四台)需要另外设置`[aimeio]`以启动手台上的读卡器,请将`;path=aimeio_yubideck.dll`前的分号`;`删除
 
     ```ini
     [aimeio]
@@ -287,6 +287,10 @@
 !!! tip ""
 
     io3中的选项负责映射`TEST`、`SERVICE`、`COIN`三个机台功能按键，默认为键盘字母上面的数字`1`、`2`、`3`
+
+    如需修改按键键值请参考下面链接
+
+    - [16进制标准键盘码值表](https://blog.csdn.net/gao5528/article/details/5991495)
 
 ---
 
@@ -365,3 +369,79 @@
     ; Set this to 0 will disable any led output from game
     ;led_output=0
     ```
+
+---
+
+### 连接网络
+
+!!! note "注意事项"
+
+    游戏大部分功能需要连接到网络服务器才可以正常使用以及登录用户，离线状态下仅可使用访客游玩游戏。
+
+    游戏服务器分为`在线服`与`离线服`，请按自身情况选择对应服务器使用。
+
+!!! tip "在线服务器 (Rin服)"
+
+    打开`segatools.ini`，在`[dns]`选项中设置`default`为您需要连接的服务器地址。
+
+    - **请不要将`http://`与`https://`添加到服务器地址中**
+
+    - **请不要填写`127.0.0.1`或`localhost`作为服务器地址**
+
+    Rin服dns：**aqua.naominet.live**
+
+    服务器前端：https://portal.naominet.live/login
+
+    ```ini
+    [dns]
+    default=aqua.naominet.live
+    ```
+
+    连接Rin服需要申请Keychip才可正常联网，如何注册请查看下面的文章。
+
+    注册完`Keychip`后需要填写到`[keychip]`选项中
+
+    ```ini
+    [keychip]
+    id=AXXE-XXXXXXXXXXX
+    ```
+
+    - `Keychip(狗号)`均以`AXXE-XXXXXXXXXXX`格式填写，`X`为英数字
+
+??? danger "如何申请Rin服Keychip"
+
+    如何配置
+
+    - 首先在[**卡片页**](https://portal.naominet.live/cards)绑定你自己的卡
+
+    我自己玩
+
+    - 前往[**机台页**](https://portal.naominet.live/keychip)，点击“**创建机台**”。
+
+    - 按[**机台页**](https://portal.naominet.live/keychip)中“**如何使用机台序列号**”一栏中的提示编辑**segatools.ini**。
+
+    我用朋友的机器玩
+
+    - 让你的朋友按照本文“**我自己玩**”部分操作。
+
+    - 在[**机台页**](https://portal.naominet.live/keychip)中“**受信任的机台**”下点击“**添加信任**”，输入朋友刚才创建的**机台序列号**后点击确定
+
+    我在窝/机厅玩
+
+    - 什么都不用做
+
+    我是开窝/开机厅/写查分bot的
+
+    - 按照本文“**我自己玩**”部分操作。
+
+    - [**填写问卷**](https://wj.qq.com/s2/14399591/ca04/)以申请白名单
+
+    其它事项
+
+    - 不配置KeychipID将在2024/5/1后无法登录游戏
+    
+    - 如果有其他问题可以加入QQ群: [**295954906**](https://qm.qq.com/q/q81C7iA2Aw)
+
+!!! tip "离线服务器 (ARTEMiS与AquaDX)"
+
+    离线服务器都需要进行比较复杂的设置，请参阅[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)与[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)的官方指南来配置本地服务器。
