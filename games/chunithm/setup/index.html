@@ -31,6 +31,12 @@
       
       
 
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 12a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M6 13h8l-3.5 3.5 1.42 1.42L17.84 12l-5.92-5.92L10.5 7.5 14 11H6z"/></svg>');}</style>
+
 
     
     
@@ -582,6 +588,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      连接网络
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -874,6 +889,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      连接网络
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -949,10 +973,10 @@
 <p>将 <code>chusanApp.exe</code> 与 <code>amdaemon.exe</code> 放入HDD中的 <code>bin</code> 文件夹中并覆盖源文件</p>
 <ul>
 <li>
-<p><code>chusanApp.exe</code> SHA-256：ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522 </p>
+<p><code>chusanApp.exe</code> SHA-256：<span class="twemoji" title="ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></span> </p>
 </li>
 <li>
-<p><code>amdaemon.exe</code> SHA-256：45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4</p>
+<p><code>amdaemon.exe</code> SHA-256：<span class="twemoji" title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></span></p>
 </li>
 <li>
 <p>如exe的SHA-256与上述不符，请重新至下载链接中下载以免下载遭到篡改的exe文件</p>
@@ -1101,7 +1125,7 @@
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">[aime]</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="na">enable</span><span class="o">=</span><span class="s">1</span>
 </span></code></pre></div>
-<p>Yubideck(大四台)需要另外设置<code>[aimeio]</code>以启动手台上的读卡器请将<code>;path=aimeio_yubideck.dll</code>前的分号<code>;</code>删除</p>
+<p>Yubideck(大四台)需要另外设置<code>[aimeio]</code>以启动手台上的读卡器,请将<code>;path=aimeio_yubideck.dll</code>前的分号<code>;</code>删除</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">[aimeio]</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="na">path</span><span class="o">=</span><span class="s">aimeio_yubideck.dll</span>
 </span></code></pre></div>
@@ -1117,6 +1141,10 @@
 <h4 id="io3"><code>[io3]</code></h4>
 <div class="admonition tip">
 <p>io3中的选项负责映射<code>TEST</code>、<code>SERVICE</code>、<code>COIN</code>三个机台功能按键，默认为键盘字母上面的数字<code>1</code>、<code>2</code>、<code>3</code></p>
+<p>如需修改按键键值请参考下面链接</p>
+<ul>
+<li><a href="https://blog.csdn.net/gao5528/article/details/5991495">16进制标准键盘码值表</a></li>
+</ul>
 </div>
 <hr />
 <h3 id="io">配置控制器io</h3>
@@ -1180,6 +1208,89 @@
 </span><span id="__span-14-20"><a id="__codelineno-14-20" name="__codelineno-14-20" href="#__codelineno-14-20"></a><span class="c1">;led_output=0</span>
 </span></code></pre></div>
 </div>
+<hr />
+<h3 id="_5">连接网络</h3>
+<div class="admonition note">
+<p class="admonition-title">注意事项</p>
+<p>游戏大部分功能需要连接到网络服务器才可以正常使用以及登录用户，离线状态下仅可使用访客游玩游戏。</p>
+<p>游戏服务器分为<code>在线服</code>与<code>离线服</code>，请按自身情况选择对应服务器使用。</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">在线服务器 (Rin服)</p>
+<p>打开<code>segatools.ini</code>，在<code>[dns]</code>选项中设置<code>default</code>为您需要连接的服务器地址。</p>
+<ul>
+<li>
+<p><strong>请不要将<code>http://</code>与<code>https://</code>添加到服务器地址中</strong></p>
+</li>
+<li>
+<p><strong>请不要填写<code>127.0.0.1</code>或<code>localhost</code>作为服务器地址</strong></p>
+</li>
+</ul>
+<p>Rin服dns：<strong>aqua.naominet.live</strong></p>
+<p>服务器前端：https://portal.naominet.live/login</p>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="k">[dns]</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="na">default</span><span class="o">=</span><span class="s">aqua.naominet.live</span>
+</span></code></pre></div>
+<p>连接Rin服需要申请Keychip才可正常联网，如何注册请查看下面的文章。</p>
+<p>注册完<code>Keychip</code>后需要填写到<code>[keychip]</code>选项中</p>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="k">[keychip]</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="na">id</span><span class="o">=</span><span class="s">AXXE-XXXXXXXXXXX</span>
+</span></code></pre></div>
+<ul>
+<li><code>Keychip(狗号)</code>均以<code>AXXE-XXXXXXXXXXX</code>格式填写，<code>X</code>为英数字</li>
+</ul>
+</div>
+<details class="danger">
+<summary>如何申请Rin服Keychip</summary>
+<p>如何配置</p>
+<ul>
+<li>首先在<a href="https://portal.naominet.live/cards"><strong>卡片页</strong></a>绑定你自己的卡</li>
+</ul>
+<p>我自己玩</p>
+<ul>
+<li>
+<p>前往<a href="https://portal.naominet.live/keychip"><strong>机台页</strong></a>，点击“<strong>创建机台</strong>”。</p>
+</li>
+<li>
+<p>按<a href="https://portal.naominet.live/keychip"><strong>机台页</strong></a>中“<strong>如何使用机台序列号</strong>”一栏中的提示编辑<strong><abbr title="如果找不到此文件，请先看上面安装segatools章节">segatools.ini</abbr></strong>。</p>
+</li>
+</ul>
+<p>我用朋友的机器玩</p>
+<ul>
+<li>
+<p>让你的朋友按照本文“<strong>我自己玩</strong>”部分操作。</p>
+</li>
+<li>
+<p>在<a href="https://portal.naominet.live/keychip"><strong>机台页</strong></a>中“<strong>受信任的机台</strong>”下点击“<strong>添加信任</strong>”，输入朋友刚才创建的<strong>机台序列号</strong>后点击确定</p>
+</li>
+</ul>
+<p>我在窝/机厅玩</p>
+<ul>
+<li>什么都不用做</li>
+</ul>
+<p>我是开窝/开机厅/写查分bot的</p>
+<ul>
+<li>
+<p>按照本文“<strong>我自己玩</strong>”部分操作。</p>
+</li>
+<li>
+<p><a href="https://wj.qq.com/s2/14399591/ca04/"><strong>填写问卷</strong></a>以申请白名单</p>
+</li>
+</ul>
+<p>其它事项</p>
+<ul>
+<li>
+<p>不配置KeychipID将在2024/5/1后无法登录游戏</p>
+</li>
+<li>
+<p>如果有其他问题可以加入QQ群: <a href="https://qm.qq.com/q/q81C7iA2Aw"><strong>295954906</strong></a></p>
+</li>
+</ul>
+</details>
+<div class="admonition tip">
+<p class="admonition-title">离线服务器 (ARTEMiS与AquaDX)</p>
+<p>离线服务器都需要进行比较复杂的设置，请参阅<a href="https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md">ARTEMiS</a>与<a href="https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview">AquaDX</a>的官方指南来配置本地服务器。</p>
+</div>
 
 
 
@@ -1230,7 +1341,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tooltips", "content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
