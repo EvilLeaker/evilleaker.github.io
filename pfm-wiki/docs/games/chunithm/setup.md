@@ -35,7 +35,7 @@
 
     [下载Runtime]: https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg
 
-    解压后获得如下文件。
+    解压后获得如下文件
 
     <img width="500" src="../../../asset/img/chu_manual/chum0001.png">
 
@@ -83,7 +83,7 @@
 
     *[amfs_2.27.zip]: 请至获得的下载链接中下载
 
-    将`amfs`与`appdata`文件夹放置于任意磁盘的根目录，例如：`x：\`（x为任意盘符）
+    将`amfs`与`appdata`文件夹放置于任意磁盘的根目录，例如：`x:\`（x为任意盘符）
 
 #### 安装已解密的文件
 
@@ -101,7 +101,7 @@
 
     上述`chusanApp.exe`已打过可正常游玩所需的补丁
 
-    如有其他修改补丁的需求，请访问  [EVIL LEAKER - Patcher页](https://performai.evilleaker.com/patcher)
+    如有其他修改补丁的需求，请访问  **[EVIL LEAKER - Patcher页](https://performai.evilleaker.com/patcher)**
 
     - 打过补丁的 `chusanApp.exe` 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
 
@@ -171,7 +171,7 @@
 
 !!! tip ""
 
-    如果您已按照上面`安装ICF`步骤配置对应文件夹，请将对应文件夹的路径填写到`[vfs]`对应的选项中
+    如果您已按照上面**[安装ICF](#icf)**步骤配置对应文件夹，请将对应文件夹的路径填写到`[vfs]`对应的选项中
 
     - `amfs`与`appdata`文件夹需要放置在任意磁盘分区的根目录，`x`代表任意盘符
 
@@ -446,6 +446,14 @@
 
     离线服务器都需要进行比较复杂的设置，详情请参阅[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)与[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)的官方指南来配置本地服务器。
 
+#### 全国对战
+
+!!! abstract "Rin服目前已支持全国对战"
+
+    在此模式中可以随机匹配2~4位玩家进行即时对战或进行VS CPU的人机对战(不支持1 VS 3CPU)
+
+    如何连接全国对战，请参阅**[全国对战](national_battle.md)**
+
 ---
 
 ### HDD运行与设置
@@ -626,7 +634,7 @@
 
     <img width="400" src="../../../asset/img/chu_manual/chum0016.png">
 
-    - 网络自检全为GOOD但此处网络显示黄色图标，请返回'安装option'部分检查是否安装正确的`option`
+    - 网络自检全为GOOD但此处网络显示黄色图标，请返回**[安装option](#option)**部分检查是否安装正确的`option`
 
     - 或尝试安装自制包`A999`到`option`中即可解决此问题
 

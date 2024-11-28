@@ -16,23 +16,23 @@ theme:
       accent: deep purple
       toggle:
         icon: material/brightness-auto
-        name: Switch to light mode
+        name: 切换正常模式
     # Toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: deep purple
+      primary: indigo
+      accent: pink
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: 切换护眼模式
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
-      accent: deep purple
+      primary: pink
+      accent: deep blue
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: 跟随系统
   features:
     - content.code.annotate
     - content.tooltips
@@ -64,7 +64,12 @@ markdown_extensions:
   - md_in_html
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-]'
+      lang:
+        - zh
+        - ja
+        - en
 
 nav:
   - 首页: index.md
@@ -72,6 +77,7 @@ nav:
       - "SEGA":
           - "CHUNITHM":
               - "安装使用教程": "games/chunithm/setup.md"
+              - "全国对战": "games/chunithm/national_battle.md"
   - 控制器:
       - "SEGA":
           - "CHUNITHM":
