@@ -570,43 +570,43 @@
 
 !!! tip ""
 
-    在游戏自检进行到下图的时候，如果等候很久没有任何反应，则需要进入TEST菜单进行设置
+    - 在游戏自检进行到下图的时候，如果等候很久没有任何反应，则需要进入TEST菜单进行设置
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0010.png">
+        <img width="400" src="../../../asset/img/chu_manual/chum0010.png">
 
-    按下手台上对应TEST功能的按键，或`segatools.ini`中`[io3]`设置的对应按键，进入TEST菜单
+        * 按下手台上对应TEST功能的按键，或`segatools.ini`中`[io3]`设置的对应按键，进入TEST菜单
 
-    - 按下`SERVICE`按键选择菜单选项，按下`TEST`按键确定选项
+        * 按下`SERVICE`按键选择菜单选项，按下`TEST`按键确定选项
 
-    选择`ゲーム設定`
+    - 选择`ゲーム設定`
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0011.png">
+        <img width="400" src="../../../asset/img/chu_manual/chum0011.png">
 
-    - 选择`グループ内基準機設定`，将右侧`基準機に従う`切换为`基準機`
+        * 选择`グループ内基準機設定`，将右侧`基準機に従う`切换为`基準機`
 
-    - 启动接关功能将`コンティニュー設定`由`OFF`切换为`ON`
+        * 启动接关功能将`コンティニュー設定`由`OFF`切换为`ON`
 
-    - 选择`終了`返回TEST主菜单
+        * 选择`終了`返回TEST主菜单
 
-    接下来选择`閉店設定`
+    - 接下来选择`閉店設定`
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0012.png">
+        <img width="400" src="../../../asset/img/chu_manual/chum0012.png">
 
-    - 将`スケジュール種別`与`時`分别设置为`每日`与`全時刻`
+        * 将`スケジュール種別`与`時`分别设置为`每日`与`全時刻`
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0013.png">
+        <img width="400" src="../../../asset/img/chu_manual/chum0013.png">
 
-    - 选择`終了`返回TEST主菜单
+        * 选择`終了`返回TEST主菜单
 
-    选择TEST主菜单`終了`以继续
+        * 选择TEST主菜单`終了`以继续
 
-    待到LED自检时，双手需要离开AIR识别区域并且不要触碰触摸板，等待自检完成即可自动进入游戏标题界面
+    - 待到LED自检时，双手需要离开AIR识别区域并且不要触碰触摸板，等待自检完成即可自动进入游戏标题界面
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0014.png">
+        <img width="400" src="../../../asset/img/chu_manual/chum0014.png">
 
-    - 如果此处`LED制御ボード1·2`显示为`BAD`请不要紧张，这并不影响游戏正常运行，请按右下角提示`次へ`按下触摸板跳过即可
+        * 如果此处`LED制御ボード1·2`显示为`BAD`请不要紧张，这并不影响游戏正常运行，请按右下角提示`次へ`按下触摸板跳过即可
 
-    - `LED制御ボード1·2`显示为`BAD`请检查`segatool.ini`中`[led]`部分设置是否为`enable=1`
+        * `LED制御ボード1·2`显示为`BAD`请检查`segatool.ini`中`[led]`部分设置是否为`enable=1`
 
 ---
 
@@ -626,7 +626,7 @@
 
     <img width="400" src="../../../asset/img/chu_manual/chum0016.png">
 
-    - 如果网络自检全为GOOD但此处网络显示黄色图标，请返回'安装option'部分检查是否安装正确的`option`
+    - 网络自检全为GOOD但此处网络显示黄色图标，请返回'安装option'部分检查是否安装正确的`option`
 
     - 或尝试安装自制包`A999`到`option`中即可解决此问题
 
@@ -638,7 +638,7 @@
 
 !!! note "至此，你已经可以正常进行游戏了"
 
-    如果游戏或配置过程中有疑问或问题，请带游戏或程序窗口或Log，ini设置等截图发送到对应群向群友或向其他玩家寻求帮助！
+    在游戏或配置过程中有疑问或问题，请带游戏或程序窗口或Log，ini设置等截图发送到对应群向群友或向其他玩家寻求帮助！
 
     <img width="400" src="../../../asset/img/chu_manual/chum0018.png">
 

@@ -72,5 +72,12 @@ nav:
       - "SEGA":
           - "CHUNITHM":
               - "安装使用教程": "games/chunithm/setup.md"
+  - 控制器:
+      - "SEGA":
+          - "CHUNITHM":
+              - "(旧)TASOLLER": "controller/chunithm/controller_tasoller.md"
+              - "TASOLLER PLUS": "controller/chunithm/controller_tasollerplus.md"
+              - "Yubideck": "controller/chunithm/controller_yubideck.md"
+              - "其他输入方式": "controller/chunithm/controller_other.md"
   - 其他:
       - "键值表": "other/key.md"
