@@ -1,9 +1,12 @@
-# 
+comments: true
+status: new
+#
 <figure markdown>
 <div align="center"> <img src="../../../asset/img/common/chusan_logo.png" width = 250 height = 179 /> </div>
 <div align="center"> <img src="../../../asset/img/common/cabinet_1.png"/> </div>
 </figure>
 
+!!! info "本页可发表评论"
 !!! danger "本站目前暂不提供CHUNITHM游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看。"
 
 !!! danger "重要提醒"

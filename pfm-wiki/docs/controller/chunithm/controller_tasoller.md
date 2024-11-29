@@ -1,9 +1,12 @@
+comments: true
 # 
 <figure markdown>
 <div align="center"> <img src="../../../asset/img/common/first_logo.png"/> </div>
 </figure>
 
-!!! danger "本文仅展示部分手台的安装连接方法，其他操作方式请参照**[其他输入方式](controller_other.md)**"
+!!! info "本页可发表评论"
+!!! danger "本文仅展示TASOLLER的安装连接方法，其他操作方式请参照**[其他输入方式](controller_other.md)**"
+!!! danger "TASOLLER手台目前DJDAO官方已停止生产与售卖"
 
 ## TASOLLER - 抬手乐
 
@@ -11,7 +14,7 @@
 
 ### 手台安装与连接
 
-??? info "手台连接图"
+??? info "手台安装与接线图"
 
     <div align="center"> <img src="../../../asset/img/controller/tsl/connect_tsl.png" /> </div>
 

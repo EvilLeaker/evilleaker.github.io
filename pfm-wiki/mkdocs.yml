@@ -44,6 +44,8 @@ theme:
     - content.footnote.tooltips
     - content.action.edit
     - content.action.view
+    - search.suggest
+    - search.highlight
 
 markdown_extensions:
   - abbr
@@ -81,6 +83,10 @@ plugins:
         - ja
         - en
   - glightbox
+
+extra:
+  status:
+    <identifier>: <description>
 
 nav:
   - 首页: index.md
