@@ -5,7 +5,7 @@
 
 !!! danger "本文仅展示部分手台的安装连接方法，其他操作方式请参照**[其他输入方式](controller_other.md)**"
 
-## (旧) TASOLLER - 抬手乐
+## TASOLLER - 抬手乐
 
 <div align="center"> <img src="../../../asset/img/controller/tsl/tasoller.png" width="400"/> </div>
 

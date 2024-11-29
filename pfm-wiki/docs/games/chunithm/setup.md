@@ -1,6 +1,7 @@
 # 
 <figure markdown>
-<div align="center"> <img src="../../../asset/img/common/logo.png" width = 250 height = 179 /> </div>
+<div align="center"> <img src="../../../asset/img/common/chusan_logo.png" width = 250 height = 179 /> </div>
+<div align="center"> <img src="../../../asset/img/common/cabinet_1.png"/> </div>
 </figure>
 
 !!! danger "本站目前暂不提供CHUNITHM游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看。"
@@ -15,11 +16,43 @@
 
     提问的时候请一同发布你的游戏界面，Log或设置截图以及文字详细描述你出现的问题，只扔个图问这是怎么回事这种问题是无法帮你解答的！！
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-wrench:{ .lg .middle } __游戏版本__
+
+    ---
+
+    CHUNITHM LUMINOUS PLUS 
+
+    Version 2.27.00
+
+-   :fontawesome-solid-file-circle-plus:{ .lg .middle } __提供的option__
+
+    ---
+
+    A001~A082
+
+-   :fontawesome-solid-server:{ .lg .middle } __网络服务__
+
+    ---
+
+    rin Net
+
+    [:octicons-arrow-right-24: 前往服务器前端](https://portal.naominet.live/)
+
+-   :fontawesome-solid-clock:{ .lg .middle } __教程更新时间__
+
+    ---
+
+    2024/11/29 (Fri)
+
+</div>
+
 ---
 
 ### 游玩前的准备以及注意事项
 
-!!! warning "游戏不可放置在`E:\`与`Y:\`，请将游戏文件放置在其他硬盘分区"
+!!! warning "游戏不可放置在**`E:\`**与**`Y:\`**，请将游戏文件放置在其他硬盘分区"
 
 !!! tip ""
 
@@ -39,21 +72,21 @@
 
     <img width="500" src="../../../asset/img/chu_manual/chum0001.png">
 
-    运行`DirectX.bat`并按照窗口提示完成安装
+    运行**`DirectX.bat`**并按照窗口提示完成安装
 
-    运行`VC.bat`并按照窗口提示完成安装
+    运行**`VC.bat`**并按照窗口提示完成安装
 
 #### 提取游戏文件
 
 ??? note "使用Windows挂载虚拟磁盘方式提取HDD"
 
-    鼠标左键双击`SDHD_2.25.01_20240514122240_0.vhd`
+    鼠标左键双击**`SDHD_2.25.01_20240514122240_0.vhd`**
 
     Windows会挂载一个新的硬盘分区(具体盘符根据每个人情况不同而不同)
 
-    进入这个磁盘分区，将其中的所有文件复制出来（例如：`C:\SDHD\`）
+    进入这个磁盘分区，将其中的所有文件复制出来（例如：**`C:\SDHD\`**）
 
-    提取完文件后可以关闭磁盘分区窗口，并在这个分区上点击鼠标右键选择`弹出(Eject)`卸载磁盘分区
+    提取完文件后可以关闭磁盘分区窗口，并在这个分区上点击鼠标右键选择**`弹出(Eject)`**卸载磁盘分区
 
     你也可以挂载虚拟磁盘后直接在其中运行HDD，配置方法与提取出来并无区别
 
@@ -65,9 +98,9 @@
 
     解压并安装7-Zip
 
-    解压ExFat7z.rar，在7-Zip安装目录中新建一个`Formats`文件夹，将解压的两个dll文件复制进去
+    解压ExFat7z.rar，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
 
-    配置好7-Zip后在`SDHD_2.25.01_20240514122240_0.vhd`上点击鼠标右键，选择`打开方式→7zip文件管理器或点击右键→7zip→打开压缩包`，如下图：
+    配置好7-Zip后在**`SDHD_2.25.01_20240514122240_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
     <img width="500" src="../../../asset/img/chu_manual/chum0002.png">
 
@@ -83,29 +116,29 @@
 
     *[amfs_2.27.zip]: 请至获得的下载链接中下载
 
-    将`amfs`与`appdata`文件夹放置于任意磁盘的根目录，例如：`x:\`（x为任意盘符）
+    将**`amfs`**与**`appdata`**文件夹放置于任意磁盘的根目录，例如：**`x:\`**（x为任意盘符）
 
 #### 安装已解密的文件
 
 !!! tip ""
 
-    将 `chusanApp.exe` 与 `amdaemon.exe` 放入HDD中的 `bin` 文件夹中并覆盖源文件
+    将 **`chusanApp.exe`** 与 **`amdaemon.exe`** 放入HDD中的 **`bin`** 文件夹中并覆盖源文件
 
-    - `chusanApp.exe` SHA-256：:material-information-outline:{ title="ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522" } 
+    - **`chusanApp.exe`** SHA-256：:material-information-outline:{ title="ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522" } 
 
-    - `amdaemon.exe` SHA-256：:material-information-outline:{ title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4" }
+    - **`amdaemon.exe`** SHA-256：:material-information-outline:{ title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4" }
 
     - 如exe的SHA-256与上述不符，请重新至下载链接中下载以免下载遭到篡改的exe文件
 
 !!! note "注意事项"
 
-    上述`chusanApp.exe`已打过可正常游玩所需的补丁
+    上述**`chusanApp.exe`**已打过可正常游玩所需的补丁
 
     如有其他修改补丁的需求，请访问  **[EVIL LEAKER - Patcher页](https://performai.evilleaker.com/patcher)**
 
-    - 打过补丁的 `chusanApp.exe` 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
+    - 打过补丁的 **`chusanApp.exe`** 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
 
-    - 补丁站仅支持本教程提供之 `chusanApp.exe` 的修改！
+    - 补丁站仅支持本教程提供之 **`chusanApp.exe`** 的修改！
 
 #### 安装option
 
@@ -115,15 +148,15 @@
 
     *[option(A001~A082).zip]: 请至获得的下载链接中下载
 
-    将`option`文件夹复制到HDD文件夹下的`bin`文件夹中
+    将**`option`**文件夹复制到HDD文件夹下的**`bin`**文件夹中
 
-    - CHUNITHM官方option文件夹都以`Axxx`命名,`x`均为数字，如果你在其他地方下载到非下图所示的option文件夹则可能为玩家自制内容
+    - CHUNITHM官方option文件夹都以**`Axxx`**命名,**`x`**均为数字，如果你在其他地方下载到非下图所示的option文件夹则可能为玩家自制内容
 
-    - 正确的option路径应为`bin\option`，option文件夹中的内容应为下图所示：
+    - 正确的option路径应为**`bin\option`**，option文件夹中的内容应为下图所示：
 
     <img width="500" src="../../../asset/img/chu_manual/chum0004.png">
 
-    - 如option路径为`bin\option\option`这样嵌套，则游戏不能正确读取option数据
+    - 如option路径为**`bin\option\option`**这样嵌套，则游戏不能正确读取option数据
 
 ??? warning "关于官方option的命名规则"
 
@@ -133,7 +166,7 @@
 
     - A001 - 现行版本以A001作为游戏发布的首日(Day-1)更新
 
-    - A071 - 现行版本以前两位作为更新月份，最后一位则为这个月份的第几个更新包，如最后一位是`0`，则固定为待机广告视频更新包
+    - A071 - 现行版本以前两位作为更新月份，最后一位则为这个月份的第几个更新包，如最后一位是**`0`**，则固定为待机广告视频更新包
 
 ---
 
@@ -149,7 +182,7 @@
 
     <img width="600" src="../../../asset/img/chu_manual/chum0005.png">
 
-    将上述文件全部复制到HDD中的`bin`文件夹下即可完成安装
+    将上述文件全部复制到HDD中的**`bin`**文件夹下即可完成安装
 
 ---
 
@@ -157,7 +190,7 @@
 
 !!! tip ""
 
-    由于segatools没有图形配置工具，因此您必须手动修改**segatools.ini**来进行配置，配置文件位于`bin`文件夹中
+    由于segatools没有图形配置工具，因此您必须手动修改**segatools.ini**来进行配置，配置文件位于**`bin`**文件夹中
 
     *[segatools.ini]:如果找不到此文件，请先看上面安装segatools章节
 
@@ -171,9 +204,9 @@
 
 !!! tip ""
 
-    如果您已按照上面**[安装ICF](#icf)**步骤配置对应文件夹，请将对应文件夹的路径填写到`[vfs]`对应的选项中
+    如果您已按照上面**[安装ICF](#icf)**步骤配置对应文件夹，请将对应文件夹的路径填写到**`[vfs]`**对应的选项中
 
-    - `amfs`与`appdata`文件夹需要放置在任意磁盘分区的根目录，`x`代表任意盘符
+    - **`amfs`**与**`appdata`**文件夹需要放置在任意磁盘分区的根目录，**`x`**代表任意盘符
 
     ```ini
     [vfs]
@@ -186,11 +219,11 @@
 
 !!! warning "注意事项"
 
-    外网最新版segatools中`[gpio]`已重新命名为`[system]`，本文中以`fufubot team版`为准
+    外网最新版segatools中**`[gpio]`**已重新命名为**`[system]`**，本文中以**`fufubot team`**版为准
 
 !!! tip ""
 
-    - 如果您的显示器刷新率 ≥120Hz，请将`dipsw2`与`dipsw3`设置为`0`：
+    - 如果您的显示器刷新率 ≥120Hz，请将**`dipsw2`**与**`dipsw3`**设置为**`0`**：
 
     ```ini
     [gpio]
@@ -199,7 +232,7 @@
     dipsw3=0
     ```
 
-    - 如果您的显示器刷新率为60Hz，请将`dipsw2`与`dipsw3`设置为`1`：
+    - 如果您的显示器刷新率为60Hz，请将**`dipsw2`**与**`dipsw3`**设置为**`1`**：
 
     ```ini
     [gpio]
@@ -214,7 +247,7 @@
 
 !!! tip ""
 
-    - 如需全屏运行游戏请将`windowed`修改为`0`
+    - 如需全屏运行游戏请将**`windowed`**修改为**`0`**
 
     ```ini
     [gfx]
@@ -223,7 +256,7 @@
     monitor=0
     ```
 
-    - 如需窗口运行游戏请将`windowed`修改为`1`
+    - 如需窗口运行游戏请将**`windowed`**修改为**`1`**
 
     ```ini
     [gfx]
@@ -232,9 +265,9 @@
     monitor=0
     ```
 
-    - 无边框窗口请将`framed`修改为`0`
+    - 无边框窗口请将**`framed`**修改为**`0`**
 
-    - 有边框窗口请将`framed`修改为`1`
+    - 有边框窗口请将**`framed`**修改为**`1`**
 
 !!! warning "注意事项"
 
@@ -242,34 +275,34 @@
 
     如果你的显示器分辨率大于1080P并且需要全屏窗口运行游戏，请将系统分辨率降低到1080P或使用全屏进行游戏
 
-    不管以何种方式运行游戏，`monitor=0` 都无需修改，请保持默认设置
+    不管以何种方式运行游戏，**`monitor=0`** 都无需修改，请保持默认设置
 
 #### `[aime] / [aimeio]`
 
 !!! tip ""
 
-    如果你使用官方读卡器或支持官方协议的第三方读卡器，请将`enable`修改为`0`并正确配置读卡器端口号
+    如果你使用官方读卡器或支持官方协议的第三方读卡器，请将**`enable`**修改为**`0`**并正确配置读卡器端口号
 
     ```ini
     [aime]
     enable=0
     ```
 
-    如果你没有任何读卡器设备，请将`enable`修改为`1`以启动segatools模拟读卡器，Yubideck(大四台)修改为`1`
+    如果你没有任何读卡器设备，请将**`enable`**修改为**`1`**以启动segatools模拟读卡器，Yubideck(大四台)修改为**`1`**
 
     ```ini
     [aime]
     enable=1
     ```
 
-    Yubideck(大四台)需要另外设置`[aimeio]`以启动手台上的读卡器,请将`;path=aimeio_yubideck.dll`前的分号`;`删除
+    Yubideck(大四台)需要另外设置**`[aimeio]`**以启动手台上的读卡器,请将**`;path=aimeio_yubideck.dll`**前的分号**`;`**删除
 
     ```ini
     [aimeio]
     path=aimeio_yubideck.dll
     ```
 
-    使用拥有自己专有io的第三方读卡器，需要将`;path=aimeio.dll`前的分号`;`删除，此处文件名请以读卡器作者提供的为准
+    使用拥有自己专有io的第三方读卡器，需要将**`;path=aimeio.dll`**前的分号**`;`**删除，此处文件名请以读卡器作者提供的为准
 
     ```ini
     [aimeio]
@@ -280,13 +313,13 @@
 
 !!! tip ""
 
-    如需使用LED板（837-15093）则`enable`修改为`0`，正常情况不需要修改默认为`1`即可
+    如需使用LED板（837-15093）则**`enable`**修改为**`0`**，正常情况不需要修改默认为**`1`**即可
 
 #### `[io3]`
 
 !!! tip ""
 
-    io3中的选项负责映射`TEST`、`SERVICE`、`COIN`三个机台功能按键，默认为键盘字母上面的数字`1`、`2`、`3`
+    io3中的选项负责映射**`TEST`**、**`SERVICE`**、**`COIN`**三个机台功能按键，默认为键盘字母上面的数字**`1`**、**`2`**、**`3`**
 
     如需修改按键键值请参考下面链接
 
@@ -298,29 +331,29 @@
 
 !!! tip ""
 
-    本文仅展示`TASOLLER`、`TASOLLER PLUS`、`Yubideck`的io配置方法，手台控制器的连接方法请查看[连接控制器]
+    本文仅展示**`TASOLLER`**、**`TASOLLER PLUS`**、**`Yubideck`**的io配置方法，手台控制器的连接方法请查看左侧导航栏**`控制器`**部分
 
-    - 本章节依旧需要在`segatools.ini`中进行配置
+    - 本章节依旧需要在**`segatools.ini`**中进行配置
 
 #### TASOLLER / TASOLLER PLUS
 
 !!! tip ""
 
-    请在`[chuniio]`选项中将默认的`chuniio-mux.dll`注释掉，并按照下方设置在`path=chuniio-mux.dll`前加上分号`;`
+    请在**`[chuniio]`**选项中将默认的**`chuniio-mux.dll`**注释掉，并按照下方设置在**`path=chuniio-mux.dll`**前加上分号**`;`**
 
     ```ini
     [chuniio]
     ;path=chuniio-mux.dll
     ```
 
-    - 使用(旧)TSOLLER请删除`;path=tasoller.dll`前的分号`;`取消注释状态
+    - 使用(旧)TSOLLER请删除**`;path=tasoller.dll`**前的分号**`;`**取消注释状态
 
     ```ini
     [chuniio]
     path=tasoller.dll
     ```
 
-    - 使用TASOLLER PLUS请删除`;path=tasoller_plus.dll`前的分号`;`取消注释状态
+    - 使用TASOLLER PLUS请删除**`;path=tasoller_plus.dll`**前的分号**`;`**取消注释状态
 
     ```ini
     [chuniio]
@@ -331,21 +364,21 @@
 
 !!! tip ""
 
-    请在`[chuniio]`选项中将默认的`chuniio-mux.dll`注释掉，按照下方设置在`path=chuniio-mux.dll`前加上分号`;`
+    请在**`[chuniio]`**选项中将默认的**`chuniio-mux.dll`**注释掉，按照下方设置在**`path=chuniio-mux.dll`**前加上分号**`;`**
 
     ```ini
     [chuniio]
     ;path=chuniio-mux.dll
     ```
 
-    - 使用Yubideck(大四台)请删除`;path=yubideck.dll`前的分号`;`取消注释状态
+    - 使用Yubideck(大四台)请删除**`;path=yubideck.dll`**前的分号**`;`**取消注释状态
 
     ```ini
     [chuniio]
     path=yubideck.dll
     ```
 
-    `[zhousensor]`为Yubideck(大四台)专用设置，默认即可，如需设置请按照`segatools.ini`中的说明进行设置
+    **`[zhousensor]`**为**`Yubideck(大四台)`**专用设置，默认即可，如需设置请按照**`segatools.ini`**中的说明进行设置
 
     ```ini
     [zhousensor]
@@ -378,15 +411,15 @@
 
     游戏大部分功能需要连接到网络服务器才可以正常使用以及登录用户，离线状态下仅可使用访客游玩游戏。
 
-    游戏服务器分为`在线服`与`离线服`，请按自身情况选择对应服务器使用。
+    游戏服务器分为**`在线服`**与**`离线服`**，请按自身情况选择对应服务器使用。
 
 !!! tip "在线服务器 (Rin服)"
 
-    打开`segatools.ini`，在`[dns]`选项中设置`default`为您需要连接的服务器地址。
+    打开**`segatools.ini`**，在**`[dns]`**选项中设置**`default`**为您需要连接的服务器地址。
 
-    - **请不要将`http://`与`https://`添加到服务器地址中**
+    - 请不要将**`http://`**与**`https://`**添加到服务器地址中
 
-    - **请不要填写`127.0.0.1`或`localhost`作为服务器地址**
+    - 请不要将**`127.0.0.1`**或**`localhost`**作为服务器地址
 
     Rin服dns：**aqua.naominet.live**
 
@@ -399,14 +432,14 @@
 
     连接Rin服需要申请Keychip才可正常联网，如何注册请查看下面的文章。
 
-    注册完`Keychip`后需要填写到`[keychip]`选项中
+    注册完**`Keychip`**后需要填写到**`[keychip]`**选项中
 
     ```ini
     [keychip]
     id=AXXE-XXXXXXXXXXX
     ```
 
-    - `Keychip(狗号)`均以`AXXE-XXXXXXXXXXX`格式填写，`X`为英数字
+    - **`Keychip(狗号)`**均以**`AXXE-XXXXXXXXXXX`**格式填写，**`X`**为英数字
 
 ??? warning "如何申请Rin服Keychip"
 
@@ -444,7 +477,7 @@
 
 !!! tip "离线服务器 (ARTEMiS与AquaDX)"
 
-    离线服务器都需要进行比较复杂的设置，详情请参阅[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)与[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)的官方指南来配置本地服务器。
+    离线服务器都需要进行比较复杂的设置，详情请参阅**[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)**与**[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)**的官方指南来配置本地服务器。
 
 #### 全国对战
 
@@ -464,17 +497,17 @@
 
 !!! tip ""
 
-    - 鼠标右键单击任务栏中的音量图标并选择`声音`选项
+    - 鼠标右键单击任务栏中的音量图标并选择**`声音`**选项
 
-    - 选择`高级`选项卡
+    - 选择**`高级`**选项卡
 
     <img width="400" src="../../../asset/img/chu_manual/chum0006.png">
 
-    - 在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择`高级`选项卡
+    - 在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择**`高级`**选项卡
 
-    - 选择`默认格式`中的下拉菜单，选择`24位，48000Hz（录音室音质）`选项
+    - 选择**`默认格式`**中的下拉菜单，选择**`24位，48000Hz（录音室音质）`**选项
 
-    - 勾选`独占模式`下的两个选项，点击`应用`后选择`确定`
+    - 勾选**`独占模式`**下的两个选项，点击**`应用`**后选择**`确定`**
 
     <img width="400" src="../../../asset/img/chu_manual/chum0007.png">
 
@@ -486,7 +519,7 @@
 
 !!! tip ""
 
-    如果你的PC所使用的CPU为Intel Core 10th Gen（或以上版本），请在`bin\start.bat`上单击右键选择`编辑`，将下方高亮处的代码添加到文件开头处并保存。
+    如果你的PC所使用的CPU为Intel Core 10th Gen（或以上版本），请在**`bin\start.bat`**上单击右键选择**`编辑`**，将下方高亮处的代码添加到文件开头处并保存。
 
     ```batch hl_lines="3"
     @echo off
@@ -501,9 +534,9 @@
 
 !!! tip ""
 
-    游戏需以管理员权限运行，你可以在`bin\start.bat`上单击鼠标右键选择`以管理员身份运行`启动游戏
+    游戏需以管理员权限运行，你可以在**`bin\start.bat`**上单击鼠标右键选择**`以管理员身份运行`**启动游戏
 
-    也可以将下方高亮处的代码添加到`bin\start.bat`的开头处，添加完成后保存并关闭文件
+    也可以将下方高亮处的代码添加到**`bin\start.bat`**的开头处，添加完成后保存并关闭文件
 
     ```batch hl_lines="3"
     @echo off
@@ -516,21 +549,21 @@
     ...
     ```
 
-    - 添加此代码后便可以鼠标左键双击`bin\start.bat`直接以管理员权限启动游戏了
+    - 添加此代码后便可以鼠标左键双击**`bin\start.bat`**直接以管理员权限启动游戏了
 
 #### 加快游戏启动速度
 
 !!! tip ""
 
-    将整个HDD文件夹添加到`Windows Defender`的`排除项`中可以加快游戏启动自检速度
+    将整个HDD文件夹添加到**`Windows Defender`**的**`排除项`**中可以加快游戏启动自检速度
 
-    - 在任务栏`Windows 安全中心`（小盾牌图标）上点击鼠标左键呼出安全中心界面
+    - 在任务栏**`Windows 安全中心`**（小盾牌图标）上点击鼠标左键呼出安全中心界面
 
-    - 左侧导航栏选择`病毒和威胁防护`，在右侧点击`“病毒和威胁防护”设置`下的`管理设置`选项
+    - 左侧导航栏选择**`病毒和威胁防护`**，在右侧点击**`“病毒和威胁防护”设置`**下的**`管理设置`**选项
 
-    - 向下滚动找到`排除项`，点击`添加或删除排除项`
+    - 向下滚动找到**`排除项`**，点击**`添加或删除排除项`**
 
-    - 点击`添加排除项`将整个HDD文件夹加入后关闭安全中心即可
+    - 点击**`添加排除项`**将整个HDD文件夹加入后关闭安全中心即可
 
 #### 设置虚拟Aime卡号
 
@@ -540,11 +573,11 @@
 
     如何建立Aime卡号：
 
-    如果你没有20位纯数字Aime卡号，在第一次启动游戏时，可在游戏标题处长按`Enter`刷卡，游戏会自动生成卡号文件
+    如果你没有20位纯数字Aime卡号，在第一次启动游戏时，可在游戏标题处长按**`Enter`**刷卡，游戏会自动生成卡号文件
 
     如果你拥有实体Aime卡片或其他游戏的虚拟Aime卡号，也可以自行建立卡号文件
 
-    - 在bin\DEVICE文件夹中建立名为`aime`的文本文档文件（aime.txt）
+    - 在bin\DEVICE文件夹中建立名为**`aime`**的文本文档文件（aime.txt）
 
     - 打开此文件，填入你的卡号（20位纯数字），可以是你手中真实卡片背面的卡号（ASSCE CODE）
 
@@ -562,11 +595,11 @@
 
     如果你完成了上述所有步骤，此处开始就可以启动HDD了
 
-    - 运行`bin\start.bat`来启动HDD
+    - 运行**`bin\start.bat`**来启动HDD
 
     - 正常游戏会弹出3个窗口，分别为游戏主窗口、Log窗口、amdaemon窗口（inject）
 
-    - 如果amdaemon窗口（inject）消失，请查看上面`修复 OpenSSL`部分的设置
+    - 如果amdaemon窗口（inject）消失，请查看上面**`修复 OpenSSL`**部分的设置
 
 !!! tip "启动自检部分"
 
@@ -582,39 +615,39 @@
 
         <img width="400" src="../../../asset/img/chu_manual/chum0010.png">
 
-        * 按下手台上对应TEST功能的按键，或`segatools.ini`中`[io3]`设置的对应按键，进入TEST菜单
+        * 按下手台上对应TEST功能的按键，或**`segatools.ini`**中**`[io3]`**设置的对应按键，进入TEST菜单
 
-        * 按下`SERVICE`按键选择菜单选项，按下`TEST`按键确定选项
+        * 按下**`SERVICE`**按键选择菜单选项，按下**`TEST`**按键确定选项
 
-    - 选择`ゲーム設定`
+    - 选择**`ゲーム設定`**
 
         <img width="400" src="../../../asset/img/chu_manual/chum0011.png">
 
-        * 选择`グループ内基準機設定`，将右侧`基準機に従う`切换为`基準機`
+        * 选择**`グループ内基準機設定`**，将右侧**`基準機に従う`**切换为**`基準機`**
 
-        * 启动接关功能将`コンティニュー設定`由`OFF`切换为`ON`
+        * 启动接关功能将**`コンティニュー設定`**由**`OFF`**切换为**`ON`**
 
-        * 选择`終了`返回TEST主菜单
+        * 选择**`終了`**返回TEST主菜单
 
-    - 接下来选择`閉店設定`
+    - 接下来选择**`閉店設定`**
 
         <img width="400" src="../../../asset/img/chu_manual/chum0012.png">
 
-        * 将`スケジュール種別`与`時`分别设置为`每日`与`全時刻`
+        * 将**`スケジュール種別`**与**`時`**分别设置为**`每日`**与**`全時刻`**
 
         <img width="400" src="../../../asset/img/chu_manual/chum0013.png">
 
-        * 选择`終了`返回TEST主菜单
+        * 选择**`終了`**返回TEST主菜单
 
-        * 选择TEST主菜单`終了`以继续
+        * 选择TEST主菜单**`終了`**以继续
 
     - 待到LED自检时，双手需要离开AIR识别区域并且不要触碰触摸板，等待自检完成即可自动进入游戏标题界面
 
         <img width="400" src="../../../asset/img/chu_manual/chum0014.png">
 
-        * 如果此处`LED制御ボード1·2`显示为`BAD`请不要紧张，这并不影响游戏正常运行，请按右下角提示`次へ`按下触摸板跳过即可
+        * 如果此处**`LED制御ボード1·2`**显示为**`BAD`**请不要紧张，这并不影响游戏正常运行，请按右下角提示**`次へ`**按下触摸板跳过即可
 
-        * `LED制御ボード1·2`显示为`BAD`请检查`segatool.ini`中`[led]`部分设置是否为`enable=1`
+        * **`LED制御ボード1·2`**显示为**`BAD`**请检查**`segatool.ini`**中**`[led]`**部分设置是否为**`enable=1`**
 
 ---
 
@@ -628,17 +661,17 @@
 
     
 
-    - 请检查右下角版本号是否为`Version 2.27`，如果不对请返回'安装ICF'部分检查ICF文件是否安装正确
+    - 请检查右下角版本号是否为**`Version 2.27`**，如果不对请返回**'安装ICF'**部分检查ICF文件是否安装正确
 
     - 请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)
 
     <img width="400" src="../../../asset/img/chu_manual/chum0016.png">
 
-    - 网络自检全为GOOD但此处网络显示黄色图标，请返回**[安装option](#option)**部分检查是否安装正确的`option`
+    - 网络自检全为GOOD但此处网络显示黄色图标，请返回**[安装option](#option)**部分检查是否安装正确的**`option`**
 
-    - 或尝试安装自制包`A999`到`option`中即可解决此问题
+    - 或尝试安装自制包**`A999`**到**`option`**中即可解决此问题
 
-    - 在标题界面长按`Enter`或在读卡器刷卡即可登录进行游戏，按数字`3`或手台对应按键进行投币
+    - 在标题界面长按**`Enter`**或在读卡器刷卡即可登录进行游戏，按数字**`3`**或手台对应按键进行投币
 
 !!! tip "下图为游戏画面"
 
@@ -650,5 +683,5 @@
 
     <img width="400" src="../../../asset/img/chu_manual/chum0018.png">
 
-    [BACK TO TOP](# )
+    **[BACK TO TOP](# )**
 ---

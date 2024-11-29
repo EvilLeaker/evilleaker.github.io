@@ -1,12 +1,8 @@
-#
+# 
 <figure markdown>
-<div align="center"> <img src="./asset/img/common/logo.png" /> </div>
-[访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
+<div align="center"> <img src="./asset/img/common/main_logo.jpg" /> </div>
+[:fontawesome-solid-house: 访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
 </figure>
-
-!!! warning "禁无断转载！/ 無断転載禁止！"
-
-    全站文章内容未经本人允许禁止转载 / 盗转！
 
 !!! tip "解压密码"
 
@@ -24,7 +20,7 @@
 
     本站建立的目的是为了让游玩此游戏的玩家可以快速的配置游戏不走弯路。
 
-    但同时本站也不会出现或发布任何N-0,N+1数据,除非它们被提前公开发布在公共网络中(公共网络包括但不限于各种SNS软件、平台或BBS、揭示板等)！
+    但同时本站也不会出现或发布任何**`N-0`**,**`N+1`**数据,除非它们被提前公开发布在公共网络中(公共网络包括但不限于各种SNS软件、平台或BBS、揭示板等)！
 
 !!! danger "关于出现的含有恶意代码的文件或程序"
 
@@ -70,3 +66,7 @@
     **大家都没得玩了，皆大欢喜**
 
     **但不排除有特殊情况，比如EVIL LEAKER!!!** (2024/11/25 @下北沢案内人 )
+
+??? warning "禁无断转载！/ 無断転載禁止！"
+
+    全站文章内容未经本人允许禁止转载 / 盗转！

@@ -1,12 +1,14 @@
 site_name: Performai Manual
 copyright: Evil Leaker
+repo_url: https://performai.evilleaker.com/
+repo_name: CHUNITHM Fanmade Site
 
 theme:
   name: material
   logo: asset/img/common/site_logo.svg
   favicon: asset/img/common/favicon.png
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/solid/house
     annotation: material/arrow-right-circle
   navigation_depth: 3
   palette:
@@ -23,7 +25,7 @@ theme:
       primary: indigo
       accent: pink
       toggle:
-        icon: material/brightness-7
+        icon: fontawesome/solid/toggle-off
         name: 切换护眼模式
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -31,7 +33,7 @@ theme:
       primary: pink
       accent: deep blue
       toggle:
-        icon: material/brightness-4
+        icon: fontawesome/solid/toggle-on
         name: 跟随系统
   features:
     - content.code.annotate
@@ -39,15 +41,14 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - content.footnote.tooltips
+    - content.action.edit
+    - content.action.view
 
 markdown_extensions:
   - abbr
   - admonition
   - pymdownx.details
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
@@ -57,11 +58,20 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.blocks.caption
   - attr_list
-  - pymdownx.emoji:
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
+  - def_list
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - search:
@@ -70,6 +80,7 @@ plugins:
         - zh
         - ja
         - en
+  - glightbox
 
 nav:
   - 首页: index.md
@@ -81,8 +92,8 @@ nav:
   - 控制器:
       - "SEGA":
           - "CHUNITHM":
-              - "(旧)TASOLLER": "controller/chunithm/controller_tasoller.md"
               - "TASOLLER PLUS": "controller/chunithm/controller_tasollerplus.md"
+              - "TASOLLER": "controller/chunithm/controller_tasoller.md"
               - "Yubideck": "controller/chunithm/controller_yubideck.md"
               - "其他输入方式": "controller/chunithm/controller_other.md"
   - 其他:
