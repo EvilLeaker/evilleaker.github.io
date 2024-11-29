@@ -71,6 +71,6 @@ comments: true
     - 在游戏中，手台`FN1`按键为`Service`，`FN2`按键为`TEST`
     - 现在你已经成功连接了手台，可以继续查看**[游戏安装教程](../../games/chunithm/setup.md)**并按照教程配置手台io
 
-    [BACK TO TOP](# )
-
 ---
+
+**[BACK TO TOP](# )**

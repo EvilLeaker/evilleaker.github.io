@@ -4,6 +4,14 @@
 [:fontawesome-solid-house: 访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
 </figure>
 
+!!! warning "ATTENTION"
+
+    - 新站内容仍在搬运或完善中，如站内没有你需要的内容，请在群内求助或浏览原Notion教程
+
+        * **[Notion - CHUNITHM Manual](https://performai.notion.site/CHUNITHM-Manual-5a12aad934af45b4a09adf6048e635c6)**
+
+        * **[Notion - ONGEKI Manual](https://performai.notion.site/O-N-G-E-K-I-Manual-22752c24d01446379c7ffdf3819e08e9?pvs=74)**
+
 !!! tip "解压密码"
 
     全站资源压缩包解压密码(如果有)均为 : 

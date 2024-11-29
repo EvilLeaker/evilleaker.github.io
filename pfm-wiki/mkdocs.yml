@@ -95,6 +95,8 @@ nav:
           - "CHUNITHM":
               - "安装使用教程": "games/chunithm/setup.md"
               - "全国对战": "games/chunithm/national_battle.md"
+              - "常见问题": "games/chunithm/faq.md"
+              - "错误代码": "games/chunithm/errorcodes.md"
   - 控制器:
       - "SEGA":
           - "CHUNITHM":

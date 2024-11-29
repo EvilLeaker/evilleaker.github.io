@@ -7,7 +7,7 @@ status: new
 </figure>
 
 !!! info "本页可发表评论"
-!!! danger "本站目前暂不提供CHUNITHM游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看。"
+!!! danger "本站不提供任何游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看。"
 
 !!! danger "重要提醒"
 
@@ -29,7 +29,7 @@ status: new
 
     Version 2.27.00
 
--   :fontawesome-solid-file-circle-plus:{ .lg .middle } __提供的option__
+-   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
     ---
 
@@ -43,7 +43,7 @@ status: new
 
     [:octicons-arrow-right-24: 前往服务器前端](https://portal.naominet.live/)
 
--   :fontawesome-solid-clock:{ .lg .middle } __教程更新时间__
+-   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
     ---
 
@@ -54,6 +54,12 @@ status: new
 ---
 
 ### 游玩前的准备以及注意事项
+
+!!! danger "ATTENTION"
+
+    如果您已在PC上游玩过CHUNITHM并且配置好了HDD，仅更换了手台，请参阅**[配置控制器io](#io)**部分
+
+    如果您从未在PC上游玩过HDD，请继续往下阅读教程。
 
 !!! warning "游戏不可放置在**`E:\`**与**`Y:\`**，请将游戏文件放置在其他硬盘分区"
 
@@ -80,6 +86,8 @@ status: new
     运行**`VC.bat`**并按照窗口提示完成安装
 
 #### 提取游戏文件
+
+!!! warning "HDD文件夹或路径不要有汉字和其他特殊字符，尽量使用半角英数字"
 
 ??? note "使用Windows挂载虚拟磁盘方式提取HDD"
 
@@ -226,6 +234,12 @@ status: new
 
 !!! tip ""
 
+    - 如果不进行本地局域网联机相关，请勿修改**`dipsw1`**，保持默认**`1`**
+
+        * 局域网中仅有1台运行HDD的主机，**`dipsw1`**请设置为**`1`**
+
+        * 局域网中有复数台运行HDD的主机(2-4台)，标准机设置为**`1`**(仅1台)，其余从机设置为**`0`**
+
     - 如果您的显示器刷新率 ≥120Hz，请将**`dipsw2`**与**`dipsw3`**设置为**`0`**：
 
     ```ini
@@ -326,11 +340,15 @@ status: new
 
     如需修改按键键值请参考下面链接
 
-    - [16进制标准键盘码值表](https://blog.csdn.net/gao5528/article/details/5991495)
+    - **[16进制标准键盘码值表](https://blog.csdn.net/gao5528/article/details/5991495)**
 
 ---
 
 ### 配置控制器io
+
+!!! warning "ATTENTION"
+
+    fufubot版segatools已集成**`TASOLLER PLUS io`**，如果仅更换手台，可以单独下载**[TASOLLER PLUS io](https://performai.evilleaker.com/manual/download/files/tasoller_plus.dll)**
 
 !!! tip ""
 
@@ -588,11 +606,15 @@ status: new
 
     <img width="400" src="../../../asset/img/chu_manual/chum0008.png">
 
-!!! danger "重要提示"
+!!! warning "重要提示"
 
     这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意
 
 #### 启动HDD
+
+!!! danger "ATTENTION"
+
+    从此步骤开始，如遇到各种问题，请首先查阅 **[常见问题](faq.md)** 与 **[错误代码](errorcodes.md)** 来尝试解决问题！
 
 !!! tip ""
 
@@ -664,7 +686,7 @@ status: new
 
     
 
-    - 请检查右下角版本号是否为**`Version 2.27`**，如果不对请返回**'安装ICF'**部分检查ICF文件是否安装正确
+    - 请检查右下角版本号是否为**`Version 2.27`**，如果不对请返回**[安装ICF](#icf)**部分检查ICF文件是否安装正确
 
     - 请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)
 
@@ -686,5 +708,6 @@ status: new
 
     <img width="400" src="../../../asset/img/chu_manual/chum0018.png">
 
-    **[BACK TO TOP](# )**
 ---
+
+**[BACK TO TOP](# )**
