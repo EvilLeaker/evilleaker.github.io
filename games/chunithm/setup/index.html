@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -139,7 +148,7 @@
     <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink"  aria-label="切换护眼模式"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="切换护眼模式" for="__palette_2" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128zm192 128c0-106-86-192-192-192H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192m-384 96a96 96 0 1 0 0-192 96 96 0 1 0 0 192"/></svg>
       </label>
     
   
@@ -149,7 +158,7 @@
     <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="deep-blue"  aria-label="跟随系统"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="跟随系统" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg>
       </label>
     
   
@@ -199,6 +208,18 @@
 </div>
     
     
+      <div class="md-header__source">
+        <a href="https://performai.evilleaker.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1v16.2c0 22.1-17.9 40-40 40h-16c-1.1 0-2.2 0-3.3-.1-1.4.1-2.8.1-4.2.1L416 512h-24c-22.1 0-40-17.9-40-40v-88c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v88c0 22.1-17.9 40-40 40h-55.9c-1.5 0-3-.1-4.5-.2-1.2.1-2.4.2-3.6.2h-16c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9.1-2.8v-69.7h-32c-18 0-32-14-32-32.1 0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7l255.4 224.5c8 7 12 15 11 24"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CHUNITHM Fanmade Site
+  </div>
+</a>
+      </div>
+    
   </nav>
   
 </header>
@@ -231,6 +252,18 @@
     </a>
     Performai Manual
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://performai.evilleaker.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1v16.2c0 22.1-17.9 40-40 40h-16c-1.1 0-2.2 0-3.3-.1-1.4.1-2.8.1-4.2.1L416 512h-24c-22.1 0-40-17.9-40-40v-88c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v88c0 22.1-17.9 40-40 40h-55.9c-1.5 0-3-.1-4.5-.2-1.2.1-2.4.2-3.6.2h-16c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9.1-2.8v-69.7h-32c-18 0-32-14-32-32.1 0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7l255.4 224.5c8 7 12 15 11 24"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CHUNITHM Fanmade Site
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -855,11 +888,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../controller/chunithm/controller_tasoller/" class="md-nav__link">
+      <a href="../../../controller/chunithm/controller_tasollerplus/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    (旧)TASOLLER
+    TASOLLER PLUS
   </span>
   
 
@@ -876,11 +909,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../controller/chunithm/controller_tasollerplus/" class="md-nav__link">
+      <a href="../../../controller/chunithm/controller_tasoller/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    TASOLLER PLUS
+    TASOLLER
   </span>
   
 
@@ -1334,7 +1367,8 @@
 
 <h1 id="_1"></h1>
 <figure>
-<div align="center"> <img src="../../../asset/img/common/logo.png" width = 250 height = 179 /> </div>
+<div align="center"> <a class="glightbox" href="../../../asset/img/common/chusan_logo.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/common/chusan_logo.png" width = 250 height = 179 /></a> </div>
+<div align="center"> <a class="glightbox" href="../../../asset/img/common/cabinet_1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/common/cabinet_1.png"/></a> </div>
 </figure>
 <div class="admonition danger">
 <p class="admonition-title">本站目前暂不提供CHUNITHM游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看。</p>
@@ -1346,56 +1380,82 @@
 <p>如果你的问题在常见问题之外，再在群以及社区中寻求帮助！</p>
 <p>提问的时候请一同发布你的游戏界面，Log或设置截图以及文字详细描述你出现的问题，只扔个图问这是怎么回事这种问题是无法帮你解答的！！</p>
 </div>
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M352 320c88.4 0 160-71.6 160-160 0-15.3-2.2-30.1-6.2-44.2-3.1-10.8-16.4-13.2-24.3-5.3l-76.8 76.8c-3 3-7.1 4.7-11.3 4.7H336c-8.8 0-16-7.2-16-16v-57.4c0-4.2 1.7-8.3 4.7-11.3l76.8-76.8c7.9-7.9 5.4-21.2-5.3-24.3C382.1 2.2 367.3 0 352 0c-88.4 0-160 71.6-160 160 0 19.1 3.4 37.5 9.5 54.5L19.9 396.1C7.2 408.8 0 426.1 0 444.1 0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9l181.6-181.6c17 6.2 35.4 9.5 54.5 9.5M80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48"/></svg></span> <strong>游戏版本</strong></p>
+<hr />
+<p>CHUNITHM LUMINOUS PLUS </p>
+<p>Version 2.27.00</p>
+</li>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 28.7 28.7 0 64 0h160v128c0 17.7 14.3 32 32 32h128v38.6c-73.9 20.9-128 88.8-128 169.4 0 59.1 29.1 111.3 73.7 143.3-3.2.5-6.4.7-9.7.7H64c-35.3 0-64-28.7-64-64zm384 64H256V0zm48 96a144 144 0 1 1 0 288 144 144 0 1 1 0-288m16 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v48h-48c-8.8 0-16 7.2-16 16s7.2 16 16 16h48v48c0 8.8 7.2 16 16 16s16-7.2 16-16v-48h48c8.8 0 16-7.2 16-16s-7.2-16-16-16h-48z"/></svg></span> <strong>提供的option</strong></p>
+<hr />
+<p>A001~A082</p>
+</li>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48m48 24a24 24 0 1 1 48 0 24 24 0 1 1-48 0M64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64v-64c0-35.3-28.7-64-64-64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48m56 24a24 24 0 1 1 48 0 24 24 0 1 1-48 0"/></svg></span> <strong>网络服务</strong></p>
+<hr />
+<p>rin Net</p>
+<p><a href="https://portal.naominet.live/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> 前往服务器前端</a></p>
+</li>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> <strong>教程更新时间</strong></p>
+<hr />
+<p>2024/11/29 (Fri)</p>
+</li>
+</ul>
+</div>
 <hr />
 <h3 id="_2">游玩前的准备以及注意事项</h3>
 <div class="admonition warning">
-<p class="admonition-title">游戏不可放置在<code>E:\</code>与<code>Y:\</code>，请将游戏文件放置在其他硬盘分区</p>
+<p class="admonition-title">游戏不可放置在<strong><code>E:\</code></strong>与<strong><code>Y:\</code></strong>，请将游戏文件放置在其他硬盘分区</p>
 </div>
 <div class="admonition tip">
 <p>首先请至下载链接中下载如下文件</p>
-<p><img width="700" src="../../../asset/img/chu_manual/chum0000.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0000.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="700" src="../../../asset/img/chu_manual/chum0000.png"></a></p>
 </div>
 <h4 id="runtime-windows">安装Runtime (Windows运行时安装包)</h4>
 <div class="admonition tip">
 <p><strong><a href="https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg">下载Runtime</a></strong>安装包</p>
 <p>解压后获得如下文件</p>
-<p><img width="500" src="../../../asset/img/chu_manual/chum0001.png"></p>
-<p>运行<code>DirectX.bat</code>并按照窗口提示完成安装</p>
-<p>运行<code>VC.bat</code>并按照窗口提示完成安装</p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0001.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="500" src="../../../asset/img/chu_manual/chum0001.png"></a></p>
+<p>运行<strong><code>DirectX.bat</code></strong>并按照窗口提示完成安装</p>
+<p>运行<strong><code>VC.bat</code></strong>并按照窗口提示完成安装</p>
 </div>
 <h4 id="_3">提取游戏文件</h4>
 <details class="note">
 <summary>使用Windows挂载虚拟磁盘方式提取HDD</summary>
-<p>鼠标左键双击<code>SDHD_2.25.01_20240514122240_0.vhd</code></p>
+<p>鼠标左键双击<strong><code>SDHD_2.25.01_20240514122240_0.vhd</code></strong></p>
 <p>Windows会挂载一个新的硬盘分区(具体盘符根据每个人情况不同而不同)</p>
-<p>进入这个磁盘分区，将其中的所有文件复制出来（例如：<code>C:\SDHD\</code>）</p>
-<p>提取完文件后可以关闭磁盘分区窗口，并在这个分区上点击鼠标右键选择<code>弹出(Eject)</code>卸载磁盘分区</p>
+<p>进入这个磁盘分区，将其中的所有文件复制出来（例如：<strong><code>C:\SDHD\</code></strong>）</p>
+<p>提取完文件后可以关闭磁盘分区窗口，并在这个分区上点击鼠标右键选择<strong><code>弹出(Eject)</code></strong>卸载磁盘分区</p>
 <p>你也可以挂载虚拟磁盘后直接在其中运行HDD，配置方法与提取出来并无区别</p>
 </details>
 <details class="note">
 <summary>使用7-Zip提取HDD</summary>
 <p><strong><a href="https://performai.evilleaker.com/manual/download/files/7-Zip.rar">下载7-Zip</a></strong>安装包</p>
 <p>解压并安装7-Zip</p>
-<p>解压ExFat7z.rar，在7-Zip安装目录中新建一个<code>Formats</code>文件夹，将解压的两个dll文件复制进去</p>
-<p>配置好7-Zip后在<code>SDHD_2.25.01_20240514122240_0.vhd</code>上点击鼠标右键，选择<code>打开方式→7zip文件管理器或点击右键→7zip→打开压缩包</code>，如下图：</p>
-<p><img width="500" src="../../../asset/img/chu_manual/chum0002.png"></p>
+<p>解压ExFat7z.rar，在7-Zip安装目录中新建一个<strong><code>Formats</code></strong>文件夹，将解压的两个dll文件复制进去</p>
+<p>配置好7-Zip后在<strong><code>SDHD_2.25.01_20240514122240_0.vhd</code></strong>上点击鼠标右键，选择<strong><code>打开方式→7zip文件管理器</code></strong>或<strong><code>点击右键→7zip→打开压缩包</code></strong>，如下图：</p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0002.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="500" src="../../../asset/img/chu_manual/chum0002.png"></a></p>
 <p>提取后获得如下文件：</p>
-<p><img width="500" src="../../../asset/img/chu_manual/chum0003.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0003.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="500" src="../../../asset/img/chu_manual/chum0003.png"></a></p>
 </details>
 <h4 id="icf">安装ICF</h4>
 <div class="admonition tip">
 <p>解压<strong><abbr title="请至获得的下载链接中下载">amfs_2.27.zip</abbr></strong></p>
-<p>将<code>amfs</code>与<code>appdata</code>文件夹放置于任意磁盘的根目录，例如：<code>x:\</code>（x为任意盘符）</p>
+<p>将<strong><code>amfs</code></strong>与<strong><code>appdata</code></strong>文件夹放置于任意磁盘的根目录，例如：<strong><code>x:\</code></strong>（x为任意盘符）</p>
 </div>
 <h4 id="_4">安装已解密的文件</h4>
 <div class="admonition tip">
-<p>将 <code>chusanApp.exe</code> 与 <code>amdaemon.exe</code> 放入HDD中的 <code>bin</code> 文件夹中并覆盖源文件</p>
+<p>将 <strong><code>chusanApp.exe</code></strong> 与 <strong><code>amdaemon.exe</code></strong> 放入HDD中的 <strong><code>bin</code></strong> 文件夹中并覆盖源文件</p>
 <ul>
 <li>
-<p><code>chusanApp.exe</code> SHA-256：<span class="twemoji" title="ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></span> </p>
+<p><strong><code>chusanApp.exe</code></strong> SHA-256：<span class="twemoji" title="ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></span> </p>
 </li>
 <li>
-<p><code>amdaemon.exe</code> SHA-256：<span class="twemoji" title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></span></p>
+<p><strong><code>amdaemon.exe</code></strong> SHA-256：<span class="twemoji" title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></span></p>
 </li>
 <li>
 <p>如exe的SHA-256与上述不符，请重新至下载链接中下载以免下载遭到篡改的exe文件</p>
@@ -1404,32 +1464,32 @@
 </div>
 <div class="admonition note">
 <p class="admonition-title">注意事项</p>
-<p>上述<code>chusanApp.exe</code>已打过可正常游玩所需的补丁</p>
+<p>上述<strong><code>chusanApp.exe</code></strong>已打过可正常游玩所需的补丁</p>
 <p>如有其他修改补丁的需求，请访问  <strong><a href="https://performai.evilleaker.com/patcher">EVIL LEAKER - Patcher页</a></strong></p>
 <ul>
 <li>
-<p>打过补丁的 <code>chusanApp.exe</code> 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单</p>
+<p>打过补丁的 <strong><code>chusanApp.exe</code></strong> 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单</p>
 </li>
 <li>
-<p>补丁站仅支持本教程提供之 <code>chusanApp.exe</code> 的修改！</p>
+<p>补丁站仅支持本教程提供之 <strong><code>chusanApp.exe</code></strong> 的修改！</p>
 </li>
 </ul>
 </div>
 <h4 id="option">安装option</h4>
 <div class="admonition tip">
 <p>解压<strong><abbr title="请至获得的下载链接中下载">option(A001~A082).zip</abbr></strong></p>
-<p>将<code>option</code>文件夹复制到HDD文件夹下的<code>bin</code>文件夹中</p>
+<p>将<strong><code>option</code></strong>文件夹复制到HDD文件夹下的<strong><code>bin</code></strong>文件夹中</p>
 <ul>
 <li>
-<p>CHUNITHM官方option文件夹都以<code>Axxx</code>命名,<code>x</code>均为数字，如果你在其他地方下载到非下图所示的option文件夹则可能为玩家自制内容</p>
+<p>CHUNITHM官方option文件夹都以<strong><code>Axxx</code></strong>命名,<strong><code>x</code></strong>均为数字，如果你在其他地方下载到非下图所示的option文件夹则可能为玩家自制内容</p>
 </li>
 <li>
-<p>正确的option路径应为<code>bin\option</code>，option文件夹中的内容应为下图所示：</p>
+<p>正确的option路径应为<strong><code>bin\option</code></strong>，option文件夹中的内容应为下图所示：</p>
 </li>
 </ul>
-<p><img width="500" src="../../../asset/img/chu_manual/chum0004.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0004.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="500" src="../../../asset/img/chu_manual/chum0004.png"></a></p>
 <ul>
-<li>如option路径为<code>bin\option\option</code>这样嵌套，则游戏不能正确读取option数据</li>
+<li>如option路径为<strong><code>bin\option\option</code></strong>这样嵌套，则游戏不能正确读取option数据</li>
 </ul>
 </div>
 <details class="warning">
@@ -1441,7 +1501,7 @@
 <p>A001 - 现行版本以A001作为游戏发布的首日(Day-1)更新</p>
 </li>
 <li>
-<p>A071 - 现行版本以前两位作为更新月份，最后一位则为这个月份的第几个更新包，如最后一位是<code>0</code>，则固定为待机广告视频更新包</p>
+<p>A071 - 现行版本以前两位作为更新月份，最后一位则为这个月份的第几个更新包，如最后一位是<strong><code>0</code></strong>，则固定为待机广告视频更新包</p>
 </li>
 </ul>
 </details>
@@ -1450,13 +1510,13 @@
 <div class="admonition tip">
 <p><strong><a href="https://performai.evilleaker.com/manual/download/files/chusan-segatools_v1.0.3.2_by_fufubot_team.zip">下载fufubot team版segatools</a></strong>并解压至任意文件夹</p>
 <p>解压后获得如下文件：</p>
-<p><img width="600" src="../../../asset/img/chu_manual/chum0005.png"></p>
-<p>将上述文件全部复制到HDD中的<code>bin</code>文件夹下即可完成安装</p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0005.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="600" src="../../../asset/img/chu_manual/chum0005.png"></a></p>
+<p>将上述文件全部复制到HDD中的<strong><code>bin</code></strong>文件夹下即可完成安装</p>
 </div>
 <hr />
 <h3 id="segatools_1">配置segatools</h3>
 <div class="admonition tip">
-<p>由于segatools没有图形配置工具，因此您必须手动修改<strong><abbr title="如果找不到此文件，请先看上面安装segatools章节">segatools.ini</abbr></strong>来进行配置，配置文件位于<code>bin</code>文件夹中</p>
+<p>由于segatools没有图形配置工具，因此您必须手动修改<strong><abbr title="如果找不到此文件，请先看上面安装segatools章节">segatools.ini</abbr></strong>来进行配置，配置文件位于<strong><code>bin</code></strong>文件夹中</p>
 <p>建议您使用支持语法高亮的文本编辑器(例如：Notepad++、VS Code、Sublime Text)来修改配置文件</p>
 </div>
 <div class="admonition danger">
@@ -1465,9 +1525,9 @@
 </div>
 <h4 id="vfs"><code>[vfs]</code></h4>
 <div class="admonition tip">
-<p>如果您已按照上面<strong><a href="#icf">安装ICF</a></strong>步骤配置对应文件夹，请将对应文件夹的路径填写到<code>[vfs]</code>对应的选项中</p>
+<p>如果您已按照上面<strong><a href="#icf">安装ICF</a></strong>步骤配置对应文件夹，请将对应文件夹的路径填写到<strong><code>[vfs]</code></strong>对应的选项中</p>
 <ul>
-<li><code>amfs</code>与<code>appdata</code>文件夹需要放置在任意磁盘分区的根目录，<code>x</code>代表任意盘符</li>
+<li><strong><code>amfs</code></strong>与<strong><code>appdata</code></strong>文件夹需要放置在任意磁盘分区的根目录，<strong><code>x</code></strong>代表任意盘符</li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">[vfs]</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="na">amfs</span><span class="o">=</span><span class="s">x:/amfs</span>
@@ -1478,11 +1538,11 @@
 <h4 id="gpio"><code>[gpio]</code></h4>
 <div class="admonition warning">
 <p class="admonition-title">注意事项</p>
-<p>外网最新版segatools中<code>[gpio]</code>已重新命名为<code>[system]</code>，本文中以<code>fufubot team版</code>为准</p>
+<p>外网最新版segatools中<strong><code>[gpio]</code></strong>已重新命名为<strong><code>[system]</code></strong>，本文中以<strong><code>fufubot team</code></strong>版为准</p>
 </div>
 <div class="admonition tip">
 <ul>
-<li>如果您的显示器刷新率 ≥120Hz，请将<code>dipsw2</code>与<code>dipsw3</code>设置为<code>0</code>：</li>
+<li>如果您的显示器刷新率 ≥120Hz，请将<strong><code>dipsw2</code></strong>与<strong><code>dipsw3</code></strong>设置为<strong><code>0</code></strong>：</li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">[gpio]</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="na">dipsw1</span><span class="o">=</span><span class="s">1</span>
@@ -1490,7 +1550,7 @@
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="na">dipsw3</span><span class="o">=</span><span class="s">0</span>
 </span></code></pre></div>
 <ul>
-<li>如果您的显示器刷新率为60Hz，请将<code>dipsw2</code>与<code>dipsw3</code>设置为<code>1</code>：</li>
+<li>如果您的显示器刷新率为60Hz，请将<strong><code>dipsw2</code></strong>与<strong><code>dipsw3</code></strong>设置为<strong><code>1</code></strong>：</li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">[gpio]</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="na">dipsw1</span><span class="o">=</span><span class="s">1</span>
@@ -1504,7 +1564,7 @@
 <h4 id="gfx"><code>[gfx]</code></h4>
 <div class="admonition tip">
 <ul>
-<li>如需全屏运行游戏请将<code>windowed</code>修改为<code>0</code></li>
+<li>如需全屏运行游戏请将<strong><code>windowed</code></strong>修改为<strong><code>0</code></strong></li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">[gfx]</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="na">windowed</span><span class="o">=</span><span class="s">0</span>
@@ -1512,7 +1572,7 @@
 </span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="na">monitor</span><span class="o">=</span><span class="s">0</span>
 </span></code></pre></div>
 <ul>
-<li>如需窗口运行游戏请将<code>windowed</code>修改为<code>1</code></li>
+<li>如需窗口运行游戏请将<strong><code>windowed</code></strong>修改为<strong><code>1</code></strong></li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">[gfx]</span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="na">windowed</span><span class="o">=</span><span class="s">1</span>
@@ -1521,10 +1581,10 @@
 </span></code></pre></div>
 <ul>
 <li>
-<p>无边框窗口请将<code>framed</code>修改为<code>0</code></p>
+<p>无边框窗口请将<strong><code>framed</code></strong>修改为<strong><code>0</code></strong></p>
 </li>
 <li>
-<p>有边框窗口请将<code>framed</code>修改为<code>1</code></p>
+<p>有边框窗口请将<strong><code>framed</code></strong>修改为<strong><code>1</code></strong></p>
 </li>
 </ul>
 </div>
@@ -1532,34 +1592,34 @@
 <p class="admonition-title">注意事项</p>
 <p>CHUNITHM以固定的1920x1080分辨率渲染游戏，不可更改</p>
 <p>如果你的显示器分辨率大于1080P并且需要全屏窗口运行游戏，请将系统分辨率降低到1080P或使用全屏进行游戏</p>
-<p>不管以何种方式运行游戏，<code>monitor=0</code> 都无需修改，请保持默认设置</p>
+<p>不管以何种方式运行游戏，<strong><code>monitor=0</code></strong> 都无需修改，请保持默认设置</p>
 </div>
 <h4 id="aime-aimeio"><code>[aime] / [aimeio]</code></h4>
 <div class="admonition tip">
-<p>如果你使用官方读卡器或支持官方协议的第三方读卡器，请将<code>enable</code>修改为<code>0</code>并正确配置读卡器端口号</p>
+<p>如果你使用官方读卡器或支持官方协议的第三方读卡器，请将<strong><code>enable</code></strong>修改为<strong><code>0</code></strong>并正确配置读卡器端口号</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">[aime]</span>
 </span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="na">enable</span><span class="o">=</span><span class="s">0</span>
 </span></code></pre></div>
-<p>如果你没有任何读卡器设备，请将<code>enable</code>修改为<code>1</code>以启动segatools模拟读卡器，Yubideck(大四台)修改为<code>1</code></p>
+<p>如果你没有任何读卡器设备，请将<strong><code>enable</code></strong>修改为<strong><code>1</code></strong>以启动segatools模拟读卡器，Yubideck(大四台)修改为<strong><code>1</code></strong></p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">[aime]</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="na">enable</span><span class="o">=</span><span class="s">1</span>
 </span></code></pre></div>
-<p>Yubideck(大四台)需要另外设置<code>[aimeio]</code>以启动手台上的读卡器,请将<code>;path=aimeio_yubideck.dll</code>前的分号<code>;</code>删除</p>
+<p>Yubideck(大四台)需要另外设置<strong><code>[aimeio]</code></strong>以启动手台上的读卡器,请将<strong><code>;path=aimeio_yubideck.dll</code></strong>前的分号<strong><code>;</code></strong>删除</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">[aimeio]</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="na">path</span><span class="o">=</span><span class="s">aimeio_yubideck.dll</span>
 </span></code></pre></div>
-<p>使用拥有自己专有io的第三方读卡器，需要将<code>;path=aimeio.dll</code>前的分号<code>;</code>删除，此处文件名请以读卡器作者提供的为准</p>
+<p>使用拥有自己专有io的第三方读卡器，需要将<strong><code>;path=aimeio.dll</code></strong>前的分号<strong><code>;</code></strong>删除，此处文件名请以读卡器作者提供的为准</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">[aimeio]</span>
 </span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="na">path</span><span class="o">=</span><span class="s">aimeio.dll</span>
 </span></code></pre></div>
 </div>
 <h4 id="led"><code>[led]</code></h4>
 <div class="admonition tip">
-<p>如需使用LED板（837-15093）则<code>enable</code>修改为<code>0</code>，正常情况不需要修改默认为<code>1</code>即可</p>
+<p>如需使用LED板（837-15093）则<strong><code>enable</code></strong>修改为<strong><code>0</code></strong>，正常情况不需要修改默认为<strong><code>1</code></strong>即可</p>
 </div>
 <h4 id="io3"><code>[io3]</code></h4>
 <div class="admonition tip">
-<p>io3中的选项负责映射<code>TEST</code>、<code>SERVICE</code>、<code>COIN</code>三个机台功能按键，默认为键盘字母上面的数字<code>1</code>、<code>2</code>、<code>3</code></p>
+<p>io3中的选项负责映射<strong><code>TEST</code></strong>、<strong><code>SERVICE</code></strong>、<strong><code>COIN</code></strong>三个机台功能按键，默认为键盘字母上面的数字<strong><code>1</code></strong>、<strong><code>2</code></strong>、<strong><code>3</code></strong></p>
 <p>如需修改按键键值请参考下面链接</p>
 <ul>
 <li><a href="https://blog.csdn.net/gao5528/article/details/5991495">16进制标准键盘码值表</a></li>
@@ -1568,25 +1628,25 @@
 <hr />
 <h3 id="io">配置控制器io</h3>
 <div class="admonition tip">
-<p>本文仅展示<code>TASOLLER</code>、<code>TASOLLER PLUS</code>、<code>Yubideck</code>的io配置方法，手台控制器的连接方法请查看[连接控制器]</p>
+<p>本文仅展示<strong><code>TASOLLER</code></strong>、<strong><code>TASOLLER PLUS</code></strong>、<strong><code>Yubideck</code></strong>的io配置方法，手台控制器的连接方法请查看左侧导航栏<strong><code>控制器</code></strong>部分</p>
 <ul>
-<li>本章节依旧需要在<code>segatools.ini</code>中进行配置</li>
+<li>本章节依旧需要在<strong><code>segatools.ini</code></strong>中进行配置</li>
 </ul>
 </div>
 <h4 id="tasoller-tasoller-plus">TASOLLER / TASOLLER PLUS</h4>
 <div class="admonition tip">
-<p>请在<code>[chuniio]</code>选项中将默认的<code>chuniio-mux.dll</code>注释掉，并按照下方设置在<code>path=chuniio-mux.dll</code>前加上分号<code>;</code></p>
+<p>请在<strong><code>[chuniio]</code></strong>选项中将默认的<strong><code>chuniio-mux.dll</code></strong>注释掉，并按照下方设置在<strong><code>path=chuniio-mux.dll</code></strong>前加上分号<strong><code>;</code></strong></p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="k">[chuniio]</span>
 </span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="c1">;path=chuniio-mux.dll</span>
 </span></code></pre></div>
 <ul>
-<li>使用(旧)TSOLLER请删除<code>;path=tasoller.dll</code>前的分号<code>;</code>取消注释状态</li>
+<li>使用(旧)TSOLLER请删除<strong><code>;path=tasoller.dll</code></strong>前的分号<strong><code>;</code></strong>取消注释状态</li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="k">[chuniio]</span>
 </span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="na">path</span><span class="o">=</span><span class="s">tasoller.dll</span>
 </span></code></pre></div>
 <ul>
-<li>使用TASOLLER PLUS请删除<code>;path=tasoller_plus.dll</code>前的分号<code>;</code>取消注释状态</li>
+<li>使用TASOLLER PLUS请删除<strong><code>;path=tasoller_plus.dll</code></strong>前的分号<strong><code>;</code></strong>取消注释状态</li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">[chuniio]</span>
 </span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="na">path</span><span class="o">=</span><span class="s">tasoller_plus.dll</span>
@@ -1594,17 +1654,17 @@
 </div>
 <h4 id="yubideck">Yubideck (大四控制器/舟台)</h4>
 <div class="admonition tip">
-<p>请在<code>[chuniio]</code>选项中将默认的<code>chuniio-mux.dll</code>注释掉，按照下方设置在<code>path=chuniio-mux.dll</code>前加上分号<code>;</code></p>
+<p>请在<strong><code>[chuniio]</code></strong>选项中将默认的<strong><code>chuniio-mux.dll</code></strong>注释掉，按照下方设置在<strong><code>path=chuniio-mux.dll</code></strong>前加上分号<strong><code>;</code></strong></p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">[chuniio]</span>
 </span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="c1">;path=chuniio-mux.dll</span>
 </span></code></pre></div>
 <ul>
-<li>使用Yubideck(大四台)请删除<code>;path=yubideck.dll</code>前的分号<code>;</code>取消注释状态</li>
+<li>使用Yubideck(大四台)请删除<strong><code>;path=yubideck.dll</code></strong>前的分号<strong><code>;</code></strong>取消注释状态</li>
 </ul>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">[chuniio]</span>
 </span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="na">path</span><span class="o">=</span><span class="s">yubideck.dll</span>
 </span></code></pre></div>
-<p><code>[zhousensor]</code>为Yubideck(大四台)专用设置，默认即可，如需设置请按照<code>segatools.ini</code>中的说明进行设置</p>
+<p><strong><code>[zhousensor]</code></strong>为<strong><code>Yubideck(大四台)</code></strong>专用设置，默认即可，如需设置请按照<strong><code>segatools.ini</code></strong>中的说明进行设置</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="k">[zhousensor]</span>
 </span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="c1">; YubiDeck Need this</span>
 </span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="c1">; You can set YubiDesk side light color here, the value is RGB, range is 0-255</span>
@@ -1632,17 +1692,17 @@
 <div class="admonition note">
 <p class="admonition-title">注意事项</p>
 <p>游戏大部分功能需要连接到网络服务器才可以正常使用以及登录用户，离线状态下仅可使用访客游玩游戏。</p>
-<p>游戏服务器分为<code>在线服</code>与<code>离线服</code>，请按自身情况选择对应服务器使用。</p>
+<p>游戏服务器分为<strong><code>在线服</code></strong>与<strong><code>离线服</code></strong>，请按自身情况选择对应服务器使用。</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">在线服务器 (Rin服)</p>
-<p>打开<code>segatools.ini</code>，在<code>[dns]</code>选项中设置<code>default</code>为您需要连接的服务器地址。</p>
+<p>打开<strong><code>segatools.ini</code></strong>，在<strong><code>[dns]</code></strong>选项中设置<strong><code>default</code></strong>为您需要连接的服务器地址。</p>
 <ul>
 <li>
-<p><strong>请不要将<code>http://</code>与<code>https://</code>添加到服务器地址中</strong></p>
+<p>请不要将<strong><code>http://</code></strong>与<strong><code>https://</code></strong>添加到服务器地址中</p>
 </li>
 <li>
-<p><strong>请不要填写<code>127.0.0.1</code>或<code>localhost</code>作为服务器地址</strong></p>
+<p>请不要将<strong><code>127.0.0.1</code></strong>或<strong><code>localhost</code></strong>作为服务器地址</p>
 </li>
 </ul>
 <p>Rin服dns：<strong>aqua.naominet.live</strong></p>
@@ -1651,12 +1711,12 @@
 </span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="na">default</span><span class="o">=</span><span class="s">aqua.naominet.live</span>
 </span></code></pre></div>
 <p>连接Rin服需要申请Keychip才可正常联网，如何注册请查看下面的文章。</p>
-<p>注册完<code>Keychip</code>后需要填写到<code>[keychip]</code>选项中</p>
+<p>注册完<strong><code>Keychip</code></strong>后需要填写到<strong><code>[keychip]</code></strong>选项中</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="k">[keychip]</span>
 </span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="na">id</span><span class="o">=</span><span class="s">AXXE-XXXXXXXXXXX</span>
 </span></code></pre></div>
 <ul>
-<li><code>Keychip(狗号)</code>均以<code>AXXE-XXXXXXXXXXX</code>格式填写，<code>X</code>为英数字</li>
+<li><strong><code>Keychip(狗号)</code></strong>均以<strong><code>AXXE-XXXXXXXXXXX</code></strong>格式填写，<strong><code>X</code></strong>为英数字</li>
 </ul>
 </div>
 <details class="warning">
@@ -1708,7 +1768,7 @@
 </details>
 <div class="admonition tip">
 <p class="admonition-title">离线服务器 (ARTEMiS与AquaDX)</p>
-<p>离线服务器都需要进行比较复杂的设置，详情请参阅<a href="https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md">ARTEMiS</a>与<a href="https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview">AquaDX</a>的官方指南来配置本地服务器。</p>
+<p>离线服务器都需要进行比较复杂的设置，详情请参阅<strong><a href="https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md">ARTEMiS</a></strong>与<strong><a href="https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview">AquaDX</a></strong>的官方指南来配置本地服务器。</p>
 </div>
 <h4 id="_6">全国对战</h4>
 <div class="admonition abstract">
@@ -1725,25 +1785,25 @@
 <div class="admonition tip">
 <ul>
 <li>
-<p>鼠标右键单击任务栏中的音量图标并选择<code>声音</code>选项</p>
+<p>鼠标右键单击任务栏中的音量图标并选择<strong><code>声音</code></strong>选项</p>
 </li>
 <li>
-<p>选择<code>高级</code>选项卡</p>
+<p>选择<strong><code>高级</code></strong>选项卡</p>
 </li>
 </ul>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0006.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0006.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0006.png"></a></p>
 <ul>
 <li>
-<p>在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择<code>高级</code>选项卡</p>
+<p>在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择<strong><code>高级</code></strong>选项卡</p>
 </li>
 <li>
-<p>选择<code>默认格式</code>中的下拉菜单，选择<code>24位，48000Hz（录音室音质）</code>选项</p>
+<p>选择<strong><code>默认格式</code></strong>中的下拉菜单，选择<strong><code>24位，48000Hz（录音室音质）</code></strong>选项</p>
 </li>
 <li>
-<p>勾选<code>独占模式</code>下的两个选项，点击<code>应用</code>后选择<code>确定</code></p>
+<p>勾选<strong><code>独占模式</code></strong>下的两个选项，点击<strong><code>应用</code></strong>后选择<strong><code>确定</code></strong></p>
 </li>
 </ul>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0007.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0007.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0007.png"></a></p>
 </div>
 <h4 id="openssl">修复 OpenSSL</h4>
 <div class="admonition danger">
@@ -1751,7 +1811,7 @@
 <p>此步骤仅为使用Intel Core 10th Gen（或以上版本）CPU的用户设置，如您的CPU不满足对应版本或是AMD CPU，则不需要设置！</p>
 </div>
 <div class="admonition tip">
-<p>如果你的PC所使用的CPU为Intel Core 10th Gen（或以上版本），请在<code>bin\start.bat</code>上单击右键选择<code>编辑</code>，将下方高亮处的代码添加到文件开头处并保存。</p>
+<p>如果你的PC所使用的CPU为Intel Core 10th Gen（或以上版本），请在<strong><code>bin\start.bat</code></strong>上单击右键选择<strong><code>编辑</code></strong>，将下方高亮处的代码添加到文件开头处并保存。</p>
 <div class="language-batch highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="p">@</span><span class="k">echo</span> off
 </span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>
 </span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="hll"><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>:~0x20000000
@@ -1762,8 +1822,8 @@
 </div>
 <h4 id="hdd_1">以管理员权限运行HDD</h4>
 <div class="admonition tip">
-<p>游戏需以管理员权限运行，你可以在<code>bin\start.bat</code>上单击鼠标右键选择<code>以管理员身份运行</code>启动游戏</p>
-<p>也可以将下方高亮处的代码添加到<code>bin\start.bat</code>的开头处，添加完成后保存并关闭文件</p>
+<p>游戏需以管理员权限运行，你可以在<strong><code>bin\start.bat</code></strong>上单击鼠标右键选择<strong><code>以管理员身份运行</code></strong>启动游戏</p>
+<p>也可以将下方高亮处的代码添加到<strong><code>bin\start.bat</code></strong>的开头处，添加完成后保存并关闭文件</p>
 <div class="language-batch highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="p">@</span><span class="k">echo</span> off
 </span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>
 </span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="hll"><span class="nv">%1</span> mshta vbscript:CreateObject(<span class="s2">&quot;Shell.Application&quot;</span>).ShellExecute(<span class="s2">&quot;cmd.exe&quot;</span>,<span class="s2">&quot;/c </span><span class="nv">%~s0</span><span class="s2"> ::&quot;</span>,<span class="s2">&quot;&quot;</span>,<span class="s2">&quot;runas&quot;</span>,1)(window.close)<span class="p">&amp;&amp;</span><span class="k">exit</span>
@@ -1774,24 +1834,24 @@
 </span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a>...
 </span></code></pre></div>
 <ul>
-<li>添加此代码后便可以鼠标左键双击<code>bin\start.bat</code>直接以管理员权限启动游戏了</li>
+<li>添加此代码后便可以鼠标左键双击<strong><code>bin\start.bat</code></strong>直接以管理员权限启动游戏了</li>
 </ul>
 </div>
 <h4 id="_8">加快游戏启动速度</h4>
 <div class="admonition tip">
-<p>将整个HDD文件夹添加到<code>Windows Defender</code>的<code>排除项</code>中可以加快游戏启动自检速度</p>
+<p>将整个HDD文件夹添加到<strong><code>Windows Defender</code></strong>的<strong><code>排除项</code></strong>中可以加快游戏启动自检速度</p>
 <ul>
 <li>
-<p>在任务栏<code>Windows 安全中心</code>（小盾牌图标）上点击鼠标左键呼出安全中心界面</p>
+<p>在任务栏<strong><code>Windows 安全中心</code></strong>（小盾牌图标）上点击鼠标左键呼出安全中心界面</p>
 </li>
 <li>
-<p>左侧导航栏选择<code>病毒和威胁防护</code>，在右侧点击<code>“病毒和威胁防护”设置</code>下的<code>管理设置</code>选项</p>
+<p>左侧导航栏选择<strong><code>病毒和威胁防护</code></strong>，在右侧点击<strong><code>“病毒和威胁防护”设置</code></strong>下的<strong><code>管理设置</code></strong>选项</p>
 </li>
 <li>
-<p>向下滚动找到<code>排除项</code>，点击<code>添加或删除排除项</code></p>
+<p>向下滚动找到<strong><code>排除项</code></strong>，点击<strong><code>添加或删除排除项</code></strong></p>
 </li>
 <li>
-<p>点击<code>添加排除项</code>将整个HDD文件夹加入后关闭安全中心即可</p>
+<p>点击<strong><code>添加排除项</code></strong>将整个HDD文件夹加入后关闭安全中心即可</p>
 </li>
 </ul>
 </div>
@@ -1801,11 +1861,11 @@
 </div>
 <div class="admonition tip">
 <p>如何建立Aime卡号：</p>
-<p>如果你没有20位纯数字Aime卡号，在第一次启动游戏时，可在游戏标题处长按<code>Enter</code>刷卡，游戏会自动生成卡号文件</p>
+<p>如果你没有20位纯数字Aime卡号，在第一次启动游戏时，可在游戏标题处长按<strong><code>Enter</code></strong>刷卡，游戏会自动生成卡号文件</p>
 <p>如果你拥有实体Aime卡片或其他游戏的虚拟Aime卡号，也可以自行建立卡号文件</p>
 <ul>
 <li>
-<p>在bin\DEVICE文件夹中建立名为<code>aime</code>的文本文档文件（aime.txt）</p>
+<p>在bin\DEVICE文件夹中建立名为<strong><code>aime</code></strong>的文本文档文件（aime.txt）</p>
 </li>
 <li>
 <p>打开此文件，填入你的卡号（20位纯数字），可以是你手中真实卡片背面的卡号（ASSCE CODE）</p>
@@ -1814,7 +1874,7 @@
 <p>如果自行编写，则卡号不能以3开头</p>
 </li>
 </ul>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0008.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0008.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0008.png"></a></p>
 </div>
 <div class="admonition danger">
 <p class="admonition-title">重要提示</p>
@@ -1825,20 +1885,20 @@
 <p>如果你完成了上述所有步骤，此处开始就可以启动HDD了</p>
 <ul>
 <li>
-<p>运行<code>bin\start.bat</code>来启动HDD</p>
+<p>运行<strong><code>bin\start.bat</code></strong>来启动HDD</p>
 </li>
 <li>
 <p>正常游戏会弹出3个窗口，分别为游戏主窗口、Log窗口、amdaemon窗口（inject）</p>
 </li>
 <li>
-<p>如果amdaemon窗口（inject）消失，请查看上面<code>修复 OpenSSL</code>部分的设置</p>
+<p>如果amdaemon窗口（inject）消失，请查看上面<strong><code>修复 OpenSSL</code></strong>部分的设置</p>
 </li>
 </ul>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">启动自检部分</p>
 <p>在自检中通过全部网络测试即可正常联网，如下图：</p>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0009.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0009.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0009.png"></a></p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">E-MONEY显示N/A为正常并不影响联网</p>
@@ -1847,56 +1907,56 @@
 <ul>
 <li>
 <p>在游戏自检进行到下图的时候，如果等候很久没有任何反应，则需要进入TEST菜单进行设置</p>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0010.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0010.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0010.png"></a></p>
 <ul>
 <li>
-<p>按下手台上对应TEST功能的按键，或<code>segatools.ini</code>中<code>[io3]</code>设置的对应按键，进入TEST菜单</p>
+<p>按下手台上对应TEST功能的按键，或<strong><code>segatools.ini</code></strong>中<strong><code>[io3]</code></strong>设置的对应按键，进入TEST菜单</p>
 </li>
 <li>
-<p>按下<code>SERVICE</code>按键选择菜单选项，按下<code>TEST</code>按键确定选项</p>
+<p>按下<strong><code>SERVICE</code></strong>按键选择菜单选项，按下<strong><code>TEST</code></strong>按键确定选项</p>
 </li>
 </ul>
 </li>
 <li>
-<p>选择<code>ゲーム設定</code></p>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0011.png"></p>
+<p>选择<strong><code>ゲーム設定</code></strong></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0011.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0011.png"></a></p>
 <ul>
 <li>
-<p>选择<code>グループ内基準機設定</code>，将右侧<code>基準機に従う</code>切换为<code>基準機</code></p>
+<p>选择<strong><code>グループ内基準機設定</code></strong>，将右侧<strong><code>基準機に従う</code></strong>切换为<strong><code>基準機</code></strong></p>
 </li>
 <li>
-<p>启动接关功能将<code>コンティニュー設定</code>由<code>OFF</code>切换为<code>ON</code></p>
+<p>启动接关功能将<strong><code>コンティニュー設定</code></strong>由<strong><code>OFF</code></strong>切换为<strong><code>ON</code></strong></p>
 </li>
 <li>
-<p>选择<code>終了</code>返回TEST主菜单</p>
+<p>选择<strong><code>終了</code></strong>返回TEST主菜单</p>
 </li>
 </ul>
 </li>
 <li>
-<p>接下来选择<code>閉店設定</code></p>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0012.png"></p>
+<p>接下来选择<strong><code>閉店設定</code></strong></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0012.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0012.png"></a></p>
 <ul>
-<li>将<code>スケジュール種別</code>与<code>時</code>分别设置为<code>每日</code>与<code>全時刻</code></li>
+<li>将<strong><code>スケジュール種別</code></strong>与<strong><code>時</code></strong>分别设置为<strong><code>每日</code></strong>与<strong><code>全時刻</code></strong></li>
 </ul>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0013.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0013.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0013.png"></a></p>
 <ul>
 <li>
-<p>选择<code>終了</code>返回TEST主菜单</p>
+<p>选择<strong><code>終了</code></strong>返回TEST主菜单</p>
 </li>
 <li>
-<p>选择TEST主菜单<code>終了</code>以继续</p>
+<p>选择TEST主菜单<strong><code>終了</code></strong>以继续</p>
 </li>
 </ul>
 </li>
 <li>
 <p>待到LED自检时，双手需要离开AIR识别区域并且不要触碰触摸板，等待自检完成即可自动进入游戏标题界面</p>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0014.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0014.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0014.png"></a></p>
 <ul>
 <li>
-<p>如果此处<code>LED制御ボード1·2</code>显示为<code>BAD</code>请不要紧张，这并不影响游戏正常运行，请按右下角提示<code>次へ</code>按下触摸板跳过即可</p>
+<p>如果此处<strong><code>LED制御ボード1·2</code></strong>显示为<strong><code>BAD</code></strong>请不要紧张，这并不影响游戏正常运行，请按右下角提示<strong><code>次へ</code></strong>按下触摸板跳过即可</p>
 </li>
 <li>
-<p><code>LED制御ボード1·2</code>显示为<code>BAD</code>请检查<code>segatool.ini</code>中<code>[led]</code>部分设置是否为<code>enable=1</code></p>
+<p><strong><code>LED制御ボード1·2</code></strong>显示为<strong><code>BAD</code></strong>请检查<strong><code>segatool.ini</code></strong>中<strong><code>[led]</code></strong>部分设置是否为<strong><code>enable=1</code></strong></p>
 </li>
 </ul>
 </li>
@@ -1906,39 +1966,39 @@
 <h3 id="_9">开始游戏</h3>
 <div class="admonition note">
 <p class="admonition-title">见到下图画面的话，那么恭喜你已经正常联网并且可以开始游戏了！</p>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0015.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0015.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0015.png"></a></p>
 </div>
 <div class="admonition tip">
 <ul>
 <li>
-<p>请检查右下角版本号是否为<code>Version 2.27</code>，如果不对请返回'安装ICF'部分检查ICF文件是否安装正确</p>
+<p>请检查右下角版本号是否为<strong><code>Version 2.27</code></strong>，如果不对请返回<strong>'安装ICF'</strong>部分检查ICF文件是否安装正确</p>
 </li>
 <li>
 <p>请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)</p>
 </li>
 </ul>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0016.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0016.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0016.png"></a></p>
 <ul>
 <li>
-<p>网络自检全为GOOD但此处网络显示黄色图标，请返回<strong><a href="#option">安装option</a></strong>部分检查是否安装正确的<code>option</code></p>
+<p>网络自检全为GOOD但此处网络显示黄色图标，请返回<strong><a href="#option">安装option</a></strong>部分检查是否安装正确的<strong><code>option</code></strong></p>
 </li>
 <li>
-<p>或尝试安装自制包<code>A999</code>到<code>option</code>中即可解决此问题</p>
+<p>或尝试安装自制包<strong><code>A999</code></strong>到<strong><code>option</code></strong>中即可解决此问题</p>
 </li>
 <li>
-<p>在标题界面长按<code>Enter</code>或在读卡器刷卡即可登录进行游戏，按数字<code>3</code>或手台对应按键进行投币</p>
+<p>在标题界面长按<strong><code>Enter</code></strong>或在读卡器刷卡即可登录进行游戏，按数字<strong><code>3</code></strong>或手台对应按键进行投币</p>
 </li>
 </ul>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">下图为游戏画面</p>
-<p><img width="600" src="../../../asset/img/chu_manual/chum0017.png"></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0017.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="600" src="../../../asset/img/chu_manual/chum0017.png"></a></p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">至此，你已经可以正常进行游戏了</p>
 <p>在游戏或配置过程中有疑问或问题，请带游戏或程序窗口或Log，ini设置等截图发送到对应群向群友或向其他玩家寻求帮助！</p>
-<p><img width="400" src="../../../asset/img/chu_manual/chum0018.png"></p>
-<p><a href="#">BACK TO TOP</a></p>
+<p><a class="glightbox" href="../../../asset/img/chu_manual/chum0018.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="400" src="../../../asset/img/chu_manual/chum0018.png"></a></p>
+<p><strong><a href="#">BACK TO TOP</a></strong></p>
 </div>
 <hr />
 
@@ -1991,11 +2051,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tooltips", "content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tooltips", "content.code.copy", "content.code.select", "content.code.annotate", "content.footnote.tooltips", "content.action.edit", "content.action.view"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

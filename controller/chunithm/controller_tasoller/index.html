@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../../games/chunithm/national_battle/">
+        <link rel="prev" href="../controller_tasollerplus/">
       
       
-        <link rel="next" href="../controller_tasollerplus/">
+        <link rel="next" href="../controller_yubideck/">
       
       
       <link rel="icon" href="../../../asset/img/common/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>(旧)TASOLLER - Performai Manual</title>
+        <title>TASOLLER - Performai Manual</title>
       
     
     
@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -113,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              (旧)TASOLLER
+              TASOLLER
             
           </span>
         </div>
@@ -139,7 +148,7 @@
     <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="pink"  aria-label="切换护眼模式"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="切换护眼模式" for="__palette_2" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128zm192 128c0-106-86-192-192-192H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192m-384 96a96 96 0 1 0 0-192 96 96 0 1 0 0 192"/></svg>
       </label>
     
   
@@ -149,7 +158,7 @@
     <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="deep-blue"  aria-label="跟随系统"  type="radio" name="__palette" id="__palette_2">
     
       <label class="md-header__button md-icon" title="跟随系统" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M192 64C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm192 96a96 96 0 1 1 0 192 96 96 0 1 1 0-192"/></svg>
       </label>
     
   
@@ -199,6 +208,18 @@
 </div>
     
     
+      <div class="md-header__source">
+        <a href="https://performai.evilleaker.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1v16.2c0 22.1-17.9 40-40 40h-16c-1.1 0-2.2 0-3.3-.1-1.4.1-2.8.1-4.2.1L416 512h-24c-22.1 0-40-17.9-40-40v-88c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v88c0 22.1-17.9 40-40 40h-55.9c-1.5 0-3-.1-4.5-.2-1.2.1-2.4.2-3.6.2h-16c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9.1-2.8v-69.7h-32c-18 0-32-14-32-32.1 0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7l255.4 224.5c8 7 12 15 11 24"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CHUNITHM Fanmade Site
+  </div>
+</a>
+      </div>
+    
   </nav>
   
 </header>
@@ -231,6 +252,18 @@
     </a>
     Performai Manual
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://performai.evilleaker.com/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1v16.2c0 22.1-17.9 40-40 40h-16c-1.1 0-2.2 0-3.3-.1-1.4.1-2.8.1-4.2.1L416 512h-24c-22.1 0-40-17.9-40-40v-88c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v88c0 22.1-17.9 40-40 40h-55.9c-1.5 0-3-.1-4.5-.2-1.2.1-2.4.2-3.6.2h-16c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9.1-2.8v-69.7h-32c-18 0-32-14-32-32.1 0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7l255.4 224.5c8 7 12 15 11 24"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CHUNITHM Fanmade Site
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -539,6 +572,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../controller_tasollerplus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TASOLLER PLUS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -555,7 +609,7 @@
           
   
   <span class="md-ellipsis">
-    (旧)TASOLLER
+    TASOLLER
   </span>
   
 
@@ -566,7 +620,7 @@
         
   
   <span class="md-ellipsis">
-    (旧)TASOLLER
+    TASOLLER
   </span>
   
 
@@ -590,11 +644,11 @@
         <li class="md-nav__item">
   <a href="#tasoller-" class="md-nav__link">
     <span class="md-ellipsis">
-      (旧) TASOLLER - 抬手乐
+      TASOLLER - 抬手乐
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="(旧) TASOLLER - 抬手乐">
+    <nav class="md-nav" aria-label="TASOLLER - 抬手乐">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -633,27 +687,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../controller_tasollerplus/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    TASOLLER PLUS
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -816,11 +849,11 @@
         <li class="md-nav__item">
   <a href="#tasoller-" class="md-nav__link">
     <span class="md-ellipsis">
-      (旧) TASOLLER - 抬手乐
+      TASOLLER - 抬手乐
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="(旧) TASOLLER - 抬手乐">
+    <nav class="md-nav" aria-label="TASOLLER - 抬手乐">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -872,18 +905,18 @@
 
 <h1 id="_1"></h1>
 <figure>
-<div align="center"> <img src="../../../asset/img/common/first_logo.png"/> </div>
+<div align="center"> <a class="glightbox" href="../../../asset/img/common/first_logo.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/common/first_logo.png"/></a> </div>
 </figure>
 <div class="admonition danger">
 <p class="admonition-title">本文仅展示部分手台的安装连接方法，其他操作方式请参照<strong><a href="../controller_other/">其他输入方式</a></strong></p>
 </div>
-<h2 id="tasoller-">(旧) TASOLLER - 抬手乐</h2>
-<div align="center"> <img src="../../../asset/img/controller/tsl/tasoller.png" width="400"/> </div>
+<h2 id="tasoller-">TASOLLER - 抬手乐</h2>
+<div align="center"> <a class="glightbox" href="../../../asset/img/controller/tsl/tasoller.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/controller/tsl/tasoller.png" width="400"/></a> </div>
 
 <h3 id="_2">手台安装与连接</h3>
 <details class="info">
 <summary>手台连接图</summary>
-<p><div align="center"> <img src="../../../asset/img/controller/tsl/connect_tsl.png" /> </div></p>
+<p><div align="center"> <a class="glightbox" href="../../../asset/img/controller/tsl/connect_tsl.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/controller/tsl/connect_tsl.png" /></a> </div></p>
 </details>
 <h3 id="_3">刷写手台固件</h3>
 <div class="admonition tip">
@@ -904,17 +937,17 @@
 <li>首先用附赠的USB线将手台<code>USB-C for POWER</code>接口与PC USB 3.0接口或充电宝手机充电器等供电设备连接为手台供电。</li>
 <li>运行<code>Update V1.1.exe</code></li>
 <li>按住<code>FN2</code>按键同时将USB线插入<code>USB-C for PC</code>
-<div align="center"> <img src="../../../asset/img/controller/tsl/firmware_1.jpg"/> </div></li>
+<div align="center"> <a class="glightbox" href="../../../asset/img/controller/tsl/firmware_1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/controller/tsl/firmware_1.jpg"/></a> </div></li>
 <li>听到USB连接提示声后点击软件上的<code>Connect</code>按钮后会显示<code>Connected</code></li>
 <li>点击<code>Open Files…</code>选择固件文件夹中的<code>HOST.bin</code>后点击<code>Update</code>,提示<code>Success</code>即为成功刷入</li>
 <li>点击<code>Disconnect</code>并拔掉<code>USB-C for PC</code>上的USB线</li>
 <li>按住<code>FN1</code>按键同时将USB线插入<code>USB-C for PC</code>
-<div align="center"> <img src="../../../asset/img/controller/tsl/firmware_2.jpg"/> </div></li>
+<div align="center"> <a class="glightbox" href="../../../asset/img/controller/tsl/firmware_2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/controller/tsl/firmware_2.jpg"/></a> </div></li>
 <li>听到USB连接提示声后点击软件上的<code>Connect</code>按钮后会显示<code>Connected</code></li>
 <li>点击<code>Open Files…</code>选择固件文件夹中的<code>LED.bin</code>后点击<code>Update</code>,提示<code>Success</code>即为成功刷入</li>
 <li>点击<code>Disconnect</code>并拔掉<code>USB-C for PC</code>上的USB线</li>
 <li>现在请把两根USB都插到手台上,听到USB连接提示声后手台触摸板会显示彩色代表手台已与PC连接成功
-<div align="center"> <img src="../../../asset/img/controller/tsl/firmware_3.jpg"/> </div></li>
+<div align="center"> <a class="glightbox" href="../../../asset/img/controller/tsl/firmware_3.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/controller/tsl/firmware_3.jpg"/></a> </div></li>
 </ul>
 </div>
 <details class="danger">
@@ -940,7 +973,7 @@
 <li>选择<code>WinUSB (v6.1.7600.16385)</code>后点击下方的<code>Install Driver</code>并等待安装完成</li>
 <li>安装完成后请到设备管理器的<code>通用串行总线设备</code>里查看是否有<code>I SAY NYA-O</code>这个设备并且是否提示叹号，如果有此设备并且没有提示叹号代表设备已完成所有设置并可以正常使用</li>
 <li>如果提示叹号请更换其他USB接口或重启电脑，建议插在主板后面的接口且不要使用USB HUB设备连接手台
-<div align="center"> <img src="../../../asset/img/controller/tsl/driver_1.png"/> </div></li>
+<div align="center"> <a class="glightbox" href="../../../asset/img/controller/tsl/driver_1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/controller/tsl/driver_1.png"/></a> </div></li>
 <li>在游戏中，手台<code>FN1</code>按键为<code>Service</code>，<code>FN2</code>按键为<code>TEST</code></li>
 <li>现在你已经成功连接了手台，可以继续查看<strong><a href="../../../games/chunithm/setup/">游戏安装教程</a></strong>并按照教程配置手台io</li>
 </ul>
@@ -997,11 +1030,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tooltips", "content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tooltips", "content.code.copy", "content.code.select", "content.code.annotate", "content.footnote.tooltips", "content.action.edit", "content.action.view"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
