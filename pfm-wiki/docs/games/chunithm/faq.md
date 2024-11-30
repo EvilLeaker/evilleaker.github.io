@@ -1,12 +1,7 @@
 comments: true
-# 
-<figure markdown>
-<div align="center"> <img src="../../../asset/img/common/chusan_logo.png" width = 250 height = 179 /> </div>
-</figure>
+# 常见问题
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
-
-## 常见问题
 
 !!! warning "ATTENTION"
 
