@@ -86,6 +86,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -435,6 +440,8 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
@@ -809,6 +816,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -823,20 +832,138 @@
                   
 
 
-  <h1>全国对战</h1>
+<h1 id="_1"></h1>
+<figure>
+<div align="center"> <a class="glightbox" href="../../../asset/img/ol_battle/ol_battle_00.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/ol_battle/ol_battle_00.png"/></a> </div>
+</figure>
+<div class="admonition info">
+<p class="admonition-title">本页可发表评论，如有问题、反馈、评价等，欢迎发表评论</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">ATTENTION</p>
+<p>全国对战功能目前rin Net支持，不排除随时可能会关闭的可能，具体情况请至相关群内了解，本文仅展示连接方法与基础玩法</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">准备工作</p>
+<p>请确保游戏已连接rin Net</p>
+<p>下载 <strong><a href="http://performai.evilleaker.com/manual/download/files/duolinguo.dll">duolinguo.dll</a></strong></p>
+<p>使用支持代码高亮的编辑器打开 <strong><code>bin\start.bat</code></strong>， 并将下面高亮处的代码替换到 <strong><code>bin\start.bat</code></strong> 中相同位置</p>
+<ul>
+<li>代码以 <strong><code>fufubot team</code></strong> 版segatools为准</li>
+</ul>
+<div class="language-batch highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">@</span><span class="k">echo</span> off
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>taskkill /f /im amdaemon.exe <span class="p">&gt;</span> nul <span class="mi">2</span><span class="p">&gt;&amp;</span><span class="mi">1</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="k">start</span> /min inject_x64.exe -d -k chusanamhook.dll amdaemon.exe -f -c config_common.json config_server.json config_client.json config_cvt.json config_sp.json config_hook.json
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="hll">inject_x86 -d -k chusanhook.dll -k duolinguo.dll chusanApp.exe
+</span></span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>taskkill /f /im amdaemon.exe <span class="p">&gt;</span> nul <span class="mi">2</span><span class="p">&gt;&amp;</span><span class="mi">1</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">echo</span>.
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="k">echo</span> Game processes have terminated
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="k">pause</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>...
+</span></code></pre></div>
+<ul>
+<li>修改后保存并关闭文件</li>
+</ul>
+<p>下载 <strong><a href="http://performai.evilleaker.com/manual/download/files/AUBC.zip">解锁选曲限制-AUBC</a></strong></p>
+<ul>
+<li>解压后放入 <strong><code>bin\option</code></strong> ，重启游戏即可</li>
+</ul>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">注意事项</p>
+<ul>
+<li>
+<p>需要 <strong><code>一机一狗</code></strong> ，即一个KeychipID不能在多台设备同时登录 <strong><code>全国对战</code></strong> 模式</p>
+</li>
+<li>
+<p>不要跳车，可能会被ban号</p>
+</li>
+<li>
+<p>游戏版本不能低于2.25（Luminous Plus），不然不能游玩 <strong><code>全国对战</code></strong> 模式</p>
+</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">关于全国对战</p>
+<p><div align="center"> <a class="glightbox" href="../../../asset/img/ol_battle/ol_battle_01.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/ol_battle/ol_battle_01.jpg"/></a> </div></p>
+<p><div align="center"> <a class="glightbox" href="../../../asset/img/ol_battle/ol_battle_02.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/ol_battle/ol_battle_02.jpg"/></a> </div></p>
+<p><div align="center"> <a class="glightbox" href="../../../asset/img/ol_battle/ol_battle_03.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../asset/img/ol_battle/ol_battle_03.jpg"/></a> </div></p>
+</div>
 
-<p>建设中...</p>
 
 
 
 
 
 
+  
+  
 
 
 
 
 
+
+  <h2 id="__comments">Comments</h2>
+  <!-- Insert generated snippet here -->
+	<script src="https://giscus.app/client.js"
+			data-repo="EvilLeaker/comment_system"
+			data-repo-id="R_kgDONWrfgg"
+			data-category="Announcements"
+			data-category-id="DIC_kwDONWrfgs4Cku31"
+			data-mapping="pathname"
+			data-strict="0"
+			data-reactions-enabled="1"
+			data-emit-metadata="0"
+			data-input-position="top"
+			data-theme="preferred_color_scheme"
+			data-lang="zh-CN"
+			crossorigin="anonymous"
+			async>
+	</script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
                 
               </article>
