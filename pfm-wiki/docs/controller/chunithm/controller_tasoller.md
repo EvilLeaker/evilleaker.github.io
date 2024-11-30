@@ -4,7 +4,7 @@ comments: true
 <div align="center"> <img src="../../../asset/img/common/first_logo.png"/> </div>
 </figure>
 
-!!! info "本页可发表评论"
+!!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 !!! danger "本文仅展示TASOLLER的安装连接方法，其他操作方式请参照**[其他输入方式](controller_other.md)**"
 !!! danger "TASOLLER手台目前DJDAO官方已停止生产与售卖"
 

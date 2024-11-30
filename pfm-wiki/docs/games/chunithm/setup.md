@@ -6,7 +6,7 @@ status: new
 <div align="center"> <img src="../../../asset/img/common/cabinet_1.png"/> </div>
 </figure>
 
-!!! info "本页可发表评论"
+!!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 !!! danger "本站不提供任何游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看。"
 
 !!! danger "重要提醒"
@@ -41,7 +41,7 @@ status: new
 
     rin Net
 
-    [:octicons-arrow-right-24: 前往服务器前端](https://portal.naominet.live/)
+    [:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
@@ -57,7 +57,7 @@ status: new
 
 !!! danger "ATTENTION"
 
-    如果您已在PC上游玩过CHUNITHM并且配置好了HDD，仅更换了手台，请参阅**[配置控制器io](#io)**部分
+    如果您已在PC上游玩过CHUNITHM并且配置好了HDD，仅更换了手台，请参阅 **[配置控制器io](#io)** 部分
 
     如果您从未在PC上游玩过HDD，请继续往下阅读教程。
 
@@ -73,9 +73,7 @@ status: new
 
 !!! tip ""
 
-    **[下载Runtime]**安装包
-
-    [下载Runtime]: https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg
+    下载 **[Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg)** 安装包
 
     解压后获得如下文件
 
@@ -103,13 +101,11 @@ status: new
 
 ??? note "使用7-Zip提取HDD"
 
-    **[下载7-Zip]**安装包
-
-    [下载7-Zip]: https://performai.evilleaker.com/manual/download/files/7-Zip.rar
+    下载 **[7-Zip](https://performai.evilleaker.com/manual/download/files/7-Zip.rar)** 安装包
 
     解压并安装7-Zip
 
-    解压ExFat7z.rar，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
+    解压 **`ExFat7z.rar`**，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
 
     配置好7-Zip后在**`SDHD_2.25.01_20240514122240_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
@@ -139,7 +135,7 @@ status: new
 
     - **`amdaemon.exe`** SHA-256：:material-information-outline:{ title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4" }
 
-    - 如exe的SHA-256与上述不符，请重新至下载链接中下载以免下载遭到篡改的exe文件
+    - 如exe的SHA-256与上述不符，请重新下载以免使用遭到篡改的exe文件
 
 !!! note "注意事项"
 
@@ -155,11 +151,11 @@ status: new
 
 !!! tip ""
 
-    解压**option(A001~A082).zip**
+    解压 **option(A001~A082).zip**
 
     *[option(A001~A082).zip]: 请至获得的下载链接中下载
 
-    将**`option`**文件夹复制到HDD文件夹下的**`bin`**文件夹中
+    将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
 
     - CHUNITHM官方option文件夹都以**`Axxx`**命名,**`x`**均为数字，如果你在其他地方下载到非下图所示的option文件夹则可能为玩家自制内容
 
@@ -185,9 +181,7 @@ status: new
 
 !!! tip ""
 
-    **[下载fufubot team版segatools]**并解压至任意文件夹
-
-    [下载fufubot team版segatools]: https://performai.evilleaker.com/manual/download/files/chusan-segatools_v1.0.3.2_by_fufubot_team.zip
+    下载 **[fufubot team版segatools](https://performai.evilleaker.com/manual/download/files/chusan-segatools_v1.0.3.2_by_fufubot_team.zip)** 并解压至任意文件夹
 
     解压后获得如下文件：
 
@@ -201,21 +195,21 @@ status: new
 
 !!! tip ""
 
-    由于segatools没有图形配置工具，因此您必须手动修改**segatools.ini**来进行配置，配置文件位于**`bin`**文件夹中
+    由于segatools没有图形配置工具，因此您必须手动修改 **segatools.ini** 来进行配置，配置文件位于**`bin`**文件夹中
 
     *[segatools.ini]:如果找不到此文件，请先看上面安装segatools章节
 
-    建议您使用支持语法高亮的文本编辑器(例如：Notepad++、VS Code、Sublime Text)来修改配置文件
+    建议您使用支持语法高亮的文本编辑器（例如：Notepad++、VS Code、Sublime Text）来修改配置文件
 
 !!! danger "注意事项"
 
-    请不要使用富文本编辑器(例如：Word、WPS、写字板)来修改配置文件，可能会让配置文件格式错误而导致游戏读取配置文件出错
+    请不要使用富文本编辑器（例如：Word、WPS、写字板）来修改配置文件，可能会让配置文件格式错误而导致游戏读取配置文件出错
 
 #### `[vfs]`
 
 !!! tip ""
 
-    如果您已按照上面**[安装ICF](#icf)**步骤配置对应文件夹，请将对应文件夹的路径填写到**`[vfs]`**对应的选项中
+    如果您已按照上面 **[安装ICF](#icf)** 步骤配置对应文件夹，请将对应文件夹的路径填写到**`[vfs]`**对应的选项中
 
     - **`amfs`**与**`appdata`**文件夹需要放置在任意磁盘分区的根目录，**`x`**代表任意盘符
 
@@ -223,7 +217,7 @@ status: new
     [vfs]
     amfs=x:/amfs
     option=option
-    appdata=x:/AppData
+    appdata=x:/appdata
     ```
 
 #### `[gpio]`
@@ -330,7 +324,7 @@ status: new
 
 !!! tip ""
 
-    如需使用LED板（837-15093）则**`enable`**修改为**`0`**，正常情况不需要修改默认为**`1`**即可
+    如需使用 LED板(837-15093) 则**`enable`**修改为**`0`**，正常情况不需要修改默认为**`1`**即可
 
 #### `[io3]`
 
@@ -348,7 +342,7 @@ status: new
 
 !!! warning "ATTENTION"
 
-    fufubot版segatools已集成**`TASOLLER PLUS io`**，如果仅更换手台，可以单独下载**[TASOLLER PLUS io](https://performai.evilleaker.com/manual/download/files/tasoller_plus.dll)**
+    fufubot版segatools已集成**`TASOLLER PLUS io`**，如果仅更换手台，可以单独下载 **[TASOLLER PLUS io](https://performai.evilleaker.com/manual/download/files/tasoller_plus.dll)**
 
 !!! tip ""
 
@@ -399,7 +393,7 @@ status: new
     path=yubideck.dll
     ```
 
-    **`[zhousensor]`**为**`Yubideck(大四台)`**专用设置，默认即可，如需设置请按照**`segatools.ini`**中的说明进行设置
+    **`[zhousensor]`** 为 **`Yubideck(大四台)`** 专用设置，默认即可，如需设置请按照 **`segatools.ini`** 中的说明进行设置
 
     ```ini
     [zhousensor]
@@ -506,7 +500,7 @@ status: new
 
     在此模式中可以随机匹配2~4位玩家进行即时对战或进行VS CPU的人机对战(不支持1 VS 3CPU)
 
-    如何连接全国对战，请参阅**[全国对战](national_battle.md)**
+    如何连接全国对战，请参阅 **[全国对战](national_battle.md)**
 
 ---
 
