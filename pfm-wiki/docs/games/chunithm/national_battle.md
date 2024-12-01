@@ -12,7 +12,9 @@ comments: true
 
 !!! tip "准备工作"
 
-    请确保游戏已连接rin Net
+    请确保游戏已连接 **`rin Net`**
+
+    游玩全国对战请参照教程安装最新版 **[fufubot segatools](https://performai.evilleaker.com/manual/games/chunithm/setup/#segatools)**
 
     下载 **[duolinguo.dll](http://performai.evilleaker.com/manual/download/files/duolinguo.dll)**
 

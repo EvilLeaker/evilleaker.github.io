@@ -187,7 +187,7 @@ comments: true
 
 !!! tip ""
 
-    下载 **[fufubot team版segatools](https://performai.evilleaker.com/manual/download/files/chusan_segatools_1_0_3_4_by_fufubot_team_release_by_evil_chinese.zip)** 并解压至任意文件夹
+    下载 **[fufubot segatools](https://performai.evilleaker.com/manual/download/files/chusan_segatools_1_0_3_4_by_fufubot_team_release_by_evil_chinese.zip)** 并解压至任意文件夹
 
     解压后获得如下文件：
 
