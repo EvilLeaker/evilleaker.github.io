@@ -97,6 +97,8 @@ nav:
               - "全国对战": "games/chunithm/national_battle.md"
               - "常见问题": "games/chunithm/faq.md"
               - "错误代码": "games/chunithm/errorcodes.md"
+          - "O.N.G.E.K.I":
+              - "安装使用教程": "games/ongeki/setup.md"
   - 控制器:
       - "SEGA":
           - "CHUNITHM":

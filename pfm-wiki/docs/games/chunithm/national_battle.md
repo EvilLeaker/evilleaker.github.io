@@ -16,35 +16,13 @@ comments: true
 
     下载 **[duolinguo.dll](http://performai.evilleaker.com/manual/download/files/duolinguo.dll)**
 
-    使用支持代码高亮的编辑器打开 **`bin\start.bat`**， 并将下面高亮处的代码替换到 **`bin\start.bat`** 中相同位置
-
-    - 代码以 **`fufubot team`** 版segatools为准
-
-    ```batch hl_lines="9"
-    @echo off
-    
-    pushd %~dp0
-    
-    taskkill /f /im amdaemon.exe > nul 2>&1
-    
-    start /min inject_x64.exe -d -k chusanamhook.dll amdaemon.exe -f -c config_common.json config_server.json config_client.json config_cvt.json config_sp.json config_hook.json
-    
-    inject_x86 -d -k chusanhook.dll -k duolinguo.dll chusanApp.exe
-    
-    taskkill /f /im amdaemon.exe > nul 2>&1
-    
-    echo.
-    echo Game processes have terminated
-    pause
-
-    ...
-    ```
-
-    - 修改后保存并关闭文件
+    - 将 **`duolinguo.dll`** 放入 **`bin`** 文件夹中替换同名文件
 
     下载 **[解锁选曲限制-AUBC](http://performai.evilleaker.com/manual/download/files/AUBC.zip)**
 
     - 解压后放入 **`bin\option`** ，重启游戏即可
+
+    安装后重启游戏即可游玩全国对战模式
 
 !!! danger "注意事项"
 

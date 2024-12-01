@@ -1,5 +1,4 @@
 comments: true
-status: new
 # 
 <figure markdown>
 <div align="center"> <img src="../../../asset/img/common/chusan_logo.png" width = 250 height = 179 /> </div>
@@ -115,16 +114,6 @@ status: new
 
     <img width="500" src="../../../asset/img/chu_manual/chum0003.png">
 
-#### 安装ICF
-
-!!! tip ""
-
-    解压**amfs_2.27.zip**
-
-    *[amfs_2.27.zip]: 请至获得的下载链接中下载
-
-    将**`amfs`**与**`appdata`**文件夹放置于任意磁盘的根目录，例如：**`x:\`**（x为任意盘符）
-
 #### 安装已解密的文件
 
 !!! tip ""
@@ -175,19 +164,46 @@ status: new
 
     - A071 - 现行版本以前两位作为更新月份，最后一位则为这个月份的第几个更新包，如最后一位是**`0`**，则固定为待机广告视频更新包
 
----
-
 ### 安装segatools
+
+??? note "fufubot segatools v1.0.3.4 更新内容"
+
+    修复内容：
+
+	- 修复了 lmn 开始的 VFS 问题。
+
+	- 在 start.bat 中新增以下功能：
+        * 挂载 duolinguo.dll 的逻辑；
+	    * 自动以管理员权限启动；
+	    * 修复 OpenSSL 问题。
+
+	- Hook功能 调整：强制设备窗口化时不再按系统 DPI 设置缩放游戏画面。
+
+    新增功能：
+
+    - 支持 TASOLLER PLUS
+
+    - 支持 Stavona IO：兼容 Stavona R 和其他基于 Stavona协议 的控制器
 
 !!! tip ""
 
-    下载 **[fufubot team版segatools](https://performai.evilleaker.com/manual/download/files/chusan-segatools_v1.0.3.2_by_fufubot_team.zip)** 并解压至任意文件夹
+    下载 **[fufubot team版segatools](https://performai.evilleaker.com/manual/download/files/chusan_segatools_1_0_3_4_by_fufubot_team_release_by_evil_chinese.zip)** 并解压至任意文件夹
 
     解压后获得如下文件：
 
     <img width="600" src="../../../asset/img/chu_manual/chum0005.png">
 
-    将上述文件全部复制到HDD中的**`bin`**文件夹下即可完成安装
+    将上述文件全部复制到HDD中的 **`bin`** 文件夹下即可完成安装
+
+### 安装ICF
+
+!!! tip ""
+
+    解压 **ICF_2.27.zip**
+
+    *[ICF_2.27.zip]: 请至获得的下载链接中下载
+
+    将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
 
 ---
 
@@ -211,13 +227,15 @@ status: new
 
     如果您已按照上面 **[安装ICF](#icf)** 步骤配置对应文件夹，请将对应文件夹的路径填写到**`[vfs]`**对应的选项中
 
-    - **`amfs`**与**`appdata`**文件夹需要放置在任意磁盘分区的根目录，**`x`**代表任意盘符
+    - 最新版 **`fufubot team版segatools`** 已修复 **`vfs`** 路径文件，无需配置到根目录了
+
+    - 安装好 **`segatools`** 后 **`vfs`** 路径保持默认即可
 
     ```ini
     [vfs]
-    amfs=x:/amfs
+    amfs=amfs
     option=option
-    appdata=x:/appdata
+    appdata=appdata
     ```
 
 #### `[gpio]`
@@ -340,10 +358,6 @@ status: new
 
 ### 配置控制器io
 
-!!! warning "ATTENTION"
-
-    fufubot版segatools已集成**`TASOLLER PLUS io`**，如果仅更换手台，可以单独下载 **[TASOLLER PLUS io](https://performai.evilleaker.com/manual/download/files/tasoller_plus.dll)**
-
 !!! tip ""
 
     本文仅展示**`TASOLLER`**、**`TASOLLER PLUS`**、**`Yubideck`**的io配置方法，手台控制器的连接方法请查看左侧导航栏**`控制器`**部分
@@ -354,21 +368,21 @@ status: new
 
 !!! tip ""
 
-    请在**`[chuniio]`**选项中将默认的**`chuniio-mux.dll`**注释掉，并按照下方设置在**`path=chuniio-mux.dll`**前加上分号**`;`**
+    请在 **`[chuniio]`** 部分中将默认的 **`chuniio-mux.dll`** 注释掉，并按照下方设置在 **`path=chuniio-mux.dll`** 前加上分号 **`;`**
 
     ```ini
     [chuniio]
     ;path=chuniio-mux.dll
     ```
 
-    - 使用(旧)TSOLLER请删除**`;path=tasoller.dll`**前的分号**`;`**取消注释状态
+    - 使用 **TASOLLER** 请删除 **`;path=tasoller.dll`** 前的分号 **`;`** 取消注释状态
 
     ```ini
     [chuniio]
     path=tasoller.dll
     ```
 
-    - 使用TASOLLER PLUS请删除**`;path=tasoller_plus.dll`**前的分号**`;`**取消注释状态
+    - 使用 **TASOLLER PLUS** 请删除 **`;path=tasoller_plus.dll`** 前的分号 **`;`** 取消注释状态
 
     ```ini
     [chuniio]
@@ -525,46 +539,6 @@ status: new
     - 勾选**`独占模式`**下的两个选项，点击**`应用`**后选择**`确定`**
 
     <img width="400" src="../../../asset/img/chu_manual/chum0007.png">
-
-#### 修复 OpenSSL
-
-!!! danger "注意事项"
-
-    此步骤仅为使用Intel Core 10th Gen（或以上版本）CPU的用户设置，如您的CPU不满足对应版本或是AMD CPU，则不需要设置！
-
-!!! tip ""
-
-    如果你的PC所使用的CPU为Intel Core 10th Gen（或以上版本），请在**`bin\start.bat`**上单击右键选择**`编辑`**，将下方高亮处的代码添加到文件开头处并保存。
-
-    ```batch hl_lines="3"
-    @echo off
-    
-    set OPENSSL_ia32cap=:~0x20000000
-
-    pushd %~dp0
-    ...
-    ```
-
-#### 以管理员权限运行HDD
-
-!!! tip ""
-
-    游戏需以管理员权限运行，你可以在**`bin\start.bat`**上单击鼠标右键选择**`以管理员身份运行`**启动游戏
-
-    也可以将下方高亮处的代码添加到**`bin\start.bat`**的开头处，添加完成后保存并关闭文件
-
-    ```batch hl_lines="3"
-    @echo off
-    
-    %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
-    
-    set OPENSSL_ia32cap=:~0x20000000
-
-    pushd %~dp0
-    ...
-    ```
-
-    - 添加此代码后便可以鼠标左键双击**`bin\start.bat`**直接以管理员权限启动游戏了
 
 #### 加快游戏启动速度
 
