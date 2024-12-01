@@ -414,13 +414,6 @@
     安装使用教程
   </span>
   
-    
-  
-  
-    <span class="md-status md-status--new"></span>
-  
-
-  
 
       </a>
     </li>
@@ -492,6 +485,70 @@
   
   <span class="md-ellipsis">
     错误代码
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_2" id="__nav_2_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    O.N.G.E.K.I
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            O.N.G.E.K.I
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ongeki/setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    安装使用教程
   </span>
   
 
@@ -847,35 +904,14 @@
 <p class="admonition-title">准备工作</p>
 <p>请确保游戏已连接rin Net</p>
 <p>下载 <strong><a href="http://performai.evilleaker.com/manual/download/files/duolinguo.dll">duolinguo.dll</a></strong></p>
-<p>使用支持代码高亮的编辑器打开 <strong><code>bin\start.bat</code></strong>， 并将下面高亮处的代码替换到 <strong><code>bin\start.bat</code></strong> 中相同位置</p>
 <ul>
-<li>代码以 <strong><code>fufubot team</code></strong> 版segatools为准</li>
-</ul>
-<div class="language-batch highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">@</span><span class="k">echo</span> off
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>taskkill /f /im amdaemon.exe <span class="p">&gt;</span> nul <span class="mi">2</span><span class="p">&gt;&amp;</span><span class="mi">1</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="k">start</span> /min inject_x64.exe -d -k chusanamhook.dll amdaemon.exe -f -c config_common.json config_server.json config_client.json config_cvt.json config_sp.json config_hook.json
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="hll">inject_x86 -d -k chusanhook.dll -k duolinguo.dll chusanApp.exe
-</span></span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>taskkill /f /im amdaemon.exe <span class="p">&gt;</span> nul <span class="mi">2</span><span class="p">&gt;&amp;</span><span class="mi">1</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">echo</span>.
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="k">echo</span> Game processes have terminated
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="k">pause</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>...
-</span></code></pre></div>
-<ul>
-<li>修改后保存并关闭文件</li>
+<li>将 <strong><code>duolinguo.dll</code></strong> 放入 <strong><code>bin</code></strong> 文件夹中替换同名文件</li>
 </ul>
 <p>下载 <strong><a href="http://performai.evilleaker.com/manual/download/files/AUBC.zip">解锁选曲限制-AUBC</a></strong></p>
 <ul>
 <li>解压后放入 <strong><code>bin\option</code></strong> ，重启游戏即可</li>
 </ul>
+<p>安装后重启游戏即可游玩全国对战模式</p>
 </div>
 <div class="admonition danger">
 <p class="admonition-title">注意事项</p>
