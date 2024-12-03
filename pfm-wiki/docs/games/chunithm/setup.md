@@ -84,7 +84,7 @@ comments: true
 
 #### 提取游戏文件
 
-!!! warning "HDD文件夹或路径不要有汉字和其他特殊字符，尽量使用半角英数字"
+!!! warning "HDD路径不要有：空格、中文、任何特殊符号等，请尽量使用半角英数字。"
 
 ??? note "使用Windows挂载虚拟磁盘方式提取HDD"
 
@@ -660,7 +660,7 @@ comments: true
 
     <img width="400" src="../../../asset/img/chu_manual/chum0016.png">
 
-    - 网络自检全为GOOD但此处网络显示黄色图标，请返回**[安装option](#option)**部分检查是否安装正确的**`option`**
+    - 网络自检全为GOOD但此处网络显示灰色图标，请返回**[安装option](#option)**部分检查是否安装正确的**`option`**
 
     - 或尝试安装自制包**`A999`**到**`option`**中即可解决此问题
 
