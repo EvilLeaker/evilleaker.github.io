@@ -76,7 +76,7 @@ comments: true
 
     解压后获得如下文件
 
-    <img width="500" src="../../../asset/img/chu_manual/chum0001.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0001.png" width = 500/> </div>
 
     运行**`DirectX.bat`**并按照窗口提示完成安装
 
@@ -108,11 +108,11 @@ comments: true
 
     配置好7-Zip后在**`SDHD_2.25.01_20240514122240_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
-    <img width="500" src="../../../asset/img/chu_manual/chum0002.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0002.png" width = 500/> </div>
 
     提取后获得如下文件：
 
-    <img width="500" src="../../../asset/img/chu_manual/chum0003.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0003.png" width = 500/> </div>
 
 #### 安装已解密的文件
 
@@ -150,7 +150,7 @@ comments: true
 
     - 正确的option路径应为**`bin\option`**，option文件夹中的内容应为下图所示：
 
-    <img width="500" src="../../../asset/img/chu_manual/chum0004.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0004.png" width = 500/> </div>
 
     - 如option路径为**`bin\option\option`**这样嵌套，则游戏不能正确读取option数据
 
@@ -191,7 +191,7 @@ comments: true
 
     解压后获得如下文件：
 
-    <img width="600" src="../../../asset/img/chu_manual/chum0005.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0005.png" width = 600/> </div>
 
     将上述文件全部复制到HDD中的 **`bin`** 文件夹下即可完成安装
 
@@ -366,6 +366,36 @@ comments: true
 
 #### TASOLLER / TASOLLER PLUS
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-question:{ .lg .middle } __我使用TASOLLER，且第一次游玩__
+
+    ---
+
+    请继续按教程配置
+
+-   :fontawesome-solid-question:{ .lg .middle } __我使用TASOLLER +，且第一次游玩__
+
+    ---
+
+    请继续按教程配置
+
+-   :fontawesome-solid-question:{ .lg .middle } __我从TASOLLER或其他设备更换到PLUS，已有玩过并已配置好HDD__
+
+    ---
+
+    下载 **[TASOLLER PLUS io](https://performai.evilleaker.com/manual/download/files/tasoller_plus.dll)**
+
+    按照下方配置 **`TASOLLER PLUS io`** 即可游玩
+
+-   :fontawesome-solid-question:{ .lg .middle } __其他问题__
+
+    ---
+
+    [:octicons-arrow-right-24: 请查看**TASOLLER PLUS 控制器说明**](https://performai.evilleaker.com/manual/controller/chunithm/controller_tasollerplus/)
+
+</div>
+
 !!! tip ""
 
     请在 **`[chuniio]`** 部分中将默认的 **`chuniio-mux.dll`** 注释掉，并按照下方设置在 **`path=chuniio-mux.dll`** 前加上分号 **`;`**
@@ -530,7 +560,7 @@ comments: true
 
     - 选择**`高级`**选项卡
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0006.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0006.png" width = 400/> </div>
 
     - 在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择**`高级`**选项卡
 
@@ -538,7 +568,7 @@ comments: true
 
     - 勾选**`独占模式`**下的两个选项，点击**`应用`**后选择**`确定`**
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0007.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0007.png" width = 400/> </div>
 
 #### 加快游戏启动速度
 
@@ -558,6 +588,8 @@ comments: true
 
 !!! note "游戏数据的保存需要你设置虚拟卡号文件，如果你有读卡器请直接刷卡"
 
+!!! warning "这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意"
+
 !!! tip ""
 
     如何建立Aime卡号：
@@ -572,17 +604,15 @@ comments: true
 
     - 如果自行编写，则卡号不能以3开头
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0008.png">
-
-!!! warning "重要提示"
-
-    这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0008.png" width = 400/> </div>
 
 #### 启动HDD
 
-!!! danger "ATTENTION"
+!!! warning "从本节开始，如遇到各种问题，请首先查阅 **[常见问题](faq.md)** 与 **[错误代码](errorcodes.md)** 来尝试解决问题！"
 
-    从此步骤开始，如遇到各种问题，请首先查阅 **[常见问题](faq.md)** 与 **[错误代码](errorcodes.md)** 来尝试解决问题！
+!!! danger "重要提示"
+
+    请不要运行HDD中的 **`game.bat`** ！！！
 
 !!! tip ""
 
@@ -598,7 +628,7 @@ comments: true
 
     在自检中通过全部网络测试即可正常联网，如下图：
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0009.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0009.png" width = 400/> </div>
 
 !!! warning "E-MONEY显示N/A为正常并不影响联网"
 
@@ -606,7 +636,7 @@ comments: true
 
     - 在游戏自检进行到下图的时候，如果等候很久没有任何反应，则需要进入TEST菜单进行设置
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0010.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0010.png" width = 400/> </div>
 
         * 按下手台上对应TEST功能的按键，或**`segatools.ini`**中**`[io3]`**设置的对应按键，进入TEST菜单
 
@@ -614,7 +644,7 @@ comments: true
 
     - 选择**`ゲーム設定`**
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0011.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0011.png" width = 400/> </div>
 
         * 选择**`グループ内基準機設定`**，将右侧**`基準機に従う`**切换为**`基準機`**
 
@@ -624,11 +654,11 @@ comments: true
 
     - 接下来选择**`閉店設定`**
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0012.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0012.png" width = 400/> </div>
 
         * 将**`スケジュール種別`**与**`時`**分别设置为**`每日`**与**`全時刻`**
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0013.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0013.png" width = 400/> </div>
 
         * 选择**`終了`**返回TEST主菜单
 
@@ -636,7 +666,7 @@ comments: true
 
     - 待到LED自检时，双手需要离开AIR识别区域并且不要触碰触摸板，等待自检完成即可自动进入游戏标题界面
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0014.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0014.png" width = 400/> </div>
 
         * 如果此处**`LED制御ボード1·2`**显示为**`BAD`**请不要紧张，这并不影响游戏正常运行，请按右下角提示**`次へ`**按下触摸板跳过即可
 
@@ -648,33 +678,33 @@ comments: true
 
 !!! note "见到下图画面的话，那么恭喜你已经正常联网并且可以开始游戏了！"
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0015.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0015.png"/> </div>
 
 !!! tip ""
 
     
 
-    - 请检查右下角版本号是否为**`Version 2.27`**，如果不对请返回**[安装ICF](#icf)**部分检查ICF文件是否安装正确
+    - 请检查右下角版本号是否为**`Version 2.27`**，如果不对请返回 **[安装ICF](#icf)** 部分检查ICF文件是否安装正确
 
     - 请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0016.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0016.png" width = 400/> </div>
 
-    - 网络自检全为GOOD但此处网络显示灰色图标，请返回**[安装option](#option)**部分检查是否安装正确的**`option`**
+    - 网络自检全为GOOD但此处网络显示灰色图标，请返回 **[安装option](#option)** 部分检查是否安装正确的 **`option`**
 
-    - 或尝试安装自制包**`A999`**到**`option`**中即可解决此问题
+    - 或尝试安装自制包 **`A999`** 到 **`option`** 中即可解决此问题
 
-    - 在标题界面长按**`Enter`**或在读卡器刷卡即可登录进行游戏，按数字**`3`**或手台对应按键进行投币
+    - 在标题界面长按 **`Enter`** 或在读卡器刷卡即可登录进行游戏，按数字 **`3`** 或手台对应按键进行投币
 
 !!! tip "下图为游戏画面"
 
-    <img width="600" src="../../../asset/img/chu_manual/chum0017.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0017.png"> </div>
 
 !!! note "至此，你已经可以正常进行游戏了"
 
     在游戏或配置过程中有疑问或问题，请带游戏或程序窗口或Log，ini设置等截图发送到对应群向群友或向其他玩家寻求帮助！
 
-    <img width="400" src="../../../asset/img/chu_manual/chum0018.png">
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0018.png" width = 400/> </div>
 
 ---
 
