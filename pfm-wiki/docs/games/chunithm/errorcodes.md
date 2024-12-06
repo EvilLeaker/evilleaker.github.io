@@ -29,6 +29,8 @@ comments: true
 
 #### 4105
 
+!!! warning "以下路径仅适用于 **`fufubot segatools v1.0.3.2`** 版本"
+
 !!! tip "予期せぬ内部エラーが発生しました"
 
     尝试检查 **`segatools.ini`** 中的 **`[vfs]`** 部分 **`amfs`** 与 **`appdata`** 的路径是否有问题
@@ -37,7 +39,7 @@ comments: true
 
     ```ini
     [vfs]
-    amfs=x:/amfs
+    amfs=x:\amfs
     option=option
-    appdata=x:/appdata
+    appdata=x:\appdata
     ```
