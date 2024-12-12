@@ -81,10 +81,6 @@ comments: true
 
     <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_07.png"/> </div>
 
-### 刷写手台固件
-
-!!! tip "目前出厂的手台即为最新固件，暂不用更新"
-
 ### TASOLLER option 软件
 
 !!! tip ""
@@ -125,9 +121,43 @@ comments: true
 
     - 接近华立国框手感（60Hz）建议调整为：**`33~35`**
 
+    以上推荐值为出厂固件用，有固件升级后会更新推荐值
+
+    ---
+
     使用**`高级：设置单个Region阈值`**还可以更详细的调整单独按键的灵敏度，您也可以按照自己的手感任意调节以上设置
 
-!!! info "设置完手台就可以继续阅览**[游戏安装教程](../../games/chunithm/setup.md)**"
+### 更新固件
+
+!!! tip ""
+
+    按照上述操作将手台连接到PC，打开TASOLLER Option软件
+
+    - 点击软件右下角 **`固件`** 中的 **`打开`**
+
+    - 选择固件文件，一般是以 **`.cyacd2`** 为后缀名的文件
+
+    - 点击升级，等待进度条走完即可完成固件升级
+
+### 常见问题
+
+!!! tip ""
+
+    如使用中有粘键，异常触发，静电干扰等现象，可连按两下 **`FN2`** 按键来重置手台按键
+
+### 固件下载
+
+??? info "固件列表 (稳定版)"
+
+    暂无
+
+??? info "固件列表 (测试版)"
+
+    **[测试固件 2024-12-11](https://performai.evilleaker.com/manual/download/firmware/tslp/beta/tasoller_plus_touch_241211_beta.cyacd2)**
+
+    - 修复Flick和蹭的问题，建议4-1、4-2、4-3、4-4阈值为70，整体阈值0~20，使用中如有问题可在群里反馈或在此页发布评论
+
+!!! warning "设置完手台就可以继续阅览**[游戏安装教程](../../games/chunithm/setup.md)**"
 
 ---
 

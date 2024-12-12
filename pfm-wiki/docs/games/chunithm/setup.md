@@ -166,6 +166,12 @@ comments: true
 
 ### 安装segatools
 
+??? danger "如使用 fufubot segatools v1.0.3.4 出现 **`Aime BAD`** 问题，可点击此处查看解决方法"
+
+    - 请检查 **`设备管理器`** 中的 **`端口 (COM和LPT)`** 下是否有设备占用COM4端口
+
+    - 如有占用COM4端口，请将此设备切换到其他COM端口使COM4为未占用状态即可
+
 ??? note "fufubot segatools v1.0.3.4 更新内容"
 
     修复内容：
