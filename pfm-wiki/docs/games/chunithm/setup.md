@@ -32,7 +32,7 @@ comments: true
 
     ---
 
-    A001~A082
+    A001~A092
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -558,6 +558,20 @@ comments: true
 
 !!! tip "根据上面的步骤，现在你已经具备运行HDD的基本环境了，下面将进行一些运行前的最后设置"
 
+#### 修复 OpenSSL
+
+!!! tip ""
+
+    如果您的CPU是Intel Core 10th Gen或以上版本，请右键单击 **`bin\start.bat`** 选择 **`编辑`**，将下面高亮处代码添加至文件开头并保存
+
+    ```batch hl_lines="2"
+    @echo off
+    set OPENSSL_ia32cap=:~0x20000000
+
+    pushd %~dp0
+    ...
+    ```
+
 #### 共享音频设置
 
 !!! tip ""
@@ -628,7 +642,7 @@ comments: true
 
     - 正常游戏会弹出3个窗口，分别为游戏主窗口、Log窗口、amdaemon窗口（inject）
 
-    - 如果amdaemon窗口（inject）消失，请查看上面**`修复 OpenSSL`**部分的设置
+    - 如果amdaemon窗口（inject）消失，请查看上面 **[修复 OpenSSL](#openssl)** 部分的设置
 
 !!! tip "启动自检部分"
 

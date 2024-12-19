@@ -155,7 +155,7 @@ comments: true
 
     **[测试固件 2024-12-11](https://performai.evilleaker.com/manual/download/firmware/tslp/beta/tasoller_plus_touch_241211_beta.cyacd2)**
 
-    - 修复Flick和蹭的问题，建议4-1、4-2、4-3、4-4阈值为70，整体阈值0~20，使用中如有问题可在群里反馈或在此页发布评论
+    - 修复Flick和蹭的问题，建议4-1、4-2、4-3、4-4阈值为85-90，延迟为11，使用中如有问题可在群里反馈或在此页发布评论
 
 !!! warning "设置完手台就可以继续阅览**[游戏安装教程](../../games/chunithm/setup.md)**"
 

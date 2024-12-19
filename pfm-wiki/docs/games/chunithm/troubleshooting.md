@@ -1,0 +1,26 @@
+comments: true
+# 故障排除
+<figure markdown>
+<div align="center"> <img src="../../../asset/img/common/chusan_logo.png" width = 250 height = 179 /> </div>
+</figure>
+
+!!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
+
+!!! danger "请确保从正确的来源下载资源，本指南无法解决与数据损坏或非正常数据的任何问题"
+
+### 游戏在启动时崩溃了
+
+!!! tip ""
+
+    此情况可能由多种原因造成，其中比较常见的是：
+
+    - **`amdaemon`** 在后台崩溃
+        * 请确保 **`config_*.json`** 文件内设置无误(通常不需要修改)
+
+---
+
+
+
+---
+
+**[BACK TO TOP](# )**
