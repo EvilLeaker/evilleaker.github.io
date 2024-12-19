@@ -658,6 +658,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#openssl" class="md-nav__link">
+    <span class="md-ellipsis">
+      修复 OpenSSL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       共享音频设置
@@ -770,6 +779,27 @@
   
   <span class="md-ellipsis">
     错误代码
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    故障排除
   </span>
   
 
@@ -1373,6 +1403,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#openssl" class="md-nav__link">
+    <span class="md-ellipsis">
+      修复 OpenSSL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       共享音频设置
@@ -1466,7 +1505,7 @@
 <li>
 <p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 28.7 28.7 0 64 0h160v128c0 17.7 14.3 32 32 32h128v38.6c-73.9 20.9-128 88.8-128 169.4 0 59.1 29.1 111.3 73.7 143.3-3.2.5-6.4.7-9.7.7H64c-35.3 0-64-28.7-64-64zm384 64H256V0zm48 96a144 144 0 1 1 0 288 144 144 0 1 1 0-288m16 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v48h-48c-8.8 0-16 7.2-16 16s7.2 16 16 16h48v48c0 8.8 7.2 16 16 16s16-7.2 16-16v-48h48c8.8 0 16-7.2 16-16s-7.2-16-16-16h-48z"/></svg></span> <strong>Option数据包</strong></p>
 <hr />
-<p>A001~A082</p>
+<p>A001~A092</p>
 </li>
 <li>
 <p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48m48 24a24 24 0 1 1 48 0 24 24 0 1 1-48 0M64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64v-64c0-35.3-28.7-64-64-64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48m56 24a24 24 0 1 1 48 0 24 24 0 1 1-48 0"/></svg></span> <strong>网络服务</strong></p>
@@ -1946,6 +1985,16 @@
 <div class="admonition tip">
 <p class="admonition-title">根据上面的步骤，现在你已经具备运行HDD的基本环境了，下面将进行一些运行前的最后设置</p>
 </div>
+<h4 id="openssl">修复 OpenSSL</h4>
+<div class="admonition tip">
+<p>如果您的CPU是Intel Core 10th Gen或以上版本，请右键单击 <strong><code>bin\start.bat</code></strong> 选择 <strong><code>编辑</code></strong>，将下面高亮处代码添加至文件开头并保存</p>
+<div class="language-batch highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="p">@</span><span class="k">echo</span> off
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="hll"><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>:~0x20000000
+</span></span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
+</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>...
+</span></code></pre></div>
+</div>
 <h4 id="_7">共享音频设置</h4>
 <div class="admonition tip">
 <ul>
@@ -2030,7 +2079,7 @@
 <p>正常游戏会弹出3个窗口，分别为游戏主窗口、Log窗口、amdaemon窗口（inject）</p>
 </li>
 <li>
-<p>如果amdaemon窗口（inject）消失，请查看上面<strong><code>修复 OpenSSL</code></strong>部分的设置</p>
+<p>如果amdaemon窗口（inject）消失，请查看上面 <strong><a href="#openssl">修复 OpenSSL</a></strong> 部分的设置</p>
 </li>
 </ul>
 </div>
