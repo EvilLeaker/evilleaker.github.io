@@ -1,8 +1,5 @@
 comments: true
 # 故障排除
-<figure markdown>
-<div align="center"> <img src="../../../asset/img/common/chusan_logo.png" width = 250 height = 179 /> </div>
-</figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 
@@ -16,6 +13,8 @@ comments: true
 
     - **`amdaemon`** 在后台崩溃
         * 请确保 **`config_*.json`** 文件内设置无误(通常不需要修改)
+        * 是否正确安装ICF文件
+        * 尝试 **[修复 OpenSSL]()**
 
 ---
 

@@ -6,13 +6,13 @@ comments: true
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 
-!!! warning "ATTENTION"
+!!! warning "注意事项"
 
-    全国对战功能目前rin Net支持，不排除随时可能会关闭的可能，具体情况请至相关群内了解，本文仅展示连接方法与基础玩法
+    目前rin Net支持全国对战功能，但不排除随时可能会出现故障或停止支持的可能，具体情况请至相关群内了解，本文仅展示连接方法与基础玩法
 
 !!! tip "准备工作"
 
-    请确保游戏已连接 **`rin Net`**
+    请确保游戏已连接 **`rin Net`** 或其他支持全国对战的在线服
 
     游玩全国对战请参照教程安装最新版 **[fufubot segatools](https://performai.evilleaker.com/manual/games/chunithm/setup/#segatools)**
 

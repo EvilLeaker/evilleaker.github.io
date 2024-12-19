@@ -32,7 +32,7 @@ comments: true
 
     ---
 
-    A001~A101
+    A001~A112 (Luminous Plus Final)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -46,7 +46,7 @@ comments: true
 
     ---
 
-    2024/12/19 (Thu)
+    2024/12/20 (Thu)
 
 </div>
 
@@ -54,7 +54,7 @@ comments: true
 
 ### 游玩前的准备以及注意事项
 
-!!! danger "ATTENTION"
+!!! danger "注意事项"
 
     如果您已在PC上游玩过CHUNITHM并且配置好了HDD，仅更换了手台，请参阅 **[配置控制器io](#io)** 部分
 
@@ -140,9 +140,9 @@ comments: true
 
 !!! tip ""
 
-    解压 **option(A001~A082).zip**
+    解压 **option(A001~A112).zip**
 
-    *[option(A001~A082).zip]: 请至获得的下载链接中下载
+    *[option(A001~A112).zip]: 请至获得的下载链接中下载
 
     将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
 
@@ -560,6 +560,8 @@ comments: true
 
 #### 修复 OpenSSL
 
+!!! warning "**`fufubot segatools v1.0.3.4`**无需设置此项"
+
 !!! tip ""
 
     如果您的CPU是Intel Core 10th Gen或以上版本，请右键单击 **`bin\start.bat`** 选择 **`编辑`**，将下面高亮处代码添加至文件开头并保存
@@ -630,9 +632,7 @@ comments: true
 
 !!! warning "从本节开始，如遇到各种问题，请首先查阅 **[常见问题](faq.md)** 与 **[错误代码](errorcodes.md)** 来尝试解决问题！"
 
-!!! danger "重要提示"
-
-    请不要运行HDD中的 **`game.bat`** ！！！
+!!! danger "请不要运行HDD中的 **`game.bat`** ！！！"
 
 !!! tip ""
 
