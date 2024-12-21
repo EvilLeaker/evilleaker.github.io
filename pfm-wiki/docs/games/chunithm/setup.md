@@ -6,7 +6,6 @@ comments: true
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
-!!! danger "本站不提供任何游戏本体相关的公开下载链接，如需获取游戏下载，请至相关群内查看。"
 
 !!! danger "重要提醒"
 
@@ -28,6 +27,8 @@ comments: true
 
     Version 2.27.00
 
+    **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sdhd.html)**
+
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
     ---
@@ -40,7 +41,7 @@ comments: true
 
     rin Net
 
-    [:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)
+    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
@@ -64,7 +65,7 @@ comments: true
 
 !!! tip ""
 
-    首先请至下载链接中下载如下文件
+    首先下载如下文件
 
     <img width="700" src="../../../asset/img/chu_manual/chum0000.png">
 
@@ -596,7 +597,11 @@ comments: true
 
 !!! tip ""
 
-    将整个HDD文件夹添加到**`Windows Defender`**的**`排除项`**中可以加快游戏启动自检速度
+    <div align="center"> <img src="../../../asset/img/chu_manual/chum0019.png"/> </div>
+
+    如果启动游戏后在上图处等待很久，您可以将整个HDD文件夹添加到**`Windows Defender`**的**`排除项`**中可以加快游戏启动自检速度
+
+    CHUNITHM 文件夹中包含有数千个xml文件，**Windows Defender** 需要很长时间才能扫描完这些文件
 
     - 在任务栏**`Windows 安全中心`**（小盾牌图标）上点击鼠标左键呼出安全中心界面
 
@@ -616,9 +621,9 @@ comments: true
 
     如何建立Aime卡号：
 
-    如果你没有20位纯数字Aime卡号，在第一次启动游戏时，可在游戏标题处长按**`Enter`**刷卡，游戏会自动生成卡号文件
+    在第一次启动游戏时，可在游戏标题处长按**`Enter`**刷卡，游戏会自动生成卡号文件
 
-    如果你拥有实体Aime卡片或其他游戏的虚拟Aime卡号，也可以自行建立卡号文件
+    如果你拥有20位Aime卡号，也可以自行建立卡号文件
 
     - 在bin\DEVICE文件夹中建立名为**`aime`**的文本文档文件（aime.txt）
 
@@ -630,7 +635,7 @@ comments: true
 
 #### 启动HDD
 
-!!! warning "从本节开始，如遇到各种问题，请首先查阅 **[常见问题](faq.md)** 与 **[错误代码](errorcodes.md)** 来尝试解决问题！"
+!!! warning "从本节开始，如遇到各种问题，请首先查阅 **[常见问题](faq.md)** 、 **[错误代码](errorcodes.md) 与 [排除故障](troubleshooting.md)** 来尝试解决问题！"
 
 !!! danger "请不要运行HDD中的 **`game.bat`** ！！！"
 

@@ -34,7 +34,7 @@ comments: true
 
         * 选择**`高级`**选项卡
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0006.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0006.png"/> </div>
 
         * 在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择**`高级`**选项卡
 
@@ -42,9 +42,9 @@ comments: true
 
         * 勾选**`独占模式`**下的两个选项，点击**`应用`**后选择**`确定`**
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0007.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0007.png"/> </div>
 
-### 3. 网络测试全GOOD，标题界面网络图标为灰色
+### 3. 网络测试全GOOD，标题界面右下角网络图标为灰色
 
 !!! tip ""
 
@@ -52,7 +52,36 @@ comments: true
 
         * 检查是否安装 **`A001`**，如果解决不了请安装 **`A999`** 解决此问题
 
-        * 不想安装 **`A999`** 请自行手动解锁 **`A001\event\event00000017`** 活动来解决此问题
+        * 不想安装 **`A999`** 请自行手动解锁 **`A001\event\event00000017`** 活动来解决此问题：
+
+            * 在 **`A001\event\event00000017\Event.xml`** 上单击右键选择 **编辑**
+            * 将下方代码高亮处的 **false** 修改为 **true**
+            * 保存并关闭文件，重启游戏
+
+            ```xml hl_lines="19"
+              <dataName>event00000017</dataName>
+              <netOpenName>
+                <id>2501</id>
+                <str>v2_25 00_1</str>
+                <data />
+              </netOpenName>
+              <name>
+                <id>17</id>
+                <str>【Ver2.25】オンラインフラグ</str>
+                <data />
+              </name>
+              <text />
+              <ddsBannerName>
+                <id>-1</id>
+                <str>Invalid</str>
+                <data />
+              </ddsBannerName>
+              <periodDispType>1</periodDispType>
+              <alwaysOpen>false</alwaysOpen>
+              <teamOnly>false</teamOnly>
+              <isKop>false</isKop>
+              <priority>0</priority>
+            ```
 
 ### 4. 配信中 / 設定同期中 / 配信サーバーチェック中 卡很久
 
@@ -60,7 +89,7 @@ comments: true
 
     - 局域网中只有一台机器的情况下，请将本机设置为配信服务器（gpio下的dipsw1设置）和基准机（TEST界面）
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0010.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0010.png"/> </div>
 
         * 按下手台上对应TEST功能的按键，或**`segatools.ini`**中**`[io3]`**设置的对应按键，进入TEST菜单
 
@@ -68,7 +97,7 @@ comments: true
 
     - 选择**`ゲーム設定`**
 
-        <img width="400" src="../../../asset/img/chu_manual/chum0011.png">
+        <div align="center"> <img src="../../../asset/img/chu_manual/chum0011.png"/> </div>
 
         * 选择**`グループ内基準機設定`**，将右侧**`基準機に従う`**切换为**`基準機`**
 
@@ -100,7 +129,7 @@ comments: true
 
     - **`amdaemon.exe`** 报错，出现此错误代码，请尝试安装 **[Runtime运行库](../../games/chunithm/setup.md#runtime-windows)**
 
-    <img width="400" src="../../../asset/img/faq/faq_00.jpg">
+    <div align="center"> <img src="../../../asset/img/faq/faq_00.jpg"/> </div>
 
 ### 9. UAC闪退
 
@@ -113,6 +142,8 @@ comments: true
 !!! tip ""
 
     游戏数据与用户存档数据版本不符，请安装正确版本的HDD本体或option
+
+    <div align="center"> <img src="../../../asset/img/faq/faq_01.jpg"/> </div>
 
 ---
 

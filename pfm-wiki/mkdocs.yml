@@ -1,7 +1,7 @@
 site_name: Performai Manual
 copyright: Evil Leaker
 repo_url: https://performai.evilleaker.com/
-repo_name: CHUNITHM Fanmade Site
+repo_name: Evil Leaker HOME
 
 theme:
   name: material
@@ -96,8 +96,8 @@ nav:
               - "安装使用教程": "games/chunithm/setup.md"
               - "全国对战": "games/chunithm/national_battle.md"
               - "常见问题": "games/chunithm/faq.md"
-              - "错误代码": "games/chunithm/errorcodes.md"
               - "故障排除": "games/chunithm/troubleshooting.md"
+              - "错误代码": "games/chunithm/errorcodes.md"
           - "O.N.G.E.K.I":
               - "安装使用教程": "games/ongeki/setup.md"
   - 控制器:
