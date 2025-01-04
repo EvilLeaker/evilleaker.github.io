@@ -92,20 +92,22 @@ nav:
   - 首页: index.md
   - 游戏:
       - "SEGA":
-          - "CHUNITHM":
+          - "CHUNITHM (SDHD)":
               - "安装使用教程": "games/chunithm/setup.md"
               - "全国对战": "games/chunithm/national_battle.md"
               - "常见问题": "games/chunithm/faq.md"
               - "故障排除": "games/chunithm/troubleshooting.md"
               - "错误代码": "games/chunithm/errorcodes.md"
+          - "CHUNITHM (SDBT)":
+              - "安装使用教程": "games/chunithm_old/setup.md"
           - "O.N.G.E.K.I":
               - "安装使用教程": "games/ongeki/setup.md"
   - 控制器:
       - "SEGA":
           - "CHUNITHM":
-              - "TASOLLER PLUS": "controller/chunithm/controller_tasollerplus.md"
-              - "TASOLLER": "controller/chunithm/controller_tasoller.md"
-              - "Yubideck": "controller/chunithm/controller_yubideck.md"
-              - "其他输入方式": "controller/chunithm/controller_other.md"
+              - "TASOLLER PLUS": "controller/chuni/tasollerplus.md"
+              - "TASOLLER": "controller/chuni/tasoller.md"
+              - "Yubideck": "controller/chuni/yubideck.md"
+              - "其他输入方式": "controller/chuni/other.md"
   - 其他:
       - "键值表": "other/key.md"

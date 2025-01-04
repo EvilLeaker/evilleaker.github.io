@@ -379,13 +379,17 @@ comments: true
 
     ---
 
-    请继续按教程配置
+    请先阅读手台教程并续按教程配置
+
+    [:octicons-arrow-right-24: 查看**TASOLLER 控制器说明**](https://performai.evilleaker.com/manual/controller/chuni/tasoller/)
 
 -   :fontawesome-solid-question:{ .lg .middle } __我使用TASOLLER +，且第一次游玩__
 
     ---
 
-    请继续按教程配置
+    请先阅读手台教程并续按教程配置
+
+    [:octicons-arrow-right-24: 查看**TASOLLER PLUS 控制器说明**](https://performai.evilleaker.com/manual/controller/chuni/tasollerplus/)
 
 -   :fontawesome-solid-question:{ .lg .middle } __我从TASOLLER或其他设备更换到PLUS，已有玩过并已配置好HDD__
 
@@ -399,7 +403,7 @@ comments: true
 
     ---
 
-    [:octicons-arrow-right-24: 请查看**TASOLLER PLUS 控制器说明**](https://performai.evilleaker.com/manual/controller/chunithm/controller_tasollerplus/)
+    
 
 </div>
 
