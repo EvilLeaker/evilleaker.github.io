@@ -513,33 +513,31 @@ comments: true
 
 ??? warning "如何申请Rin服Keychip"
 
-    如何配置
+    如何配置？
 
-    - 首先在[**卡片页**](https://portal.naominet.live/cards)绑定你自己的卡
-
-    我自己玩
+    我自己玩：
 
     - 前往[**机台页**](https://portal.naominet.live/keychip)，点击“**创建机台**”。
 
     - 按[**机台页**](https://portal.naominet.live/keychip)中“**如何使用机台序列号**”一栏中的提示编辑**segatools.ini**。
 
-    我用朋友的机器玩
+    我用朋友的机器玩：
 
     - 让你的朋友按照本文“**我自己玩**”部分操作。
 
     - 在[**机台页**](https://portal.naominet.live/keychip)中“**受信任的机台**”下点击“**添加信任**”，输入朋友刚才创建的**机台序列号**后点击确定
 
-    我在窝/机厅玩
+    我在窝/机厅玩：
 
     - 什么都不用做
 
-    我是开窝/开机厅/写查分bot的
+    我是开窝/开机厅/写查分bot的：
 
     - 按照本文“**我自己玩**”部分操作。
 
     - [**填写问卷**](https://wj.qq.com/s2/14399591/ca04/)以申请白名单
 
-    其它事项
+    其它事项：
 
     - 不配置KeychipID将在2024/5/1后无法登录游戏
     
