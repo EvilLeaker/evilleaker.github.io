@@ -18,7 +18,7 @@
     
     
       
-        <title>键值表 - Performai Manual</title>
+        <title>问题反馈 - Performai Manual</title>
       
     
     
@@ -84,6 +84,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -115,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              键值表
+              问题反馈
             
           </span>
         </div>
@@ -905,12 +910,14 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    键值表
+    问题反馈
   </span>
   
 
@@ -945,6 +952,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -959,7 +968,23 @@
                   
 
 
-  <h1>键值表</h1>
+<h1 id="_1">问题反馈</h1>
+<div class="admonition warning">
+<p class="admonition-title">注意事项</p>
+<p>本页为站点问题反馈页面，请不要发布任何与下列反馈内容无关的内容，游戏问题请至教程或常见文件等页面下反馈。</p>
+<p>★ 可提交的内容：</p>
+<ul>
+<li>
+<p><strong>站内错误内容，缺失内容反馈</strong></p>
+</li>
+<li>
+<p><strong>TASOLLER PLUS 硬件问题反馈</strong></p>
+</li>
+<li>
+<p><strong>资源失效反馈</strong></p>
+</li>
+</ul>
+</div>
 
 
 
@@ -967,12 +992,66 @@
 
 
 
+  
+  
 
 
 
 
 
 
+  <h2 id="__comments">Comments</h2>
+  <!-- Insert generated snippet here -->
+	<script src="https://giscus.app/client.js"
+			data-repo="EvilLeaker/comment_system"
+			data-repo-id="R_kgDONWrfgg"
+			data-category="Announcements"
+			data-category-id="DIC_kwDONWrfgs4Cku31"
+			data-mapping="pathname"
+			data-strict="0"
+			data-reactions-enabled="1"
+			data-emit-metadata="0"
+			data-input-position="top"
+			data-theme="preferred_color_scheme"
+			data-lang="zh-CN"
+			crossorigin="anonymous"
+			async>
+	</script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
 
                 
               </article>

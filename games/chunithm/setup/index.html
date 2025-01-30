@@ -1214,11 +1214,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../other/key/" class="md-nav__link">
+      <a href="../../../other/feedback/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    键值表
+    问题反馈
   </span>
   
 
@@ -1685,16 +1685,30 @@
 </ul>
 </details>
 <h3 id="segatools">安装segatools</h3>
-<details class="danger">
-<summary>如使用 fufubot segatools v1.0.3.4 出现 <strong><code>Aime BAD</code></strong> 问题，可点击此处查看解决方法</summary>
+<details class="danger" open="open">
+<summary>fufubot segatools v1.0.3.4 目前的已知问题</summary>
+<ol>
+<li>
+<p><strong>Aime Bad</strong></p>
 <ul>
-<li>
-<p>请检查 <strong><code>设备管理器</code></strong> 中的 <strong><code>端口 (COM和LPT)</code></strong> 下是否有设备占用COM4端口</p>
-</li>
-<li>
-<p>如有占用COM4端口，请将此设备切换到其他COM端口使COM4为未占用状态即可</p>
-</li>
+<li>请检查 <strong><code>设备管理器</code></strong> 中的 <strong><code>端口 (COM和LPT)</code></strong> 下是否有设备占用COM4端口</li>
+<li>如有占用COM4端口，请将此设备切换到其他COM端口使COM4为未占用状态即可</li>
 </ul>
+</li>
+<li>
+<p><strong>刷卡一直刷20个0，显示通信失败</strong></p>
+<ul>
+<li>aimeio挂上的时候可能会一直刷20个0，目前的解决方案是不要挂任何aimeio</li>
+</ul>
+</li>
+<li>
+<p><strong>游戏无法启动或闪退</strong></p>
+<ul>
+<li>文件路径内不要有空格，会导致程序无法启动</li>
+<li>如果依然无法启动，检查C盘根目录下是否有 <strong>drama.lock</strong> 这个文件，如果没有可以 <strong><a href="https://performai.evilleaker.com/manual/download/files/drama.lock">点击此处下载</a></strong>，下载后将此文件放置在C盘根目录下再尝试启动游戏</li>
+</ul>
+</li>
+</ol>
 </details>
 <details class="note">
 <summary>fufubot segatools v1.0.3.4 更新内容</summary>
