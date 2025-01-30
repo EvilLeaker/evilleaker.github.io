@@ -167,12 +167,21 @@ comments: true
 
 ### 安装segatools
 
-??? danger "如使用 fufubot segatools v1.0.3.4 出现 **`Aime BAD`** 问题，可点击此处查看解决方法"
+???+ danger "fufubot segatools v1.0.3.4 目前的已知问题"
 
-    - 请检查 **`设备管理器`** 中的 **`端口 (COM和LPT)`** 下是否有设备占用COM4端口
+    1. **Aime Bad**
 
-    - 如有占用COM4端口，请将此设备切换到其他COM端口使COM4为未占用状态即可
+        - 请检查 **`设备管理器`** 中的 **`端口 (COM和LPT)`** 下是否有设备占用COM4端口
+        - 如有占用COM4端口，请将此设备切换到其他COM端口使COM4为未占用状态即可
 
+    2. **刷卡一直刷20个0，显示通信失败**
+
+        - aimeio挂上的时候可能会一直刷20个0，目前的解决方案是不要挂任何aimeio
+
+    3. **游戏无法启动或闪退**
+
+        - 文件路径内不要有空格，会导致程序无法启动
+        - 如果依然无法启动，检查C盘根目录下是否有 **drama.lock** 这个文件，如果没有可以 **[点击此处下载](https://performai.evilleaker.com/manual/download/files/drama.lock)**，下载后将此文件放置在C盘根目录下再尝试启动游戏
 ??? note "fufubot segatools v1.0.3.4 更新内容"
 
     修复内容：

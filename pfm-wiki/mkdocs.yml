@@ -110,4 +110,4 @@ nav:
               - "Yubideck": "controller/chuni/yubideck.md"
               - "其他输入方式": "controller/chuni/other.md"
   - 其他:
-      - "键值表": "other/key.md"
+      - "问题反馈": "other/feedback.md"
