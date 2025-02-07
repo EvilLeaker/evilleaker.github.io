@@ -1693,16 +1693,20 @@
 <h4 id="_4">安装已解密的文件</h4>
 <div class="admonition tip">
 <p>将 <strong><code>chusanApp.exe</code></strong> 与 <strong><code>amdaemon.exe</code></strong> 放入HDD中的 <strong><code>bin</code></strong> 文件夹中并覆盖源文件</p>
+<div class="admonition info">
+<p class="admonition-title"><strong><code>chusanApp.exe</code></strong> SHA-256</p>
 <ul>
-<li>
-<p><strong><code>chusanApp.exe</code></strong> SHA-256：<span class="twemoji" title="ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></span> </p>
-</li>
-<li>
-<p><strong><code>amdaemon.exe</code></strong> SHA-256：<span class="twemoji" title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></span></p>
-</li>
-<li>
-<p>如exe的SHA-256与上述不符，请重新下载以免使用遭到篡改的exe文件</p>
-</li>
+<li>ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522</li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title"><strong><code>amdaemon.exe</code></strong> SHA-256</p>
+<ul>
+<li>45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4</li>
+</ul>
+</div>
+<ul>
+<li>如exe的SHA-256与上述不符，请重新下载以免使用遭到篡改的exe文件</li>
 </ul>
 </div>
 <div class="admonition note">
@@ -1734,7 +1738,6 @@
 <ul>
 <li>如option路径为<strong><code>bin\option\option</code></strong>这样嵌套，则游戏不能正确读取option数据</li>
 </ul>
-</div>
 <details class="warning">
 <summary>关于官方option的命名规则</summary>
 <p>CHUNITHM 以半年为一个小版本更新，一年一次大版本更新，例如：LUMINOUS / LUMINOUS PLUS</p>
@@ -1748,6 +1751,7 @@
 </li>
 </ul>
 </details>
+</div>
 <h3 id="segatools">安装segatools</h3>
 <details class="danger" open="open">
 <summary>fufubot segatools v1.0.3.4 目前的已知问题</summary>
@@ -1824,10 +1828,10 @@
 <div class="admonition tip">
 <p>由于segatools没有图形配置工具，因此您必须手动修改 <strong><abbr title="如果找不到此文件，请先看上面安装segatools章节">segatools.ini</abbr></strong> 来进行配置，配置文件位于<strong><code>bin</code></strong>文件夹中</p>
 <p>建议您使用支持语法高亮的文本编辑器（例如：Notepad++、VS Code、Sublime Text）来修改配置文件</p>
-</div>
 <div class="admonition danger">
 <p class="admonition-title">注意事项</p>
 <p>请不要使用富文本编辑器（例如：Word、WPS、写字板）来修改配置文件，可能会让配置文件格式错误而导致游戏读取配置文件出错</p>
+</div>
 </div>
 <h4 id="vfs"><code>[vfs]</code></h4>
 <div class="admonition tip">
@@ -1847,11 +1851,11 @@
 </span></code></pre></div>
 </div>
 <h4 id="gpio"><code>[gpio]</code></h4>
+<div class="admonition tip">
 <div class="admonition warning">
 <p class="admonition-title">注意事项</p>
 <p>外网最新版segatools中<strong><code>[gpio]</code></strong>已重新命名为<strong><code>[system]</code></strong>，本文中以<strong><code>fufubot team</code></strong>版为准</p>
 </div>
-<div class="admonition tip">
 <ul>
 <li>
 <p>如果不进行本地局域网联机相关，请勿修改<strong><code>dipsw1</code></strong>，保持默认<strong><code>1</code></strong></p>
@@ -1881,9 +1885,9 @@
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="na">dipsw2</span><span class="o">=</span><span class="s">1</span>
 </span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="na">dipsw3</span><span class="o">=</span><span class="s">1</span>
 </span></code></pre></div>
-</div>
 <div class="admonition danger">
 <p class="admonition-title">请严格按照上述要求修改dipsw设置，错误的设置可能会让游戏无法正常启动！</p>
+</div>
 </div>
 <h4 id="gfx"><code>[gfx]</code></h4>
 <div class="admonition tip">
@@ -1911,12 +1915,12 @@
 <p>有边框窗口请将<strong><code>framed</code></strong>修改为<strong><code>1</code></strong></p>
 </li>
 </ul>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">注意事项</p>
 <p>CHUNITHM以固定的1920x1080分辨率渲染游戏，不可更改</p>
 <p>如果你的显示器分辨率大于1080P并且需要全屏窗口运行游戏，请将系统分辨率降低到1080P或使用全屏进行游戏</p>
 <p>不管以何种方式运行游戏，<strong><code>monitor=0</code></strong> 都无需修改，请保持默认设置</p>
+</div>
 </div>
 <h4 id="aime-aimeio"><code>[aime] / [aimeio]</code></h4>
 <div class="admonition tip">
@@ -2068,7 +2072,6 @@
 <ul>
 <li><strong><code>Keychip(狗号)</code></strong>均以<strong><code>AXXE-XXXXXXXXXXX</code></strong>格式填写，<strong><code>X</code></strong>为英数字</li>
 </ul>
-</div>
 <details class="warning">
 <summary>如何申请Rin服Keychip</summary>
 <p>如何配置？</p>
@@ -2113,6 +2116,7 @@
 </li>
 </ul>
 </details>
+</div>
 <div class="admonition tip">
 <p class="admonition-title">离线服务器 (ARTEMiS与AquaDX)</p>
 <p>离线服务器都需要进行比较复杂的设置，详情请参阅<strong><a href="https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md">ARTEMiS</a></strong>与<strong><a href="https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview">AquaDX</a></strong>的官方指南来配置本地服务器。</p>
@@ -2129,10 +2133,10 @@
 <p class="admonition-title">根据上面的步骤，现在你已经具备运行HDD的基本环境了，下面将进行一些运行前的最后设置</p>
 </div>
 <h4 id="openssl">修复 OpenSSL</h4>
+<div class="admonition tip">
 <div class="admonition warning">
 <p class="admonition-title"><strong><code>fufubot segatools v1.0.3.4</code></strong>无需设置此项</p>
 </div>
-<div class="admonition tip">
 <p>如果您的CPU是Intel Core 10th Gen或以上版本，请右键单击 <strong><code>bin\start.bat</code></strong> 选择 <strong><code>编辑</code></strong>，将下面高亮处代码添加至文件开头并保存</p>
 <div class="language-batch highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="p">@</span><span class="k">echo</span> off
 </span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="hll"><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>:~0x20000000
@@ -2186,13 +2190,13 @@
 </ul>
 </div>
 <h4 id="aime">设置虚拟Aime卡号</h4>
+<div class="admonition tip">
 <div class="admonition note">
-<p class="admonition-title">游戏数据的保存需要你设置虚拟卡号文件，如果你有读卡器请直接刷卡</p>
+<p class="admonition-title">保存游戏数据需要设置虚拟卡号文件，如果你有读卡器请直接刷卡</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意</p>
 </div>
-<div class="admonition tip">
 <p>如何建立Aime卡号：</p>
 <p>在第一次启动游戏时，可在游戏标题处长按<strong><code>Enter</code></strong>刷卡，游戏会自动生成卡号文件</p>
 <p>如果你拥有20位Aime卡号，也可以自行建立卡号文件</p>
@@ -2210,13 +2214,13 @@
 <p><div align="center"> <a class="glightbox" href="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0008.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0008.png" width = 400/></a> </div></p>
 </div>
 <h4 id="hdd_1">启动HDD</h4>
+<div class="admonition tip">
 <div class="admonition warning">
 <p class="admonition-title">从本节开始，如遇到各种问题，请首先查阅 <strong><a href="../faq/">常见问题</a></strong> 、 <strong><a href="../errorcodes/">错误代码</a> 与 <a href="../troubleshooting/">排除故障</a></strong> 来尝试解决问题！</p>
 </div>
 <div class="admonition danger">
 <p class="admonition-title">请不要运行HDD中的 <strong><code>game.bat</code></strong> ！！！</p>
 </div>
-<div class="admonition tip">
 <p>如果你完成了上述所有步骤，此处开始就可以启动HDD了</p>
 <ul>
 <li>
@@ -2234,9 +2238,9 @@
 <p class="admonition-title">启动自检部分</p>
 <p>在自检中通过全部网络测试即可正常联网，如下图：</p>
 <p><div align="center"> <a class="glightbox" href="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0009.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0009.png" width = 400/></a> </div></p>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">E-MONEY显示N/A为正常并不影响联网</p>
+</div>
 </div>
 <div class="admonition tip">
 <ul>
@@ -2335,7 +2339,7 @@
 <p><div align="center"> <a class="glightbox" href="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0018.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0018.png" width = 400/></a> </div></p>
 </div>
 <hr />
-<p><strong><a href="#">BACK TO TOP</a></strong></p>
+<p><strong><a href="#"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.655 10.405a.75.75 0 0 1-1.06 0l-4.97-4.97v14.44a.75.75 0 0 1-1.5 0V5.435l-4.97 4.97a.749.749 0 0 1-1.275-.326.75.75 0 0 1 .215-.734l6.25-6.25a.75.75 0 0 1 1.06 0l6.25 6.25a.75.75 0 0 1 0 1.06"/></svg></span> BACK TO TOP</a></strong></p>
 
 
 
