@@ -121,9 +121,13 @@ comments: true
 
     将 **`chusanApp.exe`** 与 **`amdaemon.exe`** 放入HDD中的 **`bin`** 文件夹中并覆盖源文件
 
-    - **`chusanApp.exe`** SHA-256：:material-information-outline:{ title="ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522" } 
+    !!! info "**`chusanApp.exe`** SHA-256"
 
-    - **`amdaemon.exe`** SHA-256：:material-information-outline:{ title="45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4" }
+        - ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522
+
+    !!! info "**`amdaemon.exe`** SHA-256"
+
+        - 45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4
 
     - 如exe的SHA-256与上述不符，请重新下载以免使用遭到篡改的exe文件
 
@@ -155,15 +159,15 @@ comments: true
 
     - 如option路径为**`bin\option\option`**这样嵌套，则游戏不能正确读取option数据
 
-??? warning "关于官方option的命名规则"
+    ??? warning "关于官方option的命名规则"
 
-    CHUNITHM 以半年为一个小版本更新，一年一次大版本更新，例如：LUMINOUS / LUMINOUS PLUS
+        CHUNITHM 以半年为一个小版本更新，一年一次大版本更新，例如：LUMINOUS / LUMINOUS PLUS
 
-    官方option数据命名也以此作为区分：
+        官方option数据命名也以此作为区分：
 
-    - A001 - 现行版本以A001作为游戏发布的首日(Day-1)更新
+        - A001 - 现行版本以A001作为游戏发布的首日(Day-1)更新
 
-    - A071 - 现行版本以前两位作为更新月份，最后一位则为这个月份的第几个更新包，如最后一位是**`0`**，则固定为待机广告视频更新包
+        - A071 - 现行版本以前两位作为更新月份，最后一位则为这个月份的第几个更新包，如最后一位是**`0`**，则固定为待机广告视频更新包
 
 ### 安装segatools
 
@@ -235,9 +239,9 @@ comments: true
 
     建议您使用支持语法高亮的文本编辑器（例如：Notepad++、VS Code、Sublime Text）来修改配置文件
 
-!!! danger "注意事项"
+    !!! danger "注意事项"
 
-    请不要使用富文本编辑器（例如：Word、WPS、写字板）来修改配置文件，可能会让配置文件格式错误而导致游戏读取配置文件出错
+        请不要使用富文本编辑器（例如：Word、WPS、写字板）来修改配置文件，可能会让配置文件格式错误而导致游戏读取配置文件出错
 
 #### `[vfs]`
 
@@ -258,11 +262,11 @@ comments: true
 
 #### `[gpio]`
 
-!!! warning "注意事项"
-
-    外网最新版segatools中**`[gpio]`**已重新命名为**`[system]`**，本文中以**`fufubot team`**版为准
-
 !!! tip ""
+
+    !!! warning "注意事项"
+
+        外网最新版segatools中**`[gpio]`**已重新命名为**`[system]`**，本文中以**`fufubot team`**版为准
 
     - 如果不进行本地局域网联机相关，请勿修改**`dipsw1`**，保持默认**`1`**
 
@@ -288,7 +292,7 @@ comments: true
     dipsw3=1
     ```
 
-!!! danger "请严格按照上述要求修改dipsw设置，错误的设置可能会让游戏无法正常启动！"
+    !!! danger "请严格按照上述要求修改dipsw设置，错误的设置可能会让游戏无法正常启动！"
 
 #### `[gfx]`
 
@@ -316,13 +320,13 @@ comments: true
 
     - 有边框窗口请将**`framed`**修改为**`1`**
 
-!!! warning "注意事项"
-
-    CHUNITHM以固定的1920x1080分辨率渲染游戏，不可更改
-
-    如果你的显示器分辨率大于1080P并且需要全屏窗口运行游戏，请将系统分辨率降低到1080P或使用全屏进行游戏
-
-    不管以何种方式运行游戏，**`monitor=0`** 都无需修改，请保持默认设置
+    !!! warning "注意事项"
+    
+        CHUNITHM以固定的1920x1080分辨率渲染游戏，不可更改
+    
+        如果你的显示器分辨率大于1080P并且需要全屏窗口运行游戏，请将系统分辨率降低到1080P或使用全屏进行游戏
+    
+        不管以何种方式运行游戏，**`monitor=0`** 都无需修改，请保持默认设置
 
 #### `[aime] / [aimeio]`
 
@@ -522,37 +526,37 @@ comments: true
 
     - **`Keychip(狗号)`**均以**`AXXE-XXXXXXXXXXX`**格式填写，**`X`**为英数字
 
-??? warning "如何申请Rin服Keychip"
-
-    如何配置？
-
-    我自己玩：
-
-    - 前往[**机台页**](https://portal.naominet.live/keychip)，点击“**创建机台**”。
-
-    - 按[**机台页**](https://portal.naominet.live/keychip)中“**如何使用机台序列号**”一栏中的提示编辑**segatools.ini**。
-
-    我用朋友的机器玩：
-
-    - 让你的朋友按照本文“**我自己玩**”部分操作。
-
-    - 在[**机台页**](https://portal.naominet.live/keychip)中“**受信任的机台**”下点击“**添加信任**”，输入朋友刚才创建的**机台序列号**后点击确定
-
-    我在窝/机厅玩：
-
-    - 什么都不用做
-
-    我是开窝/开机厅/写查分bot的：
-
-    - 按照本文“**我自己玩**”部分操作。
-
-    - [**填写问卷**](https://wj.qq.com/s2/14399591/ca04/)以申请白名单
-
-    其它事项：
-
-    - 不配置KeychipID将在2024/5/1后无法登录游戏
+    ??? warning "如何申请Rin服Keychip"
     
-    - 如果有其他问题可以加入QQ群: [**295954906**](https://qm.qq.com/q/q81C7iA2Aw)
+        如何配置？
+    
+        我自己玩：
+    
+        - 前往[**机台页**](https://portal.naominet.live/keychip)，点击“**创建机台**”。
+    
+        - 按[**机台页**](https://portal.naominet.live/keychip)中“**如何使用机台序列号**”一栏中的提示编辑**segatools.ini**。
+    
+        我用朋友的机器玩：
+    
+        - 让你的朋友按照本文“**我自己玩**”部分操作。
+    
+        - 在[**机台页**](https://portal.naominet.live/keychip)中“**受信任的机台**”下点击“**添加信任**”，输入朋友刚才创建的**机台序列号**后点击确定
+    
+        我在窝/机厅玩：
+    
+        - 什么都不用做
+    
+        我是开窝/开机厅/写查分bot的：
+    
+        - 按照本文“**我自己玩**”部分操作。
+    
+        - [**填写问卷**](https://wj.qq.com/s2/14399591/ca04/)以申请白名单
+    
+        其它事项：
+    
+        - 不配置KeychipID将在2024/5/1后无法登录游戏
+        
+        - 如果有其他问题可以加入QQ群: [**295954906**](https://qm.qq.com/q/q81C7iA2Aw)
 
 !!! tip "离线服务器 (ARTEMiS与AquaDX)"
 
@@ -574,9 +578,9 @@ comments: true
 
 #### 修复 OpenSSL
 
-!!! warning "**`fufubot segatools v1.0.3.4`**无需设置此项"
-
 !!! tip ""
+
+    !!! warning "**`fufubot segatools v1.0.3.4`**无需设置此项"
 
     如果您的CPU是Intel Core 10th Gen或以上版本，请右键单击 **`bin\start.bat`** 选择 **`编辑`**，将下面高亮处代码添加至文件开头并保存
 
@@ -626,11 +630,11 @@ comments: true
 
 #### 设置虚拟Aime卡号
 
-!!! note "游戏数据的保存需要你设置虚拟卡号文件，如果你有读卡器请直接刷卡"
-
-!!! warning "这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意"
-
 !!! tip ""
+
+    !!! note "保存游戏数据需要设置虚拟卡号文件，如果你有读卡器请直接刷卡"
+
+    !!! warning "这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意"
 
     如何建立Aime卡号：
 
@@ -648,11 +652,11 @@ comments: true
 
 #### 启动HDD
 
-!!! warning "从本节开始，如遇到各种问题，请首先查阅 **[常见问题](faq.md)** 、 **[错误代码](errorcodes.md) 与 [排除故障](troubleshooting.md)** 来尝试解决问题！"
-
-!!! danger "请不要运行HDD中的 **`game.bat`** ！！！"
-
 !!! tip ""
+
+    !!! warning "从本节开始，如遇到各种问题，请首先查阅 **[常见问题](faq.md)** 、 **[错误代码](errorcodes.md) 与 [排除故障](troubleshooting.md)** 来尝试解决问题！"
+    
+    !!! danger "请不要运行HDD中的 **`game.bat`** ！！！"
 
     如果你完成了上述所有步骤，此处开始就可以启动HDD了
 
@@ -668,7 +672,7 @@ comments: true
 
     <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0009.png" width = 400/> </div>
 
-!!! warning "E-MONEY显示N/A为正常并不影响联网"
+    !!! warning "E-MONEY显示N/A为正常并不影响联网"
 
 !!! tip ""
 
@@ -746,4 +750,4 @@ comments: true
 
 ---
 
-**[BACK TO TOP](# )**
+**[:octicons-arrow-up-24: BACK TO TOP](# )**

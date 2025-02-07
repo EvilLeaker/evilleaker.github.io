@@ -4,9 +4,7 @@ comments: true
 <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/first_logo.png"/> </div>
 </figure>
 
-!!! danger "本文仅展Yubideck的安装连接方法，其他操作方式请参照**[其他输入方式](../other.md)**"
-
-## Yubideck - 大四/Zhousensor/GENBU
+## 大四常见问题与故障排查
 
 <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_00.jpg" width="400"/> </div>
 

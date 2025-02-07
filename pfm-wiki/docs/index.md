@@ -4,11 +4,9 @@
 [:fontawesome-solid-house: 访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
 </figure>
 
-!!! warning "ATTENTION"
+!!! warning "新站内容仍在搬运或完善中，如站内没有你需要的内容，请在群内求助或浏览原Notion教程"
 
-    - 新站内容仍在搬运或完善中，如站内没有你需要的内容，请在群内求助或浏览原Notion教程
-
-        * **[Notion - ONGEKI Manual](https://performai.notion.site/O-N-G-E-K-I-Manual-22752c24d01446379c7ffdf3819e08e9?pvs=74)**
+    - **[Notion - ONGEKI Manual](https://performai.notion.site/O-N-G-E-K-I-Manual-22752c24d01446379c7ffdf3819e08e9?pvs=74)**
 
 !!! tip "解压密码"
 
@@ -20,6 +18,39 @@
 !!! info "关于本站"
 
     本站资源与教程完全免费浏览及下载，请不要在网络平台购买已发布至公网的相关资源及教程以免上当受骗，如果有需要你可以将本站共享给任何人。
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-wrench:{ .lg .middle } __网站导航 (详细内容请查看侧边导航栏)__
+
+    ---
+- **游戏安装教程**
+
+    **[:octicons-arrow-right-24: CHUNITHM LUMINOUS PLUS](games/chunithm/setup.md)**
+
+    **[:octicons-arrow-right-24: CHUNITHM (OLD Version)](games/chunithm_old/setup.md)**
+
+    **[:octicons-arrow-right-24: O.N.G.E.K.I](games/ongeki/setup.md)**
+
+    ---
+- **手台安装教程**
+
+    **[:octicons-arrow-right-24: TASOLLER](controller/chuni/tasoller.md)**
+
+    **[:octicons-arrow-right-24: TASOLLER PLUS](controller/chuni/tasollerplus.md)**
+
+    **[:octicons-arrow-right-24: Yubideck (大四)](controller/chuni/yubideck/setup.md)**
+
+    **[:octicons-arrow-right-24: ONTROLLER](#)**
+
+    ---
+- **其他**
+
+    **[CHUNITHM-常见问题](games/chunithm/faq.md)**，**[CHUNITHM-故障排除](games/chunithm/troubleshooting.md)**，**[CHUNITHM-错误代码](games/chunithm/errorcodes.md)**
+
+    **[O.N.G.E.K.I-常见问题](#)**，**[O.N.G.E.K.I-故障排除](#)**，**[O.N.G.E.K.I-错误代码](#)**
+
+</div>
 
 ??? info "关于最新最热"
 
@@ -37,7 +68,7 @@
 
     - 页面顶部支持全站关键字搜索
 
-!!! danger "关于出现的含有恶意代码的文件或程序"
+??? danger "关于出现的含有恶意代码的文件或程序"
 
     请不要轻易下载1cc、emuline等外网发出的任何懒人包或segatools等文件，很可能有别有用心的人放入了恶意代码。
 
@@ -85,3 +116,7 @@
 ??? warning "禁无断转载！/ 無断転載禁止！"
 
     全站文章内容未经本人允许禁止转载 / 盗转！
+
+---
+
+**[:octicons-arrow-up-24: BACK TO TOP](# )**
