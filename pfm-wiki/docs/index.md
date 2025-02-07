@@ -1,6 +1,6 @@
 # 
 <figure markdown>
-<div align="center"> <img src="./asset/img/common/main_logo.png" /> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/main_logo.png" /> </div>
 [:fontawesome-solid-house: 访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
 </figure>
 

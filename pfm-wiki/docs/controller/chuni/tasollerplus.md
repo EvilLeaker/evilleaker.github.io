@@ -1,7 +1,7 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="../../../asset/img/common/first_logo.png"/> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/first_logo.png"/> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
@@ -9,7 +9,7 @@ comments: true
 
 ## TASOLLER PLUS - 抬手乐升级版
 
-<div align="center"> <img src="../../../asset/img/controller/tslp/tasoller_plus.jpg" width="400"/> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tasoller_plus.jpg" width="400"/> </div>
 
 ## 置顶的感谢 by DJDAO
 
@@ -72,11 +72,11 @@ comments: true
 
 ???+ info "手台安装图"
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_00.jpg"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_00.jpg"/> </div>
 
 !!! tip "连接至PC"
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_01.jpg"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_01.jpg"/> </div>
 
     按照上图连接两根USB，数据口连接到PC上的USB接口(建议USB 3.0)，供电口连接到主板上的USB 3.0接口或充电宝、充电器插头等供电设备
 
@@ -84,11 +84,11 @@ comments: true
 
     连接完成后，此时手台灯光为彩色即为成功连接，请继续接下的步骤
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_06.png"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_06.png"/> </div>
 
     启动游戏后，如果手台灯光如下图所示，则手台连接成功，否则请返回上述步骤检查操作是否有误
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_07.png"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_07.png"/> </div>
 
 ---
 
@@ -100,23 +100,23 @@ comments: true
 
     双击打开**`TASOLLER_Options_V2.8.exe`**
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_03.png"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_03.png"/> </div>
 
     手台连接PC后，右上角可以切换软件语言
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_04.png"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_04.png"/> </div>
 
     查看左上角的手台模式，如连接后手台为**`Keyboard`**模式，点击下拉菜单选择**`WINUSB mode`**[^1]，点击**`点击切换`**来切换手台模式
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_05.png"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_05.png"/> </div>
 
     [^1]: CHUNITHM需要使用WINUSB模式来进行游玩
 
 !!! tip "参数调节 (2025-01-01 正式版固件)"
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_08.png" width="400"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_08.png" width="400"/> </div>
 
-    <div align="center"> <img src="../../../asset/img/controller/tslp/tslp_09.png" width="400"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/tslp/tslp_09.png" width="400"/> </div>
 
     相比TASOLLER，TASOLLER PLUS有着更详细的输入延迟与灵敏度调节
 

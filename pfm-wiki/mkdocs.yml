@@ -5,8 +5,8 @@ repo_name: Evil Leaker HOME
 
 theme:
   name: material
-  logo: asset/img/common/site_logo.svg
-  favicon: asset/img/common/favicon.png
+  logo: https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/site_logo.svg
+  favicon: https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/favicon.png
   icon:
     repo: fontawesome/solid/house
     annotation: material/arrow-right-circle
@@ -107,7 +107,9 @@ nav:
           - "CHUNITHM":
               - "TASOLLER PLUS": "controller/chuni/tasollerplus.md"
               - "TASOLLER": "controller/chuni/tasoller.md"
-              - "Yubideck": "controller/chuni/yubideck.md"
+              - "Yubideck":
+                  - "控制器说明书": "controller/chuni/yubideck/setup.md"
+                  - "常见问题与故障排查": "controller/chuni/yubideck/troubleshooting.md"
               - "其他输入方式": "controller/chuni/other.md"
   - 其他:
       - "问题反馈": "other/feedback.md"

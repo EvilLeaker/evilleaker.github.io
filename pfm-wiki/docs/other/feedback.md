@@ -11,4 +11,6 @@ comments: true
 
     - **TASOLLER PLUS 硬件问题反馈**
 
+    - **fufubot segatools 问题反馈**
+
     - **资源失效反馈**

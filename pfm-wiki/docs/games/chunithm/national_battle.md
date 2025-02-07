@@ -1,7 +1,7 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="../../../asset/img/ol_battle/ol_battle_00.png"/> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_00.png"/> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
@@ -36,11 +36,11 @@ comments: true
 
 !!! note "关于全国对战"
 
-    <div align="center"> <img src="../../../asset/img/ol_battle/ol_battle_01.jpg"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_01.jpg"/> </div>
 
-    <div align="center"> <img src="../../../asset/img/ol_battle/ol_battle_02.jpg"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_02.jpg"/> </div>
 
-    <div align="center"> <img src="../../../asset/img/ol_battle/ol_battle_03.jpg"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_03.jpg"/> </div>
 
 ---
 

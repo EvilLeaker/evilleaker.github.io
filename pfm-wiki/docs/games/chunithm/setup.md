@@ -1,8 +1,8 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="../../../asset/img/common/chusan_logo.png" width = 250 height = 179 /> </div>
-<div align="center"> <img src="../../../asset/img/common/cabinet_1.png"/> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/chusan_logo.png" width = 250 height = 179 /> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/cabinet_1.png"/> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
@@ -67,7 +67,7 @@ comments: true
 
     首先下载如下文件
 
-    <img width="700" src="../../../asset/img/chu_manual/chum0000.png">
+    <img width="700" src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0000.png">
 
 #### 安装Runtime (Windows运行时安装包)
 
@@ -77,7 +77,7 @@ comments: true
 
     解压后获得如下文件
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0001.png" width = 500/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0001.png" width = 500/> </div>
 
     运行**`DirectX.bat`**并按照窗口提示完成安装
 
@@ -109,11 +109,11 @@ comments: true
 
     配置好7-Zip后在**`SDHD_2.25.01_20240514122240_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0002.png" width = 500/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0002.png" width = 500/> </div>
 
     提取后获得如下文件：
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0003.png" width = 500/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0003.png" width = 500/> </div>
 
 #### 安装已解密的文件
 
@@ -151,7 +151,7 @@ comments: true
 
     - 正确的option路径应为**`bin\option`**，option文件夹中的内容应为下图所示：
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0004.png" width = 500/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0004.png" width = 500/> </div>
 
     - 如option路径为**`bin\option\option`**这样嵌套，则游戏不能正确读取option数据
 
@@ -177,6 +177,8 @@ comments: true
     2. **刷卡一直刷20个0，显示通信失败**
 
         - aimeio挂上的时候可能会一直刷20个0，目前的解决方案是不要挂任何aimeio
+
+        - 大四手台请挂载旧版中的 **aimeio2x.dll**
 
     3. **游戏无法启动或闪退**
 
@@ -207,7 +209,7 @@ comments: true
 
     解压后获得如下文件：
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0005.png" width = 600/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0005.png" width = 600/> </div>
 
     将上述文件全部复制到HDD中的 **`bin`** 文件夹下即可完成安装
 
@@ -594,7 +596,7 @@ comments: true
 
     - 选择**`高级`**选项卡
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0006.png" width = 400/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0006.png" width = 400/> </div>
 
     - 在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择**`高级`**选项卡
 
@@ -602,13 +604,13 @@ comments: true
 
     - 勾选**`独占模式`**下的两个选项，点击**`应用`**后选择**`确定`**
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0007.png" width = 400/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0007.png" width = 400/> </div>
 
 #### 加快游戏启动速度
 
 !!! tip ""
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0019.png"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0019.png"/> </div>
 
     如果启动游戏后在上图处等待很久，您可以将整个HDD文件夹添加到**`Windows Defender`**的**`排除项`**中可以加快游戏启动自检速度
 
@@ -642,7 +644,7 @@ comments: true
 
     - 如果自行编写，则卡号不能以3开头
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0008.png" width = 400/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0008.png" width = 400/> </div>
 
 #### 启动HDD
 
@@ -664,7 +666,7 @@ comments: true
 
     在自检中通过全部网络测试即可正常联网，如下图：
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0009.png" width = 400/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0009.png" width = 400/> </div>
 
 !!! warning "E-MONEY显示N/A为正常并不影响联网"
 
@@ -672,7 +674,7 @@ comments: true
 
     - 在游戏自检进行到下图的时候，如果等候很久没有任何反应，则需要进入TEST菜单进行设置
 
-        <div align="center"> <img src="../../../asset/img/chu_manual/chum0010.png" width = 400/> </div>
+        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0010.png" width = 400/> </div>
 
         * 按下手台上对应TEST功能的按键，或**`segatools.ini`**中**`[io3]`**设置的对应按键，进入TEST菜单
 
@@ -680,7 +682,7 @@ comments: true
 
     - 选择**`ゲーム設定`**
 
-        <div align="center"> <img src="../../../asset/img/chu_manual/chum0011.png" width = 400/> </div>
+        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0011.png" width = 400/> </div>
 
         * 选择**`グループ内基準機設定`**，将右侧**`基準機に従う`**切换为**`基準機`**
 
@@ -690,11 +692,11 @@ comments: true
 
     - 接下来选择**`閉店設定`**
 
-        <div align="center"> <img src="../../../asset/img/chu_manual/chum0012.png" width = 400/> </div>
+        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0012.png" width = 400/> </div>
 
         * 将**`スケジュール種別`**与**`時`**分别设置为**`每日`**与**`全時刻`**
 
-        <div align="center"> <img src="../../../asset/img/chu_manual/chum0013.png" width = 400/> </div>
+        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0013.png" width = 400/> </div>
 
         * 选择**`終了`**返回TEST主菜单
 
@@ -702,7 +704,7 @@ comments: true
 
     - 待到LED自检时，双手需要离开AIR识别区域并且不要触碰触摸板，等待自检完成即可自动进入游戏标题界面
 
-        <div align="center"> <img src="../../../asset/img/chu_manual/chum0014.png" width = 400/> </div>
+        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0014.png" width = 400/> </div>
 
         * 如果此处**`LED制御ボード1·2`**显示为**`BAD`**请不要紧张，这并不影响游戏正常运行，请按右下角提示**`次へ`**按下触摸板跳过即可
 
@@ -714,7 +716,7 @@ comments: true
 
 !!! note "见到下图画面的话，那么恭喜你已经正常联网并且可以开始游戏了！"
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0015.png"/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0015.png"/> </div>
 
 !!! tip ""
 
@@ -724,7 +726,7 @@ comments: true
 
     - 请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0016.png" width = 400/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0016.png" width = 400/> </div>
 
     - 网络自检全为GOOD但此处网络显示灰色图标，请返回 **[安装option](#option)** 部分检查是否安装正确的 **`option`**
 
@@ -734,13 +736,13 @@ comments: true
 
 !!! tip "下图为游戏画面"
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0017.png"> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0017.png"> </div>
 
 !!! note "至此，你已经可以正常进行游戏了"
 
     在游戏或配置过程中有疑问或问题，请带游戏或程序窗口或Log，ini设置等截图发送到对应群向群友或向其他玩家寻求帮助！
 
-    <div align="center"> <img src="../../../asset/img/chu_manual/chum0018.png" width = 400/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0018.png" width = 400/> </div>
 
 ---
 
