@@ -107,7 +107,7 @@ nav:
           - "CHUNITHM":
               - "TASOLLER PLUS": "controller/chuni/tasollerplus.md"
               - "TASOLLER": "controller/chuni/tasoller.md"
-              - "Yubideck":
+              - "Yubideck (大四)":
                   - "控制器说明书": "controller/chuni/yubideck/setup.md"
                   - "常见问题与故障排查": "controller/chuni/yubideck/troubleshooting.md"
               - "其他输入方式": "controller/chuni/other.md"
