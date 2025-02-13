@@ -1,13 +1,18 @@
 comments: true
-#
-<figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/first_logo.png"/> </div>
-</figure>
+# 大四常见问题与故障排查
 
-## 大四常见问题与故障排查
+## USB插入后，电脑显示无法识别该设备 或 灯光闪一下就灭了
 
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_00.jpg" width="400"/> </div>
+!!! tip ""
 
-!!! warning "注意事项"
+    - 这个是给红外升级固件用的，平时使用不能插USB上去。
+
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_22.jpg" width="400"/> </div>
+    
+    - 请将USB插到触摸板上
+
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_23.jpg" width="400"/> </div>
 
 ---
+
+**[:octicons-arrow-up-24: BACK TO TOP](# )**

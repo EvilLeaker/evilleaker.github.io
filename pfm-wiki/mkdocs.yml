@@ -74,6 +74,11 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
   - search:
@@ -113,3 +118,6 @@ nav:
               - "其他输入方式": "controller/chuni/other.md"
   - 其他:
       - "问题反馈": "other/feedback.md"
+      - "SEGA PCB":
+          - "NU": "other/segapcb/nu.md"
+          - "ALLS": "other/segapcb/alls.md"
