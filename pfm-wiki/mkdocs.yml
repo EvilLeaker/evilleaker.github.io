@@ -1,5 +1,6 @@
 site_name: Performai Manual
-copyright: Evil Leaker
+site_url: https://performai.evilleaker.com/manual/
+copyright: 2025 &copy; Evil Leaker
 repo_url: https://performai.evilleaker.com/
 repo_name: Evil Leaker HOME
 
@@ -46,10 +47,23 @@ theme:
     - content.action.view
     - search.suggest
     - search.highlight
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
 
 markdown_extensions:
   - abbr
   - admonition
+  - pymdownx.betterem
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -88,10 +102,26 @@ plugins:
         - ja
         - en
   - glightbox
+  - blog
+  - blog:
+      blog_dir: doc/blog
+      post_date_format: full
+      post_dir: "{blog}/articles"
+      authors_file: "{blog}/.authors.yml"
+      post_url_date_format: yyyy/MM/dd
+      archive_date_format: MMMM yyyy
+      archive_name: 存档
 
 extra:
   status:
     <identifier>: <description>
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 
 nav:
   - 首页: index.md
@@ -121,3 +151,5 @@ nav:
       - "SEGA PCB":
           - "NU": "other/segapcb/nu.md"
           - "ALLS": "other/segapcb/alls.md"
+  - 博客:
+      - blog/index.md

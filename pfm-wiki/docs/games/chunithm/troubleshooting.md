@@ -71,5 +71,3 @@ comments: true
     现在您可以在全屏模式下切出游戏而不会导致游戏崩溃退出了
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

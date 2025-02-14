@@ -153,5 +153,3 @@ comments: true
     双击bin\start.bat启动游戏即可
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

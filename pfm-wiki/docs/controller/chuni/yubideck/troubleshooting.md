@@ -14,5 +14,3 @@ comments: true
     <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_23.jpg" width="400"/> </div>
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

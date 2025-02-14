@@ -72,5 +72,3 @@ comments: true
     - 现在你已经成功连接了手台，可以继续查看 **[游戏安装教程](../../games/chunithm/setup.md)** 并按照教程配置手台io
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

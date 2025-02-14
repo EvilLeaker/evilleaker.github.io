@@ -272,5 +272,3 @@ comments: true
     **UFO CATCHER 10**
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

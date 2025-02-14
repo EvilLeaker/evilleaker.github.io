@@ -51,5 +51,3 @@ comments: true
 </div>
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

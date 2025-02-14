@@ -43,5 +43,3 @@ comments: true
     <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_03.jpg"/> </div>
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

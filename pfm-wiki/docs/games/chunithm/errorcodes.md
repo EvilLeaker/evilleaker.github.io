@@ -74,5 +74,3 @@ comments: true
     在游戏自检中请不要遮挡AIR传感器，出现此错误请按TEST键再退出菜单继续自检
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

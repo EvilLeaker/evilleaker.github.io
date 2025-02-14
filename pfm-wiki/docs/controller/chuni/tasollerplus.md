@@ -288,5 +288,3 @@ comments: true
 !!! warning "设置完手台就可以继续阅览**[游戏安装教程](../../games/chunithm/setup.md)**"
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

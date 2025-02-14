@@ -7,9 +7,7 @@ comments: true
 
     Nu是世嘉公司生产的一款发布于2013年9月的街机游戏基板，作为下一代通用商用基板，用于取代RING系列基板。
 
-    此基板与 **初音ミク Project DIVA Arcade Future Tone** 一同发布。
-
-    最初的Nu基板仅被用于 **Wonderland Wars** 中，之后被成本更低的 **Nu 1.1**，**Nu 2**，**Nu SX** 取代。
+    之后被成本更低的 **Nu 1.1**，**Nu 2**，**Nu SX** 取代。
 
 ---
 
@@ -156,5 +154,3 @@ comments: true
     **バベルのメダルタワー** (SEGA)
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**

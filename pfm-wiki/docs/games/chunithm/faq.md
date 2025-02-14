@@ -146,5 +146,3 @@ comments: true
     <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/faq/faq_01.jpg"/> </div>
 
 ---
-
-**[:octicons-arrow-up-24: BACK TO TOP](# )**
