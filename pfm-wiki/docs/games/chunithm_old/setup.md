@@ -26,6 +26,8 @@ comments: true
 
     Ver 1.00 ~ Ver 1.50
 
+    ---
+
     **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sdbt.html)**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __资源状态__
@@ -42,13 +44,15 @@ comments: true
 
     有限支持，仅能联网保存，前端不支持查询
 
+    ---
+
     **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
     ---
 
-    2024/12/29 (Sun)
+    2025/02/17 (Mon)
 
 </div>
 
@@ -79,6 +83,7 @@ comments: true
     | `SDBT_1.40.vhd` | CHUNITHM CRYSTAL         | :material-check: | :material-close: |
     | `SDBT_1.45.vhd` | CHUNITHM CRYSTAL PLUS    | :material-check: | :material-close: |
     | `SDBT_1.50.vhd` | CHUNITHM PARADISE / LOST | :material-check: | :material-check: |
+    | `SDHX_1.51.vhd (待发)` | CHUNITHM PARADISE LOST OFFLINE Ver. | :material-close: | :material-close: |
 
 #### 安装Runtime (Windows运行时安装包)
 

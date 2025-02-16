@@ -1,8 +1,8 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/ogk_logo.png"/> </div>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/cabinet_2.png" width = 130/> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/cm_logo.png"/> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/cm_cab.png" width = 130/> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
@@ -23,9 +23,7 @@ comments: true
 
     ---
 
-    ONGEKI Bright Memory Act.3
-
-    Version 1.45
+    Version 1.39
 
     ---
 
@@ -35,13 +33,23 @@ comments: true
 
     ---
 
-    A001~A032 (1.45-H)
+    A011 - A056 (1.39-31)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
     ---
 
-    rin Net
+    rin Net，有限支持
+
+    ---
+
+    CHUNITHM (**支持**)
+
+    ONGEKI (未验证)
+
+    maimaiDX (未验证)
+	
+	---
 
     **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)**
 
@@ -54,3 +62,5 @@ comments: true
 </div>
 
 ---
+
+## **COMING S∞N**

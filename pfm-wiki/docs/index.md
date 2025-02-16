@@ -32,6 +32,8 @@
 
     **[:octicons-arrow-right-24: O.N.G.E.K.I](games/ongeki/setup.md)**
 
+    **[:octicons-arrow-right-24: CARD MAKER (Coming S∞n)](games/cm/setup.md)**
+
     ---
 - **手台安装教程**
 

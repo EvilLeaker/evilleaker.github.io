@@ -137,6 +137,8 @@ nav:
               - "安装使用教程": "games/chunithm_old/setup.md"
           - "O.N.G.E.K.I":
               - "安装使用教程": "games/ongeki/setup.md"
+          - "CARD MAKER":
+              - "安装使用教程": "games/cm/setup.md"
   - 控制器:
       - "SEGA":
           - "CHUNITHM":
