@@ -27,6 +27,8 @@ comments: true
 
     Version 2.27.00
 
+    ---
+
     **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sdhd.html)**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
@@ -40,6 +42,8 @@ comments: true
     ---
 
     rin Net
+
+    ---
 
     **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)**
 
@@ -121,11 +125,11 @@ comments: true
 
     将 **`chusanApp.exe`** 与 **`amdaemon.exe`** 放入HDD中的 **`bin`** 文件夹中并覆盖源文件
 
-    !!! info "**`chusanApp.exe`** SHA-256"
+    ??? info "**`chusanApp.exe`** SHA-256"
 
         - ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522
 
-    !!! info "**`amdaemon.exe`** SHA-256"
+    ??? info "**`amdaemon.exe`** SHA-256"
 
         - 45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4
 

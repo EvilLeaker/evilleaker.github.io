@@ -18,6 +18,8 @@ comments: true
 
     - 错误的 **dipsw** 设置：例如(dipsw3=0，60hz屏幕)，请参照 **[gpio](../../games/chunithm/setup.md#gpio)** 设置来修复此问题
 
+    - Windows 11 24H2版本可能会导致amdaemon无法启动，如使用此版本系统出现此情况，可能需要回退到低于24H2版本或更换Windows 10
+
 ---
 
 ### 游戏启动需要很长时间

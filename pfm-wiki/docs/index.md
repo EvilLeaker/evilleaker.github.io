@@ -21,7 +21,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-wrench:{ .lg .middle } __网站导航 (详细内容请查看侧边导航栏)__
+-   :fontawesome-solid-wrench:{ .lg .middle } __网站导航__
 
     ---
 - **游戏安装教程**

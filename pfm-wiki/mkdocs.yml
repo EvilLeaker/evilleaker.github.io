@@ -149,6 +149,7 @@ nav:
   - 其他:
       - "问题反馈": "other/feedback.md"
       - "SEGA PCB":
+          - "RING": "other/segapcb/ring.md"
           - "NU": "other/segapcb/nu.md"
           - "ALLS": "other/segapcb/alls.md"
   - 博客:
