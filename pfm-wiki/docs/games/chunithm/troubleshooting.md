@@ -12,13 +12,17 @@ comments: true
     此情况可能由多种原因造成，其中比较常见的是：
 
     - **amdaemon** 在后台崩溃
-        * 请确保 **`config_*.json`** 文件内设置无误(通常不需要修改)
+        * 如无特殊情况不要自行乱改 **`config_*.json`** 文件
         * 是否正确 **[安装ICF文件](../../games/chunithm/setup.md#icf)**
         * 尝试 **[修复 OpenSSL](../../games/chunithm/setup.md#openssl)**
 
     - 错误的 **dipsw** 设置：例如(dipsw3=0，60hz屏幕)，请参照 **[gpio](../../games/chunithm/setup.md#gpio)** 设置来修复此问题
 
     - Windows 11 24H2版本可能会导致amdaemon无法启动，如使用此版本系统出现此情况，可能需要回退到低于24H2版本或更换Windows 10
+	
+	- Windows系统 **用户名** 与 **计算机名** 不能相同
+
+    - 使用 **segatools by fufubot team** 时，游戏路径不要有 **空格** 与 **半角英数字外的任何特殊字符**
 
 ---
 
