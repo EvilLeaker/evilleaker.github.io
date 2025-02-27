@@ -163,4 +163,22 @@ comments: true
 
     双击 **`package`** 下的 **`start.bat`** 即可启动。
 
+## 如何操作
+
+!!! tip ""
+
+    CARD MAKER采用触摸屏操作，使用鼠标点击可模拟触屏，也可使用触摸屏游玩
+
+    按字母上方的数字 **1** 、 **2** 、 **3** 分别对应 **TEST** 、 **SERVICE** 、 **COIN** 按键
+
+## 玩法
+
+!!! tip "CHUNITHM"
+
+    请访问官方网站：https://chunithm.sega.jp/play/taisen/
+
+!!! tip "ONGEKI"
+
+    请访问官方网站：https://ongeki.sega.jp/how_to_play/cardmaker.html
+
 ---
