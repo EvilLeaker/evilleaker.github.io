@@ -27,7 +27,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](#)**
+    **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sded.html)**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
