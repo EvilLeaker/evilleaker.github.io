@@ -1,7 +1,7 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/chusan_logo.png" width = 250 height = 179 /> </div>
+<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/chusan_logo.png"> </div>
 <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/cabinet_1.png"/> </div>
 </figure>
 
@@ -23,9 +23,9 @@ comments: true
 
     ---
 
-    CHUNITHM LUMINOUS PLUS 
+    CHUNITHM VERSE
 
-    Version 2.27.00
+    Version 2.30.00
 
     ---
 
@@ -35,7 +35,7 @@ comments: true
 
     ---
 
-    A001~A112 (Luminous Plus Final)
+    A001
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -51,7 +51,7 @@ comments: true
 
     ---
 
-    2024/12/20 (Thu)
+    2025/03/09 (Thu)
 
 </div>
 
@@ -91,9 +91,11 @@ comments: true
 
 !!! warning "HDD路径不要有：空格、中文、任何特殊符号等，请尽量使用半角英数字。"
 
-??? note "使用Windows挂载虚拟磁盘方式提取HDD"
+!!! note "使用Windows挂载虚拟磁盘方式提取HDD"
 
-    鼠标左键双击**`SDHD_2.25.01_20240514122240_0.vhd`**
+    !!! warning "目前此vhd包仅能使用挂载方式提取文件"
+
+    鼠标左键双击**`SDHD_2.30.00_20241112124752_0.vhd`**
 
     Windows会挂载一个新的硬盘分区(具体盘符根据每个人情况不同而不同)
 
@@ -103,22 +105,6 @@ comments: true
 
     你也可以挂载虚拟磁盘后直接在其中运行HDD，配置方法与提取出来并无区别
 
-??? note "使用7-Zip提取HDD"
-
-    下载 **[7-Zip](https://performai.evilleaker.com/manual/download/files/7-Zip.rar)** 安装包
-
-    解压并安装7-Zip
-
-    解压 **`ExFat7z.rar`**，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
-
-    配置好7-Zip后在**`SDHD_2.25.01_20240514122240_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
-
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0002.png" width = 500/> </div>
-
-    提取后获得如下文件：
-
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0003.png" width = 500/> </div>
-
 #### 安装已解密的文件
 
 !!! tip ""
@@ -127,7 +113,7 @@ comments: true
 
     ??? info "**`chusanApp.exe`** SHA-256"
 
-        - ad2dcc02ce52b3fff24a2919f8617854581dd2e2c0378ea13d84438fcca2d522
+        - 577ebf1f46f4d57bb064f3b89524a9a39cb4683dda177b557888ad730b1ae761
 
     ??? info "**`amdaemon.exe`** SHA-256"
 
@@ -149,9 +135,7 @@ comments: true
 
 !!! tip ""
 
-    解压 **option(A001~A112).zip**
-
-    *[option(A001~A112).zip]: 请至获得的下载链接中下载
+    解压 **option(A001).zip**
 
     将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
 
@@ -159,7 +143,7 @@ comments: true
 
     - 正确的option路径应为**`bin\option`**，option文件夹中的内容应为下图所示：
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0004.png" width = 500/> </div>
+    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0004.png"> </div>
 
     - 如option路径为**`bin\option\option`**这样嵌套，则游戏不能正确读取option数据
 
@@ -225,9 +209,7 @@ comments: true
 
 !!! tip ""
 
-    解压 **ICF_2.27.zip**
-
-    *[ICF_2.27.zip]: 请至获得的下载链接中下载
+    解压 **ICF_2.30.zip**
 
     将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
 
@@ -569,6 +551,8 @@ comments: true
 #### 全国对战
 
 !!! abstract "Rin服目前已支持全国对战"
+
+    !!! danger "VERSE版本目前暂不支持全国对战"
 
     在此模式中可以随机匹配2~4位玩家进行即时对战或进行VS CPU的人机对战(不支持1 VS 3CPU)
 
