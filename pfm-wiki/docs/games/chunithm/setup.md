@@ -113,11 +113,11 @@ comments: true
 
     ??? info "**`chusanApp.exe`** SHA-256"
 
-        - 577ebf1f46f4d57bb064f3b89524a9a39cb4683dda177b557888ad730b1ae761
+        - 4aa46595563912fecdb43fa272d619385ee92f8a9d1a6659460d34df14d56a65
 
     ??? info "**`amdaemon.exe`** SHA-256"
 
-        - 8f9bf760ef33a907302820b55e918aac9fea835ff5d8b5bd4ef3f9c1aa2db8cf
+        - d4809220578374865370e31c541ed6e406b854d8c26cfe7464c2c15145113bfd
 
     - 如exe的SHA-256与上述不符，请重新下载以免使用遭到篡改的exe文件
 
