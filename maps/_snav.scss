@@ -109,7 +109,7 @@
         }
 
         &:after {
-          background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/common/arrow_wh_up.svg);
+          background-image: url(https://oss.am-all.com.cn/asset/img/main/common/arrow_wh_up.svg);
         }
       }
 
@@ -129,7 +129,7 @@
         content: '';
         width: get_vw(30);
         height: get_vw(15);
-        background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/common/arrow_bk_up.svg);
+        background-image: url(https://oss.am-all.com.cn/asset/img/main/common/arrow_bk_up.svg);
         background-size: contain;
         background-repeat: no-repeat;
         transform: scale(1, -1)
@@ -156,7 +156,7 @@
           height: get_vw(24);
           position: absolute;
           left: get_vw(100);
-          background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/play/new_on.png);
+          background-image: url(https://oss.am-all.com.cn/asset/img/main/play/new_on.png);
           background-size: contain;
           background-repeat: no-repeat;
           left: 0;
@@ -225,7 +225,7 @@
         height: get_vw(24);
         position: absolute;
         left: get_vw(100);
-        background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/play/new.png);
+        background-image: url(https://oss.am-all.com.cn/asset/img/main/play/new.png);
         background-size: contain;
         background-repeat: no-repeat;
         left: 0;
@@ -241,7 +241,7 @@
           &:hover {
             &:before {
               @include min-screen() {
-                background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/play/new_on.png);
+                background-image: url(https://oss.am-all.com.cn/asset/img/main/play/new_on.png);
               }
             }
           }
@@ -253,7 +253,7 @@
             height: get_vw(24);
             position: absolute;
             left: 0;
-            background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/play/new.png);
+            background-image: url(https://oss.am-all.com.cn/asset/img/main/play/new.png);
             background-size: contain;
             background-repeat: no-repeat;
 
@@ -381,7 +381,7 @@
           }
 
           .snav--nav__link:after {
-            background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/common/arrow_wh.svg);
+            background-image: url(https://oss.am-all.com.cn/asset/img/main/common/arrow_wh.svg);
           }
         }
 
@@ -397,7 +397,7 @@
           }
 
           .snav--nav__link:after {
-            background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/common/arrow_bk.svg);
+            background-image: url(https://oss.am-all.com.cn/asset/img/main/common/arrow_bk.svg);
           }
         }
       }
@@ -524,7 +524,7 @@
           width: get_vw(10, 1600);
           height: get_vw(20, 1600);
           right: get_vw(8, 1600);
-          background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/common/arrow_bk.svg);
+          background-image: url(https://oss.am-all.com.cn/asset/img/main/common/arrow_bk.svg);
           background-size: 100% auto;
           background-repeat: no-repeat;
         }

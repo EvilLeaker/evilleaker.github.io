@@ -7,7 +7,7 @@ var make_chara = function (chara_id, name, id) {
   chara_img.className = "chara--item__thumb";
   var chara_thumb = document.createElement("img");
   chara_thumb.srcset =
-    "https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/chara/chara_thumbnail/" + chara_id + ".png";
+    "https://oss.am-all.com.cn/asset/img/main/chara/chara_thumbnail/" + chara_id + ".png";
   var chara_name = document.createElement("p");
   chara_name.className = "chara--item__name";
   chara_name.innerHTML = name;

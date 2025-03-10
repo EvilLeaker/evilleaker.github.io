@@ -43,7 +43,7 @@ var make_music_item = function (
     thumb.classList.add("new");
   }
   var thumb_img = document.createElement("img");
-  thumb_img.src = "https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/music/" + image;
+  thumb_img.src = "https://oss.am-all.com.cn/asset/img/main/music/" + image;
   thumb.appendChild(thumb_img);
   wrapper.appendChild(thumb);
 

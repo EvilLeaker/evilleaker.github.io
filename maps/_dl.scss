@@ -110,7 +110,7 @@
         position: absolute;
         width: get_vw(80);
         height: get_vw(80);
-        background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/common/download.png);
+        background-image: url(https://oss.am-all.com.cn/asset/img/main/common/download.png);
         background-size: contain;
         right: get_vw(30);
         bottom: get_vw(30);
@@ -266,12 +266,12 @@
         pointer-events: none;
 
         &:before {
-          background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/download/arrow_off.svg);
+          background-image: url(https://oss.am-all.com.cn/asset/img/main/download/arrow_off.svg);
         }
 
         &.double {
           &:before {
-            background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/download/arrow_double_off.svg);
+            background-image: url(https://oss.am-all.com.cn/asset/img/main/download/arrow_double_off.svg);
           }
         }
       }
@@ -303,7 +303,7 @@
         content: "";
         width: get_vw(40);
         height: get_vw(30);
-        background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/download/arrow.svg);
+        background-image: url(https://oss.am-all.com.cn/asset/img/main/download/arrow.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -321,7 +321,7 @@
 
       &.double {
         &:before {
-          background-image: url(https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/download/arrow_double.svg);
+          background-image: url(https://oss.am-all.com.cn/asset/img/main/download/arrow_double.svg);
         }
       }
     }

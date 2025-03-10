@@ -18,13 +18,13 @@
     background-position: center;
     background-repeat: no-repeat;
     z-index: -4;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/bg.jpg")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/bg.jpg")
 
 }
 
 @media screen and (max-width: 601px) {
     .main-bg-inner {
-        background-image:url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/bg_sp.jpg")
+        background-image:url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/bg_sp.jpg")
     }
 }
 
@@ -39,7 +39,7 @@
     background-size: contain;
     transform-origin: 0;
     animation: topLeft 6s linear infinite;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/top_left.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/top_left.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -81,7 +81,7 @@
     transform-origin: 0;
     transform: translate(0, 20%) rotate(-30deg);
     animation: bottomRight 6s linear infinite;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/bottom_right.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/bottom_right.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -129,7 +129,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right top;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/top_right.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/top_right.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -147,7 +147,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/bottom_left.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/bottom_left.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -228,7 +228,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     animation: arrow 6s ease-in-out infinite;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/arrow_down.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/arrow_down.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -262,7 +262,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     animation: arrow 6s ease-in-out infinite reverse;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/arrow_up.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/arrow_up.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -280,7 +280,7 @@
     background-repeat: repeat;
     background-position: left bottom;
     opacity: 0;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/floating_text.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/floating_text.png")
 }
 
 .corner-text.top-right {
@@ -427,7 +427,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/globe_cross.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/globe_cross.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -452,7 +452,7 @@
     background-position: center;
     background-repeat: no-repeat;
     animation: globe 240s linear infinite;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/globe.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/globe.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -484,7 +484,7 @@
     background-position: center;
     background-repeat: no-repeat;
     animation: globeCenter 60s ease infinite reverse;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/globe_center.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/globe_center.png")
 }
 
 @keyframes globeCenter {
@@ -519,7 +519,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/globe_cross.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/globe_cross.png")
 }
 
 @media screen and (max-width: 601px) {
@@ -535,7 +535,7 @@
     background-position: top center;
     background-repeat: no-repeat repeat;
     z-index: -3;
-    background-image: url("https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/main/Chunithm_VERSE/chuniMainBg/verse_belt.png")
+    background-image: url("https://oss.am-all.com.cn/asset/img/main/Chunithm_VERSE/chuniMainBg/verse_belt.png")
 }
 
 .verse-belt.left {
