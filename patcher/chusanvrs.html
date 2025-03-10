@@ -167,6 +167,13 @@
             new PatchContainer([
                 new Patcher("amdaemon.exe", "2.30.00", [
                     {
+                        name: "Allow 127.0.0.1/localhost as the network server",
+                        patches: [
+                            { offset: 0x6e1ca4, off: [0x31, 0x32, 0x37, 0x2f], on: [0x30, 0x2f, 0x38, 0x00] },
+                            { offset: 0x3c88c4, off: [0xff, 0x15, 0xc6, 0x2f, 0x1b, 0x00, 0x8b], on: [0x33, 0xc0, 0x48, 0x83, 0xc4, 0x28, 0xc3] }
+                        ]
+                    },
+                    {
                         name: "Credit freeze",
                         tooltip: "Prevents credits from being used. At least one credit must be available to start the game or purchase premium tickets.",
                         patches: [
@@ -199,11 +206,13 @@
                 ])
             ]);
         });
-        </script>
+    </script>
     </head>
     <body>
         <h1>CHUNITHM VERSE Modder</h1>
-		<h6><a href="../patcher/">BACK TO HOME</a></h6>
+		<div style="text-align: center;">
+			<h6><a href="../patcher/">BACK TO HOME</a></h6>
+		</div>
     </body>
 	<center style="color: rgb(189, 29, 29)">
 		<b>※ ATTENTION ※
