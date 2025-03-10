@@ -2301,7 +2301,7 @@
 <details class="info">
 <summary><strong><code>amdaemon.exe</code></strong> SHA-256</summary>
 <ul>
-<li>45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4</li>
+<li>8f9bf760ef33a907302820b55e918aac9fea835ff5d8b5bd4ef3f9c1aa2db8cf</li>
 </ul>
 </details>
 <ul>
@@ -2352,67 +2352,24 @@
 </details>
 </div>
 <h3 id="segatools">安装segatools</h3>
-<details class="danger" open="open">
-<summary>fufubot segatools v1.0.3.4 目前的已知问题</summary>
-<ol>
-<li>
-<p><strong>Aime Bad</strong></p>
-<ul>
-<li>请检查 <strong><code>设备管理器</code></strong> 中的 <strong><code>端口 (COM和LPT)</code></strong> 下是否有设备占用COM4端口</li>
-<li>如有占用COM4端口，请将此设备切换到其他COM端口使COM4为未占用状态即可</li>
-</ul>
-</li>
-<li>
-<p><strong>刷卡一直刷20个0，显示通信失败</strong></p>
-<ul>
-<li>
-<p>aimeio挂上的时候可能会一直刷20个0，目前的解决方案是不要挂任何aimeio</p>
-</li>
-<li>
-<p>大四手台请挂载旧版中的 <strong>aimeio2x.dll</strong></p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>游戏无法启动或闪退</strong></p>
-<ul>
-<li>文件路径内不要有空格，会导致程序无法启动</li>
-<li>如果依然无法启动，检查C盘根目录下是否有 <strong>drama.lock</strong> 这个文件，如果没有可以 <strong><a href="https://performai.evilleaker.com/manual/download/files/drama.lock">点击此处下载</a></strong>，下载后将此文件放置在C盘根目录下再尝试启动游戏</li>
-</ul>
-</li>
-</ol>
-</details>
-<details class="note">
-<summary>fufubot segatools v1.0.3.4 更新内容</summary>
+<details class="note" open="open">
+<summary>fufubot segatools v1.0.3.5 更新内容</summary>
 <p>修复内容：</p>
 <ul>
 <li>
-<p>修复了 lmn 开始的 VFS 问题。</p>
+<p>修复COM4口有东西导致读卡器模拟自动关闭的问题 现在将enable改为2或者不写时为才会检测COM口上有没有东西决定是否开关读卡器模拟</p>
 </li>
 <li>
-<p>在 start.bat 中新增以下功能：</p>
-<ul>
-<li>挂载 duolinguo.dll 的逻辑；</li>
-<li>自动以管理员权限启动；</li>
-<li>修复 OpenSSL 问题。</li>
-</ul>
-</li>
-<li>
-<p>Hook功能 调整：强制设备窗口化时不再按系统 DPI 设置缩放游戏画面。</p>
+<p>修复大四一直刷卡的问题</p>
 </li>
 </ul>
 <p>新增功能：</p>
 <ul>
-<li>
-<p>支持 TASOLLER PLUS</p>
-</li>
-<li>
-<p>支持 Stavona IO：兼容 Stavona R 和其他基于 Stavona协议 的控制器</p>
-</li>
+<li>增加源3支持</li>
 </ul>
 </details>
 <div class="admonition tip">
-<p>下载 <strong><a href="https://performai.evilleaker.com/manual/download/files/chusan_segatools_1_0_3_4_by_fufubot_team_release_by_evil_chinese.zip">fufubot segatools</a></strong> 并解压至任意文件夹</p>
+<p>下载 <strong><a href="https://performai-1322987489.cos.ap-beijing.myqcloud.com/download%2Ffiles%2Fchusan_segatools_1_0_3_5_by_fufubot_team_release_by_evil_chinese.zip">fufubot segatools</a></strong> 并解压至任意文件夹</p>
 <p>解压后获得如下文件：</p>
 <p><div align="center"> <a class="glightbox" href="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0005.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0005.png" width = 600/></a> </div></p>
 <p>将上述文件全部复制到HDD中的 <strong><code>bin</code></strong> 文件夹下即可完成安装</p>
@@ -2578,7 +2535,7 @@
 <li>
 <p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1a87.98 87.98 0 0 0-40.4 74v1.4c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7v-3.6c0-70.7-57.3-128-128-128h-32C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32m80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80"/></svg></span> <strong>我从TASOLLER或其他设备更换到PLUS，已有玩过并已配置好HDD</strong></p>
 <hr />
-<p>下载 <strong><a href="https://performai.evilleaker.com/manual/download/files/tasoller_plus.dll">TASOLLER PLUS io</a></strong></p>
+<p>下载 <strong><a href="https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/tasoller_plus.dll">TASOLLER PLUS io</a></strong></p>
 <p>按照下方配置 <strong><code>TASOLLER PLUS io</code></strong> 即可游玩</p>
 </li>
 <li>
