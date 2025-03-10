@@ -96,7 +96,7 @@ comments: true
 
 !!! tip ""
 
-    下载最新版  **[TASOLLER Options](https://performai.evilleaker.com/manual/download/files/TASOLLER_Options.zip)** 并解压
+    下载最新版  **[TASOLLER Options](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/TASOLLER_Options.zip)** 并解压
 
     双击打开**`TASOLLER_Options_V2.8.exe`**
 
@@ -216,7 +216,7 @@ comments: true
 
 ???+ info "固件列表 (正式版)"
 
-    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS Firmware 2025.01.01](https://performai.evilleaker.com/manual/download/firmware/tslp/stable/tslp_firmware_release_250102.zip)**
+    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS Firmware 2025.01.01](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/firmware/tslp/stable/tslp_firmware_release_250102.zip)**
     !!! danger "我需要升级 2025.01.01 正式版固件吗？"
         * **2025 年 1 月 1 日之前购买的 TASOLLER PLUS 用户，务必升级**
     ??? note "2025.01.01 固件更新内容"

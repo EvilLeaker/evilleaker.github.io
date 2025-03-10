@@ -117,7 +117,7 @@ comments: true
 
     ??? info "**`amdaemon.exe`** SHA-256"
 
-        - 45017489c53ff65b38a7be5d4d5b1f869ecb13f206e6a95d6ce4f144fbbb87a4
+        - 8f9bf760ef33a907302820b55e918aac9fea835ff5d8b5bd4ef3f9c1aa2db8cf
 
     - 如exe的SHA-256与上述不符，请重新下载以免使用遭到篡改的exe文件
 
@@ -159,45 +159,21 @@ comments: true
 
 ### 安装segatools
 
-???+ danger "fufubot segatools v1.0.3.4 目前的已知问题"
-
-    1. **Aime Bad**
-
-        - 请检查 **`设备管理器`** 中的 **`端口 (COM和LPT)`** 下是否有设备占用COM4端口
-        - 如有占用COM4端口，请将此设备切换到其他COM端口使COM4为未占用状态即可
-
-    2. **刷卡一直刷20个0，显示通信失败**
-
-        - aimeio挂上的时候可能会一直刷20个0，目前的解决方案是不要挂任何aimeio
-
-        - 大四手台请挂载旧版中的 **aimeio2x.dll**
-
-    3. **游戏无法启动或闪退**
-
-        - 文件路径内不要有空格，会导致程序无法启动
-        - 如果依然无法启动，检查C盘根目录下是否有 **drama.lock** 这个文件，如果没有可以 **[点击此处下载](https://performai.evilleaker.com/manual/download/files/drama.lock)**，下载后将此文件放置在C盘根目录下再尝试启动游戏
-??? note "fufubot segatools v1.0.3.4 更新内容"
+???+ note "fufubot segatools v1.0.3.5 更新内容"
 
     修复内容：
 
-	- 修复了 lmn 开始的 VFS 问题。
+	- 修复COM4口有东西导致读卡器模拟自动关闭的问题 现在将enable改为2或者不写时为才会检测COM口上有没有东西决定是否开关读卡器模拟
 
-	- 在 start.bat 中新增以下功能：
-        * 挂载 duolinguo.dll 的逻辑；
-	    * 自动以管理员权限启动；
-	    * 修复 OpenSSL 问题。
-
-	- Hook功能 调整：强制设备窗口化时不再按系统 DPI 设置缩放游戏画面。
+	- 修复大四一直刷卡的问题
 
     新增功能：
 
-    - 支持 TASOLLER PLUS
-
-    - 支持 Stavona IO：兼容 Stavona R 和其他基于 Stavona协议 的控制器
+    - 增加源3支持
 
 !!! tip ""
 
-    下载 **[fufubot segatools](https://performai.evilleaker.com/manual/download/files/chusan_segatools_1_0_3_4_by_fufubot_team_release_by_evil_chinese.zip)** 并解压至任意文件夹
+    下载 **[fufubot segatools](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download%2Ffiles%2Fchusan_segatools_1_0_3_5_by_fufubot_team_release_by_evil_chinese.zip)** 并解压至任意文件夹
 
     解压后获得如下文件：
 
@@ -396,7 +372,7 @@ comments: true
 
     ---
 
-    下载 **[TASOLLER PLUS io](https://performai.evilleaker.com/manual/download/files/tasoller_plus.dll)**
+    下载 **[TASOLLER PLUS io](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/tasoller_plus.dll)**
 
     按照下方配置 **`TASOLLER PLUS io`** 即可游玩
 

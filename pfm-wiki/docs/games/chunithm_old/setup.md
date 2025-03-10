@@ -119,7 +119,7 @@ comments: true
 
 ??? note "使用7-Zip提取HDD"
 
-    下载 **[7-Zip](https://performai.evilleaker.com/manual/download/files/7-Zip.rar)** 安装包
+    下载 **[7-Zip](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/7-Zip.rar)** 安装包
 
     解压并安装7-Zip
 

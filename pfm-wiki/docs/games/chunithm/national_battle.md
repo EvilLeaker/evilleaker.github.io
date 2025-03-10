@@ -16,11 +16,11 @@ comments: true
 
     游玩全国对战请参照教程安装最新版 **[fufubot segatools](https://performai.evilleaker.com/manual/games/chunithm/setup/#segatools)**
 
-    下载 **[duolinguo.dll](http://performai.evilleaker.com/manual/download/files/duolinguo.dll)**
+    下载 **[duolinguo.dll](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/duolinguo.dll)**
 
     - 将 **`duolinguo.dll`** 放入 **`bin`** 文件夹中替换同名文件
 
-    下载 **[解锁选曲限制-AUBC](http://performai.evilleaker.com/manual/download/files/AUBC.zip)**
+    下载 **[解锁选曲限制-AUBC](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/AUBC.zip)**
 
     - 解压后放入 **`bin\option`** ，重启游戏即可
 

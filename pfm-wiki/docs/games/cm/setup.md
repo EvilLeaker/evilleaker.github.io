@@ -105,7 +105,7 @@ comments: true
 
 ??? note "使用7-Zip提取HDD"
 
-    下载 **[7-Zip](https://performai.evilleaker.com/manual/download/files/7-Zip.rar)** 安装包
+    下载 **[7-Zip](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/7-Zip.rar)** 安装包
 
     解压并安装7-Zip
 
@@ -123,7 +123,7 @@ comments: true
 
 !!! tip ""
 
-    下载 **[sded segatools](https://performai.evilleaker.com/manual/download/files/segatools_sded.zip)** 并解压至任意文件夹
+    下载 **[sded segatools](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/segatools_sded.zip)** 并解压至任意文件夹
 
     解压后获得如下文件：
 

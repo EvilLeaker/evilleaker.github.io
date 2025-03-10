@@ -15,8 +15,8 @@ comments: true
 
 !!! tip ""
 
-    - 在**[补丁站](https://performai.evilleaker.com/patcher/)**为**`chusanApp.exe`**打上**`Force 120Hz check`**补丁
-        * 切忌此项不要和**`CVT Mode`**一起打，如Patch没有此项可忽略本提示
+    - 在 **[补丁站](https://performai.evilleaker.com/patcher/)** 为 **`chusanApp.exe`**打上**`Disable display check`** 补丁
+        * 切忌此项不要和 **`CVT Mode`** 一起打，如Patch没有此项可忽略本提示
     - 调整系统刷新率为120Hz或更高（刷新率上限为144Hz的显示器可能需要设置120Hz）
     - 检查是否安装了正确的ICF文件，请不要放入网盘以外或其他游戏的ICF文件。
 
@@ -24,7 +24,7 @@ comments: true
 
 !!! tip ""
 
-    - 在**[补丁站](https://performai.evilleaker.com/patcher/)**为**`chusanApp.exe`**打上**`Force shared audio mode`**补丁
+    - 在 **[补丁站](https://performai.evilleaker.com/patcher/)** 为 **`chusanApp.exe`** 打上 **`Force shared audio mode`** 补丁
 
         * 此补丁可能会增加延迟
 
@@ -52,22 +52,22 @@ comments: true
 
         * 检查是否安装 **`A001`**，如果解决不了请安装 **`A999`** 解决此问题
 
-        * 不想安装 **`A999`** 请自行手动解锁 **`A001\event\event00000017`** 活动来解决此问题：
+        * 不想安装 **`A999`** 请自行手动解锁 **`A001\event\event00000018`** 活动来解决此问题：
 
-            * 在 **`A001\event\event00000017\Event.xml`** 上单击右键选择 **编辑**
+            * 在 **`A001\event\event00000018\Event.xml`** 上单击右键选择 **编辑**
             * 将下方代码高亮处的 **false** 修改为 **true**
             * 保存并关闭文件，重启游戏
 
             ```xml hl_lines="19"
-              <dataName>event00000017</dataName>
+              <dataName>event00000018</dataName>
               <netOpenName>
-                <id>2501</id>
-                <str>v2_25 00_1</str>
+                <id>2601</id>
+                <str>v2_30 00_1</str>
                 <data />
               </netOpenName>
               <name>
-                <id>17</id>
-                <str>【Ver2.25】オンラインフラグ</str>
+                <id>18</id>
+                <str>【Ver2.30】オンラインフラグ</str>
                 <data />
               </name>
               <text />
