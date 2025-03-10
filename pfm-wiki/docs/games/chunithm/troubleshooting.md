@@ -30,7 +30,7 @@ comments: true
 
 !!! tip ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0019.png"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0019.png"/> </div>
 
     如果启动游戏后在上图处等待很久，您可以将整个HDD文件夹添加到**`Windows Defender`**的**`排除项`**中可以加快游戏启动自检速度
 

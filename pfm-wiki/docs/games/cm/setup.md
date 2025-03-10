@@ -1,8 +1,8 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/cm_logo.png"/> </div>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/cm_cab.png" width = 130/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cm_logo.png"/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cm_cab.png" width = 130/> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
@@ -69,7 +69,7 @@ comments: true
 
     请到上述下载地址下载如下文件
 
-    <img width="700" src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/cm/cm01.png">
+    <img width="700" src="https://oss.am-all.com.cn/asset/img/manual/cm/cm01.png">
 
 ## 安装Runtime (Windows运行时安装包)
 
@@ -81,7 +81,7 @@ comments: true
 
     解压后获得如下文件
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0001.png" width = 500/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png" width = 500/> </div>
 
     运行**`DirectX.bat`**并按照窗口提示完成安装
 
@@ -105,7 +105,7 @@ comments: true
 
 ??? note "使用7-Zip提取HDD"
 
-    下载 **[7-Zip](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/7-Zip.rar)** 安装包
+    下载 **[7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar)** 安装包
 
     解压并安装7-Zip
 
@@ -113,21 +113,21 @@ comments: true
 
     配置好7-Zip后在**`SDED_1.39.00_20240401125337.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/cm/cm02.png" width = 400/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/cm/cm02.png" width = 400/> </div>
 
     提取后获得如下文件：
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/cm/cm03.png" width = 500/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/cm/cm03.png" width = 500/> </div>
 
 ## 安装segatools
 
 !!! tip ""
 
-    下载 **[sded segatools](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/segatools_sded.zip)** 并解压至任意文件夹
+    下载 **[sded segatools](https://oss.am-all.com.cn/download/files/segatools_sded.zip)** 并解压至任意文件夹
 
     解压后获得如下文件：
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/cm/cm04.png" width = 600/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/cm/cm04.png" width = 600/> </div>
 
     将上述文件全部复制到HDD中的 **`package`** 文件夹下即可完成安装
 

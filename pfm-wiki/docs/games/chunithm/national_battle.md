@@ -1,7 +1,7 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_00.png"/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ol_battle/ol_battle_00.png"/> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
@@ -16,11 +16,11 @@ comments: true
 
     游玩全国对战请参照教程安装最新版 **[fufubot segatools](https://performai.evilleaker.com/manual/games/chunithm/setup/#segatools)**
 
-    下载 **[duolinguo.dll](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/duolinguo.dll)**
+    下载 **[duolinguo.dll](https://oss.am-all.com.cn/download/files/duolinguo.dll)**
 
     - 将 **`duolinguo.dll`** 放入 **`bin`** 文件夹中替换同名文件
 
-    下载 **[解锁选曲限制-AUBC](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/AUBC.zip)**
+    下载 **[解锁选曲限制-AUBC](https://oss.am-all.com.cn/download/files/AUBC.zip)**
 
     - 解压后放入 **`bin\option`** ，重启游戏即可
 
@@ -36,10 +36,10 @@ comments: true
 
 !!! note "关于全国对战"
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_01.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ol_battle/ol_battle_01.jpg"/> </div>
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_02.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ol_battle/ol_battle_02.jpg"/> </div>
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/ol_battle/ol_battle_03.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ol_battle/ol_battle_03.jpg"/> </div>
 
 ---

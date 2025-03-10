@@ -1,6 +1,6 @@
 # 
 <figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/main_logo.png" /> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/main_logo.png" /> </div>
 [:fontawesome-solid-house: 访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
 </figure>
 
@@ -26,13 +26,13 @@
     ---
 - **游戏安装教程**
 
-    **[:octicons-arrow-right-24: CHUNITHM LUMINOUS PLUS](games/chunithm/setup.md)**
+    **[:octicons-arrow-right-24: CHUNITHM VERSE](games/chunithm/setup.md)**
 
     **[:octicons-arrow-right-24: CHUNITHM (OLD Version)](games/chunithm_old/setup.md)**
 
     **[:octicons-arrow-right-24: O.N.G.E.K.I](games/ongeki/setup.md)**
 
-    **[:octicons-arrow-right-24: CARD MAKER (Coming S∞n)](games/cm/setup.md)**
+    **[:octicons-arrow-right-24: CARD MAKER](games/cm/setup.md)**
 
     ---
 - **手台安装教程**

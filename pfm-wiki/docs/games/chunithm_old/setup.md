@@ -1,7 +1,7 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/first_logo.png" /> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/first_logo.png" /> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
@@ -93,7 +93,7 @@ comments: true
 
     解压后获得如下文件
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0001.png" width = 500/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png" width = 500/> </div>
 
     运行**`DirectX.bat`**并按照窗口提示完成安装
 
@@ -119,7 +119,7 @@ comments: true
 
 ??? note "使用7-Zip提取HDD"
 
-    下载 **[7-Zip](https://performai-1322987489.cos.ap-beijing.myqcloud.com/download/files/7-Zip.rar)** 安装包
+    下载 **[7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar)** 安装包
 
     解压并安装7-Zip
 
@@ -127,11 +127,11 @@ comments: true
 
     配置好7-Zip后在**`SDBT_*.**.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0021.png" width = 500/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0021.png" width = 500/> </div>
 
     提取后获得如下文件：
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0020.png" width = 500/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0020.png" width = 500/> </div>
 
 ---
 

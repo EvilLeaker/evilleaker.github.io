@@ -7,10 +7,10 @@ comments: true
 
     - 这个是给红外升级固件用的，平时使用不能插USB上去。
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_22.jpg" width="400"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_22.jpg" width="400"/> </div>
     
     - 请将USB插到触摸板上
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_23.jpg" width="400"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_23.jpg" width="400"/> </div>
 
 ---

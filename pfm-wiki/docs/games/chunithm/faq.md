@@ -34,7 +34,7 @@ comments: true
 
         * 选择**`高级`**选项卡
 
-        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0006.png"/> </div>
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0006.png"/> </div>
 
         * 在你的默认音频输出设备上双击鼠标左键，在弹出的属性窗口选择**`高级`**选项卡
 
@@ -42,7 +42,7 @@ comments: true
 
         * 勾选**`独占模式`**下的两个选项，点击**`应用`**后选择**`确定`**
 
-        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0007.png"/> </div>
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0007.png"/> </div>
 
 ### 3. 网络测试全GOOD，标题界面右下角网络图标为灰色
 
@@ -89,7 +89,7 @@ comments: true
 
     - 局域网中只有一台机器的情况下，请将本机设置为配信服务器（gpio下的dipsw1设置）和基准机（TEST界面）
 
-        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0010.png"/> </div>
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0010.png"/> </div>
 
         * 按下手台上对应TEST功能的按键，或**`segatools.ini`**中**`[io3]`**设置的对应按键，进入TEST菜单
 
@@ -97,7 +97,7 @@ comments: true
 
     - 选择**`ゲーム設定`**
 
-        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/chu_manual/chum0011.png"/> </div>
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0011.png"/> </div>
 
         * 选择**`グループ内基準機設定`**，将右侧**`基準機に従う`**切换为**`基準機`**
 
@@ -129,7 +129,7 @@ comments: true
 
     - **`amdaemon.exe`** 报错，出现此错误代码，请尝试安装 **[Runtime运行库](../../games/chunithm/setup.md#runtime-windows)**
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/faq/faq_00.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/faq/faq_00.jpg"/> </div>
 
 ### 9. UAC闪退
 
@@ -143,6 +143,6 @@ comments: true
 
     游戏数据与用户存档数据版本不符，请安装正确版本的HDD本体或option
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/faq/faq_01.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/faq/faq_01.jpg"/> </div>
 
 ---

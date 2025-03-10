@@ -5,7 +5,7 @@ comments: true
 
 !!! note ""
 
-    ![Image title](https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/pcb/pcb_alls.jpg){ align=left }
+    ![Image title](https://oss.am-all.com.cn/asset/img/manual/pcb/pcb_alls.jpg){ align=left }
 
     ALLS是Sega （截至 2020 年 3 月，Sega Interactive ）在2017年9月公布的下一代通用商业基板（当时尚未命名）
 

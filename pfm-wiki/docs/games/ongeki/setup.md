@@ -1,8 +1,8 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/ogk_logo.png"/> </div>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/cabinet_2.png" width = 130/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/ogk_logo.png"/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cabinet_2.png" width = 130/> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"

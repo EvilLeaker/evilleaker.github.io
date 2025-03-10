@@ -1,14 +1,14 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/first_logo.png"/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/first_logo.png"/> </div>
 </figure>
 
 !!! danger "本文仅展Yubideck的安装连接方法，其他操作方式请参照**[其他输入方式](../other.md)**"
 
 ## Yubideck - 大四/Zhousensor/GENBU
 
-<div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_00.jpg" width="400"/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_00.jpg" width="400"/> </div>
 
 !!! warning "注意事项"
 
@@ -26,15 +26,15 @@ comments: true
 
 !!! info ""
     
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_01.jpg"/> </div>
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_02.jpg"/> </div>
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_03.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_01.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_02.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_03.jpg"/> </div>
 
 ### 接线
 
 !!! info ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_04.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_04.jpg"/> </div>
         
     - 将 **HDMI线** 如图插入本体的插口内
 
@@ -57,7 +57,7 @@ comments: true
 
 !!! info ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_05.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_05.jpg"/> </div>
 
     - 竖起两侧的红外传感器，并向玩家倾斜。
 
@@ -69,7 +69,7 @@ comments: true
 
 !!! info ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_06.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_06.jpg"/> </div>
 
     - 红外感应器一共有8个灯，游戏中只会用到其中的6个。
     - 读卡器底部有个3档开关来选择，档1-最低6个；档2-中间6个；档3-最上6个。
@@ -98,7 +98,7 @@ comments: true
 
 !!! info ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_13.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_13.jpg"/> </div>
 
     - 触摸区域一共有32个触摸区块组成。
 
@@ -123,7 +123,7 @@ comments: true
     !!! note "灵敏度太低"
 
         会导致手指按在4个区块交界处，没有反应。俗称中缝吃音。
-        <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_14.jpg" width="200"/> </div>
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_14.jpg" width="200"/> </div>
 
         因为手指的触摸数值平均给了周围的区块，灵敏度太低会导致每个区块分得的数值达不到要求。
 
@@ -203,7 +203,7 @@ comments: true
     | `粘键抑制` | 如果因为温湿度变化太大、手套材质积累静电等原因，触摸区域发生粘键现象，可尝试开启此功能。 |
     | `USB输出模式` | 可切换USB模式为 **低延迟专用HID数据输出** 或 **键盘信号** 输出 |
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_09.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_09.jpg"/> </div>
 
     !!! warning "粘键抑制说明"
     
@@ -233,9 +233,9 @@ comments: true
 
     - 先滑完下层按键，滑过的按键会先亮蓝色灯
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_12.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_12.jpg"/> </div>
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_10.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_10.jpg"/> </div>
 
     - 全部亮绿灯1秒后会自动保存，并恢复正常游玩模式。
 
@@ -302,15 +302,15 @@ comments: true
 
     - 同时按住A+B键 (左侧2个)等待控制器进入校准模式
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_19.jpg" width="500"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_19.jpg" width="500"/> </div>
 
     - 进入后，再同时按住B+C键 (右侧2个)等待控制器进入内部参数设定模式
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_20.jpg" width="500"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_20.jpg" width="500"/> </div>
 
     - 按多次A键，调整蓝灯的个数。蓝灯数量为1~8个，数量越多，触摸越灵敏
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_21.jpg" width="500"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_21.jpg" width="500"/> </div>
 
     !!! note "推荐数量范围5～8"
 
@@ -328,7 +328,7 @@ comments: true
 
 !!! info ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_15.jpg" width="500"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_15.jpg" width="500"/> </div>
 
     - 在触摸板背面的缝隙中可以看到硬件版本号
 
@@ -351,10 +351,10 @@ comments: true
 
 !!! info "以下图片展示 包装泡沫 放入纸箱的顺序"
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_16.jpg" width="500"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_16.jpg" width="500"/> </div>
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_17.jpg" width="500"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_17.jpg" width="500"/> </div>
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/controller/dasi/yubideck_18.jpg" width="500"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/dasi/yubideck_18.jpg" width="500"/> </div>
 
 ---

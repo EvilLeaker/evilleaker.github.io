@@ -17,7 +17,7 @@ comments: true
 
 !!! note ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/pcb/ringwide.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/pcb/ringwide.jpg"/> </div>
 
     CPU：Intel Celeron 440 2.0GHz
 
@@ -61,7 +61,7 @@ comments: true
 
 !!! note ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/pcb/ringedge.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/pcb/ringedge.jpg"/> </div>
 
     CPU：Intel Pentium Dual-Core E2160 1.8GHz
 
@@ -117,7 +117,7 @@ comments: true
 
 !!! note ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/pcb/ringedge2.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/pcb/ringedge2.jpg"/> </div>
 
     CPU：Intel Core i3-540 3.06 GHz
 

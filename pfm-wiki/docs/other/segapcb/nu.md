@@ -15,7 +15,7 @@ comments: true
 
 !!! note ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/pcb/pcb_nu.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/pcb/pcb_nu.jpg"/> </div>
 
     CPU：Intel Core i3-3220 3.30 GHz
 
@@ -51,7 +51,7 @@ comments: true
 
 !!! note ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/pcb/pcb_nu1.1.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/pcb/pcb_nu1.1.jpg"/> </div>
 
     CPU：Intel Core i3-3220 3.30 GHz
 
@@ -87,7 +87,7 @@ comments: true
 
 !!! note ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/pcb/pcb_nu2.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/pcb/pcb_nu2.jpg"/> </div>
 
     主板：技嘉 MDH11BM
 
@@ -119,7 +119,7 @@ comments: true
 
 !!! note ""
 
-    <div align="center"> <img src="https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/pcb/pcb_nusx.jpg"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/pcb/pcb_nusx.jpg"/> </div>
 
     **{==使用此基板的游戏：==}**
 
