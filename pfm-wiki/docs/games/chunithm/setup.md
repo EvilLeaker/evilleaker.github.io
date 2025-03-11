@@ -35,7 +35,7 @@ comments: true
 
     ---
 
-    A001
+    A001~A121
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -51,7 +51,7 @@ comments: true
 
     ---
 
-    2025/03/09 (Thu)
+    2025/03/10 (Tue)
 
 </div>
 
@@ -135,7 +135,7 @@ comments: true
 
 !!! tip ""
 
-    解压 **option(A001).zip**
+    解压 **option(A001~A121).zip**
 
     将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
 
@@ -185,7 +185,7 @@ comments: true
 
 !!! tip ""
 
-    解压 **ICF_2.30.zip**
+    解压 **ICF_2.30_A121.zip**
 
     将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
 
