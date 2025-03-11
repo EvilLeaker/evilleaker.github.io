@@ -526,9 +526,9 @@ comments: true
 
 #### 全国对战
 
-!!! abstract "Rin服目前已支持全国对战"
+!!! abstract "Rin NET目前已支持全国对战"
 
-    !!! danger "VERSE版本目前暂不支持全国对战"
+    !!! note "已支持VERSE，请下载并更新最新版本 **duolinguo.dll**"
 
     在此模式中可以随机匹配2~4位玩家进行即时对战或进行VS CPU的人机对战(不支持1 VS 3CPU)
 

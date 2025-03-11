@@ -12,6 +12,8 @@ comments: true
 
 !!! tip "准备工作"
 
+    !!! note "已支持VERSE，请下载并更新最新版本 **duolinguo.dll**"
+
     请确保游戏已连接 **`rin Net`** 或其他支持全国对战的在线服
 
     游玩全国对战请参照教程安装最新版 **[fufubot segatools](https://performai.evilleaker.com/manual/games/chunithm/setup/#segatools)**
