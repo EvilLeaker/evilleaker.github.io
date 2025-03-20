@@ -734,7 +734,7 @@ class PatchContainer {
             var matchSuccess = createElementClass('span', 'matchSuccess');
             this.matchSuccessText.push(matchSuccess);
             listItem.appendChild(matchSuccess);
-            var forceButton = createElementClass('button', '', '强制加载?');
+            var forceButton = createElementClass('button', '', '强制加载');
             forceButton.style.display = 'none';
             this.forceLoadButtons.push(forceButton);
             listItem.appendChild(forceButton);
@@ -834,7 +834,7 @@ class PatchContainer {
                     const valid = patcher.validPatches;
                     const percent = (valid / patcher.totalPatches * 100).toFixed(1);
 
-                    self.forceLoadTexts[i].textContent = '已匹配 ' + valid + ' of ' + patcher.totalPatches + ' 个补丁项 (' + percent + '%) ';
+                    self.forceLoadTexts[i].textContent = '已匹配 ' + patcher.totalPatches + ' 中的 ' + valid + ' 个补丁项 (' + percent + '%) ';
                     self.forceLoadButtons[i].style.display = '';
                     self.forceLoadButtons[i].onclick = function(i) {
                         // reset old text
