@@ -2,7 +2,7 @@
     {
         "id": "2753",
         "catname": "POPS & ANIME",
-        "newflag": "1",
+        "newflag": "0",
         "title": "ONLY YOUR STARS!（Trickstar Ver.）",
         "reading": "ONLYYOURSTARSTRICKSTARVER",
         "artist": "歌：Trickstar 作詞：松井洋平　作曲/編曲：中土智博（APDREAM）",
@@ -18,7 +18,7 @@
     {
         "id": "2754",
         "catname": "POPS & ANIME",
-        "newflag": "1",
+        "newflag": "0",
         "title": "BRAND NEW STARS!! (ALKALOID ver.)",
         "reading": "BRANDNEWSTARSALKALOIDVER",
         "artist": "歌：ALKALOID 作詞：こだまさおり　作曲：桑原聖（Arte Refact）、編曲：脇眞富（Arte Refact）",
@@ -34,7 +34,7 @@
     {
         "id": "2755",
         "catname": "POPS & ANIME",
-        "newflag": "1",
+        "newflag": "0",
         "title": "One with One (Eden ver.)",
         "reading": "ONEWITHONEEDENVER",
         "artist": "歌：Eden 作詞：こだま さおり　作曲 / 編曲：佐藤 厚仁（Dream Monster）",
@@ -50,7 +50,7 @@
     {
         "id": "2756",
         "catname": "POPS & ANIME",
-        "newflag": "1",
+        "newflag": "0",
         "title": "Surprising Thanks!! (Crazy:B ver.)",
         "reading": "SURPRISINGTHANKSCRAZYBVER",
         "artist": "歌：Crazy:B 作詞：松井洋平　作曲 / 編曲：伊藤和馬 (Arte Refact)",
@@ -10946,7 +10946,7 @@
     {
         "id": "2750",
         "catname": "VARIETY",
-        "newflag": "1",
+        "newflag": "0",
         "title": "INFiNiTE ENERZY -Overdoze-",
         "reading": "INFINITEENERZYOVERDOZE",
         "artist": "Reku Mochizuki",
@@ -23282,7 +23282,7 @@
     {
         "id": "2744",
         "catname": "ORIGINAL",
-        "newflag": "1",
+        "newflag": "0",
         "title": "Crush the Dystopia",
         "reading": "CRUSHTHEDYSTOPIA",
         "artist": "MintJam vs Masahiro \"Godspeed\" Aoki",
