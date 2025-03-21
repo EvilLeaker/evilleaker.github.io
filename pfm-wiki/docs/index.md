@@ -34,6 +34,8 @@
 
     **[:octicons-arrow-right-24: CARD MAKER](games/cm/setup.md)**
 
+    **:octicons-arrow-right-24: NEW Project (Coming s∞n)**
+
     ---
 - **手台安装教程**
 
@@ -43,14 +45,28 @@
 
     **[:octicons-arrow-right-24: Yubideck (大四)](controller/chuni/yubideck/setup.md)**
 
-    **[:octicons-arrow-right-24: ONTROLLER](#)**
+    **[:octicons-arrow-right-24: ONTROLLER](controller/ongeki/ontroller.md)**
+
+    **:octicons-arrow-right-24: NEW Project (Coming s∞n)**
 
     ---
 - **其他**
 
-    **[CHUNITHM-常见问题](games/chunithm/faq.md)**，**[CHUNITHM-故障排除](games/chunithm/troubleshooting.md)**，**[CHUNITHM-错误代码](games/chunithm/errorcodes.md)**
+    **CHUNITHM**
 
-    **[O.N.G.E.K.I-常见问题](#)**，**[O.N.G.E.K.I-故障排除](#)**，**[O.N.G.E.K.I-错误代码](#)**
+    **[:octicons-arrow-right-24: CHUNITHM-常见问题](games/chunithm/faq.md)**
+
+    **[:octicons-arrow-right-24: CHUNITHM-故障排除](games/chunithm/troubleshooting.md)**
+
+    **[:octicons-arrow-right-24: CHUNITHM-错误代码](games/chunithm/errorcodes.md)**
+
+    **ONGEKI**
+
+    **[:octicons-arrow-right-24: O.N.G.E.K.I-常见问题](#)**
+
+    **[:octicons-arrow-right-24: O.N.G.E.K.I-故障排除](#)**
+
+    **[:octicons-arrow-right-24: O.N.G.E.K.I-错误代码](#)**
 
 </div>
 

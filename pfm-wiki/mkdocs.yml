@@ -148,6 +148,10 @@ nav:
                   - "控制器说明书": "controller/chuni/yubideck/setup.md"
                   - "常见问题与故障排查": "controller/chuni/yubideck/troubleshooting.md"
               - "其他输入方式": "controller/chuni/other.md"
+          - "ONGEKI":
+              - "O.N.T.R.O.L.L.E.R":
+                  - "安装手台": "controller/ongeki/ontroller.md"
+                  - "ONTROLLER Options": "controller/ongeki/options.md"
   - 其他:
       - "问题反馈": "other/feedback.md"
       - "SEGA PCB":

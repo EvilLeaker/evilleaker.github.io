@@ -1,7 +1,7 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/ogk_logo.png"/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/ogkbm_logo.png"/> </div>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cabinet_2.png" width = 130/> </div>
 </figure>
 
@@ -41,9 +41,13 @@ comments: true
 
     ---
 
-    rin Net
+    rin Net、Nageki
+
+    ---
 
     **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)**
+
+    **[:octicons-arrow-right-24: 前往Nageki](https://nageki-net.com/web/ongeki/profile)**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
