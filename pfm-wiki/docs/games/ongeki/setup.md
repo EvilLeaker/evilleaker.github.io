@@ -1,7 +1,7 @@
 comments: true
 # 
 <figure markdown>
-<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/ogkbm_logo.png"/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/ogkrf_logo.png"/> </div>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cabinet_2.png" width = 130/> </div>
 </figure>
 
@@ -23,9 +23,9 @@ comments: true
 
     ---
 
-    ONGEKI Bright Memory Act.3
+    ONGEKI Re:Fresh
 
-    Version 1.45
+    Version 1.50
 
     ---
 
@@ -35,7 +35,7 @@ comments: true
 
     ---
 
-    A001~A032 (1.45-H)
+    A001~A016 (1.50-A)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -53,7 +53,7 @@ comments: true
 
     ---
 
-    2025/02/17 (Mon)
+    2025/03/27 (Tue)
 
 </div>
 
