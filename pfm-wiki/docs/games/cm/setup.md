@@ -2,7 +2,7 @@ comments: true
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cm_logo.png"/> </div>
-<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cm_cab.png" width = 130/> </div>
+<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cm_cab.png" width = 160/> </div>
 </figure>
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
