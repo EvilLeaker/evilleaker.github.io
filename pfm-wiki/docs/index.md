@@ -30,7 +30,7 @@
 
     **[:octicons-arrow-right-24: CHUNITHM (OLD Version)](games/chunithm_old/setup.md)**
 
-    **[:octicons-arrow-right-24: O.N.G.E.K.I](games/ongeki/setup.md)**
+    **[:octicons-arrow-right-24: O.N.G.E.K.I Re:Fresh](games/ongeki/setup.md)**
 
     **[:octicons-arrow-right-24: CARD MAKER](games/cm/setup.md)**
 

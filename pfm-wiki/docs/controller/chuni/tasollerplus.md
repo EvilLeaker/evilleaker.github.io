@@ -96,9 +96,11 @@ comments: true
 
 !!! tip ""
 
-    下载最新版  **[TASOLLER Options](https://oss.am-all.com.cn/download/files/TASOLLER_Options.zip)** 并解压
+    下载最新版 **TASOLLER options**
 
-    双击打开**`TASOLLER_Options_V2.8.exe`**
+    [:octicons-arrow-down-24: TASOLLER Options v2.8](https://oss.am-all.com.cn/download/files/TASOLLER_Options.zip){ .md-button .md-button--primary }
+
+    解压后，双击打开**`TASOLLER_Options_V2.8.exe`**
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_03.png"/> </div>
 

@@ -5,6 +5,10 @@ comments: true
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cabinet_2.png" width = 150/> </div>
 </figure>
 
+!!! danger "ATTENTION"
+
+    本页面尚未完成，下载请至公开源或群中下载！
+
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 
 !!! danger "重要提醒"
@@ -29,7 +33,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](#)**
+    **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sddt.html)**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
@@ -53,7 +57,7 @@ comments: true
 
     ---
 
-    2025/03/27 (Tue)
+    2025/03/28 (Fri)
 
 </div>
 

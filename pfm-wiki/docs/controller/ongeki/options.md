@@ -16,7 +16,7 @@ comments: true
 
 ### 下载 ONTROLLER Options
 
-[:octicons-arrow-down-24: ONTROLLER Options v1.8](https://performai.evilleaker.com/){ .md-button .md-button--primary }
+[:octicons-arrow-down-24: ONTROLLER Options v2.1](https://oss.am-all.com.cn/download/files/ONTROLLER-options-V2.1.zip){ .md-button .md-button--primary }
 
 ---
 
