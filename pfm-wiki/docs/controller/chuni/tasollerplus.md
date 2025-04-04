@@ -202,12 +202,12 @@ comments: true
 
     - 连接 TASOLLER PLUS 的 1 个 Type-C 接口到电脑（不带闪电标识的那个接口）
 
-    - 烧录 **主控固件**
+    - 先烧录 **主控固件**
         * 点击 **`打开`** 按钮
         * 选择 **APP** 开头的固件文件 (APP开头为主控固件)
         * 点击升级，等待进度条走完即可完成固件升级
 
-    - 烧录 **触摸固件**
+    - 再烧录 **触摸固件**
         * 点击 **`打开`** 按钮
         * 选择 **TOUCH** 开头的固件文件 (TOUCH开头为触摸固件)
         * 点击升级，等待进度条走完即可完成固件升级
@@ -216,9 +216,14 @@ comments: true
 
 ### 固件下载
 
-???+ info "固件列表 (正式版)"
+???+ info "主控固件"
 
-    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS Firmware 2025.01.01](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250102.zip)**
+    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS APP Firmware 2025.03.26](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_app_firmware_release_250326.zip)**
+
+
+???+ info "触摸固件 (正式版)"
+
+    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS TOUCH Firmware 2025.01.01](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_touch_firmware_release_250102.zip)**
     !!! danger "我需要升级 2025.01.01 正式版固件吗？"
         * **2025 年 1 月 1 日之前购买的 TASOLLER PLUS 用户，务必升级**
     ??? note "2025.01.01 固件更新内容"
@@ -231,7 +236,7 @@ comments: true
 
 ---
 
-??? info "固件列表 (测试版)"
+??? info "触摸固件 (测试版)"
 
     暂无
 
@@ -239,7 +244,19 @@ comments: true
 
 ??? info "历史固件 (仅做存档，如无必要请不要刷写)"
 
-    暂无
+    - 主控固件
+
+    **[TASOLLER PLUS APP Firmware 2024.12.18](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_app_firmware_release_241218.zip)**
+
+    **[TASOLLER PLUS APP Firmware 2025.01.02](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_app_firmware_release_250102.zip)**
+
+    ---
+
+    - 触摸固件
+
+    **[TASOLLER PLUS TOUCH Firmware 2024.12.18](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_touch_firmware_release_241218.zip)**
+
+    **[TASOLLER PLUS TOUCH Firmware 2025.01.02](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_touch_firmware_release_250102.zip)**
 
 ---
 

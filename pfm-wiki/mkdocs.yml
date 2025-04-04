@@ -6,8 +6,8 @@ repo_name: Evil Leaker HOME
 
 theme:
   name: material
-  logo: https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/site_logo.svg
-  favicon: https://performai-1322987489.cos.ap-beijing.myqcloud.com/asset/img/manual/common/favicon.png
+  logo: https://oss.am-all.com.cn/asset/img/manual/common/site_logo.svg
+  favicon: https://oss.am-all.com.cn/asset/img/manual/common/favicon.png
   icon:
     repo: fontawesome/solid/house
     annotation: material/arrow-right-circle
@@ -137,6 +137,9 @@ nav:
               - "安装使用教程": "games/chunithm_old/setup.md"
           - "O.N.G.E.K.I":
               - "安装使用教程": "games/ongeki/setup.md"
+              - "mu3 MOD":
+                  - "MOD功能列表": "games/ongeki/mod_list.md"
+              - "常见问题": "games/ongeki/faq.md"
           - "CARD MAKER":
               - "安装使用教程": "games/cm/setup.md"
   - 控制器:

@@ -35,7 +35,7 @@ comments: true
 
     ---
 
-    A001~A132
+    A001~A153
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -51,7 +51,7 @@ comments: true
 
     ---
 
-    2025/03/10 (Tue)
+    2025/03/31 (Mon)
 
 </div>
 
@@ -189,7 +189,7 @@ comments: true
 
 !!! tip ""
 
-    下载 **[fufubot segatools](https://oss.am-all.com.cn/download%2Ffiles%2Fchusan_segatools_1_0_3_5_by_fufubot_team_release_by_evil_chinese.zip)** 并解压至任意文件夹
+    下载 **[fufubot segatools](https://oss.am-all.com.cn/download/files/chusan_segatools_1_0_3_5_by_fufubot_team_release_by_evil_chinese.zip)** 并解压至任意文件夹
 
     解压后获得如下文件：
 
@@ -618,13 +618,13 @@ comments: true
 
     如何建立Aime卡号：
 
-    在第一次启动游戏时，可在游戏标题处长按**`Enter`**刷卡，游戏会自动生成卡号文件
+    在第一次启动游戏时，可在游戏标题处长按 **`Enter`** 刷卡，游戏会自动生成卡号文件
 
     如果你拥有20位Aime卡号，也可以自行建立卡号文件
 
-    - 在bin\DEVICE文件夹中建立名为**`aime`**的文本文档文件（aime.txt）
+    - 在 **`bin\DEVICE`** 文件夹中建立名为 **`aime`** 的文本文档文件 (aime.txt)
 
-    - 打开此文件，填入你的卡号（20位纯数字），可以是你手中真实卡片背面的卡号（ASSCE CODE）
+    - 打开此文件，填入你的卡号 (20位纯数字)，可以是你手中真实卡片背面的卡号 (ACCESS CODE)
 
     - 如果自行编写，则卡号不能以3开头
 

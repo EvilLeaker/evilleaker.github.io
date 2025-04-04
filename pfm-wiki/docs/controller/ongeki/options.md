@@ -16,7 +16,7 @@ comments: true
 
 ### 下载 ONTROLLER Options
 
-[:octicons-arrow-down-24: ONTROLLER Options v2.1](https://oss.am-all.com.cn/download/files/ONTROLLER-options-V2.1.zip){ .md-button .md-button--primary }
+[:octicons-arrow-down-24: ONTROLLER Options v2.1](https://oss.am-all.com.cn/download/files/ONTROLLER-options-V2.1.zip){ .md-button .md-button--primary target="_blank"}
 
 ---
 
@@ -66,8 +66,8 @@ comments: true
 
     | 编号               | 功能      |
     |------------------|---------|
-    | A  | 模式选择下拉框 |
-    |B|点击按钮，即可切换模式|
+    | 1  | 模式选择下拉框 |
+    |2|点击按钮，即可切换模式|
 
 ### 校准摇杆
 
@@ -81,10 +81,15 @@ comments: true
 
     | 编号               | 功能      |
     |------------------|---------|
-    | A  | 校准按钮 |
-    |B|校准方法|
-    |C|校准完成后，点击保存退出|
-    |D|当前摇杆输出的反馈|
+    |1| 校准按钮 |
+    |2|校准方法|
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/ontroller/039-1.png" /> </div>
+
+    | 编号               | 功能      |
+    |------------------|---------|
+    |1|校准完成后，点击保存退出|
+    |2|当前摇杆输出的反馈|
 
 ### 全局功能说明
 
@@ -94,14 +99,13 @@ comments: true
 
     | 编号               | 功能      |
     |------------------|---------|
-    |A|对 HID Output 灯光的支持，建议打开|
-    |B|模拟白炽灯效果|
-    |C|侧键的亮度|
-    |D|6个正方形按键灯的亮度|
-    |E|设置侧键的灯光模式|
-    |F|设置6个正方形按键灯的灯光模式|
-    |G|连续点击，在RGBW中切换，用来确认所有灯光正常|
-    |H|切换 UI 语言，如果希望使用语言，可以自己修改 XML 文件|
+    |1|侧键灯模式切换|
+    |2|按键灯模式切换|
+    |3|左右MENU键触发时间设置|
+    |4|侧键亮度|
+    |5|按键亮度|
+    |6|---|
+    |7|---|
 
 ### Keyboard 模式下的功能
 
@@ -117,11 +121,11 @@ comments: true
 
     | 编号               | 功能      |
     |------------------|---------|
-    |A|显示当前键值，默认值为 Shift|
-    |B|摇杆移动到左侧的键值，默认值为 Left|
-    |C|摇杆移动到左侧的键值，默认值为 Right|
-    |D|Left 和 Right 之间的死区，建议不要设置太小。容易在 Left 和 Right 之间抖动|
-    |E|外框颜色为当前按键松开时的灯光颜色|
+    |1|显示当前键值，默认值为 Shift|
+    |2|摇杆移动到左侧的键值，默认值为 Left|
+    |3|摇杆移动到左侧的键值，默认值为 Right|
+    |4|Left 和 Right 之间的死区，建议不要设置太小。容易在 Left 和 Right 之间抖动|
+    |5|外框颜色为当前按键松开时的灯光颜色|
 
 ---
 

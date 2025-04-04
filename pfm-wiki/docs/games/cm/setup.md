@@ -93,7 +93,7 @@ comments: true
 
 ??? note "使用Windows挂载虚拟磁盘方式提取HDD"
 
-    鼠标左键双击 **`SDED_1.39.00_20240401125337.vhd`**
+    鼠标左键双击 **`SDED_1.39.00_20240401125337_0.vhd`**
 
     Windows会挂载一个新的硬盘分区(具体盘符根据每个人情况不同而不同)
 
@@ -105,13 +105,15 @@ comments: true
 
 ??? note "使用7-Zip提取HDD"
 
-    下载 **[7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar)** 安装包
+    下载 **7-Zip**
 
-    解压并安装7-Zip
+    [:octicons-arrow-down-24: Download 7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
+
+    解压并安装 **7-Zip**
 
     解压 **`ExFat7z.rar`**，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
 
-    配置好7-Zip后在**`SDED_1.39.00_20240401125337.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
+    配置好7-Zip后在**`SDED_1.39.00_20240401125337_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/cm/cm02.png" width = 400/> </div>
 
