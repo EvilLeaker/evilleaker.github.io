@@ -2352,6 +2352,22 @@
         "image": "d5a47266b4fe0bfe.jpg"
     },
     {
+        "id": "2751",
+        "catname": "niconico",
+        "newflag": "1",
+        "title": "Nyan Cat",
+        "reading": "NYANCAT",
+        "artist": "daniwellP feat. 桃音モモ",
+        "lev_bas": "2",
+        "lev_adv": "6",
+        "lev_exp": "12",
+        "lev_mas": "13+",
+        "lev_ult": "",
+        "we_kanji": "",
+        "we_star": "",
+        "image": "b1c25831e072f4ed.jpg"
+    },
+    {
         "id": "2745",
         "catname": "niconico",
         "newflag": "0",
@@ -16146,7 +16162,7 @@
     {
         "id": "2749",
         "catname": "ゲキマイ",
-        "newflag": "1",
+        "newflag": "0",
         "title": "本能的 Survivor",
         "reading": "ホンノウテキサハイハウ",
         "artist": "曲：eba／歌：⊿TRiEDGE [高瀬 梨緒(CV：久保 ユリカ)、結城 莉玖(CV：朝日奈 丸佳)、藍原 椿(CV：橋本 ちなみ)]",
@@ -17122,7 +17138,7 @@
     {
         "id": "2800",
         "catname": "ゲキマイ",
-        "newflag": "1",
+        "newflag": "0",
         "title": "淵底のグレイ・ユークロニア",
         "reading": "エンテイノクレイユウクロニア",
         "artist": "打打だいず vs. siromaru vs. Tanchiky",
@@ -23326,6 +23342,22 @@
         "we_kanji": "",
         "we_star": "",
         "image": "df3d1d052c80377e.jpg"
+    },
+    {
+        "id": "8302",
+        "catname": "イロドリミドリ",
+        "newflag": "1",
+        "title": "猫祭り",
+        "reading": "ネコマツリ",
+        "artist": "箱部 なる(CV:M・A・O)",
+        "lev_bas": "",
+        "lev_adv": "",
+        "lev_exp": "",
+        "lev_mas": "",
+        "lev_ult": "",
+        "we_kanji": "嘘",
+        "we_star": "3",
+        "image": "cdc8363af404f134.jpg"
     },
     {
         "id": "8295",
