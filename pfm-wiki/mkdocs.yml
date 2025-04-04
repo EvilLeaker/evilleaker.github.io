@@ -142,6 +142,8 @@ nav:
               - "常见问题": "games/ongeki/faq.md"
           - "CARD MAKER":
               - "安装使用教程": "games/cm/setup.md"
+          - "？？？":
+              - "？？？": "games/NEW_Project/game.md"
   - 控制器:
       - "SEGA":
           - "CHUNITHM":
@@ -155,6 +157,8 @@ nav:
               - "O.N.T.R.O.L.L.E.R":
                   - "安装手台": "controller/ongeki/ontroller.md"
                   - "ONTROLLER Options": "controller/ongeki/options.md"
+          - "？？？":
+              - "？？？": "controller/NEW_Project/controller.md"
   - 其他:
       - "问题反馈": "other/feedback.md"
       - "SEGA PCB":
