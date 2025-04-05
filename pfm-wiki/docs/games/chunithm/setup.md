@@ -57,7 +57,7 @@ comments: true
 
 ---
 
-### 游玩前的准备以及注意事项
+## 游玩前的准备以及注意事项
 
 !!! danger "注意事项"
 
@@ -73,21 +73,23 @@ comments: true
 
     <img width="700" src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0000.png">
 
-#### 安装Runtime (Windows运行时安装包)
+### 安装Runtime (Windows运行时安装包)
 
 !!! tip ""
 
-    下载 **[Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg)** 安装包
+    下载  **<code style="color: green;">Runtime</code>** 
+
+    [:octicons-arrow-down-24: Download Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg){ .md-button .md-button--primary target="_blank"}
 
     解压后获得如下文件
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png" width = 500/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png"/> </div>
 
     运行**`DirectX.bat`**并按照窗口提示完成安装
 
     运行**`VC.bat`**并按照窗口提示完成安装
 
-#### 提取游戏文件
+### 提取游戏文件
 
 !!! warning "HDD路径不要有：空格、中文、任何特殊符号等，请尽量使用半角英数字。"
 
@@ -105,7 +107,7 @@ comments: true
 
     你也可以挂载虚拟磁盘后直接在其中运行HDD，配置方法与提取出来并无区别
 
-#### 安装已解密的文件
+### 安装已解密的文件
 
 !!! tip ""
 
@@ -131,7 +133,7 @@ comments: true
 
     - 补丁站仅支持本教程提供之 **`chusanApp.exe`** 的修改！
 
-#### 安装option
+### 安装option
 
 !!! tip ""
 
@@ -157,7 +159,7 @@ comments: true
 
         - A071 - 现行版本以前两位作为更新月份，最后一位则为这个月份的第几个更新包，如最后一位是**`0`**，则固定为待机广告视频更新包
 
-#### 安装官方删除曲补充包
+### 安装官方删除曲补充包
 
 !!! tip ""
 
@@ -189,7 +191,9 @@ comments: true
 
 !!! tip ""
 
-    下载 **[fufubot segatools](https://oss.am-all.com.cn/download/files/chusan_segatools_1_0_3_5_by_fufubot_team_release_by_evil_chinese.zip)** 并解压至任意文件夹
+    下载 **fufubot segatools** 并解压至任意文件夹
+
+    [:octicons-arrow-down-24: Download fufubot segatools](https://oss.am-all.com.cn/download/files/chusan_segatools_1_0_3_5_by_fufubot_team_release_by_evil_chinese.zip){ .md-button .md-button--primary target="_blank"}
 
     解压后获得如下文件：
 
@@ -207,7 +211,7 @@ comments: true
 
 ---
 
-### 配置segatools
+## 配置segatools
 
 !!! tip ""
 
@@ -221,7 +225,7 @@ comments: true
 
         请不要使用富文本编辑器（例如：Word、WPS、写字板）来修改配置文件，可能会让配置文件格式错误而导致游戏读取配置文件出错
 
-#### `[vfs]`
+### `[vfs]`
 
 !!! tip ""
 
@@ -238,7 +242,7 @@ comments: true
     appdata=appdata
     ```
 
-#### `[gpio]`
+### `[gpio]`
 
 !!! tip ""
 
@@ -272,7 +276,7 @@ comments: true
 
     !!! danger "请严格按照上述要求修改dipsw设置，错误的设置可能会让游戏无法正常启动！"
 
-#### `[gfx]`
+### `[gfx]`
 
 !!! tip ""
 
@@ -306,7 +310,7 @@ comments: true
     
         不管以何种方式运行游戏，**`monitor=0`** 都无需修改，请保持默认设置
 
-#### `[aime] / [aimeio]`
+### `[aime] / [aimeio]`
 
 !!! tip ""
 
@@ -338,13 +342,13 @@ comments: true
     path=aimeio.dll
     ```
 
-#### `[led]`
+### `[led]`
 
 !!! tip ""
 
     如需使用 LED板(837-15093) 则**`enable`**修改为**`0`**，正常情况不需要修改默认为**`1`**即可
 
-#### `[io3]`
+### `[io3]`
 
 !!! tip ""
 
@@ -356,7 +360,7 @@ comments: true
 
 ---
 
-### 配置控制器io
+## 配置控制器io
 
 !!! tip ""
 
@@ -364,7 +368,7 @@ comments: true
 
     - 本章节依旧需要在**`segatools.ini`**中进行配置
 
-#### TASOLLER / TASOLLER PLUS
+### TASOLLER / TASOLLER PLUS
 
 <div class="grid cards" markdown>
 
@@ -423,7 +427,7 @@ comments: true
     path=tasoller_plus.dll
     ```
 
-#### Yubideck (大四控制器/舟台)
+### Yubideck (大四控制器/舟台)
 
 !!! tip ""
 
@@ -468,7 +472,7 @@ comments: true
 
 ---
 
-### 连接网络
+## 连接网络
 
 !!! note "注意事项"
 
@@ -540,7 +544,7 @@ comments: true
 
     离线服务器都需要进行比较复杂的设置，详情请参阅**[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)**与**[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)**的官方指南来配置本地服务器。
 
-#### 全国对战
+### 全国对战
 
 !!! abstract "Rin NET目前已支持全国对战"
 
@@ -552,11 +556,11 @@ comments: true
 
 ---
 
-### HDD运行与设置
+## HDD运行与设置
 
 !!! tip "根据上面的步骤，现在你已经具备运行HDD的基本环境了，下面将进行一些运行前的最后设置"
 
-#### 修复 OpenSSL
+### 修复 OpenSSL
 
 !!! tip ""
 
@@ -572,7 +576,7 @@ comments: true
     ...
     ```
 
-#### 共享音频设置
+### 共享音频设置
 
 !!! tip ""
 
@@ -590,7 +594,7 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0007.png" width = 400/> </div>
 
-#### 加快游戏启动速度
+### 加快游戏启动速度
 
 !!! tip ""
 
@@ -608,7 +612,7 @@ comments: true
 
     - 点击**`添加排除项`**将整个HDD文件夹加入后关闭安全中心即可
 
-#### 设置虚拟Aime卡号
+### 设置虚拟Aime卡号
 
 !!! tip ""
 
@@ -630,7 +634,7 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0008.png" width = 400/> </div>
 
-#### 启动HDD
+### 启动HDD
 
 !!! tip ""
 
@@ -696,7 +700,7 @@ comments: true
 
 ---
 
-### 开始游戏
+## 开始游戏
 
 !!! note "见到下图画面的话，那么恭喜你已经正常联网并且可以开始游戏了！"
 

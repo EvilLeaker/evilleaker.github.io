@@ -4,9 +4,9 @@
 [:fontawesome-solid-house: 访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
 </figure>
 
-!!! warning "新站内容仍在搬运或完善中，如站内没有你需要的内容，请在群内求助或浏览原Notion教程"
+!!! info "关于本站"
 
-    - **[Notion - ONGEKI Manual](https://performai.notion.site/O-N-G-E-K-I-Manual-22752c24d01446379c7ffdf3819e08e9?pvs=74)**
+    本站资源与教程完全免费浏览及下载，请不要在网络平台购买已发布至公网的相关资源及教程以免上当受骗，如果有需要你可以将本站共享给任何人。
 
 !!! tip "解压密码"
 
@@ -14,10 +14,6 @@
 
     - **CHUNITHM相关资源** : **{==chunipenguin==}**
     - **ONGEKI相关资源** : **{==hoshizakiakari==}**
-
-!!! info "关于本站"
-
-    本站资源与教程完全免费浏览及下载，请不要在网络平台购买已发布至公网的相关资源及教程以免上当受骗，如果有需要你可以将本站共享给任何人。
 
 <div class="grid cards" markdown>
 
@@ -34,7 +30,7 @@
 
     **[:octicons-arrow-right-24: CARD MAKER](games/cm/setup.md)**
 
-    **:octicons-arrow-right-24: NEW Project (Coming s∞n)**
+    **[:octicons-arrow-right-24: NEW Project (Coming s∞n)](games/NEW_Project/game.md)**
 
     ---
 - **手台安装教程**
@@ -47,7 +43,7 @@
 
     **[:octicons-arrow-right-24: ONTROLLER](controller/ongeki/ontroller.md)**
 
-    **:octicons-arrow-right-24: NEW Project (Coming s∞n)**
+    **[:octicons-arrow-right-24: NEW Project (Coming s∞n)](controller/NEW_Project/controller.md)**
 
     ---
 - **其他**
@@ -62,11 +58,8 @@
 
     **ONGEKI**
 
-    **[:octicons-arrow-right-24: O.N.G.E.K.I-常见问题](#)**
+    **[:octicons-arrow-right-24: O.N.G.E.K.I-常见问题](games/ongeki/faq.md)**
 
-    **[:octicons-arrow-right-24: O.N.G.E.K.I-故障排除](#)**
-
-    **[:octicons-arrow-right-24: O.N.G.E.K.I-错误代码](#)**
 
 </div>
 

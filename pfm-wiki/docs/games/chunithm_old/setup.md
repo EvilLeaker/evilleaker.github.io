@@ -58,7 +58,7 @@ comments: true
 
 ---
 
-### 游玩前的准备以及注意事项
+## 游玩前的准备以及注意事项
 
 !!! danger "注意事项"
 
@@ -85,23 +85,23 @@ comments: true
     | `SDBT_1.50.vhd` | CHUNITHM PARADISE / LOST | :material-check: | :material-check: |
     | `SDHX_1.51.vhd (待发)` | CHUNITHM PARADISE LOST OFFLINE Ver. | :material-close: | :material-close: |
 
-#### 安装Runtime (Windows运行时安装包)
+### 安装Runtime (Windows运行时安装包)
 
 !!! tip ""
 
-    下载 **[Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg)** 安装包
+    下载  **<code style="color: green;">Runtime</code>** 
+
+    [:octicons-arrow-down-24: Download Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg){ .md-button .md-button--primary target="_blank"}
 
     解压后获得如下文件
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png" width = 500/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png"/> </div>
 
     运行**`DirectX.bat`**并按照窗口提示完成安装
 
     运行**`VC.bat`**并按照窗口提示完成安装
 
----
-
-#### 提取游戏文件
+### 提取游戏文件
 
 !!! warning "HDD路径不要有：空格、中文、任何特殊符号等，请尽量使用半角英数字。"
 
@@ -137,7 +137,7 @@ comments: true
 
 ---
 
-#### 设置segatools
+## 设置segatools
 
 !!! tip ""
 
@@ -153,7 +153,7 @@ comments: true
 
 ---
 
-#### 启动游戏
+## 启动游戏
 
 !!! tip ""
 

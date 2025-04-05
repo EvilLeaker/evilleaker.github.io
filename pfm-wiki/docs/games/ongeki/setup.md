@@ -159,7 +159,7 @@ comments: true
 
     下载并解压 **<code style="color: green;">option(A001~A016).zip</code>**
 
-    将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
+    将 **<code style="color: green;">option</code>** 文件夹复制到HDD文件夹下的 **<code style="color: green;">bin</code>** 文件夹中
 
     - O.N.G.E.K.I官方option文件夹都以 **<code style="color: green;">Axxx</code>** 命名， **<code style="color: green;">x</code>** 均为数字，如果你在其他地方下载到非下图所示的option文件夹则可能为玩家自制内容
 
@@ -279,6 +279,8 @@ comments: true
     ```
 
     ---
+
+    !!! note "WinUSB io 与 HID io 二选一即可"
 
     下载 **WinUSB io**
 
@@ -659,7 +661,7 @@ comments: true
 
     MOD有非常多的可选功能，这里仅介绍提升游戏体验的基础功能为例
 
-    如需了解更多MOD对应功能，请查看 **[MOD 功能列表](#mod)**
+    如需了解更多MOD对应功能，请查看 **[MOD 功能列表](mod_list.md)**
 
     - 打开 **<code style="color: green;">mod_files</code>** 文件夹
 
@@ -721,7 +723,7 @@ comments: true
 
 !!! tip "启动自检"
 
-    - 游戏窗口出现下图所示并且显示 **<code style="color: green;">ゲームデータ</code>** 初期化中则表示游戏正在加载资源中
+    - 游戏窗口出现下图所示并且显示 **<code style="color: green;">ゲームデータ 初期化</code>** 中则表示游戏正在加载资源中
 
     !!! warning "注意事项"
 
@@ -729,7 +731,7 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/sddt0001.png" width = 500/> </div>
 
-    - 如果卡在 **<code style="color: green;">システムプロセス</code>** 起動中不跳 **<code style="color: green;">GOOD</code>** ，一直过不去，也没有出现 **<code style="color: green;">ゲームデータ</code>** 初期化中，这种情况是因为 **AM Daemon** 没有启动
+    - 如果卡在 **<code style="color: green;">システムプロセス 起動中</code>** 不跳 **<code style="color: green;">GOOD</code>** 一直过不去，也没有出现 **<code style="color: green;">ゲームデータ 初期化中</code>**，这种情况是因为 **AM Daemon** 没有启动
     ，如果出现此情况，请返回上面 **[修复 OpenSSL](#openssl)** 部分查看解决方法
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/sddt0000.png" width=500/> </div>
