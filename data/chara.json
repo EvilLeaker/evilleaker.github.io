@@ -57,6 +57,27 @@
         ]
       },
       {
+        "map": "VERSE ep. III",
+        "characters": [
+          {
+            "id": "v_3_1",
+            "name": "リンネ"
+          },
+          {
+            "id": "v_3_2",
+            "name": "ラヴィーナ・キトゥン"
+          },
+          {
+            "id": "v_3_3",
+            "name": "アストル"
+          },
+          {
+            "id": "v_3_4",
+            "name": "クレイ＝グ"
+          }
+        ]
+      },
+      {
         "map": "UNLOCK CHALLENGE",
         "characters": [
           {
