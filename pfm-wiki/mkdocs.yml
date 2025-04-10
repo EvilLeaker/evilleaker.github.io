@@ -6,6 +6,7 @@ repo_name: Evil Leaker HOME
 
 theme:
   name: material
+  custom_dir: overrides
   logo: https://oss.am-all.com.cn/asset/img/manual/common/site_logo.svg
   favicon: https://oss.am-all.com.cn/asset/img/manual/common/favicon.png
   icon:
