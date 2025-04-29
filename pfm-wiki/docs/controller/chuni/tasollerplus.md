@@ -44,6 +44,7 @@ comments: true
         * 使用说明书：1张
         * M6手拧螺丝：2个
         * USB-A to C 线缆：2条
+        * TASOLLER PLUS LOGO 贴纸：1个
         * **触摸板贴膜：1片 (已贴好，本品需另购)**
 
     ---
@@ -98,9 +99,9 @@ comments: true
 
     下载最新版 **TASOLLER options**
 
-    [:octicons-arrow-down-24: TASOLLER Options v2.8](https://oss.am-all.com.cn/download/files/TASOLLER_Options.zip){ .md-button .md-button--primary }
+    [:octicons-arrow-down-24: TASOLLER Options v3.1](https://oss.am-all.com.cn/download/files/TASOLLER_Options.zip){ .md-button .md-button--primary }
 
-    解压后，双击打开**`TASOLLER_Options_V2.8.exe`**
+    解压后，双击打开**`TASOLLER_Options_V3.1.exe`**
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_03.png"/> </div>
 
@@ -114,7 +115,67 @@ comments: true
 
     [^1]: CHUNITHM需要使用WINUSB模式来进行游玩
 
-!!! tip "参数调节 (2025-01-01 正式版固件)"
+    ---
+
+    !!! note "V3.1版新增功能"
+
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_10.png"/> </div>
+
+---
+
+### 固件下载
+
+???+ info "最新正式版"
+
+    !!! danger "请使用最新版V3.1 TASOLLER Options软件进行固件烧录"
+
+    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS Firmware 2025.04.26](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250426.zip)**
+
+
+??? info "测试版"
+
+    暂无
+
+---
+
+??? info "历史固件 (仅做存档，如无必要请不要刷写)"
+
+    
+    ??? note "2025.01.02 固件"
+        [:octicons-arrow-down-24: TASOLLER Firmware 250101](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250102.zip){ .md-button .md-button--primary }
+
+        * 在不改变框体参数下，确定了手台延迟基准
+        * 确定了合适的阈值（灵敏度）
+        * 解决了粘键的影响
+        * 解决蹭、吃的平衡
+        * 对于 2K 屏幕，150%的 DPI 缩放时，Options 软件显示不全。增加了缩放按钮
+        * 增加了 touch 和 AIR 的亮度调节
+
+---
+
+### 烧录固件
+
+!!! tip ""
+
+    - 打开 **TASOLLER Options** 软件
+
+    - 连接 TASOLLER PLUS 的 1 个 Type-C 接口到电脑（不带闪电标识的那个接口）
+
+    - 先烧录 **主控固件**
+        * 点击 **`打开`** 按钮
+        * 选择 **APP** 开头的固件文件 (APP开头为主控固件)
+        * 点击升级，等待进度条走完即可完成固件升级
+
+    - 再烧录 **触摸固件**
+        * 点击 **`打开`** 按钮
+        * 选择 **TOUCH** 开头的固件文件 (TOUCH开头为触摸固件)
+        * 点击升级，等待进度条走完即可完成固件升级
+
+---
+
+### 参数调节
+
+!!! tip ""
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_08.png" width="400"/> </div>
 
@@ -191,72 +252,6 @@ comments: true
     - 游戏的 TEST 中，按键阈值，必须使用 **20**
     !!! warning "注意事项"
         * TASOLLER Options 软件可以和游戏并存，从游戏切到桌面，调节后，再切回游戏即可
-
----
-
-### 烧录固件
-
-!!! tip ""
-
-    - 打开 **TASOLLER Options** 软件
-
-    - 连接 TASOLLER PLUS 的 1 个 Type-C 接口到电脑（不带闪电标识的那个接口）
-
-    - 先烧录 **主控固件**
-        * 点击 **`打开`** 按钮
-        * 选择 **APP** 开头的固件文件 (APP开头为主控固件)
-        * 点击升级，等待进度条走完即可完成固件升级
-
-    - 再烧录 **触摸固件**
-        * 点击 **`打开`** 按钮
-        * 选择 **TOUCH** 开头的固件文件 (TOUCH开头为触摸固件)
-        * 点击升级，等待进度条走完即可完成固件升级
-
----
-
-### 固件下载
-
-???+ info "主控固件"
-
-    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS APP Firmware 2025.03.26](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_app_firmware_release_250326.zip)**
-
-
-???+ info "触摸固件 (正式版)"
-
-    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS TOUCH Firmware 2025.01.01](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_touch_firmware_release_250102.zip)**
-    !!! danger "我需要升级 2025.01.01 正式版固件吗？"
-        * **2025 年 1 月 1 日之前购买的 TASOLLER PLUS 用户，务必升级**
-    ??? note "2025.01.01 固件更新内容"
-        * 在不改变框体参数下，确定了手台延迟基准
-        * 确定了合适的阈值（灵敏度）
-        * 解决了粘键的影响
-        * 解决蹭、吃的平衡
-        * 对于 2K 屏幕，150%的 DPI 缩放时，Options 软件显示不全。增加了缩放按钮
-        * 增加了 touch 和 AIR 的亮度调节
-
----
-
-??? info "触摸固件 (测试版)"
-
-    暂无
-
----
-
-??? info "历史固件 (仅做存档，如无必要请不要刷写)"
-
-    - 主控固件
-
-    **[TASOLLER PLUS APP Firmware 2024.12.18](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_app_firmware_release_241218.zip)**
-
-    **[TASOLLER PLUS APP Firmware 2025.01.02](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_app_firmware_release_250102.zip)**
-
-    ---
-
-    - 触摸固件
-
-    **[TASOLLER PLUS TOUCH Firmware 2024.12.18](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_touch_firmware_release_241218.zip)**
-
-    **[TASOLLER PLUS TOUCH Firmware 2025.01.02](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_touch_firmware_release_250102.zip)**
 
 ---
 

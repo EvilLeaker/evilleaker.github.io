@@ -31,7 +31,7 @@ comments: true
     | 名称 | 功能         |
     |----|------------|
     |UnlockAllMusic| 解锁全部乐曲     |
-    |UnlockAndSetJewelBoostNine| 解锁9倍宝石加成   |
+    |UnlockAndSetJewelBoostNine| 锁定9倍宝石加成   |
     |UnlockGameEvents| 解锁全部Event  |
     |UnlockMasterDifficulty| 解锁Master难度 |
     |UnlockMemoryChapters| 解锁Memory章节 |
@@ -85,3 +85,7 @@ comments: true
     Framerate=120
     VSync=0
     ```
+
+    ---
+
+    !!! warning "理论上此mod可以支持比120更高的帧率，但可能需要较高的CPU性能才能稳定设置的帧数"

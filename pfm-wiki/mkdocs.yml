@@ -160,6 +160,9 @@ nav:
                   - "ONTROLLER Options": "controller/ongeki/options.md"
           - "？？？":
               - "？？？": "controller/NEW_Project/controller.md"
+  - 外设:
+      - "读卡器":
+          - "CARDOLLER": "peripherals/cardreader/cardoller.md"
   - 其他:
       - "问题反馈": "other/feedback.md"
       - "SEGA PCB":
@@ -168,3 +171,7 @@ nav:
           - "ALLS": "other/segapcb/alls.md"
   - 博客:
       - blog/index.md
+extra_javascript:
+  - js/modal.js
+extra_css:
+  - css/modal.css

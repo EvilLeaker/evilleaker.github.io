@@ -35,7 +35,7 @@ comments: true
 
     ---
 
-    A001~A153
+    A001~A161
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -51,13 +51,13 @@ comments: true
 
     ---
 
-    2025/03/31 (Mon)
+    2025/04/29 (Tue)
 
 </div>
 
 ---
 
-## 游玩前的准备以及注意事项
+## 游玩前的准备
 
 !!! danger "注意事项"
 
@@ -77,7 +77,7 @@ comments: true
 
 !!! tip ""
 
-    下载  **<code style="color: green;">Runtime</code>** 
+    下载  **Runtime** 
 
     [:octicons-arrow-down-24: Download Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg){ .md-button .md-button--primary target="_blank"}
 
@@ -93,9 +93,7 @@ comments: true
 
 !!! warning "HDD路径不要有：空格、中文、任何特殊符号等，请尽量使用半角英数字。"
 
-!!! note "使用Windows挂载虚拟磁盘方式提取HDD"
-
-    !!! warning "目前此vhd包仅能使用挂载方式提取文件"
+??? note "使用Windows挂载虚拟磁盘方式提取HDD"
 
     鼠标左键双击**`SDHD_2.30.00_20241112124752_0.vhd`**
 
@@ -106,6 +104,24 @@ comments: true
     提取完文件后可以关闭磁盘分区窗口，并在这个分区上点击鼠标右键选择**`弹出(Eject)`**卸载磁盘分区
 
     你也可以挂载虚拟磁盘后直接在其中运行HDD，配置方法与提取出来并无区别
+
+??? note "使用7-Zip提取HDD"
+
+    下载 **7-Zip**
+
+    [:octicons-arrow-down-24: Download 7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
+
+    解压并安装 **7-Zip**
+
+    解压 **`ExFat7z.rar`**，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
+
+    配置好7-Zip后在**`SDHD_2.30.00_20241112124752_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0002.png"> </div>
+
+    提取后获得如下文件：
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0003.png"> </div>
 
 ### 安装已解密的文件
 
@@ -137,7 +153,7 @@ comments: true
 
 !!! tip ""
 
-    下载并解压 **option(A001~A132).zip**
+    下载并解压 **option(A001~A161).zip**
 
     将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
 
@@ -205,7 +221,7 @@ comments: true
 
 !!! tip ""
 
-    解压 **ICF_2.30_A121.zip**
+    解压 **ICF_2.30.zip**
 
     将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
 
@@ -341,12 +357,6 @@ comments: true
     [aimeio]
     path=aimeio.dll
     ```
-
-### `[led]`
-
-!!! tip ""
-
-    如需使用 LED板(837-15093) 则**`enable`**修改为**`0`**，正常情况不需要修改默认为**`1`**即可
 
 ### `[io3]`
 
@@ -564,8 +574,6 @@ comments: true
 
 !!! tip ""
 
-    !!! warning "**`fufubot segatools v1.0.3.4`**无需设置此项"
-
     如果您的CPU是Intel Core 10th Gen或以上版本，请右键单击 **`bin\start.bat`** 选择 **`编辑`**，将下面高亮处代码添加至文件开头并保存
 
     ```batch hl_lines="2"
@@ -618,7 +626,7 @@ comments: true
 
     !!! note "保存游戏数据需要设置虚拟卡号文件，如果你有读卡器请直接刷卡"
 
-    !!! warning "这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意"
+    !!! warning "不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意"
 
     如何建立Aime卡号：
 

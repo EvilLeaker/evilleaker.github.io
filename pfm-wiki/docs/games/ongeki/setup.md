@@ -63,7 +63,7 @@ comments: true
 
 ---
 
-## 游玩前的准备以及注意事项
+## 游玩前的准备
 
 !!! danger "注意事项"
 
@@ -135,11 +135,11 @@ comments: true
 
 !!! tip ""
 
-    下载  **<code style="color: green;">mu3 segatools</code>**  并解压至任意文件夹
+    下载  **<code style="color: green;">mai2 segatools</code>**  并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download mu3 segatools](https://oss.am-all.com.cn/download/files/mu3_segatools.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download mai2 segatools](https://oss.am-all.com.cn/download/files/mu3_segatools.zip){ .md-button .md-button--primary target="_blank"}
 
-    解压后获得如下文件：
+    **解压后获得如下文件：**
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0003.png" width = 600/> </div>
 
@@ -233,7 +233,7 @@ comments: true
 
 !!! tip ""
 
-    io3中的选项负责映射 **<code style="color: green;">TEST</code>**、**<code style="color: green;">SERVICE</code>**、**<code style="color: green;">COIN</code>** 三个机台功能按键，默认为键盘字母上面的数字 **<code style="color: green;">F1</code>**、**<code style="color: green;">F2</code>**、**<code style="color: green;">F3</code>** 
+    io4中的选项负责映射 **<code style="color: green;">TEST</code>**、**<code style="color: green;">SERVICE</code>**、**<code style="color: green;">COIN</code>** 三个机台功能按键，默认为键盘 **<code style="color: green;">F1</code>**、**<code style="color: green;">F2</code>**、**<code style="color: green;">F3</code>** 
 
     ```ini
     [io4]
@@ -254,7 +254,7 @@ comments: true
 
 !!! tip ""
 
-    本文将展示 **<code style="color: green;">O.N.T.R.O.L.L.E.R</code>** ，  **<code style="color: green;">其他通用控制器</code>** 与  **<code style="color: green;">键盘鼠标&手柄</code>**  的配置方法，
+    本文将展示 **<code style="color: green;">O.N.T.R.O.L.L.E.R</code>** ，**<code style="color: green;">其他通用控制器</code>** 与  **<code style="color: green;">键盘鼠标&手柄</code>** 的配置方法，
 
     - 本章节依旧需要在 **<code style="color: green;">segatools.ini</code>** 中进行配置
 
@@ -681,6 +681,8 @@ comments: true
 
 ### 设置HDD启动参数
 
+#### 窗口设置
+
 !!! tip ""
 
     - 游戏默认为窗口运行，如需全屏启动游戏，请使用文本编辑软件编辑 **<code style="color: green;">start.bat</code>**
@@ -698,6 +700,44 @@ comments: true
     ```bash
     mu3 -screen-fullscreen 0 -screen-width 1080 -screen-height 1920
     ```
+
+    ---
+
+    保存并关闭 **<code style="color: green;">start.bat</code>** 文件
+
+#### 多屏幕设置
+
+!!! tip ""
+
+    - 如果你的PC有多显示设备，在不修改配置的情况下游戏默认在 **主屏幕(1号屏)** 启动
+
+    - 在不改动屏幕顺序及设置的情况下在指定屏幕启动游戏，请使用文本编辑软件编辑 **<code style="color: green;">start.bat</code>**
+
+    - 在下述命令末尾添加 **<code style="color: green;">-monitor X</code>** (X为屏幕的编号，如不知道具体屏幕编号可以前往 **Windows显示设置** 中查看)
+
+    - 该命令需要与前面的命令用空格空开
+
+    ```bash
+    mu3 -screen-fullscreen 1 -screen-width 1080 -screen-height 1920 -monitor 1
+    ```
+
+    ---
+
+    保存并关闭 **<code style="color: green;">start.bat</code>** 文件
+
+#### 分辨率设置
+
+!!! tip ""
+
+    - 本游戏支持以更高的分辨率来运行游戏，如需修改分辨率，请使用文本编辑软件编辑 **<code style="color: green;">start.bat</code>**
+
+    - 游戏的原始分辨率为 **1080x1920**，如需以更高分辨率运行游戏(如:1440P、4K等)，请修改下述命令中的 **-screen-width** 与 **-screen-height**
+
+    ```bash
+    mu3 -screen-fullscreen 1 -screen-width 2160 -screen-height 3840 -monitor 1
+    ```
+
+    !!! note "同时请将Windows系统分辨率也设置为同等分辨率"
 
     ---
 

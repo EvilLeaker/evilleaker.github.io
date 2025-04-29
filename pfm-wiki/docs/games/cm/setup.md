@@ -33,7 +33,7 @@ comments: true
 
     ---
 
-    A011 - A061 (1.39-36)
+    A011 - A062 (1.39-37)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -57,7 +57,7 @@ comments: true
 
     ---
 
-    2025/03/27 (Tue)
+    2025/04/21 (Mon)
 
 </div>
 
@@ -67,21 +67,23 @@ comments: true
 
 !!! tip ""
 
-    请到上述下载地址下载如下文件
+    **下载如下文件：**
 
     <img width="700" src="https://oss.am-all.com.cn/asset/img/manual/cm/cm01.png">
-
-## 安装Runtime (Windows运行时安装包)
+ 
+### 安装Runtime (Windows运行时安装包)
 
 !!! tip ""
 
     !!! warning "如已安装此包可跳过此步"
 
-    下载 **[Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg)** 安装包
+    下载  **<code style="color: green;">Runtime</code>** 
+
+    [:octicons-arrow-down-24: Download Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg){ .md-button .md-button--primary target="_blank"}
 
     解压后获得如下文件
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png" width = 500/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png"/> </div>
 
     运行**`DirectX.bat`**并按照窗口提示完成安装
 
@@ -125,9 +127,11 @@ comments: true
 
 !!! tip ""
 
-    下载 **[sded segatools](https://oss.am-all.com.cn/download/files/segatools_sded.zip)** 并解压至任意文件夹
+    下载 **sded segatools**
 
-    解压后获得如下文件：
+    **[:octicons-arrow-down-24: Download sded segatools](https://oss.am-all.com.cn/download/files/segatools_sded.zip){ .md-button .md-button--primary target="_blank"}**
+
+    **解压后获得如下文件：**
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/cm/cm04.png" width = 600/> </div>
 
