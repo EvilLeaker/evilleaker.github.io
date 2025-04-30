@@ -2652,13 +2652,16 @@
 <hr />
 <h3 id="tasoller-options">TASOLLER Options 软件</h3>
 <div class="admonition tip">
+<div class="admonition danger">
+<p class="admonition-title">请务必解压后再启动Options软件以避免读取不到固件以及显示问题</p>
+</div>
 <p>下载最新版 <strong>TASOLLER options</strong></p>
 <p><a class="md-button md-button--primary" href="https://oss.am-all.com.cn/download/files/TASOLLER_Options.zip"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.97 13.22a.75.75 0 0 1 1.06 0L11 18.19V3.75a.75.75 0 0 1 1.5 0v14.44l4.97-4.97a.749.749 0 0 1 1.275.326.75.75 0 0 1-.215.734l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> TASOLLER Options v3.1</a></p>
 <p>解压后，双击打开<strong><code>TASOLLER_Options_V3.1.exe</code></strong></p>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_03.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_03.png"/></a> </div></p>
 <p>手台连接PC后，右上角可以切换软件语言</p>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_04.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_04.png"/></a> </div></p>
-<p>查看左上角的手台模式，如连接后手台为<strong><code>Keyboard</code></strong>模式，点击下拉菜单选择<strong><code>WINUSB mode</code></strong><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>，点击<strong><code>点击切换</code></strong>来切换手台模式</p>
+<p>查看左上角的手台模式，如连接后手台为<strong><code>Keyboard</code></strong>模式，点击下拉菜单选择<strong><code>WINUSB mode</code></strong> 或 <strong><code>HID mod</code></strong><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>，点击<strong><code>点击切换</code></strong>来切换手台模式</p>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_05.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_05.png"/></a> </div></p>
 <hr />
 <div class="admonition note">
@@ -2670,10 +2673,21 @@
 <h3 id="_3">固件下载</h3>
 <details class="info" open="open">
 <summary>最新正式版</summary>
+<p><a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;<strong><a href="https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250426.zip">下载 TASOLLER PLUS Firmware 2025.04.26</a></strong></p>
 <div class="admonition danger">
 <p class="admonition-title">请使用最新版V3.1 TASOLLER Options软件进行固件烧录</p>
 </div>
-<p><a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;<strong><a href="https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250426.zip">TASOLLER PLUS Firmware 2025.04.26</a></strong></p>
+<details class="note" open="open">
+<summary>250406 固件更新内容</summary>
+<ul>
+<li>增加睡眠功能</li>
+<li>增加FN1操作菜单，FN1为校准 (取消FN2功能)</li>
+<li>常压FN2，为test</li>
+<li>双击FN2，为 test+service</li>
+<li>修正Air 亮度控制</li>
+<li>改善air Late</li>
+</ul>
+</details>
 </details>
 <details class="info">
 <summary>测试版</summary>
@@ -2897,7 +2911,7 @@
 <hr />
 <ol>
 <li id="fn:1">
-<p>CHUNITHM需要使用WINUSB模式来进行游玩&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>CHUNITHM需要使用WinUSB或HID模式来进行游玩，请根据自身情况选择一个模式即可&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
