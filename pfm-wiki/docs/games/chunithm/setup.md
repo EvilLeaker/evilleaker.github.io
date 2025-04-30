@@ -129,25 +129,15 @@ comments: true
 
     将 **`chusanApp.exe`** 与 **`amdaemon.exe`** 放入HDD中的 **`bin`** 文件夹中并覆盖源文件
 
-    ??? info "**`chusanApp.exe`** SHA-256"
-
-        - 4aa46595563912fecdb43fa272d619385ee92f8a9d1a6659460d34df14d56a65
-
-    ??? info "**`amdaemon.exe`** SHA-256"
-
-        - d4809220578374865370e31c541ed6e406b854d8c26cfe7464c2c15145113bfd
-
-    - 如exe的SHA-256与上述不符，请重新下载以免使用遭到篡改的exe文件
-
-!!! note "注意事项"
-
-    上述**`chusanApp.exe`**已打过可正常游玩所需的补丁
-
-    如有其他修改补丁的需求，请访问  **[EVIL LEAKER - Patcher页](https://performai.evilleaker.com/patcher)**
-
-    - 打过补丁的 **`chusanApp.exe`** 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
-
-    - 补丁站仅支持本教程提供之 **`chusanApp.exe`** 的修改！
+    !!! note "注意事项"
+    
+        上述**`chusanApp.exe`**已打过可正常游玩所需的补丁
+    
+        如有其他修改补丁的需求，请访问  **[EVIL LEAKER - Patcher页](https://performai.evilleaker.com/patcher)**
+    
+        - 打过补丁的 **`chusanApp.exe`** 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
+    
+        - 补丁站仅支持本教程提供之 **`chusanApp.exe`** 的修改！
 
 ### 安装option
 
@@ -410,8 +400,6 @@ comments: true
 
     ---
 
-    
-
 </div>
 
 !!! tip ""
@@ -490,7 +478,7 @@ comments: true
 
     游戏服务器分为**`在线服`**与**`离线服`**，请按自身情况选择对应服务器使用。
 
-!!! tip "在线服务器 (Rin服)"
+!!! tip "在线服务器 (Rin Net)"
 
     打开**`segatools.ini`**，在**`[dns]`**选项中设置**`default`**为您需要连接的服务器地址。
 
@@ -498,7 +486,7 @@ comments: true
 
     - 请不要将**`127.0.0.1`**或**`localhost`**作为服务器地址
 
-    Rin服dns：**aqua.naominet.live**
+    Rin Net dns：**aqua.naominet.live**
 
     服务器前端：https://portal.naominet.live/login
 
@@ -507,7 +495,7 @@ comments: true
     default=aqua.naominet.live
     ```
 
-    连接Rin服需要申请Keychip才可正常联网，如何注册请查看下面的文章。
+    连接Rin Net需要申请Keychip才可正常联网，如何注册请查看下面的文章。
 
     注册完**`Keychip`**后需要填写到**`[keychip]`**选项中
 
@@ -518,7 +506,7 @@ comments: true
 
     - **`Keychip(狗号)`**均以**`AXXE-XXXXXXXXXXX`**格式填写，**`X`**为英数字
 
-    ??? warning "如何申请Rin服Keychip"
+    ??? warning "如何申请Rin Net Keychip"
     
         如何配置？
     

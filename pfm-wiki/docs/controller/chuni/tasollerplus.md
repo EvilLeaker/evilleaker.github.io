@@ -97,6 +97,8 @@ comments: true
 
 !!! tip ""
 
+    !!! danger "请务必解压后再启动Options软件以避免读取不到固件以及显示问题"
+
     下载最新版 **TASOLLER options**
 
     [:octicons-arrow-down-24: TASOLLER Options v3.1](https://oss.am-all.com.cn/download/files/TASOLLER_Options.zip){ .md-button .md-button--primary }
@@ -109,11 +111,11 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_04.png"/> </div>
 
-    查看左上角的手台模式，如连接后手台为**`Keyboard`**模式，点击下拉菜单选择**`WINUSB mode`**[^1]，点击**`点击切换`**来切换手台模式
+    查看左上角的手台模式，如连接后手台为**`Keyboard`**模式，点击下拉菜单选择**`WINUSB mode`** 或 **`HID mod`**[^1]，点击**`点击切换`**来切换手台模式
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/controller/tslp/tslp_05.png"/> </div>
 
-    [^1]: CHUNITHM需要使用WINUSB模式来进行游玩
+    [^1]: CHUNITHM需要使用WinUSB或HID模式来进行游玩，请根据自身情况选择一个模式即可
 
     ---
 
@@ -127,10 +129,18 @@ comments: true
 
 ???+ info "最新正式版"
 
+    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[下载 TASOLLER PLUS Firmware 2025.04.26](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250426.zip)**
+
     !!! danger "请使用最新版V3.1 TASOLLER Options软件进行固件烧录"
 
-    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[TASOLLER PLUS Firmware 2025.04.26](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250426.zip)**
+    ???+ note "250406 固件更新内容"
 
+        - 增加睡眠功能
+        - 增加FN1操作菜单，FN1为校准 (取消FN2功能)
+        - 常压FN2，为test
+        - 双击FN2，为 test+service
+        - 修正Air 亮度控制
+        - 改善air Late
 
 ??? info "测试版"
 
