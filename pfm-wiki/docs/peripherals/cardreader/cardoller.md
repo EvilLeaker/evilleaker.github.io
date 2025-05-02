@@ -164,6 +164,20 @@ comments: true
 
 !!! tip ""
 
-    在更换前请准备一个1.5mm的内六角扳手或螺丝刀批头，按下图顺序拆除读卡器以更换面板装饰
+    !!! note "在更换前请准备一个1.5mm的内六角扳手或螺丝刀批头，按下图顺序拆除读卡器以更换面板装饰"
 
-    
+    - 拆下背面的4颗螺丝并移除后盖
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler10.png"/> </div>
+
+    ---
+
+    - 拆下图中所示的8颗螺丝并移除读卡器主板
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler11.png"/> </div>
+
+    ---
+
+    - 取出并更换面板装饰，然后按照原样装回主板以及背板即可完成更换
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler12.png"/> </div>
