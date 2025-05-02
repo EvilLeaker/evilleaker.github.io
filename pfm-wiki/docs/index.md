@@ -17,7 +17,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-wrench:{ .lg .middle } __网站导航__
+-   :fontawesome-solid-wrench:{ .lg .middle } __快速导航__
 
     ---
 - **游戏安装教程**
@@ -60,6 +60,12 @@
 
     **[:octicons-arrow-right-24: O.N.G.E.K.I-常见问题](games/ongeki/faq.md)**
 
+    ---
+- **外设**
+
+    **读卡器**
+
+    **[:octicons-arrow-right-24: CARDOLLER](peripherals/cardreader/cardoller.md)**
 
 </div>
 
