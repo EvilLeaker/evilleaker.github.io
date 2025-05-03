@@ -7,7 +7,7 @@ comments: true
 
 ## CARDOLLER
 
-### 读卡器介绍
+### 开箱
 
 !!! tip "注意事项"
 
@@ -21,13 +21,21 @@ comments: true
 
     - 替换装饰面板 - 6张 (含已安装1张)
 
-### 设置读卡器
+    - 售价：199元 / 与手台一起购买：159元
 
-!!! tip "连接设备"
+---
+
+## SEGA游戏
+
+### 连接设备
+
+!!! tip ""
 
     将USB线连接读卡器与PC的任意USB接口，连接好后读卡会亮彩色灯
 
-!!! tip "切换为Aime模式"
+### 切换为Aime模式
+
+!!! tip ""
 
     访问 **[Serial Terminal](https://googlechromelabs.github.io/serial-terminal/){ target="_blank" }** 页面
 
@@ -65,35 +73,45 @@ comments: true
 
     !!! warning "在这一步请务必记住 `AIC Pico Aime Port` 的COM端口号"
 
-!!! tip "设置串口"
+### 串口设置
+
+!!! tip ""
 
     使用键盘组合键 **Win+R**，输入 **devmgmt.mst** 打开 **设备管理器**
 
     - 在 **此电脑** 上点击鼠标右键，选择 **管理 → 设备管理器** 也同样可以打开
 
-    点开 **端口 (COM 和 LPT)**
+    点击 **查看** 选择 **按容器列出设备**
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler06.png"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler13.png"/> </div>
+
+    ---
+
+    点开 **AIC Pico**
 
     选择上述步骤 **AIC Pico CLI Port** 的端口设备双击鼠标左键
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler14.png"/> </div>
 
     ---
 
     在弹出的窗口选择 **端口设置** 选项卡
 
-    在 **位/秒** 下拉菜单选择 **115200**
-
     点击下方 **高级**
 
-    ---
+    !!! warning "读卡器会自适应波特率，所以此处不用更改"
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler07.png"/> </div>
+
+    ---
 
     修改下方 **COM 端口号**
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler08.png"/> </div>
 
-    - CHUNITHM NEW：选择 **COM4**
+    **请按照想要游玩的游戏选择对应的端口号：**
+
+    - CHUNITHM NEW (SP/CVT)：选择 **COM4**
 
     - maimai DX：选择 **COM1**
 
@@ -103,7 +121,9 @@ comments: true
 
 ### 游戏设置
 
-!!! tip "CHUNITHM 设置"
+#### CHUNITHM
+
+!!! tip ""
 
     !!! warning "使用fufubot segatools 的情况修改如下设置"
 
@@ -115,7 +135,7 @@ comments: true
 
     打开 **segatools.ini** 
 
-    按照下方代码修改为 **0**
+    按照下方代码将 **aime** 修改为 **0**
 
     ```ini
     [aime]
@@ -131,11 +151,13 @@ comments: true
     
         请在刷卡之前到 **Rin Net** 网站 **机台** 中更换绑定需要刷的实体卡号再进行刷卡
 
-!!! tip "ONGEKI 和 maimai DX设置"
+#### ONGEKI & maimai DX
+
+!!! tip ""
 
     打开 **segatools.ini** 
 
-    按照下方代码修改为 **0**
+    按照下方代码将 **aime** 修改为 **0**
 
     ```ini
     [aime]
@@ -158,13 +180,129 @@ comments: true
     ```
     添加后直接双击 **start.bat** 即可以管理员启动游戏
 
+    !!! warning "如果添加此命令后不能正常运行游戏，请删除后使用右键管理员权限运行"
+
 ---
 
-### 更换读卡器面板装饰
+### 修改游戏读卡器端口
+
+#### 使用场景
+
+!!! tip "为什么要修改？"
+
+    如果仅有一个读卡器和电脑的情况下，想要所有游戏都使用同一个读卡器而不想频繁切换设备端口，可以通过修改游戏配置文件来实现所有游戏端口的统一
+
+!!! tip "游戏默认端口"
+    
+    | 游戏                      | COM1 | COM2   | COM3   | COM4  | COM20  | COM21  | COM23 |
+    |-------------------------|------|--------|--------|-------|--------|--------|-------|
+    | **`CHUNITHM NEW (SP)`** | 触摸板  | VFD    | - - -  | 读卡器   | LED灯板1 | LED灯板2 | - - - |
+    | **`CHUNITHM NEW (CVT)`** | 触摸板  | LED灯板1 | LED灯板2 | 读卡器   | - - -  | - - -  | - - - |
+    | **`ONGEKI`**            | 读卡器  | VFD    | LED灯板  | - - - | - - -  | - - -  | - - - |
+    | **`maimai DX`**         | 读卡器  | VFD    | 1P触摸屏  | 2P触摸屏 | - - -  | LED灯板  | LED灯板 |
+
+    **COM1、COM2、COM3、COM4、COM20、COM21、COM23：**这些端口为游戏周边设备的默认端口，在修改读卡器端口时不能使用
+
+!!! tip "配置文件"
+
+    在SEGA系游戏中通常会有如下配置文件：
+    
+    | 文件名                      | 用途                  | 说明           |
+    |--------------------------|---------------------|--------------|
+    | **`config_common.json`** | 所有游戏均有的通用配置文件       | 所有游戏都有       |
+    | **`config_client.json`** | 配信服务器配置文件           | 不在本文使用范围内    |
+    | **`config_server.json`** | 同上                  | 同上           |
+    | **`config_cvt.json`**    | CHUNITHM NEW 专用配置文件 | CVT框体(60Hz)用 |
+    | **`config_sp.json`**     | 同上                  | SP框体(120Hz)用 |
+
+    通常游戏读卡器的端口号需要修改 **config_common.json** 文件，CHUNITHM NEW 根据实际运行的框体模式不同需要修改 **config_cvt.json** 或 **config_sp.json**
+
+#### 如何修改
+
+!!! example "CHUNITHM NEW"
+
+    打开 **config_cvt.json** 或 **config_sp.json**，找到 **aime** 段：
+
+    ```json hl_lines="7"
+    "aime" :
+    {
+        "enable" : true,
+        "unit" :
+        [
+            {
+                "port" : 4,
+                "id" : 1
+            }
+        ],
+        "firmware_path" :
+        [
+            "aime_firm\\update_15396_6728_94.bin"
+        ],
+        "high_baudrate" : true
+    },
+    ```
+
+    修改上方代码高亮处 **"Port" : 4** 的值，**4** 就是需要修改的端口号
+
+    按照上文 **[串口设置](#_4)**，将读卡器端口设置为配置文件修改后的端口号
+
+    !!! Failure "此处配置文件端口号务必不要使用上文 `游戏默认端口` 表格中的端口号"
+
+!!! example "ONGEKI & maimai DX"
+
+    打开 **config_common.json**，找到 **aime** 段：
+
+    !!! note "具体内容可能根据不同游戏而有细微变化，大致内容相同，不影响修改"
+
+    ```json hl_lines="7"
+    "aime" :
+    {
+        "enable" : true,
+        "unit" :
+        [
+            {
+                "port" : 1,
+                "id" : 1,
+                "required" : true
+            }
+        ],
+        "firmware_path" :
+        [
+            "aime_firm\\update_15396_6728_94.bin",
+            "aime_firm\\837-15286-P_LPC1112_NFC_RW_LED_BD_0x92.bin",
+            "aime_firm\\TN32MSEC003S_V12.hex"
+        ],
+        "high_baudrate" : true
+    },
+    ```
+
+    修改上方代码高亮处 **"Port" : 1** 的值，**1** 就是需要修改的端口号
+
+    按照上文 **[串口设置](#_4)**，将读卡器端口设置为配置文件修改后的端口号
+
+    !!! Failure "此处配置文件端口号务必不要使用上文 `游戏默认端口` 表格中的端口号"
+
+#### 使用例
+
+    假设在同一台电脑上需要同时游玩 **CHUNITHM NEW、ONGEKI、maimai DX** 三个游戏，但只有一个读卡器，这时就可以把三个游戏的读卡器端口统一
+
+    按照上文：
+
+        - 修改 **CHUNITHM NEW** 的 **config_cvt.json** 或 **config_sp.json**，将读卡器端口号修改为：**COM8**
+
+        - 修改 **ONGEKI** 与 **maimai DX** 的 **config_common.json**，将读卡器端口号修改为：**COM8**
+
+    这样就可以在3个游戏之间切换而不需要每次单独修改读卡器端口号了
+
+---
+
+## 更换读卡器面板装饰
 
 !!! tip ""
 
-    !!! note "在更换前请准备一个1.5mm的内六角扳手或螺丝刀批头，按下图顺序拆除读卡器以更换面板装饰"
+    !!! success "在更换前请准备一个H1.5的六角扳手或六角螺丝刀，按下图顺序拆除读卡器以更换面板装饰"
+
+    !!! failure "不要使用不符合读卡器螺丝规格的扳手或螺丝刀批头以免损坏螺丝导致滑丝无法拧动螺丝"
 
     - 拆下背面的4颗螺丝并移除后盖
 
