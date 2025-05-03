@@ -2096,6 +2096,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      常见问题
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2650,6 +2659,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      常见问题
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2739,7 +2757,7 @@
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler13.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler13.png"/></a> </div></p>
 <hr />
 <p>点开 <strong>AIC Pico</strong></p>
-<p>选择上述步骤 <strong>AIC Pico CLI Port</strong> 的端口设备双击鼠标左键</p>
+<p>选择上述步骤 <strong>AIC Pico Aime Port</strong> 端口的串口设备双击鼠标左键</p>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler14.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler14.png"/></a> </div></p>
 <hr />
 <p>在弹出的窗口选择 <strong>端口设置</strong> 选项卡</p>
@@ -2764,6 +2782,7 @@
 </li>
 </ul>
 <p>点击 <strong>确定</strong> 关闭窗口</p>
+<p>设置完新的端口后请拔掉USB线并重新连接</p>
 </div>
 <h3 id="_5">游戏设置</h3>
 <h4 id="chunithm">CHUNITHM</h4>
@@ -2784,7 +2803,11 @@
 <div class="admonition danger">
 <p class="admonition-title">注意事项</p>
 <p>如果你在之前 <strong>aime.txt</strong> 中使用的是非真实Aime卡背面的ACCESS CODE，或游戏自动生成的卡号</p>
-<p>请在刷卡之前到 <strong>Rin Net</strong> 网站 <strong>机台</strong> 中更换绑定需要刷的实体卡号再进行刷卡</p>
+<p>请先启动游戏，确认可以正常刷卡后，在游戏中查看真实的ACCESS CODE后到 <strong>Rin Net</strong> 网站 <strong>机台</strong> 中更换绑定需要刷的实体卡号再进行刷卡</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">如何查看ACCESS CODE</p>
+<p>在游戏标题处不要刷卡，按下触摸板进入登录画面，按提示点击 <strong>ACCESS CODE</strong> 后进行刷卡即可显示卡片的真实卡号</p>
 </div>
 </div>
 <h4 id="ongeki-maimai-dx">ONGEKI &amp; maimai DX</h4>
@@ -2807,6 +2830,18 @@
 添加后直接双击 <strong>start.bat</strong> 即可以管理员启动游戏</p>
 <div class="admonition warning">
 <p class="admonition-title">如果添加此命令后不能正常运行游戏，请删除后使用右键管理员权限运行</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">注意事项</p>
+<p>如果你在之前 <strong>aime.txt</strong> 中使用的是非真实Aime卡背面的ACCESS CODE，或游戏自动生成的卡号</p>
+<p>请先启动游戏，确认可以正常刷卡后，在游戏中查看真实的ACCESS CODE后到 <strong>Rin Net</strong> 网站 <strong>机台</strong> 中更换绑定需要刷的实体卡号再进行刷卡</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">如何查看ACCESS CODE</p>
+<p><strong>ONGEKI：</strong></p>
+<p>在游戏标题处不要刷卡，按下手台任意按键进入登录画面，按提示点击 <strong>アクセスコード</strong> 后进行刷卡然后按下 <strong>右MENU</strong> 键查看实际卡号</p>
+<p><strong>maimai DX：</strong></p>
+<p>在游戏标题处不要刷卡，按下手台 <strong>SELECT</strong> 键 <strong>(Maimoller为蓝色三角按键)</strong> 或键盘 <strong>数字3</strong> 键进入登录画面，按提示点击 <strong>アクセスコード</strong> 后进行刷卡即可显示卡片的真实卡号</p>
 </div>
 </div>
 <hr />
@@ -2977,16 +3012,15 @@
 </div>
 </div>
 <h4 id="_9">使用例</h4>
-<div class="language-text highlight"><pre><span></span><code>假设在同一台电脑上需要同时游玩 **CHUNITHM NEW、ONGEKI、maimai DX** 三个游戏，但只有一个读卡器，这时就可以把三个游戏的读卡器端口统一
+<div class="admonition tip">
+<p>假设在同一台电脑上需要同时游玩 <strong>CHUNITHM NEW、ONGEKI、maimai DX</strong> 三个游戏，但只有一个读卡器，这时就可以把三个游戏的读卡器端口统一</p>
+<p>按照上文：</p>
+<div class="language-text highlight"><pre><span></span><code>- 修改 **CHUNITHM NEW** 的 **config_cvt.json** 或 **config_sp.json**，将读卡器端口号修改为：**COM8**
 
-按照上文：
-
-    - 修改 **CHUNITHM NEW** 的 **config_cvt.json** 或 **config_sp.json**，将读卡器端口号修改为：**COM8**
-
-    - 修改 **ONGEKI** 与 **maimai DX** 的 **config_common.json**，将读卡器端口号修改为：**COM8**
-
-这样就可以在3个游戏之间切换而不需要每次单独修改读卡器端口号了
+- 修改 **ONGEKI** 与 **maimai DX** 的 **config_common.json**，将读卡器端口号修改为：**COM8**
 </code></pre></div>
+<p>这样就可以在3个游戏之间切换而不需要每次单独修改读卡器端口号了</p>
+</div>
 <hr />
 <h2 id="_10">更换读卡器面板装饰</h2>
 <div class="admonition tip">
@@ -3010,6 +3044,11 @@
 <li>取出并更换面板装饰，然后按照原样装回主板以及背板即可完成更换</li>
 </ul>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler12.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler12.png"/></a> </div></p>
+</div>
+<hr />
+<h2 id="_11">常见问题</h2>
+<div class="admonition tip">
+<p class="admonition-title">待补充</p>
 </div>
 
 
