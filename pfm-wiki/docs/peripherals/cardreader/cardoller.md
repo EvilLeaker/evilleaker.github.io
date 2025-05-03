@@ -89,7 +89,7 @@ comments: true
 
     点开 **AIC Pico**
 
-    选择上述步骤 **AIC Pico CLI Port** 的端口设备双击鼠标左键
+    选择上述步骤 **AIC Pico Aime Port** 端口的串口设备双击鼠标左键
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler14.png"/> </div>
 
@@ -118,6 +118,8 @@ comments: true
     - ONGEKI：选择 **COM1**
 
     点击 **确定** 关闭窗口
+
+    设置完新的端口后请拔掉USB线并重新连接
 
 ### 游戏设置
 
@@ -149,7 +151,13 @@ comments: true
 
         如果你在之前 **aime.txt** 中使用的是非真实Aime卡背面的ACCESS CODE，或游戏自动生成的卡号
     
-        请在刷卡之前到 **Rin Net** 网站 **机台** 中更换绑定需要刷的实体卡号再进行刷卡
+        请先启动游戏，确认可以正常刷卡后，在游戏中查看真实的ACCESS CODE后到 **Rin Net** 网站 **机台** 中更换绑定需要刷的实体卡号再进行刷卡
+
+    !!! note "如何查看ACCESS CODE"
+
+        在游戏标题处不要刷卡，按下触摸板进入登录画面，按提示点击 **ACCESS CODE** 后进行刷卡即可显示卡片的真实卡号
+
+        
 
 #### ONGEKI & maimai DX
 
@@ -181,6 +189,22 @@ comments: true
     添加后直接双击 **start.bat** 即可以管理员启动游戏
 
     !!! warning "如果添加此命令后不能正常运行游戏，请删除后使用右键管理员权限运行"
+
+    !!! danger "注意事项"
+
+        如果你在之前 **aime.txt** 中使用的是非真实Aime卡背面的ACCESS CODE，或游戏自动生成的卡号
+    
+        请先启动游戏，确认可以正常刷卡后，在游戏中查看真实的ACCESS CODE后到 **Rin Net** 网站 **机台** 中更换绑定需要刷的实体卡号再进行刷卡
+
+    !!! note "如何查看ACCESS CODE"
+
+        **ONGEKI：**
+
+        在游戏标题处不要刷卡，按下手台任意按键进入登录画面，按提示点击 **アクセスコード** 后进行刷卡然后按下 **右MENU** 键查看实际卡号
+
+        **maimai DX：**
+
+        在游戏标题处不要刷卡，按下手台 **SELECT** 键 **(Maimoller为蓝色三角按键)** 或键盘 **数字3** 键进入登录画面，按提示点击 **アクセスコード** 后进行刷卡即可显示卡片的真实卡号
 
 ---
 
@@ -284,6 +308,8 @@ comments: true
 
 #### 使用例
 
+!!! tip ""
+
     假设在同一台电脑上需要同时游玩 **CHUNITHM NEW、ONGEKI、maimai DX** 三个游戏，但只有一个读卡器，这时就可以把三个游戏的读卡器端口统一
 
     按照上文：
@@ -319,3 +345,9 @@ comments: true
     - 取出并更换面板装饰，然后按照原样装回主板以及背板即可完成更换
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler12.png"/> </div>
+
+---
+
+## 常见问题
+
+!!! tip "待补充"
