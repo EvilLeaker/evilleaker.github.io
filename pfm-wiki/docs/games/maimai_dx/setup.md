@@ -81,13 +81,13 @@ comments: true
 
     [:octicons-arrow-down-24: Download Runtime](https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg){ .md-button .md-button--primary target="_blank"}
 
-    解压后获得如下文件
+    - 解压后获得如下文件
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png"/> </div>
 
-    运行**`DirectX.bat`**并按照窗口提示完成安装
+    - 运行**`DirectX.bat`**并按照窗口提示完成安装
 
-    运行**`VC.bat`**并按照窗口提示完成安装
+    - 运行**`VC.bat`**并按照窗口提示完成安装
 
 ### 下载游戏
 
