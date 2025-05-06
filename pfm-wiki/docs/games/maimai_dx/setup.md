@@ -9,7 +9,7 @@ comments: true
 
 !!! warning "使用前的注意事项"
 
-    在安装HDD前，请确保已按照 **[Maimoller安装使用教程](../../controller/maimai/maimoller.md)** 安装与设置手台后，在继续浏览本教程
+    在安装HDD前，请确保已按照 **[Maimoller安装使用教程](../../controller/maimai/maimoller.md)** 安装与设置手台后，再继续浏览本教程
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 
