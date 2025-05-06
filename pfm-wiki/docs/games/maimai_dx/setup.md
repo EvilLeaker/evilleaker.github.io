@@ -35,7 +35,7 @@ comments: true
 
     ---
 
-    **:octicons-arrow-right-24: 获取HDD (尚未开放)**
+    **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sdez.html){ target="_blank" }**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
@@ -51,7 +51,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 前往AquaDX Net](https://aquadx.net/)**
+    **[:octicons-arrow-right-24: 前往AquaDX Net](https://aquadx.net/){ target="_blank" }**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
@@ -321,7 +321,7 @@ comments: true
 
     请先阅读手台教程并续按教程配置
 
-    [:octicons-arrow-right-24: 查看**Maimoller 控制器说明**](../../controller/maimai/maimoller.md)
+    [:octicons-arrow-right-24: 查看**Maimoller 控制器说明**](../../controller/maimai/maimoller.md){ target="_blank" }
 
 -   :fontawesome-solid-question:{ .lg .middle } __我使用其他手台，且第一次游玩__
 
@@ -335,7 +335,7 @@ comments: true
 
     请先阅读手台教程，并按照下方配置下载 **Maimoller** 专用 **HIDIOMod** 即可
 
-    [:octicons-arrow-right-24: 查看**Maimoller 控制器说明**](../../controller/maimai/maimoller.md)
+    [:octicons-arrow-right-24: 查看**Maimoller 控制器说明**](../../controller/maimai/maimoller.md){ target="_blank" }
 
 -   :fontawesome-solid-question:{ .lg .middle } __其他问题__
 
