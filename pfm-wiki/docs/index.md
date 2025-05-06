@@ -12,12 +12,13 @@
 
     全站资源压缩包解压密码(如果有)均为 : 
 
-    - **CHUNITHM相关资源** : **{==chunipenguin==}**
-    - **ONGEKI相关资源** : **{==hoshizakiakari==}**
+    - **CHUNITHM相关资源**：**{==chunipenguin==}**
+    - **maimaiDX相关资源**：**{==deluxekuma==}**
+    - **ONGEKI相关资源**：**{==hoshizakiakari==}**
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-wrench:{ .lg .middle } __快速导航__
+-   :fontawesome-solid-wrench:{ .lg .middle } __网站导航__
 
     ---
 - **游戏安装教程**
@@ -26,11 +27,11 @@
 
     **[:octicons-arrow-right-24: CHUNITHM (OLD Version)](games/chunithm_old/setup.md)**
 
+    **[:octicons-arrow-right-24: maimai DX PRiSM PLUS](games/maimai_dx/setup.md)**
+
     **[:octicons-arrow-right-24: O.N.G.E.K.I Re:Fresh](games/ongeki/setup.md)**
 
     **[:octicons-arrow-right-24: CARD MAKER](games/cm/setup.md)**
-
-    **[:octicons-arrow-right-24: NEW Project (Coming s∞n)](games/NEW_Project/game.md)**
 
     ---
 - **手台安装教程**
@@ -41,9 +42,9 @@
 
     **[:octicons-arrow-right-24: Yubideck (大四)](controller/chuni/yubideck/setup.md)**
 
-    **[:octicons-arrow-right-24: ONTROLLER](controller/ongeki/ontroller.md)**
+    **[:octicons-arrow-right-24: Maimoller](controller/maimai/maimoller.md)**
 
-    **[:octicons-arrow-right-24: NEW Project (Coming s∞n)](controller/NEW_Project/controller.md)**
+    **[:octicons-arrow-right-24: ONTROLLER](controller/ongeki/ontroller.md)**
 
     ---
 - **其他**
@@ -60,12 +61,6 @@
 
     **[:octicons-arrow-right-24: O.N.G.E.K.I-常见问题](games/ongeki/faq.md)**
 
-    ---
-- **外设**
-
-    **读卡器**
-
-    **[:octicons-arrow-right-24: CARDOLLER](peripherals/cardreader/cardoller.md)**
 
 </div>
 

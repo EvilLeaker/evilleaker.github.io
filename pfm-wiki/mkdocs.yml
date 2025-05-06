@@ -136,6 +136,8 @@ nav:
               - "错误代码": "games/chunithm/errorcodes.md"
           - "CHUNITHM (SDBT)":
               - "安装使用教程": "games/chunithm_old/setup.md"
+          - "maimai DX (SDEZ)":
+              - "安装使用教程": "games/maimai_dx/setup.md"
           - "O.N.G.E.K.I":
               - "安装使用教程": "games/ongeki/setup.md"
               - "mu3 MOD":
@@ -143,8 +145,6 @@ nav:
               - "常见问题": "games/ongeki/faq.md"
           - "CARD MAKER":
               - "安装使用教程": "games/cm/setup.md"
-          - "？？？":
-              - "？？？": "games/NEW_Project/game.md"
   - 控制器:
       - "SEGA":
           - "CHUNITHM":
@@ -154,12 +154,12 @@ nav:
                   - "控制器说明书": "controller/chuni/yubideck/setup.md"
                   - "常见问题与故障排查": "controller/chuni/yubideck/troubleshooting.md"
               - "其他输入方式": "controller/chuni/other.md"
+          - "maimai DX":
+              - "Maimoller": "controller/maimai/maimoller.md"
           - "O.N.G.E.K.I":
               - "O.N.T.R.O.L.L.E.R":
                   - "安装手台": "controller/ongeki/ontroller.md"
                   - "ONTROLLER Options": "controller/ongeki/options.md"
-          - "？？？":
-              - "？？？": "controller/NEW_Project/controller.md"
   - 外设:
       - "读卡器":
           - "CARDOLLER": "peripherals/cardreader/cardoller.md"
