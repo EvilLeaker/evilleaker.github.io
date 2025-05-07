@@ -224,6 +224,7 @@ comments: true
     | **`CHUNITHM NEW (CVT)`** | 触摸板  | LED灯板1 | LED灯板2 | 读卡器   | - - -  | - - -  | - - - |
     | **`ONGEKI`**            | 读卡器  | VFD    | LED灯板  | - - - | - - -  | - - -  | - - - |
     | **`maimai DX`**         | 读卡器  | VFD    | 1P触摸屏  | 2P触摸屏 | - - -  | LED灯板  | LED灯板 |
+    | **`CARD MAKER`**        | 读卡器  | VFD    | - - - | - - -  | - - -  | - - - | - - - |
 
     **COM1、COM2、COM3、COM4、COM20、COM21、COM23：**这些端口为游戏周边设备的默认端口，在修改读卡器端口时不能使用
 
@@ -231,7 +232,7 @@ comments: true
 
     在SEGA系游戏中通常会有如下配置文件：
     
-    | 文件名                      | 用途                  | 说明           |
+    | 文件名                    | 用途                 | 说明           |
     |--------------------------|---------------------|--------------|
     | **`config_common.json`** | 所有游戏均有的通用配置文件       | 所有游戏都有       |
     | **`config_client.json`** | 配信服务器配置文件           | 不在本文使用范围内    |
@@ -314,9 +315,9 @@ comments: true
 
     按照上文：
 
-        - 修改 **CHUNITHM NEW** 的 **config_cvt.json** 或 **config_sp.json**，将读卡器端口号修改为：**COM8**
+    * 修改 **CHUNITHM NEW** 的 **config_cvt.json** 或 **config_sp.json**，将读卡器端口号修改为：**COM8**
 
-        - 修改 **ONGEKI** 与 **maimai DX** 的 **config_common.json**，将读卡器端口号修改为：**COM8**
+    * 修改 **ONGEKI** 与 **maimai DX** 的 **config_common.json**，将读卡器端口号修改为：**COM8**
 
     这样就可以在3个游戏之间切换而不需要每次单独修改读卡器端口号了
 
