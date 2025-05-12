@@ -135,9 +135,9 @@ comments: true
 
 !!! tip ""
 
-    下载  **<code style="color: green;">mai2 segatools</code>**  并解压至任意文件夹
+    下载  **<code style="color: green;">mu3 segatools</code>**  并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download mai2 segatools](https://oss.am-all.com.cn/download/files/mu3_segatools.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download mu3 segatools](https://oss.am-all.com.cn/download/files/mu3_segatools.zip){ .md-button .md-button--primary target="_blank"}
 
     **解压后获得如下文件：**
 
