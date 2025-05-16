@@ -611,21 +611,11 @@ comments: true
 
     请在 **MaiChartManager** Mod设置中进行窗口设置
 
-#### 仅显示 1P
+#### 单人模式
 
 !!! tip "Maimoller 1P Only (本教程提供的Mod默认开启)"
 
     首先请连接手台并打开 **Maimoller Options**，并将手台模式设置为 **1P HID mode**
-
-    在 **MaiChartManager** Mod设置中打开 **Single Player**
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0031.png"> </div>
-
-#### 仅显示 2P
-
-!!! tip "Maimoller 2P Only"
-
-    首先请连接手台并打开 **Maimoller Options**，并将手台模式设置为 **2P HID mode**
 
     在 **MaiChartManager** Mod设置中打开 **Single Player**
 
@@ -670,6 +660,37 @@ comments: true
     - 返回 **NVIDIA 控制面板** 点击 **应用**，完成设置
 
     !!! warning "开启 `Surround` 功能后两个屏幕会合并成一个画面(非跨屏)"
+
+### 启动游戏
+
+!!! tip ""
+
+    - 双击 **<code style="color: purple;">package\start.bat</code>**
+
+    - HDD启动后会弹出3个窗口，游戏窗口要等几秒才会显示，请耐心等待
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0008.png"> </div>
+
+#### 游戏自检
+
+!!! tip "启动自检"
+
+    - 游戏窗口出现下图所示并且显示 **<code style="color: purple;">ゲームデータ 初期化</code>** 中则表示游戏正在加载资源中
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/sddt0001.png" width = 500/> </div>
+
+    - 如果卡在 **<code style="color: purple;">システムプロセス 起動中</code>** 不跳 **<code style="color: purple;">GOOD</code>** 一直过不去，也没有出现 **<code style="color: purple;">ゲームデータ 初期化中</code>**，这种情况是因为 **AM Daemon** 没有启动
+    ，如果出现此情况，请返回上面 **[修复 OpenSSL](#openssl)** 部分查看解决方法
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/sddt0000.png" width=500/> </div>
+
+!!! tip "网络自检"
+
+    - 接下来是 **<code style="color: purple;">网络自检</code>** 部分：
+
+    - 此时如果所有自检项目均为 **<code style="color: purple;">GOOD</code>**，则为通过
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0009.png"> </div>
 
 ### 游玩前的最后设置
 
@@ -762,12 +783,6 @@ comments: true
     !!! note "如何开启 FREE PLAY 模式"
 
         - 在 **MaiChartManager** Mod设置中开启 **Credit Config**
-
-        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0021.png"> </div>
-
-        ---
-
-        - 修改后如下图所示，**<code style="color: purple;">CREDIT(S)</code>** 会显示为 **<code style="color: purple;">FREE PLAY</code>**
 
         <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0033.png"> </div>
 
