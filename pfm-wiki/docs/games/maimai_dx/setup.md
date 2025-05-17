@@ -696,7 +696,7 @@ comments: true
 
 !!! tip "进行TEST菜单相关设置"
 
-    - 网络自检后，请按下 **Maimoller** 的 **<code style="color: purple;">FN1</code>** 键进入TEST菜单
+    - 网络自检后，请按下 **Maimoller** 的 **<code style="color: purple;">FN2</code>** 键进入TEST菜单
 
         - 其他手台请按下对应的按键或 **segatools.ini** 中设置的 **TEST** 按键，默认为 **8**，**9**
 
