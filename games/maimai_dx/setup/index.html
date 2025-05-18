@@ -3526,14 +3526,19 @@
 </li>
 </ul>
 <p>AquaDX Net dns：<strong>aquadx.hydev.org</strong></p>
+<p>如果上面地址速度慢或经常断网，可以使用加速dns：<strong>aquadx.init.ink</strong></p>
 <p>服务器前端：<strong><a href="https://aquadx.net/" target="_blank">点击前往</a></strong></p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">[dns]</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="na">default</span><span class="o">=</span><span class="s">aquadx.hydev.org</span>
 </span></code></pre></div>
+<p>或</p>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">[dns]</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="na">default</span><span class="o">=</span><span class="s">aquadx.init.ink</span>
+</span></code></pre></div>
 <p>连接 <strong>AquaDX Net</strong> 需要申请 <strong>Keychip</strong> 才可正常联网，如何注册请查看下面的文章</p>
 <p>注册完 <strong><code style="color: purple;">keychip</code></strong> 后需要填写到 <strong><code style="color: purple;">[keychip]</code></strong> 选项中</p>
-<div class="language-ini highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">[keychip]</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="na">id</span><span class="o">=</span><span class="s">AXXE-XXXXXXXXXXX</span>
+<div class="language-ini highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">[keychip]</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="na">id</span><span class="o">=</span><span class="s">AXXE-XXXXXXXXXXX</span>
 </span></code></pre></div>
 <ul>
 <li><strong><code style="color: purple;">Keychip(机台号)</code></strong> 均以 <strong><code style="color: purple;">AXXE-XXXXXXXXXXX</code></strong> 格式填写， <strong><code style="color: purple;">X</code></strong> 为英数字</li>
@@ -3596,13 +3601,13 @@
 <h4 id="_10">针对单游戏进行修复</h4>
 <div class="admonition tip">
 <p>请右键单击 <strong><code style="color: purple;">package\start.bat</code></strong> 选择 <strong><code style="color: purple;">编辑</code></strong>，将下面高亮处代码添加至文件开头并保存</p>
-<div class="language-batch highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="p">@</span><span class="k">echo</span> off
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="hll"><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>~0x200000200000000
-</span></span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="k">start</span> <span class="s2">&quot;AM Daemon&quot;</span> ...
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>...
+<div class="language-batch highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="p">@</span><span class="k">echo</span> off
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="k">pushd</span> <span class="nv">%~dp0</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="hll"><span class="k">set</span> <span class="nv">OPENSSL_ia32cap</span><span class="p">=</span>~0x200000200000000
+</span></span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="k">start</span> <span class="s2">&quot;AM Daemon&quot;</span> ...
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>...
 </span></code></pre></div>
 </div>
 <h4 id="_11">设置系统变量进行全局修复 (可选)</h4>
