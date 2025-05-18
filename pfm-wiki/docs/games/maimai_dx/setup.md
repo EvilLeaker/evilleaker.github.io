@@ -445,12 +445,22 @@ comments: true
 
     AquaDX Net dns：**aquadx.hydev.org**
 
+    如果上面地址速度慢或经常断网，可以使用加速dns：**aquadx.init.ink**
+
     服务器前端：**[点击前往](https://aquadx.net/){ target="_blank" }**
 
     ```ini
     [dns]
     default=aquadx.hydev.org
     ```
+
+    或
+
+    ```ini
+    [dns]
+    default=aquadx.init.ink
+    ```
+    
 
     连接 **AquaDX Net** 需要申请 **Keychip** 才可正常联网，如何注册请查看下面的文章
 
