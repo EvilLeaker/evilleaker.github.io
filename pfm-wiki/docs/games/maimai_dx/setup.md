@@ -41,7 +41,7 @@ comments: true
 
     ---
 
-    2025/05/07 (Wed)
+    2025/05/22 (Thu)
 
 </div>
 
@@ -58,6 +58,8 @@ comments: true
 ### 安装Runtime (Windows运行时安装包)
 
 !!! tip ""
+
+    !!! danger "在运行HDD前请务必安装此包"
 
     下载  **<code style="color: purple;">Runtime</code>** 
 
@@ -487,7 +489,7 @@ comments: true
 
         - 在 **绑定游戏卡** 中填入你的20位Aime卡号，点击 **绑定**
 
-        **※需要先游玩一局并成功保存才可以绑卡**
+        !!! note "需要先游玩一局并成功保存才可以绑卡"
 
 ### 其他在线服务器
 
@@ -506,6 +508,42 @@ comments: true
     - 离线服务器都需要进行比较复杂的设置，详情请参阅 **[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md){ target="_blank" }** 与 **[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview){ target="_blank" }**  的官方指南来配置本地服务器。
 
     - 如果离线服务器不支持 **maimai DX PRiSM PLUS (SDEZ 1.56)** ， 请等待作者更新再做尝试
+
+### 设置Aime卡号
+
+!!! tip ""
+
+    !!! note "保存游戏数据需要设置虚拟卡号文件，如果你有读卡器请直接刷卡"
+
+    !!! warning "这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意"
+
+    **如何建立Aime卡号：**
+
+    1. 在第一次启动游戏时，可在游戏标题处长按 **<code style="color: purple;">Enter</code>** 刷卡，游戏会自动生成卡号文件
+
+    2. 如果你拥有20位Aime卡号，也可以自行建立卡号文件，或使用其他游戏的 **<code style="color: purple;">aime.txt</code>**
+
+        - 在**<code style="color: purple;">package\DEVICE</code>** 文件夹中建立名为 **<code style="color: purple;">aime</code>** 的文本文档文件 (aime.txt)
+
+        - 打开此文件，填入你的卡号 (20位纯数字) ，可以是你手中真实卡片背面的卡号 (ACCESS CODE)
+
+        - 如果自行编写，则卡号不能以3开头
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0005.png" width = 400/> </div>
+
+    ---
+
+    !!! note "如何获取ACCESS CODE？"
+
+        - **拥有实体卡片的情况 (包括官方卡与自制卡)：**
+
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/accesscode_sample.png"> </div>
+
+    !!! warning "为什么读卡器刷出来的卡号跟卡片背面不一样？"
+
+        - **部分服务器可能不支持刷出卡片的真实卡号，这种情况下需要在游戏中查看实际刷出的卡号**
+
+        !!! note "在游戏标题处不要刷卡，按下手台 SELECT 键 (Maimoller为蓝色三角按键) 或键盘 数字3 键进入登录画面，按提示点击 アクセスコード 后进行刷卡即可显示卡片的真实卡号"
 
 ---
 
@@ -539,7 +577,9 @@ comments: true
 
 #### 设置系统变量进行全局修复 (可选)
 
-??? tip "点击展开查看"
+???+ tip "如何进行全局修复"
+
+    !!! note "全局修复适用于所有有amdaemon的游戏，可以不用每个游戏都单独修复"
 
     - 鼠标右键 **我的电脑(此电脑)** 依次选择：**属性** → **高级系统设置** → **高级选项卡** → **环境变量**
 
@@ -585,28 +625,6 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0007.png" width = 400/> </div>
 
-### 设置虚拟Aime卡号
-
-!!! tip ""
-
-    !!! note "保存游戏数据需要设置虚拟卡号文件，如果你有读卡器请直接刷卡"
-
-    !!! warning "这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意"
-
-    **如何建立Aime卡号：**
-
-    在第一次启动游戏时，可在游戏标题处长按 **<code style="color: purple;">Enter</code>** 刷卡，游戏会自动生成卡号文件
-
-    如果你拥有20位Aime卡号，也可以自行建立卡号文件
-
-    - 在**<code style="color: purple;">package\DEVICE</code>** 文件夹中建立名为 **<code style="color: purple;">aime</code>** 的文本文档文件 (aime.txt)
-
-    - 打开此文件，填入你的卡号 (20位纯数字) ，可以是你手中真实卡片背面的卡号 (ACCESS CODE)
-
-    - 如果自行编写，则卡号不能以3开头
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0005.png" width = 400/> </div>
-
 ### 设置读卡器
 
 !!! tip ""
@@ -630,6 +648,8 @@ comments: true
     在 **MaiChartManager** Mod设置中打开 **Single Player**
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0031.png"> </div>
+
+    !!! note "其他手台与操作方式直接开启 Single Player 即可"
 
 #### 双屏 1P+2P
 
@@ -680,6 +700,20 @@ comments: true
     - HDD启动后会弹出3个窗口，游戏窗口要等几秒才会显示，请耐心等待
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0008.png"> </div>
+
+!!! note "可能遇到的问题"
+
+    1、 **MelonLoader** 启动画面过后游戏窗口闪退：
+
+    - **segatools.ini** 中可能未填写 **Keychip ID**
+
+    ---
+
+    2、 **MelonLoader** 启动画面过后游戏窗口黑屏：
+
+    - **amdaemon** 没有启动，请返回 **[修复OpenSSL](#openssl)** 检查相关设置
+
+    - Windows 11 24H2 版本可能会不能正常启动 **amdaemon**
 
 #### 游戏自检
 
