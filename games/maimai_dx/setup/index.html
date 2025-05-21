@@ -1190,6 +1190,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#aime" class="md-nav__link">
+    <span class="md-ellipsis">
+      设置Aime卡号
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1242,15 +1251,6 @@
   <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       共享音频设置
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#aime" class="md-nav__link">
-    <span class="md-ellipsis">
-      设置虚拟Aime卡号
     </span>
   </a>
   
@@ -2979,6 +2979,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#aime" class="md-nav__link">
+    <span class="md-ellipsis">
+      设置Aime卡号
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3031,15 +3040,6 @@
   <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       共享音频设置
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#aime" class="md-nav__link">
-    <span class="md-ellipsis">
-      设置虚拟Aime卡号
     </span>
   </a>
   
@@ -3207,7 +3207,7 @@
 <li>
 <p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512m-24 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24"/></svg></span> <strong>最后更新</strong></p>
 <hr />
-<p>2025/05/07 (Wed)</p>
+<p>2025/05/22 (Thu)</p>
 </li>
 </ul>
 </div>
@@ -3222,6 +3222,9 @@
 </div>
 <h3 id="runtime-windows">安装Runtime (Windows运行时安装包)</h3>
 <div class="admonition tip">
+<div class="admonition danger">
+<p class="admonition-title">在运行HDD前请务必安装此包</p>
+</div>
 <p>下载  <strong><code style="color: purple;">Runtime</code></strong> </p>
 <p><a class="md-button md-button--primary" href="https://hitiko-my.sharepoint.com/:u:/p/evilleaker/EffD9kk4fiFEnJVcOrSgVI0B3gOx86gw9WBRLqdUIxvvjg" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.97 13.22a.75.75 0 0 1 1.06 0L11 18.19V3.75a.75.75 0 0 1 1.5 0v14.44l4.97-4.97a.749.749 0 0 1 1.275.326.75.75 0 0 1-.215.734l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> Download Runtime</a></p>
 <ul>
@@ -3565,7 +3568,9 @@
 <p>在 <strong>绑定游戏卡</strong> 中填入你的20位Aime卡号，点击 <strong>绑定</strong></p>
 </li>
 </ul>
-<p><strong>※需要先游玩一局并成功保存才可以绑卡</strong></p>
+<div class="admonition note">
+<p class="admonition-title">需要先游玩一局并成功保存才可以绑卡</p>
+</div>
 </details>
 </div>
 <h3 id="_9">其他在线服务器</h3>
@@ -3584,6 +3589,53 @@
 <p>如果离线服务器不支持 <strong>maimai DX PRiSM PLUS (SDEZ 1.56)</strong> ， 请等待作者更新再做尝试</p>
 </li>
 </ul>
+</div>
+<h3 id="aime">设置Aime卡号</h3>
+<div class="admonition tip">
+<div class="admonition note">
+<p class="admonition-title">保存游戏数据需要设置虚拟卡号文件，如果你有读卡器请直接刷卡</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意</p>
+</div>
+<p><strong>如何建立Aime卡号：</strong></p>
+<ol>
+<li>
+<p>在第一次启动游戏时，可在游戏标题处长按 <strong><code style="color: purple;">Enter</code></strong> 刷卡，游戏会自动生成卡号文件</p>
+</li>
+<li>
+<p>如果你拥有20位Aime卡号，也可以自行建立卡号文件，或使用其他游戏的 <strong><code style="color: purple;">aime.txt</code></strong></p>
+<ul>
+<li>
+<p>在<strong><code style="color: purple;">package\DEVICE</code></strong> 文件夹中建立名为 <strong><code style="color: purple;">aime</code></strong> 的文本文档文件 (aime.txt)</p>
+</li>
+<li>
+<p>打开此文件，填入你的卡号 (20位纯数字) ，可以是你手中真实卡片背面的卡号 (ACCESS CODE)</p>
+</li>
+<li>
+<p>如果自行编写，则卡号不能以3开头</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0005.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0005.png" width = 400/></a> </div></p>
+<hr />
+<div class="admonition note">
+<p class="admonition-title">如何获取ACCESS CODE？</p>
+<ul>
+<li><strong>拥有实体卡片的情况 (包括官方卡与自制卡)：</strong></li>
+</ul>
+<p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/common/accesscode_sample.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/common/accesscode_sample.png"></a> </div></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">为什么读卡器刷出来的卡号跟卡片背面不一样？</p>
+<ul>
+<li><strong>部分服务器可能不支持刷出卡片的真实卡号，这种情况下需要在游戏中查看实际刷出的卡号</strong></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">在游戏标题处不要刷卡，按下手台 SELECT 键 (Maimoller为蓝色三角按键) 或键盘 数字3 键进入登录画面，按提示点击 アクセスコード 后进行刷卡即可显示卡片的真实卡号</p>
+</div>
+</div>
 </div>
 <hr />
 <h2 id="hdd">HDD运行与设置</h2>
@@ -3611,8 +3663,11 @@
 </span></code></pre></div>
 </div>
 <h4 id="_11">设置系统变量进行全局修复 (可选)</h4>
-<details class="tip">
-<summary>点击展开查看</summary>
+<details class="tip" open="open">
+<summary>如何进行全局修复</summary>
+<div class="admonition note">
+<p class="admonition-title">全局修复适用于所有有amdaemon的游戏，可以不用每个游戏都单独修复</p>
+</div>
 <ul>
 <li>鼠标右键 <strong>我的电脑(此电脑)</strong> 依次选择：<strong>属性</strong> → <strong>高级系统设置</strong> → <strong>高级选项卡</strong> → <strong>环境变量</strong></li>
 </ul>
@@ -3657,30 +3712,6 @@
 </ul>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0007.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0007.png" width = 400/></a> </div></p>
 </div>
-<h3 id="aime">设置虚拟Aime卡号</h3>
-<div class="admonition tip">
-<div class="admonition note">
-<p class="admonition-title">保存游戏数据需要设置虚拟卡号文件，如果你有读卡器请直接刷卡</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">这里不建议自行编写卡号，这样有可能会与在线服的其他玩家撞卡，离线服无需注意</p>
-</div>
-<p><strong>如何建立Aime卡号：</strong></p>
-<p>在第一次启动游戏时，可在游戏标题处长按 <strong><code style="color: purple;">Enter</code></strong> 刷卡，游戏会自动生成卡号文件</p>
-<p>如果你拥有20位Aime卡号，也可以自行建立卡号文件</p>
-<ul>
-<li>
-<p>在<strong><code style="color: purple;">package\DEVICE</code></strong> 文件夹中建立名为 <strong><code style="color: purple;">aime</code></strong> 的文本文档文件 (aime.txt)</p>
-</li>
-<li>
-<p>打开此文件，填入你的卡号 (20位纯数字) ，可以是你手中真实卡片背面的卡号 (ACCESS CODE)</p>
-</li>
-<li>
-<p>如果自行编写，则卡号不能以3开头</p>
-</li>
-</ul>
-<p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0005.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0005.png" width = 400/></a> </div></p>
-</div>
 <h3 id="_13">设置读卡器</h3>
 <div class="admonition tip">
 <p>如需使用Cardoller读卡器，请参考 <strong><a href="../../../peripherals/cardreader/cardoller/" target="_blank">这里</a></strong></p>
@@ -3697,6 +3728,9 @@
 <p>首先请连接手台并打开 <strong>Maimoller Options</strong>，并将手台模式设置为 <strong>1P HID mode</strong></p>
 <p>在 <strong>MaiChartManager</strong> Mod设置中打开 <strong>Single Player</strong></p>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0031.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0031.png"></a> </div></p>
+<div class="admonition note">
+<p class="admonition-title">其他手台与操作方式直接开启 Single Player 即可</p>
+</div>
 </div>
 <h4 id="1p2p">双屏 1P+2P</h4>
 <div class="admonition tip">
@@ -3761,6 +3795,23 @@
 </li>
 </ul>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0008.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0008.png"></a> </div></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">可能遇到的问题</p>
+<p>1、 <strong>MelonLoader</strong> 启动画面过后游戏窗口闪退：</p>
+<ul>
+<li><strong>segatools.ini</strong> 中可能未填写 <strong>Keychip ID</strong></li>
+</ul>
+<hr />
+<p>2、 <strong>MelonLoader</strong> 启动画面过后游戏窗口黑屏：</p>
+<ul>
+<li>
+<p><strong>amdaemon</strong> 没有启动，请返回 <strong><a href="#openssl">修复OpenSSL</a></strong> 检查相关设置</p>
+</li>
+<li>
+<p>Windows 11 24H2 版本可能会不能正常启动 <strong>amdaemon</strong></p>
+</li>
+</ul>
 </div>
 <h4 id="_17">游戏自检</h4>
 <div class="admonition tip">
