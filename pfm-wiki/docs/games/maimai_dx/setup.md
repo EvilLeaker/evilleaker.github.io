@@ -324,6 +324,20 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0028.png"> </div>
 
+### MaiChartManager 常见问题
+
+!!! tip ""
+
+    1：软件界面白屏
+
+    点击 **[这里](https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/815d89c2-508a-4010-89af-4a6770e178d9/MicrosoftEdgeWebview2Setup.exe)** 下载并安装 **<code style="color: purple;">Webview2</code>**
+
+    - 不想装这个可以用MCM的局域网模式，用网页打开那个地址
+
+    ---
+
+    2：
+
 ---
 
 ## 配置控制器io
@@ -742,7 +756,13 @@ comments: true
 
     - 网络自检后，请按下 **Maimoller** 的 **<code style="color: purple;">FN2</code>** 键进入TEST菜单
 
-        - 其他手台请按下对应的按键或 **segatools.ini** 中设置的 **TEST** 按键，默认为 **8**，**9**
+        - 其他手台请按下手台上对应的按键或 **segatools.ini** 中设置的 **<code style="color: purple;">TEST</code>** 按键进入TEST菜单，
+
+        - TEST菜单中，使用 **<code style="color: purple;">TEST</code>** 按键来选择项目，使用 **<code style="color: purple;">SERVICE</code>** 按键来确定项目
+
+        - 这两个按键默认为主键盘区数字 **8**，**9** ，如需修改按键可以在 **segatools.ini** 的 **[io4]** 中修改
+
+        - 修改对应按键的键值可以 **[参考此处](https://blog.csdn.net/gao5528/article/details/5991495)** ，修改此处仅限键盘操作
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0010.png"> </div>
 
