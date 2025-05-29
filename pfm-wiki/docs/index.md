@@ -21,7 +21,7 @@
 -   :fontawesome-solid-wrench:{ .lg .middle } __网站导航__
 
     ---
-- **游戏安装教程**
+- **游戏安装指南**
 
     **[:octicons-arrow-right-24: CHUNITHM VERSE](games/chunithm/setup.md)**
 
@@ -34,7 +34,7 @@
     **[:octicons-arrow-right-24: CARD MAKER](games/cm/setup.md)**
 
     ---
-- **手台安装教程**
+- **手台安装使用指南**
 
     **[:octicons-arrow-right-24: TASOLLER](controller/chuni/tasoller.md)**
 
@@ -61,6 +61,12 @@
 
     **[:octicons-arrow-right-24: O.N.G.E.K.I-常见问题](games/ongeki/faq.md)**
 
+    ---
+- **外设**
+
+    **CARDOLLER**
+
+    **[:octicons-arrow-right-24: CARDOLLER - 安装使用说明](peripherals/cardreader/cardoller.md)**
 
 </div>
 

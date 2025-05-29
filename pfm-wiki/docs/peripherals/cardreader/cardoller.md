@@ -25,6 +25,32 @@ comments: true
 
 ---
 
+## 更新固件
+
+!!! tip "下载最新版固件"
+
+     [:octicons-arrow-down-24: Download CARDOLLER Firmware 250527](https://oss.am-all.com.cn/download/firmware/other/cardoller_firmware_250527.zip){ .md-button .md-button--primary target="_blank"}
+
+    ???+ note "250527 固件更新内容"
+
+        - 解决USB接入后，偶尔不识别设备的问题
+
+!!! tip "烧录固件"
+
+    断开读卡器的USB连接，按住CARDOLLER背面的按键接入USB线
+
+    听到USB连接声音即可松开按键，然后电脑中会多出一个名为 **RPI-RP2** 的盘符
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler15.png"/> </div>
+
+    进入到这个磁盘分区中，将固件文件 **aic_pico.uf2** 拖到这里面或者复制过来
+
+    安装完固件文件以后这个磁盘分区会自动断开，CARDOLLER会重启并亮起彩色灯表示已完成固件烧录
+
+    
+
+---
+
 ## SEGA游戏
 
 ### 连接设备

@@ -129,22 +129,22 @@ nav:
   - 游戏:
       - "SEGA":
           - "CHUNITHM (SDHD)":
-              - "安装使用教程": "games/chunithm/setup.md"
+              - "安装使用指南": "games/chunithm/setup.md"
               - "全国对战": "games/chunithm/national_battle.md"
               - "常见问题": "games/chunithm/faq.md"
               - "故障排除": "games/chunithm/troubleshooting.md"
               - "错误代码": "games/chunithm/errorcodes.md"
           - "CHUNITHM (SDBT)":
-              - "安装使用教程": "games/chunithm_old/setup.md"
+              - "安装使用指南": "games/chunithm_old/setup.md"
           - "maimai DX (SDEZ)":
-              - "安装使用教程": "games/maimai_dx/setup.md"
+              - "安装使用指南": "games/maimai_dx/setup.md"
           - "O.N.G.E.K.I":
-              - "安装使用教程": "games/ongeki/setup.md"
+              - "安装使用指南": "games/ongeki/setup.md"
               - "mu3 MOD":
                   - "MOD功能列表": "games/ongeki/mod_list.md"
               - "常见问题": "games/ongeki/faq.md"
           - "CARD MAKER":
-              - "安装使用教程": "games/cm/setup.md"
+              - "安装使用指南": "games/cm/setup.md"
   - 控制器:
       - "SEGA":
           - "CHUNITHM":

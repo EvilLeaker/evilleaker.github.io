@@ -41,7 +41,7 @@ comments: true
 
     ---
 
-    2025/05/22 (Thu)
+    2025/05/29 (Wed)
 
 </div>
 
@@ -179,7 +179,13 @@ comments: true
 
     下载  **<code style="color: purple;">mai2 segatools Clean</code>**  并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download mai2 segatools clean](https://oss.am-all.com.cn/download/files/mai2_segatools_clean.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download mai2 segatools clean](https://oss.am-all.com.cn/download/files/mai2_segatools_clean_250529.zip){ .md-button .md-button--primary target="_blank"}
+
+    ??? note "250529 更新内容"
+
+        - 更新AquaMai的覆盖包 v1.5 (修复一些问题)
+
+        - **segatools.ini** 中添加一些注释和投币键修改
 
     !!! example "新版segatools已更换未经修改的`Assembly-CSharp.dll`，请放心使用"
 
@@ -193,7 +199,7 @@ comments: true
 
 !!! tip ""
 
-    下载  **<code style="color: purple;">MelonLoader</code>**  并解压至任意文件夹
+    下载  **<code style="color: purple;">MelonLoader v0.6.4</code>**  并解压至任意文件夹
 
     [:octicons-arrow-down-24: Download MelonLoader](https://oss.am-all.com.cn/download/files/MelonLoader.zip){ .md-button .md-button--primary target="_blank"}
 
@@ -209,9 +215,25 @@ comments: true
 
 !!! tip ""
 
-    下载  **<code style="color: purple;">AquaMai v1.4.4-1</code>**  并解压至任意文件夹
+    下载  **<code style="color: purple;">AquaMai v1.5.0</code>**  并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download AquaMai](https://oss.am-all.com.cn/download/files/AquaMai.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download AquaMai](https://oss.am-all.com.cn/download/files/AquaMai_v150.zip){ .md-button .md-button--primary target="_blank"}
+
+    ???+ note "AquaMai v1.5.0 更新内容"
+
+        - 在开启 DisableTimeout 时可以选择显示 ∞ 符号
+
+        - 把 Events 全解移动到 Unlock 选项内
+
+        - 大概率修复了同时按下跳过和重开按键时再开下一首歌崩溃的问题
+
+        - 增加了对一些游戏设置问题的容错，在一些配置不对时自动纠正
+
+        - 修复了代码中很久之前就有的错误导致有些功能没有按预期工作（也看不出来）的问题
+
+        - 当因为 AMDaemon 启动失败而黑屏时显示错误排查提示
+
+        - 开启 AdxHidInput 时，可以自定义侧键的映射
 
     !!! example "AquaMai可以方便的设置于运行游戏，可以为游戏添加更多方便功能"
 
@@ -270,9 +292,33 @@ comments: true
 
     使用 **MaiChartManager** 可以更加方便的管理游戏资源，查看歌曲信息，以及Mod设置
 
-    下载并安装 **MaiChartManager**
+    通过微软商店下载并安装 **MaiChartManager 1.5.0**
 
     [:octicons-arrow-down-24: Download MaiChartManager](https://get.microsoft.com/installer/download/9P1JDKQ60G4G){ .md-button .md-button--primary target="_blank"}
+
+    ---
+
+    使用本地安装包安装或更新 **MaiChartManager** 至 **1.5.0** 版本
+
+    [:octicons-arrow-down-24: Download MaiChartManager 1.5.0](https://oss.am-all.com.cn/download/files/MaiChartManager_1.5.0.0_x64.Appx){ .md-button .md-button--primary target="_blank"}
+
+    !!! warning "如果已安装MCM，请到Microsoft Store中进行更新或使用本地安装包更新"
+
+    ---
+
+    ???+ note "MaiChartManager 1.5.0 更新内容"
+
+        - 在读取乐曲 XML 遇到问题时，不直接出错退出而是提示错误位置并忽略
+
+        - 修复了在转换 USM 时出现的 BinaryFormatter 相关报错
+
+        - 支持 cue 和 movie 设置了和歌曲本身不一样的 ID
+
+        - 更新 MelonLoader 到 0.7.0
+
+        - 将开启“使用新的排序方式”时的排序配置内置在 AquaMai 内，这样 AquaMai 新增配置项时 MaiChartManager 无需更新能直接识别配置分类
+
+        - 增加了在线检查 AquaMai 更新的功能，现在 MaiChartManager 无需更新就能获取真实最新的 AquaMai 版本
 
     !!! warning "注意事项"
 
@@ -333,10 +379,6 @@ comments: true
     点击 **[这里](https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/815d89c2-508a-4010-89af-4a6770e178d9/MicrosoftEdgeWebview2Setup.exe)** 下载并安装 **<code style="color: purple;">Webview2</code>**
 
     - 不想装这个可以用MCM的局域网模式，用网页打开那个地址
-
-    ---
-
-    2：
 
 ---
 
@@ -579,13 +621,12 @@ comments: true
 
     请右键单击 **<code style="color: purple;">package\start.bat</code>** 选择 **<code style="color: purple;">编辑</code>**，将下面高亮处代码添加至文件开头并保存
 
-    ```batch hl_lines="5"
+    ```batch hl_lines="2"
     @echo off
-    
-    pushd %~dp0
-    
     set OPENSSL_ia32cap=~0x200000200000000
-    start "AM Daemon" ...
+
+    pushd %~dp0
+    start /min inject ...
     ...
     ```
 
@@ -852,7 +893,7 @@ comments: true
 
 ### 其他说明
 
-!!! warning "提问时，请附带详细的游戏截图以及文字描述，尽量不要屏摄和简单概括问题，这样会增加解答的难度"
+!!! warning "提问时，请附带详细的文字描述，尽量不要简单概括问题，这样会增加解答的难度"
 
 !!! tip ""
 
