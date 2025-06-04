@@ -87,17 +87,25 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler04.png"/> </div>
 
+### 关闭Virtual AIC功能 (必须)
+
+!!! tip ""
+
+    **此功能默认开启，会导致有些卡片读出错误的卡号**
+
+    继续在命令行输入命令 **virtual off** 后回车
+
+    返回下图中的参数表示关闭成功
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler16.png"/> </div>
+
     ---
 
-    点击 **Diconnect**，后再次下拉菜单选择 **Click 'Connect' to add a port...** 并点击 **Connect**
+    完成上述设置后，点击 **Diconnect** 断开连接即可
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler05.png"/> </div>
+    !!! danger "请在这一步请务必记住 **`AIC Pico Aime Port`** 的COM端口号"
 
-    查看 **AIC Pico CLI Port** 是否显示 **已配对**，配对成功即可关闭网页
-
-    !!! danger "不要配对 `AIC Pico Aime Port`"
-
-    !!! warning "在这一步请务必记住 `AIC Pico Aime Port` 的COM端口号"
+    !!! warning "如果 **`AIC Pico CLI Port`** 端口号与游戏使用的任何一个端口号重合，请在设备管理器中更改此设备端口号"
 
 ### 串口设置
 
