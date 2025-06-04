@@ -2008,6 +2008,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#virtual-aic" class="md-nav__link">
+    <span class="md-ellipsis">
+      关闭Virtual AIC功能 (必须)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       串口设置
@@ -2580,6 +2589,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#virtual-aic" class="md-nav__link">
+    <span class="md-ellipsis">
+      关闭Virtual AIC功能 (必须)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       串口设置
@@ -2774,15 +2792,20 @@
 <p>连接成功后，在下方控制台输入 <strong>mode aime0</strong> 后回车</p>
 <p>返回下图中的参数表示模式切换成功</p>
 <p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler04.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler04.png"/></a> </div></p>
+</div>
+<h3 id="virtual-aic">关闭Virtual AIC功能 (必须)</h3>
+<div class="admonition tip">
+<p><strong>此功能默认开启，会导致有些卡片读出错误的卡号</strong></p>
+<p>继续在命令行输入命令 <strong>virtual off</strong> 后回车</p>
+<p>返回下图中的参数表示关闭成功</p>
+<p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler16.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler16.png"/></a> </div></p>
 <hr />
-<p>点击 <strong>Diconnect</strong>，后再次下拉菜单选择 <strong>Click 'Connect' to add a port...</strong> 并点击 <strong>Connect</strong></p>
-<p><div align="center"> <a class="glightbox" href="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler05.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler05.png"/></a> </div></p>
-<p>查看 <strong>AIC Pico CLI Port</strong> 是否显示 <strong>已配对</strong>，配对成功即可关闭网页</p>
+<p>完成上述设置后，点击 <strong>Diconnect</strong> 断开连接即可</p>
 <div class="admonition danger">
-<p class="admonition-title">不要配对 <code>AIC Pico Aime Port</code></p>
+<p class="admonition-title">请在这一步请务必记住 <strong><code>AIC Pico Aime Port</code></strong> 的COM端口号</p>
 </div>
 <div class="admonition warning">
-<p class="admonition-title">在这一步请务必记住 <code>AIC Pico Aime Port</code> 的COM端口号</p>
+<p class="admonition-title">如果 <strong><code>AIC Pico CLI Port</code></strong> 端口号与游戏使用的任何一个端口号重合，请在设备管理器中更改此设备端口号</p>
 </div>
 </div>
 <h3 id="_5">串口设置</h3>
