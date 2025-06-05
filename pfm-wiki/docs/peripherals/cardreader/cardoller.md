@@ -29,9 +29,14 @@ comments: true
 
 !!! tip "下载最新版固件"
 
-     [:octicons-arrow-down-24: Download CARDOLLER Firmware 250527](https://oss.am-all.com.cn/download/firmware/other/cardoller_firmware_250527.zip){ .md-button .md-button--primary target="_blank"}
+     [:octicons-arrow-down-24: Download CARDOLLER Firmware 250604](https://oss.am-all.com.cn/download/firmware/other/cardoller_firmware_250604.zip){ .md-button .md-button--primary target="_blank"}
 
     ???+ note "250527 固件更新内容"
+
+        - 可以读取真实卡号
+
+
+    ??? note "250527 固件更新内容"
 
         - 解决USB接入后，偶尔不识别设备的问题
 
@@ -87,7 +92,7 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler04.png"/> </div>
 
-### 关闭Virtual AIC功能 (必须)
+### 关闭Virtual AIC功能
 
 !!! tip ""
 
