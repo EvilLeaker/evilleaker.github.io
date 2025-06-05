@@ -35,7 +35,7 @@ comments: true
 
     ---
 
-    A001~A161
+    A001~A162
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -51,7 +51,7 @@ comments: true
 
     ---
 
-    2025/04/29 (Tue)
+    2025/06/06 (Fri)
 
 </div>
 
@@ -143,7 +143,7 @@ comments: true
 
 !!! tip ""
 
-    下载并解压 **option(A001~A161).zip**
+    下载并解压 **option(A001~A162).zip**
 
     将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
 
