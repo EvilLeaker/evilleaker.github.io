@@ -7221,4 +7221,14 @@ input[type=text] {
   border-radius: 0;
   outline: none;
 }
+
+#yuanDrama {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%; /* 根据你图片的真实尺寸调 */
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
 /*# sourceMappingURL=../maps/style.css.map */

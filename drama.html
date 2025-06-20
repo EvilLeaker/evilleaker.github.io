@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class="top en" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Drama.Yuan</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="CHUNITHM">
+  <link rel="shortcut icon" href="https://oss.am-all.com.cn/asset/img/main/favicon.png" />
+  <link rel="stylesheet" href="css/lib.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/chunithm_verse.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header--wrapper">
+      <div class="header--inner">
+        <div class="header--language">
+          <p class="header--language__text">CHUNITHM WEBSITE</p>
+          <a href="https://chunithm.sega.jp/" target="_blank" rel="noopener noreferrer" class="header--language__link">CHUNITHM-NET</a>
+        </div>
+        <nav class="header--nav" data-now="music">
+          <a href="./" class="header--nav__logo">
+            <img src="https://oss.am-all.com.cn/asset/img/main/common/logo.png" alt="CHUNITHM LUMINOUS">
+          </a>
+          <ul class="header--nav__list">
+            <li class="header--nav__item"><a href="./" class="header--nav__link">HOME</a></li>
+            <li class="header--nav__item"><a href="music.html" class="header--nav__link">MUSIC LIST</a></li>
+            <li class="header--nav__item"><a href="./character/" class="header--nav__link">CHARACTER</a></li>
+            <li class="header--nav__item"><a href="./download/" class="header--nav__link">DOWNLOAD</a></li>
+            <li class="header--nav__item"><a href="./patcher/" class="header--nav__link">PATCHER</a></li>
+            <li class="header--nav__item"><a href="goods.html" class="header--nav__link">GOODS</a></li>
+            <li class="header--nav__item"><a href="http://story.chunithm.top/" target="_blank" rel="noopener noreferrer" class="header--nav__link blank">STORY</a></li>
+            <li class="header--nav__item"><a href="https://performai.evilleaker.com/manual" target="_blank" rel="noopener noreferrer" class="header--nav__link blank">MANUAL</a></li>
+          </ul>
+        </nav>
+        <div class="header--btn">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="common--wrapper">
+    <div class="bg-chunithm-verse">
+      <div class="chuni-main-bg">
+        <div class="main-bg-base">
+          <div class="main-bg-inner">
+            <div class="frame top-right">
+              <div class="frame-particle top-right"></div>
+              <div class="frame-arrow top-right"></div>
+            </div>
+            <div class="frame bottom-left">
+              <div class="frame-particle bottom-left"></div>
+              <div class="frame-arrow bottom-left"></div>
+            </div>
+            <div class="corner-text top-right"></div>
+            <div class="corner-text bottom-left"></div>
+            <div class="globe"><div class="globe-cross"></div></div>
+            <div class="verse-belt left"></div>
+            <div class="verse-belt center-left"></div>
+            <div class="verse-belt center-right"></div>
+            <div class="verse-belt right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="common--inner">
+      <h2 class="common--h2">无内鬼，来点儿Yuan图</h2>
+      <!-- 显示随机图片，点击切换 -->
+      <img id="yuanDrama" src="img/000.png" alt="randomDrama"
+           style="max-width:100%; height:50%; cursor:pointer; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"
+           onclick="showNextImage()" />
+    </div>
+  </main>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 自动生成图片路径数组
+    window.myPix = [];
+    for (var i = 0; i <= 67; i++) {
+      var filename = "https://oss.am-all.com.cn/asset/img/drama/" + String(i).padStart(3, '0') + ".png";
+      window.myPix.push(filename);
+    }
+
+    window.defaultImage = "img/default.png";
+    window.currentIndex = Math.floor(Math.random() * window.myPix.length);
+
+    var imgElement = document.getElementById("yuanDrama");
+    if (imgElement) {
+      imgElement.src = window.myPix[window.currentIndex];
+
+      // 失败时加载默认图
+      imgElement.onerror = function () {
+        this.onerror = null;
+        this.src = window.defaultImage;
+      };
+
+      // 点击图片切换下一张
+      imgElement.onclick = function () {
+        window.currentIndex = (window.currentIndex + 1) % window.myPix.length;
+        this.src = window.myPix[window.currentIndex];
+      };
+    }
+  });
+</script>
+</body>
+</html>
