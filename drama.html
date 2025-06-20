@@ -85,10 +85,20 @@
     }
 
     window.defaultImage = "img/default.png";
-    window.currentIndex = Math.floor(Math.random() * window.myPix.length);
+
+    // 生成随机索引函数，避免连续两次相同
+    function getRandomIndex(excludeIndex) {
+      let index;
+      do {
+        index = Math.floor(Math.random() * window.myPix.length);
+      } while (index === excludeIndex);
+      return index;
+    }
 
     var imgElement = document.getElementById("yuanDrama");
     if (imgElement) {
+      // 初始化随机显示一张图片
+      window.currentIndex = getRandomIndex(-1);
       imgElement.src = window.myPix[window.currentIndex];
 
       // 失败时加载默认图
@@ -97,9 +107,9 @@
         this.src = window.defaultImage;
       };
 
-      // 点击图片切换下一张
+      // 点击图片切换下一张随机图片
       imgElement.onclick = function () {
-        window.currentIndex = (window.currentIndex + 1) % window.myPix.length;
+        window.currentIndex = getRandomIndex(window.currentIndex);
         this.src = window.myPix[window.currentIndex];
       };
     }
