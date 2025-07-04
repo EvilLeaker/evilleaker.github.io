@@ -1,0 +1,177 @@
+site_name: Performai Manual
+site_url: https://performai.evilleaker.com/manual/
+copyright: 2025 &copy; Evil Leaker
+repo_url: https://performai.evilleaker.com/
+repo_name: Evil Leaker HOME
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: https://oss.am-all.com.cn/asset/img/manual/common/site_logo.svg
+  favicon: https://oss.am-all.com.cn/asset/img/manual/common/favicon.png
+  icon:
+    repo: fontawesome/solid/house
+    annotation: material/arrow-right-circle
+  navigation_depth: 3
+  palette:
+    # Toggle for auto mode
+    - media: "(prefers-color-scheme)"
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-auto
+        name: 切换正常模式
+    # Toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: fontawesome/solid/toggle-off
+        name: 切换护眼模式
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: deep blue
+      toggle:
+        icon: fontawesome/solid/toggle-on
+        name: 跟随系统
+  features:
+    - content.code.annotate
+    - content.tooltips
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.footnote.tooltips
+    - content.action.edit
+    - content.action.view
+    - search.suggest
+    - search.highlight
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.betterem
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+      lang:
+        - zh
+        - ja
+        - en
+  - glightbox
+  - blog
+  - blog:
+      blog_dir: doc/blog
+      post_date_format: full
+      post_dir: "{blog}/articles"
+      authors_file: "{blog}/.authors.yml"
+      post_url_date_format: yyyy/MM/dd
+      archive_date_format: MMMM yyyy
+      archive_name: 存档
+
+extra:
+  status:
+    <identifier>: <description>
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+nav:
+  - 首页: index.md
+  - 游戏:
+      - "SEGA":
+          - "CHUNITHM (SDHD)":
+              - "安装使用指南": "games/chunithm/setup.md"
+              - "全国对战": "games/chunithm/national_battle.md"
+              - "常见问题": "games/chunithm/faq.md"
+              - "故障排除": "games/chunithm/troubleshooting.md"
+              - "错误代码": "games/chunithm/errorcodes.md"
+          - "CHUNITHM (SDBT)":
+              - "安装使用指南": "games/chunithm_old/setup.md"
+          - "maimai DX (SDEZ)":
+              - "安装使用指南": "games/maimai_dx/setup.md"
+          - "O.N.G.E.K.I":
+              - "安装使用指南": "games/ongeki/setup.md"
+              - "mu3 MOD":
+                  - "MOD功能列表": "games/ongeki/mod_list.md"
+              - "常见问题": "games/ongeki/faq.md"
+          - "CARD MAKER":
+              - "安装使用指南": "games/cm/setup.md"
+  - 控制器:
+      - "SEGA":
+          - "CHUNITHM":
+              - "TASOLLER PLUS": "controller/chuni/tasollerplus.md"
+              - "TASOLLER": "controller/chuni/tasoller.md"
+              - "Yubideck (大四)":
+                  - "控制器说明书": "controller/chuni/yubideck/setup.md"
+                  - "常见问题与故障排查": "controller/chuni/yubideck/troubleshooting.md"
+              - "其他输入方式": "controller/chuni/other.md"
+          - "maimai DX":
+              - "Maimoller": "controller/maimai/maimoller.md"
+          - "O.N.G.E.K.I":
+              - "O.N.T.R.O.L.L.E.R":
+                  - "安装手台": "controller/ongeki/ontroller.md"
+                  - "ONTROLLER Options": "controller/ongeki/options.md"
+  - 外设:
+      - "读卡器":
+          - "CARDOLLER": "peripherals/cardreader/cardoller.md"
+  - 其他:
+      - "问题反馈": "other/feedback.md"
+      - "SEGA PCB":
+          - "RING": "other/segapcb/ring.md"
+          - "NU": "other/segapcb/nu.md"
+          - "ALLS": "other/segapcb/alls.md"
+  - 博客:
+      - blog/index.md
+extra_javascript:
+  - js/modal.js
+extra_css:
+  - css/modal.css
