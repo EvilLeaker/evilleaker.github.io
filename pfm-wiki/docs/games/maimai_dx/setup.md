@@ -491,9 +491,79 @@ comments: true
 
     游戏服务器分为 **<code style="color: purple;">在线服</code>** 与 **<code style="color: purple;">离线服</code>** ，请按自身情况选择对应服务器使用。
 
-### 在线服务器 (AquaDX Net)
+### 在线服务器
 
-!!! tip ""
+#### MuNet (新)
+
+##### 个人从AquaDX迁移到MuNet
+
+??? tip "如何迁移"
+
+    !!! danger "v0.2.0 更新：现在已经可以注册了。但是，别注册，直接用 AquaDX 的账号登录，否则你会失去迁移机会。别注册"
+
+    !!! note ""
+
+        看起来有些玩家迁移之前在 **AquaDX** 并没有正确绑定自己的卡，导致迁移过来之后是没有数据的。迁移之前，你需要确保在 **AquaDX** 打开你的个人页面能看到有自己的数据。如果没有，请绑定在 **AquaDX** 按七号键刷卡刷出来的卡号
+
+    首先打开 **[MuNet网站](https://portal.mumur.net)**
+
+    使用 **<code style="color: purple;">AquaDX Net</code>** 账号登录即可来到 **迁移页面**
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0040.png"> </div>
+
+    !!! note "AquaDX网络异常时大概率无法进行迁移(看情况)，具体迁移服务器是否正常，请 **[点击这里](https://status.mumur.net/)** 查看"
+
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0036.png"> </div>
+
+    服务器在本地找不到账号就会尝试去 **AquaDX** 找账号，找到账号之后就会进入 **迁移页面**
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0037.png"> </div>
+
+    点击 **开始迁移** 按钮，等待迁移完成，再点击 **立即登录** 按钮，就可以登录进入 **Net** 主界面了
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0038.png"> </div>
+
+    如果迁移出现了红色失败之类的情况，首先可以尝试再试一次，如果还是不行，那么请反馈这个问题
+
+##### 音游窝迁移指南
+
+??? tip "如何迁移"
+
+    从 2025 年 6 月 5 日之后开始，MuNET 已经可以给音游窝使用了，因为我们上线了给窝主的批量迁移工具
+
+    对于原先使用 AquaDX 开音游窝的窝主，现在也可以把你们的机台换成接入 MuNET 了。在这之前，你需要按照前文的方法把自己的账号（也就是窝的机器 KeyChip 所有者的账号）迁移到 MuNET。然后，你可以帮所有玩家一键迁移他们的账号
+
+    请尽量在电脑上执行操作
+
+    !!! note "AquaDX网络异常时大概率无法进行迁移(看情况)，具体迁移服务器是否正常，请 **[点击这里](https://status.mumur.net/)** 查看"
+
+        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0036.png"> </div>
+
+    在 **[MuNet主页](https://portal.mumur.net)** 登录窝主账号之后，打开 **[此页面](https://portal.mumur.net/batchMigrate)**，可以看到这样的界面
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0041.png"> </div>
+
+    点击 **<code style="color: purple;">开始迁移</code>** 并阅读提示信息，系统将会自动收集 **<code style="color: purple;">上次登录是在你的机台上</code>** 的卡号
+
+    由于 AquaDX 架构限制，只能获取到上次登录是你的机台的卡号。并不是所有在你的机台上登录过的卡号都能获取到的
+
+    只要是以下游戏之一上次登录是你的机台就可以被收集到：maimaiDX，中二节奏，中二节奏旧框，音击，华卡
+
+    后系统就会为所有收集到的卡号完成迁移。请静静等待迁移完成，**<code style="color: purple;">不要离开这个页面</code>**，否则迁移可能会中断
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0042.png"> </div>
+
+    要是迁移真的中断了，不用担心，重新再来一次就可以了。迁移的时候发现已经存在了的用户或者已经有数据了的卡号就会自动跳过，不会导致数据被覆盖。
+
+    并且如果有一个人的账号迁移到一半中止了，执行到一半的行为将会被回滚，并不会产生数据损坏
+
+    如果迁移过程中遇到任何问题，请联系凌莞
+
+    迁移之后的卡号，为了防止不知情的数据冲突，将无法在使用 AquaDX 的机台上登录。如果有需要，可以联系凌莞帮你清除这个状态
+
+#### AquaDX Net
+
+??? tip "推荐使用MuNet，已注册AuqaDX用户可以进行迁移，如需查看AquaDX注册流程请点击此处展开浏览"
 
     打开 **<code style="color: purple;">segatools.ini</code>** ，在 **<code style="color: purple;">[dns]</code>** 选项中设置 **<code style="color: purple;">default</code>** 为您需要连接的服务器地址。
 
@@ -547,15 +617,7 @@ comments: true
 
         !!! note "需要先游玩一局并成功保存才可以绑卡"
 
-### 其他在线服务器
-
-!!! tip ""
-
-    Rin Net：**可以连接但无法保存用户数据**
-
-    Nageki Net：**不支持SDEZ 1.56，无法通过Authentication检测**
-
-    Deer Net：* * *
+---
 
 ### 离线服务器 (ARTEMiS 与 AquaDX)
 
@@ -875,7 +937,7 @@ comments: true
 
     - 同时确认画面右下角游戏版本号是否正确，目前所提供的游戏版本为 **<code style="color: purple;">Ver.DX 1.56-C</code>**
 
-    - 在 **[设置虚拟Aime卡号](#aime_1)** 设置好卡号后，长按 **回车键(Enter)** 进行刷卡，即可开始游戏
+    - 在 **[设置虚拟Aime卡号](#aime)** 设置好卡号后，长按 **回车键(Enter)** 进行刷卡，即可开始游戏
 
     ---
 
