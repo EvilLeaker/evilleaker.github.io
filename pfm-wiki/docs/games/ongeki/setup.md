@@ -33,7 +33,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sddt.html){ target="_blank" }**
+    **[:octicons-arrow-right-24: 获取HDD](https://dc.evilleaker.com/){ target="_blank" }**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
@@ -57,7 +57,7 @@ comments: true
 
     ---
 
-    2025/04/04 (Fri)
+    2025/07/16 (Tue)
 
 </div>
 

@@ -28,7 +28,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sdbt.html)**
+    **[:octicons-arrow-right-24: 获取HDD](https://dc.evilleaker.com/)**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __资源状态__
 
@@ -52,7 +52,7 @@ comments: true
 
     ---
 
-    2025/02/17 (Mon)
+    2025/07/16 (Tue)
 
 </div>
 

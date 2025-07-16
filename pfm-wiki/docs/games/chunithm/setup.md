@@ -29,13 +29,13 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sdhd.html)**
+    **[:octicons-arrow-right-24: 获取HDD](https://dc.evilleaker.com/)**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
     ---
 
-    A001~A162
+    A001~A191(Verse Final)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -51,7 +51,7 @@ comments: true
 
     ---
 
-    2025/06/06 (Fri)
+    2025/07/16 (Tue)
 
 </div>
 

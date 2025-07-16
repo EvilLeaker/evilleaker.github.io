@@ -19,13 +19,13 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://performai.evilleaker.com/datacenter/sdez.html){ target="_blank" }**
+    **[:octicons-arrow-right-24: 获取HDD](https://dc.evilleaker.com/){ target="_blank" }**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
     ---
 
-    K001、K002、K005 (1.56-C)
+    K001、K002、K005、K021 (1.56-E)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -41,7 +41,7 @@ comments: true
 
     ---
 
-    2025/05/29 (Wed)
+    2025/07/16 (Tue)
 
 </div>
 
