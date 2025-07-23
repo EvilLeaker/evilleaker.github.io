@@ -131,7 +131,7 @@ comments: true
 
     !!! note "注意事项"
     
-        上述**`chusanApp.exe`**已打过可正常游玩所需的补丁
+        上述 **`chusanApp.exe`** 已打过可正常游玩所需的补丁
     
         如有其他修改补丁的需求，请访问  **[DATA CENTER - 补丁工具页(侧边栏进入)](https://dc.evilleaker.com/)**
     
