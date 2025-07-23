@@ -133,7 +133,7 @@ comments: true
     
         上述**`chusanApp.exe`**已打过可正常游玩所需的补丁
     
-        如有其他修改补丁的需求，请访问  **[EVIL LEAKER - Patcher页](https://performai.evilleaker.com/patcher)**
+        如有其他修改补丁的需求，请访问  **[DATA CENTER - 补丁工具页(侧边栏进入)](https://dc.evilleaker.com/)**
     
         - 打过补丁的 **`chusanApp.exe`** 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
     
