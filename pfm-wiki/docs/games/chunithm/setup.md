@@ -231,6 +231,26 @@ comments: true
 
         请不要使用富文本编辑器（例如：Word、WPS、写字板）来修改配置文件，可能会让配置文件格式错误而导致游戏读取配置文件出错
 
+!!! warning "建议"
+
+    如果您的系统中未安装或也不想安装上述提到的文本或代码编辑器，建议您可以使用专为修改 **segatools.ini** 制作的编辑工具 **Segatools Editor**。
+
+    本工具可以修改所有游戏segatools中的 **segatools.ini** 配置文件，可以修改、增加或删减，启用与禁用相关配置，程序由Python制作，无毒副作用，请放心使用。 
+
+    如果下载后Windows Defender或其他杀软提示病毒或威胁提示，请将程序或保存下载目录加入相应软件的白名单即可。
+
+!!! tip "Segatools Editor 相关说明"
+
+    如需下载 **Segatools Editor**，请访问 **[DATA CENTER](https://dc.evilleaker.com/)** 并在左侧侧边栏中选择 **实用工具** 进行下载。
+
+    也可以 **[点击此处](https://oss.am-all.com.cn/download/software/sgeditor/SegatoolsEditor.exe)** 直接下载工具。
+
+    本工具支持中日英语言切换与在线更新，当有新版本更新时，在您启动软件的同时，底部日志区域会显示相关内容，如需更新新版本可手动进行下载，本软件不会强制下载新版本。
+
+!!! tip "Segatools Editor 使用说明"
+
+    
+
 ### `[vfs]`
 
 !!! tip ""
