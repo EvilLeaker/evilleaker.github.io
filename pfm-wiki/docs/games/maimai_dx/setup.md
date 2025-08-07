@@ -41,7 +41,7 @@ comments: true
 
     ---
 
-    2025/07/16 (Tue)
+    2025/08/08 (Fri)
 
 </div>
 
@@ -195,64 +195,6 @@ comments: true
 
     将上述文件全部复制到HDD中的 <code style="color: purple;">**package**</code> 文件夹下即可完成安装，如提示覆盖选择 <code style="color: purple;">**是**</code> 覆盖对应文件
 
-### 安装MelonLoader (MOD加载器)
-
-!!! tip ""
-
-    下载  **<code style="color: purple;">MelonLoader v0.6.4</code>**  并解压至任意文件夹
-
-    [:octicons-arrow-down-24: Download MelonLoader](https://oss.am-all.com.cn/download/files/MelonLoader.zip){ .md-button .md-button--primary target="_blank"}
-
-    !!! example "本教程配置基于AquaMai Mod，此加载器为使用Mod的基础环境"
-
-    **解压后获得如下文件：**
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0024.png"> </div>
-
-    将上述文件全部复制到HDD中的 <code style="color: purple;">**package**</code> 文件夹下即可完成安装
-
-### 安装AquaMai (Mod)
-
-!!! tip ""
-
-    下载  **<code style="color: purple;">AquaMai v1.5.0</code>**  并解压至任意文件夹
-
-    [:octicons-arrow-down-24: Download AquaMai](https://oss.am-all.com.cn/download/files/AquaMai_v150.zip){ .md-button .md-button--primary target="_blank"}
-
-    ???+ note "AquaMai v1.5.0 更新内容"
-
-        - 在开启 DisableTimeout 时可以选择显示 ∞ 符号
-
-        - 把 Events 全解移动到 Unlock 选项内
-
-        - 大概率修复了同时按下跳过和重开按键时再开下一首歌崩溃的问题
-
-        - 增加了对一些游戏设置问题的容错，在一些配置不对时自动纠正
-
-        - 修复了代码中很久之前就有的错误导致有些功能没有按预期工作（也看不出来）的问题
-
-        - 当因为 AMDaemon 启动失败而黑屏时显示错误排查提示
-
-        - 开启 AdxHidInput 时，可以自定义侧键的映射
-
-    !!! example "AquaMai可以方便的设置于运行游戏，可以为游戏添加更多方便功能"
-
-    **解压后获得如下文件：**
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0025.png"> </div>
-
-    ---
-
-    **Mod包含如下文件：**
-
-    - **Mod\AquaMai.dll** - AquaMai主文件
-
-    - **AquaMai.toml** - AquaMai配置文件
-
-    ---
-
-    将上述文件全部复制到HDD中的 <code style="color: purple;">**package**</code> 文件夹下即可完成安装，如提示覆盖选择 <code style="color: purple;">**是**</code> 覆盖对应文件
-
 ### 安装ICF
 
 !!! tip ""
@@ -269,7 +211,7 @@ comments: true
 
     全部解压后放入 **<code style="color: purple;">Package\Sinmai_Data\StreamingAssets</code>**中与 **A000**并列
 
-    !!! note "K100为删除曲包，K101为两首门曲抄谱(只有紫谱)"
+    !!! note "K100为删除曲包(非1cc包只不过同名，无Bug)，K101为两首门曲抄谱(只有紫谱)"
 
     !!! warning "注意解压时文件夹不要嵌套以免游戏读取不到"
 
@@ -282,43 +224,49 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0035.png"> </div>
 
----
+### 安装MelonLoader (MOD加载器)
 
-## AuqaMai设置
+!!! tip ""
+
+    下载  **<code style="color: purple;">MelonLoader v0.6.4</code>**  并解压至任意文件夹
+
+    [:octicons-arrow-down-24: Download MelonLoader](https://oss.am-all.com.cn/download/files/MelonLoader.zip){ .md-button .md-button--primary target="_blank"}
+
+    !!! example "本教程配置基于AquaMai Mod，此加载器为使用Mod的基础环境"
+
+    **解压后获得如下文件：**
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0024.png"> </div>
+
+    将上述文件全部复制到HDD中的 <code style="color: purple;">**package**</code> 文件夹下即可完成安装
+
+---
 
 ### 安装MaiChartManager
 
-!!! note ""
+!!! warning "注意事项"
+
+    本教程仅引导您进行相关软件与Mod的初装，由于个人精力和时间有限不能在本教程第一时间同步更新MCM与AquaMai，如果您需要详细了解MCM、AquaMai与MuNet，请加入以下QQ群(点击群号加入或复制群号)：
+
+    - **[665647114](https://qun.qq.com/universal-share/share?ac=1&authKey=6lfaBWblt1JXqyJ07OQ%2B71uuXM09tytt1UVk3GWjtoHoLm75mKMCdQ84a/s9xjaY&busi_data=eyJncm91cENvZGUiOiI2NjU2NDcxMTQiLCJ0b2tlbiI6InRINS9ZS0FCTWhiOHhuRUhUWm5GY2NTQVZSbTVTbXowWGRSbmNOeUFXSENEZFpDNnJ1eTVRQzl3Z0N5NHc2YnoiLCJ1aW4iOiI4Mzk4Mjc5MTEifQ==&data=D099VsrYUBt3lpCvZRzkMTEp6hpCdKGhr0SzCaYnDrB7vMxl0_BOuaWiJAkAL7X4QLs3O8scRuwZzGZQQQ1KuoZUqHQKA7A2z6lK0dXqKG4&svctype=5&tempid=h5_group_info){ target="_blank" }** - AquaDX|MuNet 交流群
+
+    - **[1029404769](https://qun.qq.com/universal-share/share?ac=1&authKey=G9uNKOKdbTjbsk1d4eqc/W3s%2BA1NOJVBewcGFuJCCVerf2cczM7adT3iGo3NkqMz&busi_data=eyJncm91cENvZGUiOiIxMDI5NDA0NzY5IiwidG9rZW4iOiJyaWtrVmZ3YVJTOCt0S0kwWGZOeklCbDIyVDNwM1RoY2JISy9qU2FjcDQwQ0lMOWV2N2pmeEVENGZkYjFDMzdXIiwidWluIjoiODM5ODI3OTExIn0=&data=Uz4-KIKkZX0irwgtfleaSrTJmOkn6jxYFYksPipWD29fXWBulbQcIAQz0Q9DMuwhq7X4dNte6T3XXpM3kRUmX_qgdCAyDcv1fJDOuLVjnkg&svctype=5&tempid=h5_group_info){ target="_blank" }** - 通知群
+
+    - **[596188120](https://qun.qq.com/universal-share/share?ac=1&authKey=UZcE0dqC8u9trhSVrvVebwj51StLCb3YcmlIERcDCPnpZ/Ikr6bFv1xGCBd3GGrH&busi_data=eyJncm91cENvZGUiOiI1OTYxODgxMjAiLCJ0b2tlbiI6IjhBbCtaUFk5alpaaXNjY0JKUWlzeFN6cWpweHdabTZlYnJuaXJrQ2lTbVJ2cXdzTUNBcFJmcFJBUzFkS3Fnai8iLCJ1aW4iOiI4Mzk4Mjc5MTEifQ==&data=BxvRZlndxIHVnazJO_IcC-px_lDMgiFPQZdtWEMKJbg58-j3Aikgj1hX1CRQGJeCAVtWrVFuPXym3trM85yquGx_lpqgCqQip_4ci0-9Y-I&svctype=5&tempid=h5_group_info){ target="_blank" }** - MCM群
+
+!!! note "如何安装"
 
     使用 **MaiChartManager** 可以更加方便的管理游戏资源，查看歌曲信息，以及Mod设置
 
-    通过微软商店下载并安装 **MaiChartManager 1.5.0**
+    通过微软商店下载并安装 **MaiChartManager** 安装包
 
     [:octicons-arrow-down-24: Download MaiChartManager](https://get.microsoft.com/installer/download/9P1JDKQ60G4G){ .md-button .md-button--primary target="_blank"}
 
-    ---
+    !!! tip "如何更新MCM"
 
-    使用本地安装包安装或更新 **MaiChartManager** 至 **1.5.0** 版本
-
-    [:octicons-arrow-down-24: Download MaiChartManager 1.5.0](https://oss.am-all.com.cn/download/files/MaiChartManager_1.5.0.0_x64.Appx){ .md-button .md-button--primary target="_blank"}
-
-    !!! warning "如果已安装MCM，请到Microsoft Store中进行更新或使用本地安装包更新"
+        - 请到微软商店中更新MCM软件本体
 
     ---
-
-    ???+ note "MaiChartManager 1.5.0 更新内容"
-
-        - 在读取乐曲 XML 遇到问题时，不直接出错退出而是提示错误位置并忽略
-
-        - 修复了在转换 USM 时出现的 BinaryFormatter 相关报错
-
-        - 支持 cue 和 movie 设置了和歌曲本身不一样的 ID
-
-        - 更新 MelonLoader 到 0.7.0
-
-        - 将开启“使用新的排序方式”时的排序配置内置在 AquaMai 内，这样 AquaMai 新增配置项时 MaiChartManager 无需更新能直接识别配置分类
-
-        - 增加了在线检查 AquaMai 更新的功能，现在 MaiChartManager 无需更新就能获取真实最新的 AquaMai 版本
 
     !!! warning "注意事项"
 
@@ -342,9 +290,9 @@ comments: true
             PowerShell -ExecutionPolicy Unrestricted -Command "& {$manifest = (Get-AppxPackage Microsoft.WindowsStore).InstallLocation + '\AppxManifest.xml' ; Add-AppxPackage -DisableDevelopmentMode -Register $manifest}"
             ```
 
-### 使用MaiChartManager管理游戏与Mod
+### 安装AquaMai
 
-!!! tip ""
+!!! tip "如何安装"
 
     打开 **MaiChartManager**
 
@@ -352,7 +300,24 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0026.png"> </div>
 
-    ---
+    选择 **MOD管理**
+
+    按照下图点击安装最新版 **AquaMai MOD**
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0043.png"> </div>
+
+!!! tip "如何更新"
+
+    按照下图操作安装最新或测试版 **AquaMai**
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0044.png"> </div>
+    
+
+### 使用MaiChartManager管理游戏与Mod
+
+!!! tip ""
+
+    打开 **MaiChartManager**
 
     * 左边下拉菜单可以管理option数据，点击歌曲可以查看详细信息以及音源和谱面预览等
 
@@ -374,11 +339,19 @@ comments: true
 
 !!! tip ""
 
-    1：软件界面白屏
+    １．软件界面白屏
 
     点击 **[这里](https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/815d89c2-508a-4010-89af-4a6770e178d9/MicrosoftEdgeWebview2Setup.exe)** 下载并安装 **<code style="color: purple;">Webview2</code>**
 
     - 不想装这个可以用MCM的局域网模式，用网页打开那个地址
+
+    ---
+
+    ２．Maimoller出现错误弹窗(KeyValue相关错误)
+
+    - 关闭 **AquaMai** 中的 **KeyMap** 功能
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0045.png"> </div>
 
 ---
 
@@ -424,7 +397,7 @@ comments: true
 
 !!! tip ""
 
-    !!! warning "设置前请确保已连接与设置好手台，手台相关教程请查看 **[Maimoller 安装使用教程](../../controller/maimai/maimoller.md)**" **(准备中...)**
+    !!! warning "设置前请确保已连接与设置好手台，手台相关教程请查看 [Maimoller 安装使用教程(准备中...)](../../controller/maimai/maimoller.md)"
 
     !!! note "HIDIOMod是Maimoller的专用文件，并且无需设置segatools"
 
@@ -441,6 +414,19 @@ comments: true
     ---
 
     将上述文件全部复制到 **<code style="color: purple;">package</code>** 文件夹中即可完成安装
+
+    ---
+
+    打开 **<code style="color: purple;">package\mai2.ini</code>**
+
+    按照下方代码高亮处设置为 **<code style="color: purple;">1</code>**
+
+    ```ini hl_lines="2"
+    [AM]
+    DummyTouchPanel=1
+    ```
+
+    - **如已设置请忽略**
 
 ### Wintouch 触摸屏
 
@@ -495,71 +481,40 @@ comments: true
 
 #### MuNet (新)
 
-##### 个人从AquaDX迁移到MuNet
+##### 新用户注册
 
-??? tip "如何迁移"
+!!! tip "如何注册"
 
-    !!! danger "v0.2.0 更新：现在已经可以注册了。但是，别注册，直接用 AquaDX 的账号登录，否则你会失去迁移机会。别注册"
+    １．登录MuNet官网 **[https://portal.mumur.net/](https://portal.mumur.net/)**
 
-    !!! note ""
+    ２．按照提示注册并登录
 
-        看起来有些玩家迁移之前在 **AquaDX** 并没有正确绑定自己的卡，导致迁移过来之后是没有数据的。迁移之前，你需要确保在 **AquaDX** 打开你的个人页面能看到有自己的数据。如果没有，请绑定在 **AquaDX** 按七号键刷卡刷出来的卡号
+    ３．点击上方 **卡片绑定和机台配置**
 
-    首先打开 **[MuNet网站](https://portal.mumur.net)**
+    ４．在页面下方按照引导设置 **segatools.ini** 中的DNS地址与KeyChip ID
 
-    使用 **<code style="color: purple;">AquaDX Net</code>** 账号登录即可来到 **迁移页面**
+    ```ini
+    [dns]
+    default=play.mumur.net
+    AimeDB=aime.mumur.net
+    ```
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0040.png"> </div>
+    ```ini
+    [keychip]
+    id=A***-***********
+    ```
 
-    !!! note "AquaDX网络异常时大概率无法进行迁移(看情况)，具体迁移服务器是否正常，请 **[点击这里](https://status.mumur.net/)** 查看"
+##### 原AquaDX用户迁移到MuNet
 
-        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0036.png"> </div>
+!!! tip "如何迁移"
 
-    服务器在本地找不到账号就会尝试去 **AquaDX** 找账号，找到账号之后就会进入 **迁移页面**
+    １．可以用原 **AquaDX** 账号直接登录MuNet官网 **[https://portal.mumur.net/](https://portal.mumur.net/)**
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0037.png"> </div>
+    ２．初次登录请按照网页引导进行资料迁移
 
-    点击 **开始迁移** 按钮，等待迁移完成，再点击 **立即登录** 按钮，就可以登录进入 **Net** 主界面了
+    ３．在 **segatools.ini** 填入 MuNet 的DNS地址与机台号
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0038.png"> </div>
-
-    如果迁移出现了红色失败之类的情况，首先可以尝试再试一次，如果还是不行，那么请反馈这个问题
-
-##### 音游窝迁移指南
-
-??? tip "如何迁移"
-
-    从 2025 年 6 月 5 日之后开始，MuNET 已经可以给音游窝使用了，因为我们上线了给窝主的批量迁移工具
-
-    对于原先使用 AquaDX 开音游窝的窝主，现在也可以把你们的机台换成接入 MuNET 了。在这之前，你需要按照前文的方法把自己的账号（也就是窝的机器 KeyChip 所有者的账号）迁移到 MuNET。然后，你可以帮所有玩家一键迁移他们的账号
-
-    请尽量在电脑上执行操作
-
-    !!! note "AquaDX网络异常时大概率无法进行迁移(看情况)，具体迁移服务器是否正常，请 **[点击这里](https://status.mumur.net/)** 查看"
-
-        <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0036.png"> </div>
-
-    在 **[MuNet主页](https://portal.mumur.net)** 登录窝主账号之后，打开 **[此页面](https://portal.mumur.net/batchMigrate)**，可以看到这样的界面
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0041.png"> </div>
-
-    点击 **<code style="color: purple;">开始迁移</code>** 并阅读提示信息，系统将会自动收集 **<code style="color: purple;">上次登录是在你的机台上</code>** 的卡号
-
-    由于 AquaDX 架构限制，只能获取到上次登录是你的机台的卡号。并不是所有在你的机台上登录过的卡号都能获取到的
-
-    只要是以下游戏之一上次登录是你的机台就可以被收集到：maimaiDX，中二节奏，中二节奏旧框，音击，华卡
-
-    后系统就会为所有收集到的卡号完成迁移。请静静等待迁移完成，**<code style="color: purple;">不要离开这个页面</code>**，否则迁移可能会中断
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0042.png"> </div>
-
-    要是迁移真的中断了，不用担心，重新再来一次就可以了。迁移的时候发现已经存在了的用户或者已经有数据了的卡号就会自动跳过，不会导致数据被覆盖。
-
-    并且如果有一个人的账号迁移到一半中止了，执行到一半的行为将会被回滚，并不会产生数据损坏
-
-    如果迁移过程中遇到任何问题，请联系凌莞
-
-    迁移之后的卡号，为了防止不知情的数据冲突，将无法在使用 AquaDX 的机台上登录。如果有需要，可以联系凌莞帮你清除这个状态
+    ４．登录游戏并游玩
 
 #### AquaDX Net
 
@@ -694,7 +649,7 @@ comments: true
 
 #### 设置系统变量进行全局修复 (可选)
 
-???+ tip "如何进行全局修复"
+??? tip "如何进行全局修复 - 点击展开查看"
 
     !!! note "全局修复适用于所有有amdaemon的游戏，可以不用每个游戏都单独修复"
 
@@ -758,7 +713,7 @@ comments: true
 
 #### 单人模式
 
-!!! tip "Maimoller 1P Only (本教程提供的Mod默认开启)"
+!!! tip "Maimoller 1P Only"
 
     首先请连接手台并打开 **Maimoller Options**，并将手台模式设置为 **1P HID mode**
 
@@ -935,7 +890,7 @@ comments: true
 
     ---
 
-    - 同时确认画面右下角游戏版本号是否正确，目前所提供的游戏版本为 **<code style="color: purple;">Ver.DX 1.56-C</code>**
+    - 同时确认画面右下角游戏版本号是否正确，目前所提供的游戏版本为 **<code style="color: purple;">Ver.DX 1.56-E</code>**
 
     - 在 **[设置虚拟Aime卡号](#aime)** 设置好卡号后，长按 **回车键(Enter)** 进行刷卡，即可开始游戏
 

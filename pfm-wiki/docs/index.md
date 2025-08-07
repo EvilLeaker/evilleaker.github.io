@@ -42,8 +42,6 @@
 
     **[:octicons-arrow-right-24: Yubideck (大四)](controller/chuni/yubideck/setup.md)**
 
-    **[:octicons-arrow-right-24: Maimoller](controller/maimai/maimoller.md)**
-
     **[:octicons-arrow-right-24: ONTROLLER](controller/ongeki/ontroller.md)**
 
     ---
@@ -85,51 +83,6 @@
     - 页面排版更加整洁
 
     - 页面顶部支持全站关键字搜索
-
-??? danger "关于出现的含有恶意代码的文件或程序"
-
-    请不要轻易下载1cc、emuline等外网发出的任何懒人包或segatools等文件，很可能有别有用心的人放入了恶意代码。
-
-    下载HDD或工具以及查看教程，请至群公告查看本站上发布的内容，此站内容目前由本人维护(部分工具为原作者维护)。
-
-    教程以及工具经过迭代目前已经比较完美，能解决大部分问题，但由于SEGA系运行本就比较繁琐复杂，
-
-    每个人的环境不同难免会出现或碰到常见以外的问题，还请耐心到群内寻求解决方法。
-
-    1cc、emuline等外网乐子人/Drama非常多(**尤其警惕中文区**)，如果你没有鉴别资源的能力，
-    请不要随意下载上面的任何内容，如果有新的内容,，确认无问题后我也会发到群内或本站并通知大家。
-
-??? warning "关于Auth v2"
-
-    这一段是写给所有hello opt when的人的。
-
-    简单回答是多谢leaker们，sega写了个正确的东西，大概是谁也拿不到更新了。
-
-    在config_common.json中关闭的auth v2对于本地运行没什么影响，因为只要游戏收到了Authentication GOOD，他就会继续尝试和title server通信。
-
-    就算开着v2，同时在segatools和minime上做好v2的支持，对于游戏来说也毫无差别，游戏逻辑基本全在title server上。
-
-    而在官机上，auth v2不仅仅是成功与否，而是服务器会下发一个CMS签名，配信机台凭着这个签名作为令牌，在签名的有效期内去更新服务器请求下载OPT更新。
-
-    而auth v2的过程涉及到keychip。就算是同样的游戏，每个keychip里都有一个不同的验证用key。
-
-    auth的过程是服务器下发一个随机的challenge，软件传下去在keychip内加密，然后一路传回服务器，以此来验证请求方的确拥有这个特定的key、从而拥有其所称的狗号的keychip。
-
-    而keychip是一个JCOP平台，保存和处理密钥的安全芯片和yubikey/google titan同款。
-
-    auth key只有在生产时有写入的通道，出厂锁定后只能用于加密，不可读不可写。
-
-    要是有人能半夜去机厅拔狗dump这个key，那你应该先去安全大会发篇paper。
-
-    2.01的A141是大部分人的最后一个chusan OPT，因为此后auth v1的下载通道，也就是很多人喜闻乐见的downloadOrder，就关闭了。
-
-    从此netdelivery必须要一个物理的且在sega的数据库里没被注销的keychip本体。
-
-    **感谢leaker，帮助SEGA提升系统的安全性。**
-
-    **大家都没得玩了，皆大欢喜**
-
-    **但不排除有特殊情况，比如EVIL LEAKER!!!** (2024/11/25 @下北沢案内人 )
 
 ??? warning "禁无断转载！/ 無断転載禁止！"
 
