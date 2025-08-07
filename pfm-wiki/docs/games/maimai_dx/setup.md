@@ -491,7 +491,11 @@ comments: true
 
     ３．点击上方 **卡片绑定和机台配置**
 
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0047.png"> </div>
+
     ４．在页面下方按照引导设置 **segatools.ini** 中的DNS地址与KeyChip ID
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0048.png"> </div>
 
     ```ini
     [dns]
@@ -511,6 +515,8 @@ comments: true
     １．可以用原 **AquaDX** 账号直接登录MuNet官网 **[https://portal.mumur.net/](https://portal.mumur.net/)**
 
     ２．初次登录请按照网页引导进行资料迁移
+
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/mai_manual/mai0046.png"> </div>
 
     ３．在 **segatools.ini** 填入 MuNet 的DNS地址与机台号
 
