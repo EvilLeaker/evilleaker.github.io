@@ -207,11 +207,11 @@ comments: true
 
 !!! tip ""
 
-    下载 **option(K001-K005).zip**、**K100.zip** 与 **K101.zip**
+    下载 **option(K001-K005).zip**、**A001.zip** 与 **A002.zip**
 
     全部解压后放入 **<code style="color: purple;">Package\Sinmai_Data\StreamingAssets</code>**中与 **A000**并列
 
-    !!! note "K100为删除曲包(非1cc包只不过同名，无Bug)，K101为两首门曲抄谱(只有紫谱)"
+    !!! note "A001为删除曲包，A002为两首门曲抄谱(只有紫谱)"
 
     !!! warning "注意解压时文件夹不要嵌套以免游戏读取不到"
 
