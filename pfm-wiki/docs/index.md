@@ -4,6 +4,12 @@
 [:fontawesome-solid-house: 访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
 </figure>
 
+!!! danger "重要更新"
+
+    由于主站最近在进行大型更新，精力有限无暇顾及这边。由于OD已经彻底不能使用，如果有失效资源，请到[问题反馈](other/feedback.md)页面中进行反馈。 
+
+    教程有一些累积的更新也会在主站新版本上线后再逐一更新。
+
 !!! info "关于本站"
 
     本站资源与教程完全免费浏览及下载，请不要在网络平台购买已发布至公网的相关资源及教程以免上当受骗，如果有需要你可以将本站共享给任何人。
