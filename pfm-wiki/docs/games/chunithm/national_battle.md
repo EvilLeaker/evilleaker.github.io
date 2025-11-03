@@ -12,7 +12,7 @@ comments: true
 
 !!! tip "准备工作"
 
-    !!! note "已支持VERSE，请下载并更新最新版本 **duolinguo.dll**"
+    !!! note "已支持X-VERSE，请下载并更新最新版本 **duolinguo.dll**"
 
     请确保游戏已连接 **`rin Net`** 或其他支持全国对战的在线服
 
@@ -34,7 +34,7 @@ comments: true
 
     - 不要跳车，可能会被ban号
 
-    - 游戏版本不能低于2.30（VERSE），不然不能游玩 **`全国对战`** 模式
+    - 游戏版本不能低于2.40（X-VERSE），不然不能游玩 **`全国对战`** 模式
 
 !!! note "关于全国对战"
 

@@ -68,12 +68,5 @@ comments: true
 
 !!! tip ""
 
-    使用 **DXVK** 来修复此问题
-
-    从 **[release](https://github.com/doitsujin/dxvk/releases)** 下载最新版本，这是一个 **`dxvk-x.y.z.tar.gz`** 文件，您可以使用 **WinRAR** 或 **7zip** 打开或解压
-
-    导航至 **`x32`** 文件夹，并将其中的 **`d3d9.dll`** 复制到HDD中的bin文件夹下即可
-
-    现在您可以在全屏模式下切出游戏而不会导致游戏崩溃退出了
-
+    安装 **duolinguo.dll** 即可，duolinguo中已包含防止游戏全屏下切出崩溃的功能。
 ---
