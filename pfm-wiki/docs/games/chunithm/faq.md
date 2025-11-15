@@ -59,7 +59,7 @@ comments: false
             * 保存并关闭文件，重启游戏
 
             ```xml hl_lines="19"
-              <dataName>event00000018</dataName>
+              <dataName>event00000019</dataName>
               <netOpenName>
                 <id>2601</id>
                 <str>v2_30 00_1</str>
