@@ -1,4 +1,4 @@
-comments: true
+comments: false
 # 常见问题
 
 !!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
