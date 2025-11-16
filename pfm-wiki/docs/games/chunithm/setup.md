@@ -29,7 +29,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://dc.evilleaker.com/)**
+    **[:octicons-arrow-right-24: 获取HDD](https://crew.evilleaker.com/){ .md-button .md-button--primary target="_blank"}**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
@@ -45,7 +45,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)**
+    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){ .md-button .md-button--primary target="_blank"}**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
@@ -133,7 +133,7 @@ comments: true
     
         上述**`chusanApp.exe`**已打过可正常游玩所需的补丁
     
-        如有其他修改补丁的需求，请访问  **[DATA CENTER - 补丁工具页(侧边栏进入)](https://dc.evilleaker.com/)**
+        如有其他修改补丁的需求，请访问  **[EVIL LEAKER - 补丁工具页(侧边栏进入)](https://crew.evilleaker.com/)**
     
         - 打过补丁的 **`chusanApp.exe`** 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
     
@@ -143,7 +143,7 @@ comments: true
 
 !!! tip ""
 
-    下载并解压 **option(A001~A162).zip**
+    下载并解压 **option(A001、A071).zip**
 
     将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
 
@@ -211,7 +211,7 @@ comments: true
 
 !!! tip ""
 
-    解压 **ICF_2.30.zip**
+    解压 **ICF_2.40.zip**
 
     将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
 
@@ -379,7 +379,7 @@ comments: true
 
     请先阅读手台教程并续按教程配置
 
-    [:octicons-arrow-right-24: 查看**TASOLLER 控制器说明**](https://performai.evilleaker.com/manual/controller/chuni/tasoller/)
+    [:octicons-arrow-right-24: 查看**TASOLLER 控制器说明**](../../controller/chuni/tasoller.md)
 
 -   :fontawesome-solid-question:{ .lg .middle } __我使用TASOLLER +，且第一次游玩__
 
@@ -387,7 +387,7 @@ comments: true
 
     请先阅读手台教程并续按教程配置
 
-    [:octicons-arrow-right-24: 查看**TASOLLER PLUS 控制器说明**](https://performai.evilleaker.com/manual/controller/chuni/tasollerplus/)
+    [:octicons-arrow-right-24: 查看**TASOLLER PLUS 控制器说明**](../../controller/chuni/tasollerplus.md)
 
 -   :fontawesome-solid-question:{ .lg .middle } __我从TASOLLER或其他设备更换到PLUS，已有玩过并已配置好HDD__
 

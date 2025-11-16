@@ -1,7 +1,7 @@
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/main_logo.png" /> </div>
-[:fontawesome-solid-house: 访问Evil Leaker主页](https://performai.evilleaker.com/){ .md-button .md-button--primary }
+[:fontawesome-solid-house: 访问Evil Leaker主页](https://crew.evilleaker.com/){ .md-button .md-button--primary }
 </figure>
 
 !!! danger "重要更新"
