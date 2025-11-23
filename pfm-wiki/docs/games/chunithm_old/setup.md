@@ -1,4 +1,3 @@
-comments: true
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/first_logo.png" /> </div>
@@ -28,7 +27,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://dc.evilleaker.com/)**
+    **[:octicons-arrow-right-24: 获取HDD](https://crew.evilleaker.com/)**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __资源状态__
 

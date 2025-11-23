@@ -1,10 +1,7 @@
-comments: true
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/ogk_logo.png" width="300"/> </div>
 </figure>
-
-!!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 
 ## O.N.T.R.O.L.L.E.R
 

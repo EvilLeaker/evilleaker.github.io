@@ -19,7 +19,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://dc.evilleaker.com/){ target="_blank" }**
+    **[:octicons-arrow-right-24: 获取HDD](https://crew.evilleaker.com/){ target="_blank" }**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
@@ -31,11 +31,11 @@ comments: true
 
     ---
 
-    AquaDX Net
+    MuNet
 
     ---
 
-    **[:octicons-arrow-right-24: 前往AquaDX Net](https://aquadx.net/){ target="_blank" }**
+    **[:octicons-arrow-right-24: 前往MuNet](https://portal.mumur.net/){ target="_blank" }**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 

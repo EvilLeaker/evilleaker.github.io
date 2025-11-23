@@ -1,7 +1,5 @@
-comments: true
 #
 
-!!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 !!! danger "本文仅展示 Maimoller 的安装连接方法"
 
 # Maimoller

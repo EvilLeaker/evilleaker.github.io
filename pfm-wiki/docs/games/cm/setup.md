@@ -27,7 +27,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://dc.evilleaker.com/)**
+    **[:octicons-arrow-right-24: 获取HDD](https://crew.evilleaker.com/)**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 

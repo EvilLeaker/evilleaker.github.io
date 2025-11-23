@@ -1,10 +1,7 @@
-comments: true
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ol_battle/ol_battle_00.png"/> </div>
 </figure>
-
-!!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 
 !!! warning "注意事项"
 

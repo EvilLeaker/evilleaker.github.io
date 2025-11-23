@@ -1,4 +1,3 @@
-comments: true
 # **RING (街机游戏基板)**
 
 ## 简介

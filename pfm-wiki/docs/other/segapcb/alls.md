@@ -1,4 +1,3 @@
-comments: true
 # **ALLS (街机游戏基板)**
 
 ## 简介

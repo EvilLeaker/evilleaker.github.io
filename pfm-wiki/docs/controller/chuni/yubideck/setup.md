@@ -1,4 +1,3 @@
-comments: true
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/first_logo.png"/> </div>

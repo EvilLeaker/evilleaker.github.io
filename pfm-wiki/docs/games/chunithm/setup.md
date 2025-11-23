@@ -1,11 +1,8 @@
-comments: true
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/chusan_logo.png"> </div>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cabinet_1.png"/> </div>
 </figure>
-
-!!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 
 !!! danger "重要提醒"
 
@@ -23,9 +20,9 @@ comments: true
 
     ---
 
-    CHUNITHM VERSE
+    CHUNITHM X-VERSE
 
-    Version 2.30.00
+    Version 2.40.00
 
     ---
 
@@ -35,7 +32,7 @@ comments: true
 
     ---
 
-    A001~A191(Verse Final)
+    A001、A071 (2.40.02)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -51,7 +48,7 @@ comments: true
 
     ---
 
-    2025/07/16 (Tue)
+    2025/11/23 (Sun)
 
 </div>
 
@@ -85,9 +82,11 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png"/> </div>
 
-    运行**`DirectX.bat`**并按照窗口提示完成安装
+    运行 **`DirectX.bat`** 按Y后等待完成安装
 
-    运行**`VC.bat`**并按照窗口提示完成安装
+    运行 **`VC.bat`** 并按照窗口提示完成安装
+
+    安装 **`2022`** 文件夹中的x86和x64
 
 ### 提取游戏文件
 
@@ -95,7 +94,7 @@ comments: true
 
 ??? note "使用Windows挂载虚拟磁盘方式提取HDD"
 
-    鼠标左键双击**`SDHD_2.30.00_20241112124752_0.vhd`**
+    鼠标左键双击**`SDHD_2.40.00_20250528184239_0.vhd`**
 
     Windows会挂载一个新的硬盘分区(具体盘符根据每个人情况不同而不同)
 
@@ -134,7 +133,9 @@ comments: true
         上述**`chusanApp.exe`**已打过可正常游玩所需的补丁
     
         如有其他修改补丁的需求，请访问  **[EVIL LEAKER - 补丁工具页(侧边栏进入)](https://crew.evilleaker.com/)**
-    
+
+        !!! danger "新版EVIL LEAKER网站需要进行注册登录后使用积分在左侧边栏中的积分商店中升级到 **初级用户** 才可以下载游戏"
+
         - 打过补丁的 **`chusanApp.exe`** 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
     
         - 补丁站仅支持本教程提供之 **`chusanApp.exe`** 的修改！
@@ -143,9 +144,9 @@ comments: true
 
 !!! tip ""
 
-    下载并解压 **option(A001、A071).zip**
+    下载并解压 **A001.zip** 与 **A071.zip**
 
-    将 **`option`** 文件夹复制到HDD文件夹下的 **`bin`** 文件夹中
+    将两个文件夹放入 **bin\option** 文件夹中，如果bin中没有option文件夹则自行新建一个
 
     - CHUNITHM官方option文件夹都以**`Axxx`**命名,**`x`**均为数字，如果你在其他地方下载到非下图所示的option文件夹则可能为玩家自制内容
 
@@ -153,7 +154,7 @@ comments: true
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0004.png"> </div>
 
-    - 如option路径为**`bin\option\option`**这样嵌套，则游戏不能正确读取option数据
+    - 如option路径为 **`bin\option\option`** 或 **`bin\option\A001\A001`** 这样嵌套，则游戏不能正确读取option数据
 
     ??? warning "关于官方option的命名规则"
 
@@ -183,23 +184,21 @@ comments: true
 
 ### 安装segatools
 
-???+ note "fufubot segatools v1.0.3.5 更新内容"
+???+ note "fufubot segatools v1.0.4 更新内容"
 
-    修复内容：
+	- 为了兼容部分服务器的特殊需求，新增了 replaceHost 功能。如果服务器提供商要求启用此功能，请在 [dns] 配置项中添加；若服务商未提及，请勿启用此选项。
 
-	- 修复COM4口有东西导致读卡器模拟自动关闭的问题 现在将enable改为2或者不写时为才会检测COM口上有没有东西决定是否开关读卡器模拟
+    - 新增对 HINATA 的支持。
 
-	- 修复大四一直刷卡的问题
+    - 由于 tasoller 和 tasoller plus 是独立的 DLL 文件，因此在 INI 配置中增加了两个 DLL 参数，以便用户根据需要自行调整设置。
 
-    新增功能：
-
-    - 增加源3支持
+    - 按开发者要求，移除了 Stavona IO 的支持。
 
 !!! tip ""
 
     下载 **fufubot segatools** 并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download fufubot segatools](https://oss.am-all.com.cn/download/files/chusan_segatools_1_0_3_5_by_fufubot_team_release_by_evil_chinese.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download fufubot segatools](https://oss.am-all.com.cn/download/files/chusan_segatools_1_0_4_by_fufubot_team_release_by_evil_chinese.zip){ .md-button .md-button--primary target="_blank"}
 
     解压后获得如下文件：
 
@@ -701,15 +700,15 @@ comments: true
 
 !!! note "见到下图画面的话，那么恭喜你已经正常联网并且可以开始游戏了！"
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0015.png"/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0015.jpg"/> </div>
 
 !!! tip ""
 
-    - 请检查右下角版本号是否为**`Version 2.30`**，如果不对请返回 **[安装ICF](#icf)** 部分检查ICF文件是否安装正确
+    - 请检查右下角版本号是否为**`Version 2.40`**，如果不对请返回 **[安装ICF](#icf)** 部分检查ICF文件是否安装正确
 
     - 请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0016.png" width = 400/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0016.jpg" width = 400/> </div>
 
     - 网络自检全为GOOD但此处网络显示灰色图标，请返回 **[安装option](#option)** 部分检查是否安装正确的 **`option`**
 
@@ -719,7 +718,7 @@ comments: true
 
 !!! tip "下图为游戏画面"
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0017.png"> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0017.jpg"> </div>
 
 !!! note "至此，你已经可以正常进行游戏了"
 
