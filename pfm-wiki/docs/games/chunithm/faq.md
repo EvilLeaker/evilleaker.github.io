@@ -63,7 +63,7 @@
                 <data />
               </netOpenName>
               <name>
-                <id>18</id>
+                <id>19</id>
                 <str>【Ver2.40】オンラインフラグ</str>
                 <data />
               </name>

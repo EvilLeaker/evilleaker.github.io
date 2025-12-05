@@ -29,7 +29,7 @@ comments: true
 
 !!! tip "下载最新版固件"
 
-     [:octicons-arrow-down-24: Download CARDOLLER Firmware 250604](https://oss.am-all.com.cn/download/firmware/other/cardoller_firmware_250604.zip){ .md-button .md-button--primary target="_blank"}
+     [:octicons-arrow-down-24: Download CARDOLLER Firmware 250604](https://cos.am-all.com.cn/download/firmware/other/cardoller_firmware_250604.zip){ .md-button .md-button--primary target="_blank"}
 
     ???+ note "250527 固件更新内容"
 
@@ -387,7 +387,3 @@ comments: true
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/peripherals/cdler12.png"/> </div>
 
 ---
-
-## 常见问题
-
-!!! tip "待补充"

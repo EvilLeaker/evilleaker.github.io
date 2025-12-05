@@ -1,4 +1,3 @@
-comments: true
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/ogkrf_logo.png" width = 400/> </div>
@@ -8,8 +7,6 @@ comments: true
 !!! warning "使用前的注意事项"
 
     在安装HDD前，请确保已按照 **[ONTROLLER安装使用教程](../../controller/ongeki/ontroller.md)** 、 **[ONTROLLER options](../../controller/ongeki/options.md)** 安装与设置手台后，在继续浏览本教程
-
-!!! info "本页可发表评论，如有问题、反馈、评价等，欢迎发表评论"
 
 !!! danger "重要提醒"
 
@@ -39,7 +36,7 @@ comments: true
 
     ---
 
-    A001~A016 (1.50-A)
+    A001~A032 (1.50-i)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -51,13 +48,13 @@ comments: true
 
     **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){ target="_blank" }**
 
-    **[:octicons-arrow-right-24: 前往Nageki Net](https://nageki-net.com/web/ongeki/profile){ target="_blank" }**
+    **[:octicons-arrow-right-24: 前往Nageki Net](https://next.nageki-net.com/net){ target="_blank" }**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
     ---
 
-    2025/07/16 (Tue)
+    2025/12/05 (Fir)
 
 </div>
 
@@ -115,7 +112,7 @@ comments: true
 
     下载  **<code style="color: green;">7-Zip</code>** 
 
-    [:octicons-arrow-down-24: Download 7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
+    [:octicons-arrow-down-24: Download 7-Zip](https://cos.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
 
     解压并安装  **<code style="color: green;">7-Zip</code>** 
 
@@ -137,7 +134,7 @@ comments: true
 
     下载  **<code style="color: green;">mu3 segatools</code>**  并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download mu3 segatools](https://oss.am-all.com.cn/download/files/mu3_segatools.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download mu3 segatools](https://cos.am-all.com.cn/download/files/mu3_segatools.zip){ .md-button .md-button--primary target="_blank"}
 
     **解压后获得如下文件：**
 
@@ -182,82 +179,6 @@ comments: true
     !!! danger "注意事项"
 
         请不要使用富文本编辑器（例如：Word、WPS、写字板）来修改配置文件，可能会让配置文件格式错误而导致游戏读取配置文件出错
-
-!!! warning "建议"
-
-    如果您的系统中未安装或也不想安装上述提到的文本或代码编辑器，建议您可以使用专为修改 **segatools.ini** 制作的编辑工具 **Segatools Editor**。
-
-    本工具可以修改所有游戏segatools中的 **segatools.ini** 配置文件，可以修改、增加或删减，启用与禁用相关配置，程序由Python制作，无毒副作用，请放心使用。 
-
-    如果下载后Windows Defender或其他杀软提示病毒或威胁提示，请将程序或保存下载目录加入相应软件的白名单即可。
-
-!!! tip "Segatools Editor 相关说明"
-
-    如需下载 **Segatools Editor**，请访问 **[DATA CENTER](https://dc.evilleaker.com/)** 并在左侧侧边栏中选择 **实用工具** 进行下载。
-
-    也可以 **[点击此处](https://oss.am-all.com.cn/download/software/sgeditor/SegatoolsEditor.exe)** 直接下载工具。
-
-    本工具支持中日英语言切换与在线更新，当有新版本更新时，在您启动软件的同时，底部日志区域会显示相关内容，如需更新新版本可手动进行下载，本软件不会强制下载新版本。
-
-??? tip "Segatools Editor 使用说明 (点击展开查看)"
-
-    １．双击 **SegatoolsEditor.exe** 启动软件
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/other/dc/software/sge-00.png"> </div>
-
-    ---
-
-    ２．初次启动界面默认显示英文，请点击菜单栏 **“Language”** 切换为中文即可
-
-    - **切换语言后软件会保存所选语言，下次启动后就会显示你所选择的语言。**
-
-    - **软件会在“C:/Users/用户名/Documents/evilleaker”文件夹下自动建立配置文件“sgEditor_config.json”**
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/other/dc/software/sge-01.png"> </div>
-
-    ---
-
-    ３．软件在启动后会自动检查是否有新版本并在下方日志区提示，如需更新软件，请点击菜单栏 **“帮助→更新”** 选项
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/other/dc/software/sge-02.png"> </div>
-
-    ---
-
-    ４． 按照下图步骤加载 **segatools.ini** 文件
-
-    - **①点击“浏览文件”**
-
-    - **②选择需要修改的“segatools.ini”文件**
-
-    - **③点击“打开”**
-
-    - **④点击“加载配置”**
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/other/dc/software/sge-03.png"> </div>
-
-    ---
-
-    ５．点击“选择配置节”下拉菜单来选择需要修改的配置
-
-    - **在读取完文件的同时，软件会自动备份当前你读取的 ”segatools.ini“**
-
-    - **备份路径为 “C:/Users/用户名/Documents/evilleaker/ini_backup” 文件夹中**
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/other/dc/software/sge-04.png"> </div>
-
-    ６．点击相应的输入框来修改配置参数
-
-    - **①点击需要修改的值的输入框来修改参数**
-
-    - **②在修改完的同时，软件会自动保存文件，你也可以手动点击“保存配置”来保存文件**
-
-    - **③点击参数值框后的选项会切换当前值的有效性(相当于ini文件中的注释功能)，“有效”为取消注释激活配置，“无效”为注释掉配置使其不生效。**
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/other/dc/software/sge-05.png"> </div>
-
-    ---
-
-    ７．修改完成后直接关闭软件或点击 “保存配置” 后关闭软件即可
 
 ### `[vfs]`
 
@@ -360,7 +281,7 @@ comments: true
 
     下载 **WinUSB io**
 
-    [:octicons-arrow-down-24: Download WinUSB io](https://oss.am-all.com.cn/download/files/ontroller-io_winusb.dll){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download WinUSB io](https://cos.am-all.com.cn/download/files/ontroller-io_winusb.dll){ .md-button .md-button--primary target="_blank"}
 
     将 **ontroller-io_winusb.dll** 复制到 **<code style="color: green;">package</code>** 文件夹中
 
@@ -384,7 +305,7 @@ comments: true
 
     下载 **HID io**
 
-    [:octicons-arrow-down-24: Download HID io](https://oss.am-all.com.cn/download/files/ontroller-io_hid.dll){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download HID io](https://cos.am-all.com.cn/download/files/ontroller-io_hid.dll){ .md-button .md-button--primary target="_blank"}
 
     将 **ontroller-io_winusb.dll** 复制到 **<code style="color: green;">package</code>** 文件夹中
 
@@ -549,12 +470,6 @@ comments: true
         - 按照本文 “**我自己玩**” 部分操作。
     
         - [**填写问卷**](https://wj.qq.com/s2/14399591/ca04/){ target="_blank" } 以申请白名单
-    
-        其它事项：
-    
-        - 不配置KeychipID将在2024/5/1后无法登录游戏
-        
-        - 如果有其他问题可以加入QQ群: [**295954906**](https://qm.qq.com/q/q81C7iA2Aw){ target="_blank" }
 
 ### 在线服务器 (Nageki Net)
 
@@ -568,7 +483,7 @@ comments: true
 
     Nageki-Net dns：**nageki-net.com**
 
-    服务器前端：**[点击前往](https://nageki-net.com/web){ target="_blank" }**
+    服务器前端：**[点击前往](https://next.nageki-net.com/net){ target="_blank" }**
 
     ```ini
     [dns]
@@ -713,7 +628,7 @@ comments: true
 
     - 下载 **mu3 mod**
 
-    [:octicons-arrow-down-24: Download mu3 mod](https://oss.am-all.com.cn/download/files/mu3_mod.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download mu3 mod](https://cos.am-all.com.cn/download/files/mu3_mod.zip){ .md-button .md-button--primary target="_blank"}
 
     - 解压后获得如下文件：
 
@@ -1031,11 +946,3 @@ comments: true
         - 保存并关闭文件
 
         - 重启游戏
-
-### 其他说明
-
-!!! tip ""
-
-    !!! danger "提问时，请附带详细的游戏截图以及文字描述，尽量不要屏摄和简单概括问题，这样会增加解答的难度"
-
-    - 在游戏配置、设置、游玩过程中遇到任何问题，请先查看 **[常见问题](faq.md)** 页来尝试解决遇到的问题，如果无法解决或没有你遇到的问题，请在底部评论区留言或群内提问来让其他玩家解答

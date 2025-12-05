@@ -108,7 +108,7 @@
 
     下载 **7-Zip**
 
-    [:octicons-arrow-down-24: Download 7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
+    [:octicons-arrow-down-24: Download 7-Zip](https://cos.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
 
     解压并安装 **7-Zip**
 
@@ -198,7 +198,7 @@
 
     下载 **fufubot segatools** 并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download fufubot segatools](https://oss.am-all.com.cn/download/files/chusan_segatools_1_0_4_by_fufubot_team_release_by_evil_chinese.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download fufubot segatools](https://cos.am-all.com.cn/download/files/chusan_segatools_1_0_4_by_fufubot_team_release_by_evil_chinese.zip){ .md-button .md-button--primary target="_blank"}
 
     解压后获得如下文件：
 
@@ -392,7 +392,7 @@
 
     ---
 
-    下载 **[TASOLLER PLUS io](https://oss.am-all.com.cn/download/files/tasoller_plus.dll)**
+    下载 **[TASOLLER PLUS io](https://cos.am-all.com.cn/download/files/tasoller_plus.dll)**
 
     按照下方配置 **`TASOLLER PLUS io`** 即可游玩
 

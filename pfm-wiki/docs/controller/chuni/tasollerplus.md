@@ -99,7 +99,7 @@
 
     下载最新版 **TASOLLER options**
 
-    [:octicons-arrow-down-24: TASOLLER Options v3.1](https://oss.am-all.com.cn/download/files/TASOLLER_Options.zip){ .md-button .md-button--primary }
+    [:octicons-arrow-down-24: TASOLLER Options v3.1](https://cos.am-all.com.cn/download/files/TASOLLER_Options.zip){ .md-button .md-button--primary }
 
     解压后，双击打开**`TASOLLER_Options_V3.1.exe`**
 
@@ -127,7 +127,7 @@
 
 ???+ info "最新正式版"
 
-    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[下载 TASOLLER PLUS Firmware 2025.04.26](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250426.zip)**
+    <a style="color: #ff0000;"><b>New</b></a>&nbsp;&nbsp;**[下载 TASOLLER PLUS Firmware 2025.04.26](https://cos.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250426.zip)**
 
     !!! danger "请使用最新版V3.1 TASOLLER Options软件进行固件烧录"
 
@@ -150,7 +150,7 @@
 
     
     ??? note "2025.01.02 固件"
-        [:octicons-arrow-down-24: TASOLLER Firmware 250101](https://oss.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250102.zip){ .md-button .md-button--primary }
+        [:octicons-arrow-down-24: TASOLLER Firmware 250101](https://cos.am-all.com.cn/download/firmware/tslp/stable/tslp_firmware_release_250102.zip){ .md-button .md-button--primary }
 
         * 在不改变框体参数下，确定了手台延迟基准
         * 确定了合适的阈值（灵敏度）

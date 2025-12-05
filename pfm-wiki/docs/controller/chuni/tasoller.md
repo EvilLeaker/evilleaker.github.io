@@ -22,7 +22,7 @@
 
     Tasoller的默认固件是键盘模式，如果需要在Chunithm中正常使用，请刷入国外大神固件V2.01，刷入新固件后Tasoller会变为Chunithm专用模式并禁用手台的键盘输入。
 
-    * 下载 **[大神固件v2.01(支持AMD)](https://oss.am-all.com.cn/download/firmware/tsl/%E5%A4%A7%E7%A5%9E%E5%9B%BA%E4%BB%B6v2.01%28%E6%94%AF%E6%8C%81AMD%29.zip)**
+    * 下载 **[大神固件v2.01(支持AMD)](https://cos.am-all.com.cn/download/firmware/tsl/%E5%A4%A7%E7%A5%9E%E5%9B%BA%E4%BB%B6v2.01%28%E6%94%AF%E6%8C%81AMD%29.zip)**
 
 !!! warning "大神固件是第三方专为TASOLLER制作的优化版固件,只能用于Chunithm游戏使用"
 
@@ -47,7 +47,7 @@
 
 ??? danger "恢复原厂固件"
 
-    - 下载 **[原厂固件](https://oss.am-all.com.cn/download/firmware/tsl/TASOLLER_v2.01%28%E5%8E%9F%E5%8E%82%E5%9B%BA%E4%BB%B6%29.zip)**
+    - 下载 **[原厂固件](https://cos.am-all.com.cn/download/firmware/tsl/TASOLLER_v2.01%28%E5%8E%9F%E5%8E%82%E5%9B%BA%E4%BB%B6%29.zip)**
     - 按照上面的刷写固件流程重新刷写HOST与LED固件即可恢复原厂32K键盘固件，可以用于游玩其他游戏或其他用途
 
 ??? danger "刷写固件特别注意"

@@ -13,7 +13,7 @@
 
 ### 下载 ONTROLLER Options
 
-[:octicons-arrow-down-24: ONTROLLER Options v2.1](https://oss.am-all.com.cn/download/files/ONTROLLER-options-V2.1.zip){ .md-button .md-button--primary target="_blank"}
+[:octicons-arrow-down-24: ONTROLLER Options v2.1](https://cos.am-all.com.cn/download/files/ONTROLLER-options-V2.1.zip){ .md-button .md-button--primary target="_blank"}
 
 ---
 

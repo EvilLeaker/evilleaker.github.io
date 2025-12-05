@@ -13,13 +13,13 @@
 
     请确保游戏已连接 **`rin Net`** 或其他支持全国对战的在线服
 
-    游玩全国对战请参照教程安装最新版 **[fufubot segatools](https://performai.evilleaker.com/manual/games/chunithm/setup/#segatools)**
+    游玩全国对战请参照教程安装最新版 **[fufubot segatools](https://manual.evilleaker.com/games/chunithm/setup/#segatools)**
 
-    下载 **[duolinguo.dll](https://oss.am-all.com.cn/download/files/duolinguo.dll)**
+    下载 **[duolinguo.dll](https://cos.am-all.com.cn/download/files/duolinguo.dll)**
 
     - 将 **`duolinguo.dll`** 放入 **`bin`** 文件夹中替换同名文件
 
-    下载 **[解锁选曲限制-AUBC](https://oss.am-all.com.cn/download/files/AUBC.zip)**
+    下载 **[解锁选曲限制-AUBC](https://cos.am-all.com.cn/download/files/7-Zip.rar)**
 
     - 解压后放入 **`bin\option`** ，重启游戏即可
 

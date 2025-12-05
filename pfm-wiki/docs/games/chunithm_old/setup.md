@@ -120,7 +120,7 @@
 
     下载 **7-Zip**
 
-    [:octicons-arrow-down-24: Download 7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
+    [:octicons-arrow-down-24: Download 7-Zip](https://cos.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
 
     解压并安装 **7-Zip**
 
@@ -146,7 +146,7 @@
 
     在[Keychip]中设置好自己的机台号(狗号)，以及[chuniio]中的手台io文件即可，所有版本均已内置Tasoller Plus io
 
-    如需其他手台io文件可以从 **segatools by fufubot team v1.0.3.4** 中取用
+    如需其他手台io文件可以从 **segatools by fufubot team v1.0.0** 中取用
 
     网络地址默认设置为 **rin Net**
 

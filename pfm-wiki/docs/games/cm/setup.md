@@ -109,7 +109,7 @@ comments: true
 
     下载 **7-Zip**
 
-    [:octicons-arrow-down-24: Download 7-Zip](https://oss.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
+    [:octicons-arrow-down-24: Download 7-Zip](https://cos.am-all.com.cn/download/files/7-Zip.rar){ .md-button .md-button--primary }
 
     解压并安装 **7-Zip**
 
@@ -129,7 +129,7 @@ comments: true
 
     下载 **sded segatools**
 
-    **[:octicons-arrow-down-24: Download sded segatools](https://oss.am-all.com.cn/download/files/segatools_sded.zip){ .md-button .md-button--primary target="_blank"}**
+    **[:octicons-arrow-down-24: Download sded segatools](https://cos.am-all.com.cn/download/files/segatools_sded.zip){ .md-button .md-button--primary target="_blank"}**
 
     **解压后获得如下文件：**
 
@@ -151,7 +151,7 @@ comments: true
 
     如需下载 **Segatools Editor**，请访问 **[DATA CENTER](https://dc.evilleaker.com/)** 并在左侧侧边栏中选择 **实用工具** 进行下载。
 
-    也可以 **[点击此处](https://oss.am-all.com.cn/download/software/sgeditor/SegatoolsEditor.exe)** 直接下载工具。
+    也可以 **[点击此处](https://cos.am-all.com.cn/download/software/sgeditor/SegatoolsEditor.exe)** 直接下载工具。
 
     本工具支持中日英语言切换与在线更新，当有新版本更新时，在您启动软件的同时，底部日志区域会显示相关内容，如需更新新版本可手动进行下载，本软件不会强制下载新版本。
 
@@ -224,7 +224,7 @@ comments: true
     default=aqua.naominet.live
     ```
 
-    !!! warning "连接Rin服需要申请Keychip才可正常联网，如何注册请 **[点此查看](https://performai.evilleaker.com/manual/games/chunithm/setup/#_5)**。"
+    !!! warning "连接Rin服需要申请Keychip才可正常联网，如何注册请 **[点此查看](https://manual.evilleaker.com/games/chunithm/setup/#_5)**。"
 
     注册完**`Keychip`**后需要填写到**`[keychip]`**选项中
 
