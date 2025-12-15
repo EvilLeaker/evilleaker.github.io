@@ -114,7 +114,7 @@
 
     解压 **`ExFat7z.rar`**，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
 
-    配置好7-Zip后在**`SDHD_2.30.00_20241112124752_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
+    配置好7-Zip后在**`SDHD_2.40.00_20250528184239_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0002.png"> </div>
 
@@ -144,7 +144,7 @@
 
 !!! tip ""
 
-    下载并解压 **A001.zip** 与 **A071.zip**
+    下载并解压 **option(A001~A113-final).zip**
 
     将两个文件夹放入 **bin\option** 文件夹中，如果bin中没有option文件夹则自行新建一个
 
