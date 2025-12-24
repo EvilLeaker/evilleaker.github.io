@@ -156,7 +156,7 @@
 
     下载并解压 **<code style="color: green;">option(A001~A016).zip</code>**
 
-    将 **<code style="color: green;">option</code>** 文件夹复制到HDD文件夹下的 **<code style="color: green;">bin</code>** 文件夹中
+    将 **<code style="color: green;">option</code>** 文件夹复制到HDD文件夹下的 **<code style="color: green;">package</code>** 文件夹中
 
     - O.N.G.E.K.I官方option文件夹都以 **<code style="color: green;">Axxx</code>** 命名， **<code style="color: green;">x</code>** 均为数字，如果你在其他地方下载到非下图所示的option文件夹则可能为玩家自制内容
 
