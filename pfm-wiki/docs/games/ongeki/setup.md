@@ -78,18 +78,6 @@
 
     <img width="700" src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0000.png">
 
-### 更新到1.51版本 (可选)
-
-!!! tip ""
-
-    !!! warning "此版本为可选更新，暂不提供完整vhd包下载，不更新也不影响正常游玩1.50版本"
-
-    - 下载 **<code style="color: green;">SDDT_1.51_update.zip</code>** 
-
-    [:octicons-arrow-down-24: Download SDDT_1.51_update.zip](https://www.123865.com/s/OkA1vd-F71Wd?pwd=sddt#){ .md-button .md-button--primary target="_blank"}
-
-    - 解压并覆盖HDD中的**package**文件夹
-
 ### 安装Runtime (Windows运行时安装包)
 
 !!! tip ""
@@ -179,6 +167,20 @@
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0004.png"> </div>
 
     - 如option路径为 **<code style="color: green;">package\option\option</code>** 这样嵌套，则游戏不能正确读取option数据
+
+### 更新到1.51版本 (可选)
+
+!!! tip ""
+
+    !!! warning "此版本为可选更新，暂不提供完整vhd包下载，不更新也不影响正常游玩1.50版本"
+
+    !!! warning "更新1.51版本前请确保您当前使用的HDD为1.50版本才可以使用该更新包，新装HDD用户则必须完成上面的所有安装步骤再进行更新"
+
+    - 下载 **<code style="color: green;">SDDT_1.51_update.zip</code>** 
+
+    - 解压并覆盖HDD中的**package**文件夹
+
+    [:octicons-arrow-down-24: Download SDDT_1.51_update.zip](https://www.123865.com/s/OkA1vd-F71Wd?pwd=sddt#){ .md-button .md-button--primary target="_blank"}
 
 ---
 
@@ -422,6 +424,15 @@
 ---
 
 ## 连接网络
+
+!!! danger "特别注意"
+
+    - 以下在线服务器或本教程未提及的其他在线服务器均为私人开设的非官方游戏服务器，本站无法为您保证这些服务器的稳定性与运营周期甚至数据安全，也相应的无法提供游玩过程中出现的服务器相关问题的咨询和解决方案
+
+    - 如果您正在使用的在线服务器出现了服务器波动导致访问或连接出现问题、断网等问题，请及时关注及查看相关服务器网站的服务器状态以了解详细情况或到相应服务器的交流群或网站进行咨询
+
+    - 另外本站也建议您定期备份相关服务器游戏存档以备不时之需，存档导入或导出功能以您使用的服务器说明为准，或到服务器的相关交流群或网页进行咨询和查询
+
 
 !!! warning "注意事项"
 
