@@ -24,31 +24,33 @@
 
     Version 2.40.00
 
-    ---
+      ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://crew.evilleaker.com/){ .md-button .md-button--primary target="_blank"}**
+      **[:octicons-arrow-right-24: 获取HDD (需注册)](https://crew.evilleaker.com/){ .md-button .md-button--primary target="_blank"}**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
     ---
 
-    A001、A071 (2.40.02)
+    A001~A113 (2.40.12 final)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
     ---
 
-    rin Net
+    rin Net、munet
 
     ---
 
     **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){ .md-button .md-button--primary target="_blank"}**
 
+    **[:octicons-arrow-right-24: 前往munet](https://portal.mumur.net/){ .md-button .md-button--primary target="_blank"}**
+
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
     ---
 
-    2025/11/23 (Sun)
+    2026/01/29 (Thu)
 
 </div>
 
@@ -472,6 +474,14 @@
 
 ## 连接网络
 
+!!! danger "特别注意"
+
+    - 以下在线服务器或本教程未提及的在线服务器均为私人开设的非官方游戏服务器，本站无法为您保证这些服务器的稳定性与运营周期甚至存档数据安全，也相应的无法进行服务器相关的问题咨询和解决
+
+    - 如果相应服务器出现了服务器波动导致访问或连接出现问题、断网等问题，请及时关注及查看相关服务器网站的服务器状态以了解详细情况
+
+    - 另外本站也建议您定期备份相关服务器游戏存档以备不时之需，导入导出存档功能以您使用的服务器说明为准，请到相关网页详细了解
+
 !!! note "注意事项"
 
     游戏大部分功能需要连接到网络服务器才可以正常使用以及登录用户，离线状态下仅可使用访客游玩游戏。
@@ -486,13 +496,26 @@
 
     - 请不要将**`127.0.0.1`**或**`localhost`**作为服务器地址
 
-    Rin Net dns：**aqua.naominet.live**
+    Rin Net dns：**ea.naominet.live**
 
-    服务器前端：https://portal.naominet.live/login
+    !!! warning "注意事项"
+
+        - 在2026年1月1日后Rin-Net更改了dns地址与连接方式，
+
+        - 如果您还在使用fufubot segatools 1.0.3.5版本甚至更早的版本，请更换为教程提供的最新1.0.4版本并按照下方新的方式设置dns
 
     ```ini
     [dns]
-    default=aqua.naominet.live
+    default=ea.naominet.live
+    replaceHost=1
+    ```
+
+    !!! note "如果您还在使用非支持上述dns新功能的旧版segatools，请按照下方配置进行设置dns"
+
+    ```ini
+    [dns]
+    default=ea.naominet.live
+    startup=aime.naominet.live
     ```
 
     连接Rin Net需要申请Keychip才可正常联网，如何注册请查看下面的文章。
@@ -538,6 +561,12 @@
         
         - 如果有其他问题可以加入QQ群: [**295954906**](https://qm.qq.com/q/q81C7iA2Aw)
 
+!!! tip "在线服务器 (munet)"
+
+    munet目前也对CHUNITHM进行了支持，如需使用munet进行游戏，请访问：https://portal.mumur.net/
+
+    注册并登录网页后按照网页提示配置segatools的dns与keychip
+
 !!! tip "离线服务器 (ARTEMiS与AquaDX)"
 
     离线服务器都需要进行比较复杂的设置，详情请参阅**[ARTEMiS](https://gitea.tendokyu.moe/Hay1tsme/artemis/src/branch/develop/docs/INSTALL_WINDOWS.md)**与**[AquaDX](https://github.com/hykilpikonna/AquaDX?tab=readme-ov-file#usage-v1-developmental-preview)**的官方指南来配置本地服务器。
@@ -546,9 +575,13 @@
 
 !!! abstract "Rin NET目前已支持全国对战"
 
-    !!! note "已支持VERSE，请下载并更新最新版本 **duolinguo.dll**"
+    !!! note "已支持X-VERSE，请下载并更新最新版本 **duolinguo.dll**"
+
+    !!! warning "X-VERSE版本使用的duolinguo.dll也支持X-VERSE-X进行全国对战，但重开歌曲功能失效"
 
     在此模式中可以随机匹配2~4位玩家进行即时对战或进行VS CPU的人机对战(不支持1 VS 3CPU)
+
+    安装**duolinguo.dll**后支持歌曲重开功能，在游玩歌曲中按下**Service**按键即可
 
     如何连接全国对战，请参阅 **[全国对战](national_battle.md)**
 

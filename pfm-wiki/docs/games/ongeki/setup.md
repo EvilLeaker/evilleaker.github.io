@@ -26,11 +26,11 @@
 
     ONGEKI Re:Fresh
 
-    Version 1.50
+    Version 1.50 → **1.51** (需单独升级)
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD](https://crew.evilleaker.com/){ target="_blank" }**
+    **[:octicons-arrow-right-24: 获取HDD (需注册)](https://crew.evilleaker.com/){ target="_blank" }**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
@@ -42,7 +42,7 @@
 
     ---
 
-    rin Net、Nageki Net
+    Rin Net、Nageki Net、munet
 
     ---
 
@@ -50,11 +50,13 @@
 
     **[:octicons-arrow-right-24: 前往Nageki Net](https://next.nageki-net.com/net){ target="_blank" }**
 
+    **[:octicons-arrow-right-24: 前往munet](https://portal.mumur.net/){ target="_blank" }**
+
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
     ---
 
-    2025/12/05 (Fir)
+    2026/01/29 (Thu)
 
 </div>
 
@@ -75,6 +77,18 @@
     下载如下文件
 
     <img width="700" src="https://oss.am-all.com.cn/asset/img/manual/ogk_manual/ogk0000.png">
+
+### 更新到1.51版本 (可选)
+
+!!! tip ""
+
+    !!! warning "此版本为可选更新，暂不提供完整vhd包下载，不更新也不影响正常游玩1.50版本"
+
+    - 下载 **<code style="color: green;">SDDT_1.51_update.zip</code>** 
+
+    [:octicons-arrow-down-24: Download SDDT_1.51_update.zip](https://www.123865.com/s/OkA1vd-F71Wd?pwd=sddt#){ .md-button .md-button--primary target="_blank"}
+
+    - 解压并覆盖HDD中的**package**文件夹
 
 ### 安装Runtime (Windows运行时安装包)
 
@@ -132,9 +146,9 @@
 
 !!! tip ""
 
-    下载  **<code style="color: green;">mu3 segatools</code>**  并解压至任意文件夹
+    下载新版  **<code style="color: green;">mu3 segatools</code>**  并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download mu3 segatools](https://cos.am-all.com.cn/download/files/mu3_segatools.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download mu3 segatools](https://cos.am-all.com.cn/download/files/mu3_segatools_260129.zip){ .md-button .md-button--primary target="_blank"}
 
     **解压后获得如下文件：**
 
@@ -415,7 +429,7 @@
 
     游戏服务器分为 **<code style="color: green;">在线服</code>** 与 **<code style="color: green;">离线服</code>** ，请按自身情况选择对应服务器使用。
 
-### 在线服务器 (rin Net)
+### 在线服务器 (Rin-Net)
 
 !!! tip ""
 
@@ -425,13 +439,18 @@
 
     - 请不要将 **<code style="color: green;">127.0.0.1</code>** 与 **<code style="color: green;">localhost</code>** 作为服务器地址
 
-    rin Net dns：**aqua.naominet.live**
+    Rin-Net dns：**ea.naominet.live**
 
-    服务器前端：**[点击前往](https://portal.naominet.live/){ target="_blank" }**
+    !!! warning "注意事项"
+
+        - 在2026年1月1日后Rin-Net更改了dns地址与连接方式，
+
+        - 如果您还在使用旧版甚至更早版本的segatools，请更换为教程提供的新版本并按照下方新的方式设置dns
 
     ```ini
     [dns]
-    default=aqua.naominet.live
+    default=ea.naominet.live
+    replaceHost=1
     ```
 
     连接Rin服需要申请Keychip才可正常联网，如何注册请查看下面的文章。
@@ -504,6 +523,14 @@
         [keychip]
         ;id=
         ```
+
+### 在线服务器 (munet)
+
+!!! tip ""
+
+    munet目前也对ONGEKI进行了支持，如需使用munet进行游戏，请访问：https://portal.mumur.net/
+
+    注册并登录网页后按照网页提示配置segatools的dns与keychip
 
 ### 离线服务器 (ARTEMiS 与 AquaDX)
 
