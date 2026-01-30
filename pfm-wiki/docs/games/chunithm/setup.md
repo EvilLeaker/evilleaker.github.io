@@ -496,26 +496,11 @@
 
     - 请不要将**`127.0.0.1`**或**`localhost`**作为服务器地址
 
-    Rin Net dns：**ea.naominet.live**
-
-    !!! warning "注意事项"
-
-        - 在2026年1月1日后Rin-Net更改了dns地址与连接方式，
-
-        - 如果您还在使用fufubot segatools 1.0.3.5版本甚至更早的版本，请更换为教程提供的最新1.0.4版本并按照下方新的方式设置dns
+    Rin Net dns：**aqua.naominet.live**
 
     ```ini
     [dns]
-    default=ea.naominet.live
-    replaceHost=1
-    ```
-
-    !!! note "如果您还在使用非支持上述dns新功能的旧版segatools，请按照下方配置进行设置dns"
-
-    ```ini
-    [dns]
-    default=ea.naominet.live
-    startup=aime.naominet.live
+    default=aqua.naominet.live
     ```
 
     连接Rin Net需要申请Keychip才可正常联网，如何注册请查看下面的文章。

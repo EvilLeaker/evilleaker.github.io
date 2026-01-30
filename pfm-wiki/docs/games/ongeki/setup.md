@@ -450,18 +450,11 @@
 
     - 请不要将 **<code style="color: green;">127.0.0.1</code>** 与 **<code style="color: green;">localhost</code>** 作为服务器地址
 
-    Rin-Net dns：**ea.naominet.live**
-
-    !!! warning "注意事项"
-
-        - 在2026年1月1日后Rin-Net更改了dns地址与连接方式，
-
-        - 如果您还在使用旧版甚至更早版本的segatools，请更换为教程提供的新版本并按照下方新的方式设置dns
+    Rin-Net dns：**aqua.naominet.live**
 
     ```ini
     [dns]
-    default=ea.naominet.live
-    replaceHost=1
+    default=aqua.naominet.live
     ```
 
     连接Rin服需要申请Keychip才可正常联网，如何注册请查看下面的文章。
