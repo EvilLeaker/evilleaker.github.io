@@ -136,7 +136,7 @@
 
     下载新版  **<code style="color: green;">mu3 segatools</code>**  并解压至任意文件夹
 
-    [:octicons-arrow-down-24: Download mu3 segatools](https://cos.am-all.com.cn/download/files/mu3_segatools_260129.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download mu3 segatools](https://cos.am-all.com.cn/download/files/mu3_segatools_260221.zip){ .md-button .md-button--primary target="_blank"}
 
     **解压后获得如下文件：**
 
@@ -156,7 +156,7 @@
 
 !!! tip ""
 
-    下载并解压 **<code style="color: green;">option(A001~A016).zip</code>**
+    下载并解压 **<code style="color: green;">option(A001~A032).zip</code>**
 
     将 **<code style="color: green;">option</code>** 文件夹复制到HDD文件夹下的 **<code style="color: green;">package</code>** 文件夹中
 
@@ -944,7 +944,7 @@
 
     ---
 
-    - 同时确认画面右下角游戏版本号是否正确，目前所提供的游戏版本为 **<code style="color: green;">Ver. 1.50-A</code>**
+    - 同时确认画面右下角游戏版本号是否正确，目前所提供的游戏版本为 **<code style="color: green;">Ver. 1.50-I</code>**
 
     - 在 **[设置虚拟Aime卡号](#aime_1)** 设置好卡号后，长按 **回车键(Enter)** 进行刷卡，即可开始游戏
 
