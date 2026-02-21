@@ -9,13 +9,13 @@
 
 !!! tip "准备工作"
 
-    !!! note "已支持X-VERSE，请下载并更新最新版本 **duolinguo.dll**"
+    !!! warning "X-VERSE版本 **duolinguo.dll** 支持X-VERSE-X**，无需更新，但在X-VERSE-X版本中无法使用歌曲重开功能"
 
-    请确保游戏已连接 **`rin Net`** 或其他支持全国对战的在线服
+    请确保游戏已连接 **`Rin Net`** 或其他支持全国对战的在线服
 
     游玩全国对战请参照教程安装最新版 **[fufubot segatools](https://manual.evilleaker.com/games/chunithm/setup/#segatools)**
 
-    下载 **[duolinguo.dll (ver2.40)](https://cos.am-all.com.cn/download/files/duolinguo.dll)**
+    下载 **[duolinguo.dll (ver2.40/2.45)](https://cos.am-all.com.cn/download/files/duolinguo.dll)**
 
     - 将 **`duolinguo.dll`** 放入 **`bin`** 文件夹中替换同名文件
 

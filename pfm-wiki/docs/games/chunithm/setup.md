@@ -1,7 +1,6 @@
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/chusan_logo.png"> </div>
-<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cabinet_1.png"/> </div>
 </figure>
 
 !!! danger "重要提醒"
@@ -20,9 +19,9 @@
 
     ---
 
-    CHUNITHM X-VERSE
+    CHUNITHM X-VERSE-X
 
-    Version 2.40.00
+    Version 2.45.00
 
       ---
 
@@ -32,13 +31,13 @@
 
     ---
 
-    A001~A113 (2.40.12 final)
+    A001 (2.45.01)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
     ---
 
-    rin Net、munet
+    Rin Net、MuNet
 
     ---
 
@@ -50,7 +49,7 @@
 
     ---
 
-    2026/01/29 (Thu)
+    2026/02/22 (Sun)
 
 </div>
 
@@ -96,7 +95,7 @@
 
 ??? note "使用Windows挂载虚拟磁盘方式提取HDD"
 
-    鼠标左键双击**`SDHD_2.40.00_20250528184239_0.vhd`**
+    鼠标左键双击**`SDHD_2.45.00_20251016102602_0.vhd`**
 
     Windows会挂载一个新的硬盘分区(具体盘符根据每个人情况不同而不同)
 
@@ -116,7 +115,7 @@
 
     解压 **`ExFat7z.rar`**，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
 
-    配置好7-Zip后在**`SDHD_2.40.00_20250528184239_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
+    配置好7-Zip后在**`SDHD_2.45.00_20251016102602_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0002.png"> </div>
 
@@ -146,7 +145,7 @@
 
 !!! tip ""
 
-    下载并解压 **option(A001~A113-final).zip**
+    下载并解压 **option(A001).zip**
 
     将两个文件夹放入 **bin\option** 文件夹中，如果bin中没有option文件夹则自行新建一个
 
@@ -172,11 +171,17 @@
 
 !!! tip ""
 
-    - 下载并解压 **A300_omni_250309.zip**
+    - 下载并解压 **A300_omni_260222.zip**
 
     - 将 **`A300`** 文件夹复制到HDD文件夹下的 **`bin\option`** 文件夹中
 
     - 如option路径为 **`bin\option\A300\A300`** 这样嵌套，则游戏不能正确读取option数据
+
+    !!! note "A300 更新内容 - 20260222"
+
+        - 添加 **CHUNITHM X-VERSE** 版本中的删除曲
+
+        - 对删除曲进行重新排序，较新的删除曲采用删除前版本的官方排序，较旧的删除曲全部置于分类队尾并按照MusicID从大到小降序排列
 
     !!! warning "注意事项"
 
@@ -212,7 +217,7 @@
 
 !!! tip ""
 
-    解压 **ICF_2.40.zip**
+    解压 **ICF_2.45.zip**
 
     将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
 
@@ -546,9 +551,9 @@
         
         - 如果有其他问题可以加入QQ群: [**295954906**](https://qm.qq.com/q/q81C7iA2Aw)
 
-!!! tip "在线服务器 (munet)"
+!!! tip "在线服务器 (MuNet)"
 
-    munet目前也对CHUNITHM进行了支持，如需使用munet进行游戏，请访问：https://portal.mumur.net/
+    munet目前也对CHUNITHM进行了支持，如需使用MuNet进行游戏，请访问：[**https://portal.mumur.net/**](https://portal.mumur.net/)
 
     注册并登录网页后按照网页提示配置segatools的dns与keychip
 
@@ -722,7 +727,7 @@
 
 !!! tip ""
 
-    - 请检查右下角版本号是否为**`Version 2.40`**，如果不对请返回 **[安装ICF](#icf)** 部分检查ICF文件是否安装正确
+    - 请检查右下角版本号是否为**`Version 2.45`**，如果不对请返回 **[安装ICF](#icf)** 部分检查ICF文件是否安装正确
 
     - 请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)
 
