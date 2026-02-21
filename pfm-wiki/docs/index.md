@@ -23,7 +23,7 @@
     ---
 - **游戏安装指南**
 
-    **[:octicons-arrow-right-24: CHUNITHM X-VERSE](games/chunithm/setup.md)**
+    **[:octicons-arrow-right-24: CHUNITHM X-VERSE-X](games/chunithm/setup.md)**
 
     **[:octicons-arrow-right-24: CHUNITHM (OLD Version)](games/chunithm_old/setup.md)**
 
