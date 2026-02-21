@@ -9,7 +9,7 @@
 
 !!! tip "准备工作"
 
-    !!! warning "X-VERSE版本 **duolinguo.dll** 支持X-VERSE-X**，无需更新，但在X-VERSE-X版本中无法使用歌曲重开功能"
+    !!! warning "X-VERSE版本的duolinguo.dll支持X-VERSE-X，无需更新，但在X-VERSE-X版本中无法使用歌曲重开功能"
 
     请确保游戏已连接 **`Rin Net`** 或其他支持全国对战的在线服
 

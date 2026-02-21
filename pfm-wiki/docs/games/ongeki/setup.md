@@ -1,7 +1,6 @@
 # 
 <figure markdown>
 <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/ogkrf_logo.png" width = 400/> </div>
-<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/cabinet_2.png" width = 150/> </div>
 </figure>
 
 !!! warning "使用前的注意事项"

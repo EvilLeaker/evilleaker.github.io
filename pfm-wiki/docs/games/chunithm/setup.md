@@ -565,9 +565,7 @@
 
 !!! abstract "Rin NET目前已支持全国对战"
 
-    !!! note "已支持X-VERSE，请下载并更新最新版本 **duolinguo.dll**"
-
-    !!! warning "X-VERSE版本使用的duolinguo.dll也支持X-VERSE-X进行全国对战，但重开歌曲功能失效"
+    !!! warning "X-VERSE版本的duolinguo.dll也支持X-VERSE-X进行全国对战，但无法使用歌曲重开功能"
 
     在此模式中可以随机匹配2~4位玩家进行即时对战或进行VS CPU的人机对战(不支持1 VS 3CPU)
 
