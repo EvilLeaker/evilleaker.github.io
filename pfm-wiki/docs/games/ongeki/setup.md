@@ -175,6 +175,10 @@
 
     !!! warning "更新1.51版本前请确保您当前使用的HDD为1.50版本才可以使用该更新包，新装HDD用户则必须完成上面的所有安装步骤再进行更新"
 
+    !!! danger "注意事项"
+
+        - 如果更新到1.51版本后网络自检出现了 **タイトルサーバー BAD** ，请务必安装MOD以及MOD中的 **Assembly-CSharp.DisableEncryption.mm.dll** 文件以关闭网络加密
+
     - 下载 **<code style="color: green;">SDDT_1.51_update.zip</code>** 
 
     - 解压并覆盖HDD中的**package**文件夹
