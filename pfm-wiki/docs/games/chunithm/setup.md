@@ -37,9 +37,11 @@
 
     ---
 
-    Rin Net、MuNet
+    Auqa Net(本家)、Rin Net、MuNet
 
     ---
+
+    **[:octicons-arrow-right-24: 前往Aqua Net](https://aqua.msm.moe/){ .md-button .md-button--primary target="_blank"}**
 
     **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){ .md-button .md-button--primary target="_blank"}**
 
@@ -49,7 +51,7 @@
 
     ---
 
-    2026/02/22 (Sun)
+    2026/04/27 (Mon)
 
 </div>
 
@@ -75,19 +77,11 @@
 
 !!! tip ""
 
-    下载  **Runtime** 
+    以管理员权限打开 **Windows PowerShell** 或 **命令提示符(CMD)**
 
-    [:octicons-arrow-down-24: Download Runtime](https://www.123912.com/s/OkA1vd-GZmWd){ .md-button .md-button--primary target="_blank"}
+    输入命令 **irm https://get.msvc.win | iex** 后按回车继续
 
-    解压后获得如下文件
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png"/> </div>
-
-    运行 **`DirectX.bat`** 按Y后等待完成安装
-
-    运行 **`VC.bat`** 并按照窗口提示完成安装
-
-    安装 **`2022`** 文件夹中的x86和x64
+    等待下载和安装所有VC++还有DX后显示 **Press any key to exit.** 即可按任意键退出或关闭窗口完成运行时库的安装
 
 ### 提取游戏文件
 
@@ -492,6 +486,32 @@
     游戏大部分功能需要连接到网络服务器才可以正常使用以及登录用户，离线状态下仅可使用访客游玩游戏。
 
     游戏服务器分为**`在线服`**与**`离线服`**，请按自身情况选择对应服务器使用。
+
+!!! tip "在线服务器 (Auqa Net - 本家)"
+
+    打开**`segatools.ini`**，在**`[dns]`**选项中设置**`default`**为您需要连接的服务器地址。
+
+    - 请不要将**`http://`**与**`https://`**添加到服务器地址中
+
+    - 请不要将**`127.0.0.1`**或**`localhost`**作为服务器地址
+
+    Aqua Net dns：**aime.my-aqua.net**
+
+    !!! warning "原 ea.msm.moe 作为备用连接依然可用"
+
+    ```ini
+    [dns]
+    default=aime.my-aqua.net
+    ```
+
+    连接Aqua Net需要申请Keychip才可正常联网，注册机台号请**[点击这里](https://aqua.msm.moe/general/machine)**。
+
+    注册完**`Keychip`**后需要填写到**`[keychip]`**选项中
+
+    ```ini
+    [keychip]
+    id=AXXE-XXXXXXXXXXX
+    ```
 
 !!! tip "在线服务器 (Rin Net)"
 

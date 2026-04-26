@@ -57,7 +57,7 @@ comments: true
 
     ---
 
-    2025/07/16 (Tue)
+    2026/04/27 (Mon)
 
 </div>
 
@@ -75,19 +75,11 @@ comments: true
 
 !!! tip ""
 
-    !!! warning "如已安装此包可跳过此步"
+    以管理员权限打开 **Windows PowerShell** 或 **命令提示符(CMD)**
 
-    下载  **<code style="color: green;">Runtime</code>** 
+    输入命令 **irm https://get.msvc.win | iex** 后按回车继续
 
-    [:octicons-arrow-down-24: Download Runtime](https://www.123912.com/s/OkA1vd-GZmWd){ .md-button .md-button--primary target="_blank"}
-
-    解压后获得如下文件
-
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0001.png"/> </div>
-
-    运行**`DirectX.bat`**并按照窗口提示完成安装
-
-    运行**`VC.bat`**并按照窗口提示完成安装
+    等待下载和安装所有VC++还有DX后显示 **Press any key to exit.** 即可按任意键退出或关闭窗口完成运行时库的安装
 
 ## 提取游戏文件
 
