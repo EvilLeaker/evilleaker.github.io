@@ -215,6 +215,8 @@
 
     将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
 
+    [:octicons-arrow-down-24: Download ICF_2.45.zip](https://cos.am-all.com.cn/download/files/ICF_2.45.zip){ .md-button .md-button--primary target="_blank"}
+
 ### 更新到2.47版本 (可选)
 
 !!! tip ""
@@ -225,13 +227,19 @@
 
     - 下载 **<code style="color: green;">SDHD_2.47_update.zip</code>** 
 
-    - 解压并覆盖HDD中的**bin**与**data**文件夹
+    - 解压并覆盖HDD中的**bin**、**data** 文件夹
 
     !!! danger "！！注意！！"
 
         更新包内包含新版本**chusanApp.exe**，因此你必须重新为程序打上补丁，2.47补丁页在主站已更新。
 
     [:octicons-arrow-down-24: Download SDHD_2.47_update.zip](https://pixeldrain.com/u/YkPVCGzo){ .md-button .md-button--primary target="_blank"}
+
+    !!! tip "更新ICF文件"
+
+        - 下载并覆盖HDD中的ICF1、ICF2文件
+
+        [:octicons-arrow-down-24: Download ICF_2.47.zip](https://cos.am-all.com.cn/download/files/ICF_2.47.zip){ .md-button .md-button--primary target="_blank"}
 
 ---
 
