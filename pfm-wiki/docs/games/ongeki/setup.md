@@ -35,7 +35,7 @@
 
     ---
 
-    A001~A032 (1.50-i)
+    A001~A034 (1.50-K)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -45,13 +45,13 @@
 
     ---
 
-    **[:octicons-arrow-right-24: 前往Aqua Net](https://aqua.msm.moe/){ .md-button .md-button--primary target="_blank"}**
+    **[:octicons-arrow-right-24: 前往Aqua Net](https://aqua.msm.moe/){target="_blank"}**
 
-    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){ .md-button .md-button--primary target="_blank"}**
+    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){target="_blank"}**
 
-    **[:octicons-arrow-right-24: 前往Nageki Net](https://next.nageki-net.com/net){ .md-button .md-button--primary target="_blank"}**
+    **[:octicons-arrow-right-24: 前往Nageki Net](https://next.nageki-net.com/net){target="_blank"}**
 
-    **[:octicons-arrow-right-24: 前往munet](https://portal.mumur.net/){ .md-button .md-button--primary target="_blank"}**
+    **[:octicons-arrow-right-24: 前往munet](https://portal.mumur.net/){target="_blank""}**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
@@ -83,7 +83,7 @@
 
 !!! tip ""
 
-    以管理员权限打开 **Windows PowerShell** 或 **命令提示符(CMD)**
+    以管理员权限打开 **Windows PowerShell**
 
     输入命令 **irm https://get.msvc.win | iex** 后按回车继续
 

@@ -21,17 +21,17 @@
 
     CHUNITHM X-VERSE-X
 
-    Version 2.45.00
+    Version 2.45 → 2.47 (需单独升级)
 
       ---
 
-      **[:octicons-arrow-right-24: 获取HDD (需注册)](https://crew.evilleaker.com/){ .md-button .md-button--primary target="_blank"}**
+      **[:octicons-arrow-right-24: 获取HDD (需注册)](https://crew.evilleaker.com/){target="_blank"}**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
     ---
 
-    A001 (2.45.01)
+    A001~A251 (2.45.03)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -41,17 +41,17 @@
 
     ---
 
-    **[:octicons-arrow-right-24: 前往Aqua Net](https://aqua.msm.moe/){ .md-button .md-button--primary target="_blank"}**
+    **[:octicons-arrow-right-24: 前往Aqua Net](https://aqua.msm.moe/){target="_blank"}**
 
-    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){ .md-button .md-button--primary target="_blank"}**
+    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){target="_blank"}**
 
-    **[:octicons-arrow-right-24: 前往munet](https://portal.mumur.net/){ .md-button .md-button--primary target="_blank"}**
+    **[:octicons-arrow-right-24: 前往munet](https://portal.mumur.net/){target="_blank"}**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
     ---
 
-    2026/04/27 (Mon)
+    2026/06/19 (Fri)
 
 </div>
 
@@ -77,7 +77,7 @@
 
 !!! tip ""
 
-    以管理员权限打开 **Windows PowerShell** 或 **命令提示符(CMD)**
+    以管理员权限打开 **Windows PowerShell**
 
     输入命令 **irm https://get.msvc.win | iex** 后按回车继续
 
@@ -139,7 +139,7 @@
 
 !!! tip ""
 
-    下载并解压 **option(A001).zip**
+    下载并解压 **option(A001~A251).zip**
 
     将两个文件夹放入 **bin\option** 文件夹中，如果bin中没有option文件夹则自行新建一个
 
@@ -214,6 +214,24 @@
     解压 **ICF_2.45.zip**
 
     将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
+
+### 更新到2.47版本 (可选)
+
+!!! tip ""
+
+    !!! warning "此版本为可选更新，暂不提供完整vhd包下载，不更新也不影响正常游玩**2.45**版本"
+
+    !!! warning "更新2.47版本前请确保您当前使用的HDD为2.45版本才可以使用该更新包，新装HDD用户则必须完成上面的所有安装步骤再进行更新"
+
+    - 下载 **<code style="color: green;">SDHD_2.47_update.zip</code>** 
+
+    - 解压并覆盖HDD中的**bin**与**data**文件夹
+
+    !!! danger "！！注意！！"
+
+        更新包内包含新版本**chusanApp.exe**，因此你必须重新为程序打上补丁，2.47补丁页在主站已更新。
+
+    [:octicons-arrow-down-24: Download SDHD_2.47_update.zip](https://pixeldrain.com/u/YkPVCGzo){ .md-button .md-button--primary target="_blank"}
 
 ---
 
@@ -327,6 +345,12 @@
     [aime]
     enable=0
     ```
+
+    !!! warning "关于读卡器"
+
+        如需使用**Cardoller读卡器**，请参考 **[这里](../../peripherals/cardreader/cardoller.md){ target="_blank" }**
+
+        **HINATA读卡器**，请参考 **[这里](https://hinata.neri.moe/){ target="_blank" }**
 
     如果你没有任何读卡器设备，请将**`enable`**修改为**`1`**以启动segatools模拟读卡器，Yubideck(大四台)修改为**`1`**
 

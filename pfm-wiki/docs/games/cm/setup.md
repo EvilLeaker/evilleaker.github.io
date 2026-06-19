@@ -27,7 +27,7 @@ comments: true
 
     ---
 
-    **[:octicons-arrow-right-24: 获取HDD (需注册)](https://crew.evilleaker.com/)**
+    **[:octicons-arrow-right-24: 获取HDD (需注册)](https://crew.evilleaker.com/){target="_blank"}**
 
 -   :fontawesome-solid-file-circle-plus:{ .lg .middle } __Option数据包__
 
@@ -51,7 +51,7 @@ comments: true
 	
 	---
 
-    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/)**
+    **[:octicons-arrow-right-24: 前往rin Net](https://portal.naominet.live/){target="_blank"}**
 
 -   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
 
@@ -75,7 +75,7 @@ comments: true
 
 !!! tip ""
 
-    以管理员权限打开 **Windows PowerShell** 或 **命令提示符(CMD)**
+    以管理员权限打开 **Windows PowerShell**
 
     输入命令 **irm https://get.msvc.win | iex** 后按回车继续
 
