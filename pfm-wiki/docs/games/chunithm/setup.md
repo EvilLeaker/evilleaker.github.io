@@ -139,7 +139,7 @@
 
 !!! tip ""
 
-    下载并解压 **option(A001~A251).zip**
+    下载并解压 **option(A001~A302_final).zip**
 
     将两个文件夹放入 **bin\option** 文件夹中，如果bin中没有option文件夹则自行新建一个
 
