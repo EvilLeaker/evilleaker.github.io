@@ -227,7 +227,7 @@
 
     - 下载 **<code style="color: green;">SDHD_2.47_update.zip</code>** 
 
-    - 解压并覆盖HDD中的**bin**、**data** 文件夹
+    - 解压并覆盖HDD中的**bin**、**data** 文件夹。
 
     !!! danger "！！注意！！"
 
