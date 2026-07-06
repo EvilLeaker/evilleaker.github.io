@@ -231,9 +231,11 @@
 
     !!! danger "！！注意！！"
 
-        更新包内包含新版本**chusanApp.exe**，因此你必须重新为程序打上补丁，2.47补丁页在主站已更新。
+        更新包内包含新版本**chusanApp.exe**，已经打上必要的补丁了，如需其他功能补丁请自行到主站补丁页进行Patch，2.47补丁页在主站已更新。
 
-    [:octicons-arrow-down-24: Download SDHD_2.47_update.zip](https://pixeldrain.com/u/YkPVCGzo){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download SDHD_2.47_update.zip (pixeldrain)](https://pixeldrain.com/u/zzBBhqRq){ .md-button .md-button--primary target="_blank"}
+    
+    [:octicons-arrow-down-24: Download SDHD_2.47_update.zip (OneDrive)](https://1drv.ms/u/c/287c0963779f51fd/IQCa8ewv3_hyT4F5p0pxBgeBASvtoY-txnZ9Jlxuj4tZ9_4?e=5RCtxP){ .md-button .md-button--primary target="_blank"}
 
     !!! tip "更新ICF文件"
 
