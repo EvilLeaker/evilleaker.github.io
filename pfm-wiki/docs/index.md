@@ -23,7 +23,7 @@
     ---
 - **游戏安装指南**
 
-    **[:octicons-arrow-right-24: CHUNITHM X-VERSE-X](games/chunithm/setup.md)**
+    **[:octicons-arrow-right-24: CHUNITHM Mate](games/chunithm/setup.md)**
 
     **[:octicons-arrow-right-24: CHUNITHM (OLD Version)](games/chunithm_old/setup.md)**
 
@@ -71,16 +71,6 @@
     本站建立的目的是为了让游玩此游戏的玩家可以快速的配置游戏不走弯路。
 
     但同时本站也不会出现或发布任何**`N-0`**,**`N+1`**数据,除非它们被提前公开发布在公共网络中(公共网络包括但不限于各种SNS软件、平台或BBS、揭示板等)！
-
-??? info "与Notion的一些区别"
-
-    - 更快的访问速度，无需科学上网
-
-    - 部分页面支持底部发表评论 (需登录GitHub)
-
-    - 页面排版更加整洁
-
-    - 页面顶部支持全站关键字搜索
 
 ??? warning "禁无断转载！/ 無断転載禁止！"
 

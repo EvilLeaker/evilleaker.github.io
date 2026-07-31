@@ -41,7 +41,7 @@
 
     ---
 
-    Aqua Net(本家)、Rin Net、Nageki Net、munet
+    Aqua Net(Sam)、Rin Net、Nageki Net、munet
 
     ---
 
@@ -439,7 +439,7 @@
 
     游戏服务器分为 **<code style="color: green;">在线服</code>** 与 **<code style="color: green;">离线服</code>** ，请按自身情况选择对应服务器使用。
 
-### 在线服务器 (Auqa Net - 本家)
+### 在线服务器 (Auqa Net - Sam)
 
 !!! tip ""
 

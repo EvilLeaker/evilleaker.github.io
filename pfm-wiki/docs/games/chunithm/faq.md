@@ -47,24 +47,24 @@
 
     - 检查是否安装正确的option，游戏中存在一个名为 **`オンラインフラグ(online flag)`** 的Event，如果服务器不下发这个活动则无法联网
 
-        * 检查是否安装 **`A001`**，如果解决不了请安装 **`A999`** 解决此问题
+        * 检查是否安装 **`A001`**
 
-        * 不想安装 **`A999`** 请自行手动解锁 **`A001\event\event00000020`** 活动来解决此问题：
+        * 自行手动解锁 **`A001\event\event00000021`** 活动来解决此问题：
 
-            * 在 **`A001\event\event00000020\Event.xml`** 上单击右键选择 **编辑**
+            * 在 **`A001\event\event00000021\Event.xml`** 上单击右键选择 **编辑**
             * 将下方代码高亮处的 **false** 修改为 **true**
             * 保存并关闭文件，重启游戏
 
             ```xml hl_lines="19"
-              <dataName>event00000020</dataName>
+              <dataName>event00000021</dataName>
               <netOpenName>
                 <id>2801</id>
-                <str>v2_45 00_1</str>
+                <str>v2_50 00_1</str>
                 <data />
               </netOpenName>
               <name>
-                <id>20</id>
-                <str>【Ver2.45】オンラインフラグ</str>
+                <id>21</id>
+                <str>【Ver2.50】オンラインフラグ</str>
                 <data />
               </name>
               <text />

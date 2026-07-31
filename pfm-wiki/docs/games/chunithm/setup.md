@@ -19,9 +19,9 @@
 
     ---
 
-    CHUNITHM X-VERSE-X
+    CHUNITHM Mate
 
-    Version 2.45 → 2.47 (需单独升级)
+    Version 2.50
 
       ---
 
@@ -31,13 +31,13 @@
 
     ---
 
-    A001~A251 Final (2.45.15)
+    A001 (2.50.01)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
     ---
 
-    Auqa Net(本家)、Rin Net、MuNet
+    Auqa Net(Sam)、Rin Net、MuNet
 
     ---
 
@@ -51,7 +51,7 @@
 
     ---
 
-    2026/06/30 (Tue)
+    2026/07/31 (Fri)
 
 </div>
 
@@ -66,6 +66,8 @@
     如果您从未在PC上游玩过HDD，请继续往下阅读教程。
 
 !!! warning "游戏不可放置在**`E:\`**与**`Y:\`**，请将游戏文件放置在其他硬盘分区"
+
+!!! warning "解压密码请至教程网站首页查看"
 
 !!! tip ""
 
@@ -89,7 +91,7 @@
 
 ??? note "使用Windows挂载虚拟磁盘方式提取HDD"
 
-    鼠标左键双击**`SDHD_2.45.00_20251016102602_0.vhd`**
+    鼠标左键双击**`SDHD_2.50.00_20260518110527_0.vhd`**
 
     Windows会挂载一个新的硬盘分区(具体盘符根据每个人情况不同而不同)
 
@@ -109,7 +111,7 @@
 
     解压 **`ExFat7z.rar`**，在7-Zip安装目录中新建一个**`Formats`**文件夹，将解压的两个dll文件复制进去
 
-    配置好7-Zip后在**`SDHD_2.45.00_20251016102602_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
+    配置好7-Zip后在**`SDHD_2.50.00_20260518110527_0.vhd`**上点击鼠标右键，选择**`打开方式→7zip文件管理器`**或**`点击右键→7zip→打开压缩包`**，如下图：
 
     <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0002.png"> </div>
 
@@ -129,7 +131,9 @@
     
         如有其他修改补丁的需求，请访问  **[EVIL LEAKER - 补丁工具页(侧边栏进入)](https://crew.evilleaker.com/)**
 
-        !!! danger "新版EVIL LEAKER网站需要进行注册登录后使用积分在左侧边栏中的积分商店中升级到 **初级用户** 才可以下载游戏"
+        !!! warning "新版EVIL LEAKER网站需要进行注册登录后使用积分在左侧边栏中的积分商店中升级到 **初级用户** 才可以下载游戏"
+
+        !!! danger "绕过AppUser、关闭网络加密 这两个补丁为必须启用项"
 
         - 打过补丁的 **`chusanApp.exe`** 在保存时有可能会被误报为病毒，这是正常现象，请给exe文件添加到杀毒软件白名单
     
@@ -139,7 +143,7 @@
 
 !!! tip ""
 
-    下载并解压 **option(A001~A302_final).zip**
+    下载并解压 **option(A001).zip**
 
     将两个文件夹放入 **bin\option** 文件夹中，如果bin中没有option文件夹则自行新建一个
 
@@ -165,17 +169,17 @@
 
 !!! tip ""
 
-    - 下载并解压 **A300_omni_260222.zip**
+    - 下载并解压 **A300_omni_260731_for_mate.zip**
 
     - 将 **`A300`** 文件夹复制到HDD文件夹下的 **`bin\option`** 文件夹中
 
     - 如option路径为 **`bin\option\A300\A300`** 这样嵌套，则游戏不能正确读取option数据
 
-    !!! note "A300 更新内容 - 20260222"
+    !!! note "A300 更新内容 - 260731"
 
-        - 添加 **CHUNITHM X-VERSE** 版本中的删除曲
+        - 添加 **CHUNITHM Mate** 版本中的删除曲
 
-        - 对删除曲进行重新排序，较新的删除曲采用删除前版本的官方排序，较旧的删除曲全部置于分类队尾并按照MusicID从大到小降序排列
+        - 对删除曲进行重新排序，由于官方在此版本中大幅修改了"POP'S Anime"、"niconico"、"VARIETY"分类的排序，所以新版本A300将不再按照之前版本的官方排序排列删除曲，将全部删除曲放到各自分类的队尾。
 
     !!! warning "注意事项"
 
@@ -211,37 +215,11 @@
 
 !!! tip ""
 
-    解压 **ICF_2.45.zip**
+    解压第一步下载的 **ICF_2.50.zip**
 
     将 **`ICF1`** 与 **`ICF2`** 两个文件放置于 **`bin\amfs`** 文件夹内
 
-    [:octicons-arrow-down-24: Download ICF_2.45.zip](https://cos.am-all.com.cn/download/files/ICF_2.45.zip){ .md-button .md-button--primary target="_blank"}
-
-### 更新到2.47版本 (可选)
-
-!!! tip ""
-
-    !!! warning "此版本为可选更新，暂不提供完整vhd包下载，不更新也不影响正常游玩**2.45**版本"
-
-    !!! warning "更新2.47版本前请确保您当前使用的HDD为2.45版本才可以使用该更新包，新装HDD用户则必须完成上面的所有安装步骤再进行更新"
-
-    - 下载 **<code style="color: green;">SDHD_2.47_update.zip</code>** 
-
-    - 解压并覆盖HDD中的**bin**、**data** 文件夹。
-
-    !!! danger "！！注意！！"
-
-        更新包内包含新版本**chusanApp.exe**，已经打上必要的补丁了，如需其他功能补丁请自行到主站补丁页进行Patch，2.47补丁页在主站已更新。
-
-    [:octicons-arrow-down-24: Download SDHD_2.47_update.zip (pixeldrain)](https://pixeldrain.com/u/zzBBhqRq){ .md-button .md-button--primary target="_blank"}
-    
-    [:octicons-arrow-down-24: Download SDHD_2.47_update.zip (OneDrive)](https://1drv.ms/u/c/287c0963779f51fd/IQCa8ewv3_hyT4F5p0pxBgeBASvtoY-txnZ9Jlxuj4tZ9_4?e=5RCtxP){ .md-button .md-button--primary target="_blank"}
-
-    !!! tip "更新ICF文件"
-
-        - 下载并覆盖HDD中的ICF1、ICF2文件
-
-        [:octicons-arrow-down-24: Download ICF_2.47.zip](https://cos.am-all.com.cn/download/files/ICF_2.47.zip){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download ICF_2.50.zip](https://cos.am-all.com.cn/download/files/ICF_2.50.zip){ .md-button .md-button--primary target="_blank"}
 
 ---
 
@@ -521,7 +499,7 @@
 
     游戏服务器分为**`在线服`**与**`离线服`**，请按自身情况选择对应服务器使用。
 
-!!! tip "在线服务器 (Auqa Net - 本家)"
+!!! tip "在线服务器 (Auqa Net - Sam)"
 
     打开**`segatools.ini`**，在**`[dns]`**选项中设置**`default`**为您需要连接的服务器地址。
 
@@ -617,15 +595,17 @@
 
 ### 全国对战
 
-!!! abstract "Rin NET目前已支持全国对战"
+!!! abstract "目前部分服务器已接入全国对战"
 
-    !!! warning "X-VERSE版本的duolinguo.dll也支持X-VERSE-X进行全国对战，但无法使用歌曲重开功能"
+    !!! warning "Mate版本无法使用旧版duolinguo.dll，请更换新版本"
+
+    !!! danger "fufubot segatool自带的duolinguo.dll为占位符，使用前请务必替换为可使用版dll文件"
 
     在此模式中可以随机匹配2~4位玩家进行即时对战或进行VS CPU的人机对战(不支持1 VS 3CPU)
 
     安装**duolinguo.dll**后支持歌曲重开功能，在游玩歌曲中按下**Service**按键即可
 
-    如何连接全国对战，请参阅 **[全国对战](national_battle.md)**
+    下载与如何连接全国对战，请参阅 **[全国对战](national_battle.md)**
 
 ---
 
@@ -779,17 +759,15 @@
 
 !!! tip ""
 
-    - 请检查右下角版本号是否为**`Version 2.45`**，如果不对请返回 **[安装ICF](#icf)** 部分检查ICF文件是否安装正确
+    - 请检查右下角版本号是否为**`Version 2.50`**，如果不对请返回 **[安装ICF](#icf)** 部分检查ICF文件是否安装正确
 
     - 请检查右下角网络状态图标是否为绿色 (另外一个图标是框体群组标识)
 
-    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0016.jpg" width = 400/> </div>
+    <div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/chu_manual/chum0016.png" width = 400/> </div>
 
-    - 网络自检全为GOOD但此处网络显示灰色图标，请返回 **[安装option](#option)** 部分检查是否安装正确的 **`option`**
+    - 网络自检全为GOOD但此处网络显示灰色图标，请查看 **[常见问题](faq.md/#3-good)** 相关部分检查是否正确安装了 **`option`**
 
-    - 或尝试安装自制包 **`A999`** 到 **`option`** 中即可解决此问题
-
-    - 在标题界面长按 **`Enter`** 或在读卡器刷卡即可登录进行游戏，按数字 **`3`** 或手台对应按键进行投币
+    - 在标题界面长按 **`Enter`** 或在读卡器刷卡即可登录进行游戏，按 **`数字3 or F3`** 或手台对应按键进行投币
 
 !!! tip "下图为游戏画面"
 

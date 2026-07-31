@@ -1,9 +1,4 @@
-# 
-<figure markdown>
-<div align="center"> <img src="https://oss.am-all.com.cn/asset/img/manual/common/circle_logo.png"> </div>
-</figure>
-
-
+#
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-wrench:{ .lg .middle } __游戏版本__
@@ -22,46 +17,18 @@
 
     ---
 
-    暂无
-
--   :fontawesome-solid-server:{ .lg .middle } __网络服务__
-
-    ---
-
     MuNet
 
     ---
-
-    **[:octicons-arrow-right-24: 前往MuNet](https://portal.mumur.net/){ target="_blank" }**
-
--   :fontawesome-solid-clock:{ .lg .middle } __最后更新__
-
-    ---
-
-    2026/01/29 (Thu)
 
 </div>
 
 !!! danger "NOTICE"
 
-    **Maimai DX教程暂时下架，重新上线时间待定。**
+    由于网站业务模块和业务重心调整与一些其他原因，教程站与主站后续将不再提供 **MaiMai DX** 除基础游戏数据(App)以外的所有资料或数据，对此给您造成的不便深表歉意！
 
-!!! note "快速配置"
+    您扔可以通过加入相关控制器、在线服务器的群组或社区来获得游戏安装教程以及其他配套相关数据。
 
-    !!! warning "目前1.60版本没有公开的官方option数据包，另外本站不提供任何抄谱包自制包下载"
+    游戏本体将由Evil Leaker主站继续更新(如果有)。
 
-    - 下载 **SDEZ_1.60.00_20250804210617_0.vhd**
-
-    - 下载 **SDEZ1.60覆盖包.zip**
-
-    - 从vhd中提取游戏文件
-
-    - 解压覆盖包并覆盖到游戏文件夹中
-
-    - 安装 **MaiChartManager** (需到Microsoft Store中下载安装)
-
-    - 安装 **Aquamai** (请在MaiChartManager中直接安装)
-
-    - 注册并登录Munet网站获得Keychip与dns配置方法并配置到**segatools.ini**
-
-    - 双击 **启动.bat** 启动游戏
+!!! warning "本页将在不久后永久移除"
