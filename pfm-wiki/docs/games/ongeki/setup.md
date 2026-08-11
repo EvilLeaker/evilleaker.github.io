@@ -25,7 +25,7 @@
 
     ONGEKI Re:Fresh
 
-    Version 1.50 → **1.51** (需单独升级)
+    Version 1.50 → **1.52** (需单独升级)
 
     ---
 
@@ -35,7 +35,7 @@
 
     ---
 
-    A001~A034 (1.50-K)
+    A001~A052 (1.52-P)
 
 -   :fontawesome-solid-server:{ .lg .middle } __网络服务__
 
@@ -57,7 +57,7 @@
 
     ---
 
-    2026/04/27 (Mon)
+    2026/08/11 (Tue)
 
 </div>
 
@@ -163,23 +163,27 @@
 
     - 如option路径为 **<code style="color: green;">package\option\option</code>** 这样嵌套，则游戏不能正确读取option数据
 
-### 更新到1.51版本 (可选)
+### 更新到1.52版本 (建议升级)
 
 !!! tip ""
 
-    !!! warning "此版本为可选更新，暂不提供完整vhd包下载，不更新也不影响正常游玩1.50版本"
+    !!! warning "建议1.50以及1.51版本升级到此版本，暂不提供完整vhd包下载"
 
-    !!! warning "更新1.51版本前请确保您当前使用的HDD为1.50版本才可以使用该更新包，新装HDD用户则必须完成上面的所有安装步骤再进行更新"
+    !!! warning "更新1.52版本前请确保您当前使用的HDD为1.50或1.51版本才可以使用该更新包，新装HDD用户则必须完成上面的所有安装步骤再进行更新"
 
     !!! danger "注意事项"
 
-        - 如果更新到1.51版本后网络自检出现了 **タイトルサーバー BAD** ，请务必安装MOD以及MOD中的 **Assembly-CSharp.DisableEncryption.mm.dll** 文件以关闭网络加密
+        - 如果更新到1.52版本后网络自检出现了 **タイトルサーバー BAD** ，请务必安装MOD以及MOD中的 **Assembly-CSharp.DisableEncryption.mm.dll** 文件以关闭网络加密
 
-    - 下载 **<code style="color: green;">SDDT_1.51_update.zip</code>** 
+        - option补充包A036~A052请到百度网盘中下载。
+
+        - 1.52更新包国内源请到百度网盘下载。
+
+    - 下载 **<code style="color: green;">SDDT_1.52_update.zip</code>** 
 
     - 解压并覆盖HDD中的**package**文件夹
 
-    [:octicons-arrow-down-24: Download SDDT_1.51_update.zip](https://www.123865.com/s/OkA1vd-F71Wd?pwd=sddt#){ .md-button .md-button--primary target="_blank"}
+    [:octicons-arrow-down-24: Download SDDT_1.52_update.zip (OneDrive)](https://1drv.ms/u/c/287c0963779f51fd/IQDS7prptbQ3QaLOrz0s2BsPAd_nzjRU1-H1XaQ1W0N7UII?e=lqtvpN){ .md-button .md-button--primary target="_blank"}
 
 ---
 
